@@ -15,7 +15,7 @@
 </script>
 
 <span class="tag {findColor(tag)}" on:click={() => onSearch(`tag:${tag.id}`)}>
-  {tag.id}{#if showCount} x {tag.count}{/if}
+  {tag.id}{#if showCount}&nbsp;x&nbsp;{tag.count}{/if}
 </span>
 
 <style>
