@@ -124,8 +124,8 @@
     {/each}
   </div>
   <div class="plugins">
-    <div class="search_results">{results.length} results</div>
     <div class="plugins_list">
+      <div class="search_results">{results.length} results</div>
       {#each results as plugin}
         <PluginItem {plugin} tags={getTags(plugin.tags)} onSearch={onSearch} />
       {/each}
@@ -200,7 +200,6 @@
     grid-row: 2;
     padding: 0 10px;
     height: calc(100vh - 50px);
-    overflow-y: scroll;
   }
 
   .plugins {
@@ -218,6 +217,7 @@
   @media only screen and (max-width: 700px) {
     .container {
       grid-template-columns: 1fr;
+      padding: 0 10px;
     }
 
     #logo,
@@ -227,7 +227,6 @@
 
     .search_view {
       grid-column: 1;
-      padding: 0 10px;
     }
 
     .plugins {
