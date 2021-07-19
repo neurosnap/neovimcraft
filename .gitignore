@@ -1,0 +1,10 @@
+.DS_Store
+node_modules
+/.svelte-kit
+/package
+.envrc
+.eslintcache
+build
+src/lib/db.json
+src/lib/markdown.json
+src/lib/html.json

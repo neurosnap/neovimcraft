@@ -1,0 +1,52 @@
+{
+  "name": "neovim-awesome",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "svelte-kit dev --host 0.0.0.0",
+    "build:clean": "rm -rf build",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview --host 0.0.0.0",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --write --plugin-search-dir=. .",
+    "prepare": "husky install",
+    "process": "node --loader ts-node/esm src/process.ts",
+    "transform": "node --loader ts-node/esm src/transform.ts",
+    "upload:clean": "gsutil -m rm -r gs://neovim.erock.io/*",
+    "upload": "gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' rsync -r ./build gs://neovim.erock.io",
+    "deploy": "yarn build:clean && yarn build && yarn upload:clean && yarn upload"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.0-next.13",
+    "@sveltejs/kit": "next",
+    "@types/marked": "^2.0.4",
+    "@types/node": "^16.3.3",
+    "@types/node-fetch": "^2.5.11",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "husky": ">=6",
+    "just-throttle": "^2.3.1",
+    "lint-staged": ">=10",
+    "marked": "^2.1.3",
+    "node-fetch": "^2.6.1",
+    "prettier": "~2.2.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "query-string": "^7.0.1",
+    "svelte": "^3.34.0",
+    "svelte-check": "^2.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "ts-node": "^10.0.0",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0"
+  },
+  "type": "module",
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  },
+  "dependencies": {}
+}
