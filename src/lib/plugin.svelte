@@ -10,6 +10,7 @@
   export let plugin: Plugin;
   export let tags: Tag[];
   export let html: string = '<div>readme not found</div>';
+  const isPlugin = tags.find((t) => t.id === 'plugin');
 
   function onSearch(curSearch: string) {
     const query = qs.parseUrl(window.location.search);
@@ -39,6 +40,7 @@
       <div class="metric"><Icon icon="git-branch" /> <span>{plugin.forks}</span></div>
     </Tooltip>
   </div>
+  {#if isPlugin}
   <div class="install">
     <h3>packer</h3>
     <pre><code>require('packer').startup(function()
@@ -51,6 +53,7 @@ end)</code></pre>
   '{plugin.id}'
 &rcub;</code></pre>
   </div>
+  {/if}
   <hr />
 </div>
 {@html html}
