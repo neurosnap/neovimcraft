@@ -11,10 +11,11 @@
 
   export let tag: Tag;
   export let onSearch: (t: string) => any = (_: string) => {};
+  export let showCount: boolean = true;
 </script>
 
 <span class="tag {findColor(tag)}" on:click={() => onSearch(`tag:${tag.id}`)}>
-  {tag.id} x {tag.count}
+  {tag.id}{#if showCount} x {tag.count}{/if}
 </span>
 
 <style>

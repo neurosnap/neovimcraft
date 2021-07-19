@@ -23,7 +23,7 @@
 
 <script lang="ts">
   import type { Plugin, Tag } from '$lib/types';
-  import PluginView from '$lib/plugin.svelte';
+  import PluginView from '$lib/plugin-view.svelte';
   import Icon from '$lib/icon.svelte';
 
   export let plugin: Plugin;

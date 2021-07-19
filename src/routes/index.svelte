@@ -6,12 +6,13 @@
 
   export async function load() {
     const pluginDb = db.plugins as any;
-    const { plugins, tags } = derivePluginData(pluginDb);
+    const { plugins, tags, tagDb } = derivePluginData(pluginDb);
 
     return {
       props: {
         plugins,
         tags,
+        tagDb
       },
     };
   }
@@ -21,10 +22,10 @@
   import qs from 'query-string';
   import { goto } from '$app/navigation';
   import { page } from '$app/stores';
-  import type { Plugin, Tag } from '$lib/types';
-  import TagView from '$lib/tag.svelte';
+  import type { Plugin, Tag, TagMap } from '$lib/types';
+  import TagItem from '$lib/tag.svelte';
   import Icon from '$lib/icon.svelte';
-  import Tooltip from '$lib/tooltip.svelte';
+  import PluginItem from '$lib/plugin.svelte';
 
   let timer: NodeJS.Timeout;
   const debounce = (fn: (v: string) => any) => {
@@ -76,6 +77,11 @@
     return plugins.filter(onFilter);
   }
 
+  export let tagDb: TagMap = {};
+  function getTags(tags: string[]): Tag[] {
+    return tags.map((t) => tagDb[t]).filter(Boolean);
+  }
+
   let search = '';
   page.subscribe(({ query }) => {
     search = decodeURIComponent(query.get('search') || '');
@@ -89,7 +95,7 @@
 <div class="container">
   <div class="intro">
     <h1 id="logo">
-      Neovim Awesome
+      neovim awesome
       <a href="https://github.com/neurosnap/neovim-awesome" target="_blank">
         <Icon icon="github" />
       </a>
@@ -111,34 +117,17 @@
     {/if}
   </div>
 
-  <div class="tags_view">
+  <div class="sidebar">
+    <div class="desc">Search through our curated list of neovim plugins</div>
     {#each tags as tag}
-      <TagView {tag} {onSearch} />
+      <TagItem {tag} {onSearch} />
     {/each}
   </div>
-  <div class="plugins_view">
+  <div class="plugins">
+    <div class="search_results">{results.length} results</div>
     <div class="plugins_list">
       {#each results as plugin}
-        <div class="plugin">
-          <div class="plugin_top">
-            <h2 class="plugin_item_header">
-              <a href="/plugin/{plugin.username}/{plugin.repo}">{plugin.repo}</a>
-            </h2>
-            <div class="plugin_metrics">
-              <Tooltip tip="stars" bottom>
-                <div class="metric"><Icon icon="star" /> <span>{plugin.stars}</span></div>
-              </Tooltip>
-              <Tooltip tip="open issues" bottom>
-                <div class="metric">
-                  <Icon icon="alert-circle" /> <span>{plugin.openIssues}</span>
-                </div>
-              </Tooltip>
-            </div>
-          </div>
-          <div class="plugin_desc">
-            {plugin.description}
-          </div>
-        </div>
+        <PluginItem {plugin} tags={getTags(plugin.tags)} onSearch={onSearch} />
       {/each}
     </div>
   </div>
@@ -149,6 +138,10 @@
 </svelte:head>
 
 <style>
+  .desc {
+    margin-bottom: 5px;
+  }
+
   .search_view {
     grid-column: 2;
     grid-row: 1;
@@ -175,6 +168,10 @@
     padding-right: 30px;
   }
 
+  .search_results {
+    margin: 5px 0;
+  }
+
   .container {
     height: 100vh;
     display: grid;
@@ -198,7 +195,7 @@
     margin-left: 15px;
   }
 
-  .tags_view {
+  .sidebar {
     grid-column: 1;
     grid-row: 2;
     padding: 0 10px;
@@ -206,54 +203,13 @@
     overflow-y: scroll;
   }
 
-  .plugin {
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    height: 110px;
-    border-bottom: 1px solid var(--primary-color);
-  }
-
-  .plugin_top {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-  }
-
-  .plugin_desc {
-    margin-top: 5px;
-  }
-
-  .plugin_item_header {
-    flex: 1;
-    display: flex;
-    align-items: center;
-  }
-
-  .plugin_metrics {
-    width: 150px;
-    min-width: 150px;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .metric {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
-
-  .plugins_view {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+  .plugins {
     grid-column: 2;
     grid-row: 2;
-    height: calc(100vh - 50px);
   }
 
   .plugins_list {
+    height: calc(100vh - 50px);
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
@@ -265,7 +221,7 @@
     }
 
     #logo,
-    .tags_view {
+    .sidebar {
       display: none;
     }
 
@@ -274,7 +230,7 @@
       padding: 0 10px;
     }
 
-    .plugins_view {
+    .plugins {
       grid-column: 1;
     }
   }
