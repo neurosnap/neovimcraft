@@ -7,6 +7,8 @@ import type { Plugin } from './lib/types';
 const writeFile = util.promisify(fs.writeFile);
 const readFile = util.promisify(fs.readFile);
 
+clean().catch(console.error);
+
 async function clean() {
   const file = await readFile('./src/lib/db.json', 'utf-8');
   const db = JSON.parse(file.toString());
@@ -45,5 +47,3 @@ async function clean() {
     console.error(err);
   }
 }
-
-clean().catch(console.error);

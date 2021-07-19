@@ -11,8 +11,8 @@
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. .",
     "prepare": "husky install",
-    "scrape": "node --loader ts-node/esm src/scrape.ts",
-    "process": "node --loader ts-node/esm src/process.ts",
+    "scrape": "node --experimental-specifier-resolution=node --loader ts-node/esm src/scrape.ts",
+    "process": "node --experimental-specifier-resolution=node --loader ts-node/esm src/process.ts",
     "transform": "node --loader ts-node/esm src/transform.ts",
     "upload:clean": "gsutil -m rm -r gs://neovim.erock.io/*",
     "upload": "gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' rsync -r ./build gs://neovim.erock.io",
@@ -49,5 +49,7 @@
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@types/prettier": "^2.3.2"
+  }
 }

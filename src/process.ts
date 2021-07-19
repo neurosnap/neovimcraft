@@ -1,13 +1,18 @@
 import fs from 'fs';
 import util from 'util';
+import fetch from 'node-fetch';
 
 import type { Plugin, Resource } from './lib/types';
 import { createPlugin } from './lib/entities';
-import * as resourceFile from './lib/resources.json';
+import resourceFile from './lib/resources.json';
 
 const writeFile = util.promisify(fs.writeFile);
 const accessToken = process.env.GITHUB_ACCESS_TOKEN || '';
 const accessUsername = process.env.GITHUB_USERNAME || '';
+
+processResources(resourceFile.resources as Resource[])
+  .then(saveData)
+  .catch(console.error);
 
 interface Props {
   username: string;
@@ -140,5 +145,3 @@ async function saveData({
   await writeFile('./src/lib/db.json', JSON.stringify({ plugins }));
   await writeFile('./src/lib/markdown.json', JSON.stringify({ markdown }));
 }
-
-processResources(resourceFile.resources).then(saveData).catch(console.error);

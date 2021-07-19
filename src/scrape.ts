@@ -1,14 +1,28 @@
 import fs from 'fs';
 import util from 'util';
 
+import prettier from 'prettier';
 import fetch from 'node-fetch';
 import marked from 'marked';
 
 import type { Resource, ResourceMap } from './lib/types';
 import { createResource } from './lib/entities';
-import * as resourceFile from './lib/resources.json';
+import resourceFile from './lib/resources.json';
 
 const writeFile = util.promisify(fs.writeFile);
+
+const URLS = ['https://raw.githubusercontent.com/rockerBOO/awesome-neovim/main/README.md'];
+
+Promise.all(URLS.map((url) => fetchMarkdown(url).then(processMarkdown)))
+  .then((resources) => {
+    const flatten = resources.reduce((acc, r) => {
+      acc.push(...r);
+      return acc;
+    }, []);
+    return flatten;
+  })
+  .then(updateResources)
+  .catch(console.error);
 
 async function fetchMarkdown(url: string) {
   const response = await fetch(url);
@@ -62,24 +76,17 @@ async function processMarkdown(text: string) {
 async function updateResources(resources: Resource[]) {
   const db: ResourceMap = {};
   const getId = (r: Resource) => `${r.username}/${r.repo}`;
-  resourceFile.resources.forEach((r) => {
+  resourceFile.resources.forEach((r: Resource) => {
     db[getId(r)] = r;
   });
   resources.forEach((r) => {
     db[getId(r)] = r;
   });
 
-  await writeFile('./src/lib/resources.json', JSON.stringify({ resources: Object.values(db) }));
+  const data = { resources: Object.values(db) };
+  const json = prettier.format(JSON.stringify(data), {
+    parser: 'json',
+    printWidth: 100,
+  });
+  await writeFile('./src/lib/resources.json', json);
 }
-
-const urls = ['https://raw.githubusercontent.com/rockerBOO/awesome-neovim/main/README.md'];
-Promise.all(urls.map((url) => fetchMarkdown(url).then(processMarkdown)))
-  .then((resources) => {
-    const flatten = resources.reduce((acc, r) => {
-      acc.push(...r);
-      return acc;
-    }, []);
-    return flatten;
-  })
-  .then(updateResources)
-  .catch(console.error);
