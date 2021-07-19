@@ -24,3 +24,12 @@ export interface Tag {
 }
 
 export type TagMap = { [key: string]: Tag };
+
+export interface Resource {
+  type: 'github';
+  username: string;
+  repo: string;
+  tags: string[];
+}
+
+export type ResourceMap = { [key: string]: Resource };

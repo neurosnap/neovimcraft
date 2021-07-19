@@ -11,6 +11,7 @@
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. .",
     "prepare": "husky install",
+    "scrape": "node --loader ts-node/esm src/scrape.ts",
     "process": "node --loader ts-node/esm src/process.ts",
     "transform": "node --loader ts-node/esm src/transform.ts",
     "upload:clean": "gsutil -m rm -r gs://neovim.erock.io/*",
