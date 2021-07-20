@@ -68,10 +68,10 @@
 
     const onFilter = (plugin: Plugin) => {
       if (search.includes('tag:')) {
-        const nextSearch = search.replace('tag:', '');
+        const nextSearch = search.toLocaleLowerCase().replace('tag:', '');
         return plugin.tags.some((tag) => tag === nextSearch);
       }
-      return plugin.id.toLocaleLowerCase().includes(search);
+      return plugin.id.toLocaleLowerCase().includes(search.toLocaleLowerCase());
     };
 
     return plugins.filter(onFilter);

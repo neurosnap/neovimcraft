@@ -76,10 +76,11 @@ async function processMarkdown(text: string) {
 async function updateResources(resources: Resource[]) {
   const db: ResourceMap = {};
   const getId = (r: Resource) => `${r.username}/${r.repo}`;
-  resourceFile.resources.forEach((r: Resource) => {
+  resources.forEach((r) => {
     db[getId(r)] = r;
   });
-  resources.forEach((r) => {
+  // resource file trumps what we scrape so we can make changes to things like the tags
+  resourceFile.resources.forEach((r: Resource) => {
     db[getId(r)] = r;
   });
 

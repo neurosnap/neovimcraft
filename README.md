@@ -14,14 +14,31 @@ export GITHUB_USERNAME='my-user'
 To run the scraper
 
 ```bash
+yarn scrape
+```
+
+This will fetch data from remote sources and then save them to our
+`resources.json` file. This file is our source-of-truth for the plugins we
+eventually save.
+
+To fetch and process the results in our `results.json` file
+
+```bash
 yarn process
 ```
+
+This will use the github api to fetch information about the resources and also
+fetch the associated readme for each resource and save them to `db.json` and
+`markdown.json`
 
 To convert markdown files to html
 
 ```bash
 yarn transform
 ```
+
+This will create an `html.json` file which contains the readme html which we
+use for each plugin page.
 
 Once you've created a project and installed dependencies with `yarn`, start a development server:
 
