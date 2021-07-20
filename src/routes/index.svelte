@@ -26,6 +26,7 @@
   import TagItem from '$lib/tag.svelte';
   import Icon from '$lib/icon.svelte';
   import PluginItem from '$lib/plugin.svelte';
+  import Nav from '$lib/nav.svelte';
 
   let timer: NodeJS.Timeout;
   const debounce = (fn: (v: string) => any) => {
@@ -92,16 +93,9 @@
   $: filterTotal = filterPlugins({ search, plugins });
 </script>
 
-<div class="container">
-  <div class="intro">
-    <h1 id="logo">
-      neovim craft
-      <a href="https://github.com/neurosnap/neovimcraft" target="_blank">
-        <Icon icon="github" />
-      </a>
-    </h1>
-  </div>
+<Nav />
 
+<div class="container">
   <div class="search_view">
     <span class="search_icon"><Icon icon="search" /></span>
     <input
@@ -116,9 +110,9 @@
       </span>
     {/if}
   </div>
+  <div class="desc">Search through our curated list of neovim plugins</div>
 
   <div class="sidebar">
-    <div class="desc">Search through our curated list of neovim plugins</div>
     {#each tags as tag}
       <TagItem {tag} {onSearch} />
     {/each}
@@ -144,6 +138,11 @@
 
   .desc {
     margin-bottom: 5px;
+    margin-left: 10px;
+    grid-row: 1;
+    grid-column: 1;
+    align-items: center;
+    display: flex;
   }
 
   .search_view {
@@ -186,21 +185,6 @@
     column-gap: 10px;
   }
 
-  .intro {
-    padding: 0 10px 0 10px;
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  #logo {
-    display: flex;
-    align-items: center;
-  }
-
-  #logo > a {
-    margin-left: 15px;
-  }
-
   .sidebar {
     grid-column: 1;
     grid-row: 2;
@@ -226,7 +210,6 @@
       justify-content: center;
     }
 
-    .intro,
     .sidebar {
       display: none;
     }
