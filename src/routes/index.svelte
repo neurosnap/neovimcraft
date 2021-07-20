@@ -222,11 +222,11 @@
 
   @media only screen and (max-width: 700px) {
     .container {
-      grid-template-columns: 1fr;
-      padding: 0 10px;
+      grid-template-columns: 95%;
+      justify-content: center;
     }
 
-    #logo,
+    .intro,
     .sidebar {
       display: none;
     }

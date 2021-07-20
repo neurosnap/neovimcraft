@@ -39,7 +39,7 @@
     display: flex;
     flex-direction: column;
     padding: 15px 5px;
-    height: 140px;
+    height: 170px;
     width: 100%;
     border-bottom: 1px solid var(--primary-color);
   }
@@ -80,7 +80,7 @@
 
   @media only screen and (max-width: 700px) {
     .container {
-      height: 160px;
+      padding: 0;
     }
   }
 </style>
