@@ -1,5 +1,5 @@
 {
-  "name": "neovim-awesome",
+  "name": "neovimcraft",
   "version": "0.0.0",
   "scripts": {
     "dev": "svelte-kit dev --host 0.0.0.0",
@@ -14,8 +14,8 @@
     "scrape": "node --experimental-specifier-resolution=node --loader ts-node/esm src/scrape.ts",
     "process": "node --experimental-specifier-resolution=node --loader ts-node/esm src/process.ts",
     "transform": "node --loader ts-node/esm src/transform.ts",
-    "upload:clean": "gsutil -m rm -r gs://neovim.erock.io/*",
-    "upload": "gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' rsync -r ./build gs://neovim.erock.io",
+    "upload:clean": "gsutil -m rm -r gs://neovimcraft.com/*",
+    "upload": "gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' rsync -r ./build gs://neovimcraft.com",
     "deploy": "yarn build:clean && yarn build && yarn upload:clean && yarn upload"
   },
   "devDependencies": {

@@ -95,8 +95,8 @@
 <div class="container">
   <div class="intro">
     <h1 id="logo">
-      neovim awesome
-      <a href="https://github.com/neurosnap/neovim-awesome" target="_blank">
+      neovim craft
+      <a href="https://github.com/neurosnap/neovimcraft" target="_blank">
         <Icon icon="github" />
       </a>
     </h1>

@@ -1,6 +1,7 @@
-# neovim-awesome
+# neovim craft
 
-A site dedicated to finding the best neovim plugins.
+A site dedicated to finding the best neovim plugins and other resources for
+building neovim plugins
 
 ## Developing
 
