@@ -90,24 +90,6 @@
   export let plugins: Plugin[] = [];
   export let tags: Tag[] = [];
   $: filterTotal = filterPlugins({ search, plugins });
-
-  function paginate(p: number, items: Plugin[]) {
-    const PER_PAGE = 15;
-    const total = Math.ceil(items.length / PER_PAGE);
-    const first = p === 1;
-    const last = p === total;
-    const end = p * PER_PAGE;
-    const start = end - PER_PAGE;
-    return { results: items.slice(start, end), first, last, total };
-  }
-  let curPage = 1;
-  $: pager = paginate(curPage, filterTotal);
-  const changePage = (next: number) => {
-    curPage = next;
-    document.getElementById('plugins_list').scrollTo(0, 0);
-  };
-  const prev = () => changePage(curPage - 1);
-  const next = () => changePage(curPage + 1);
 </script>
 
 <div class="container">
@@ -144,14 +126,9 @@
   <div class="plugins">
     <div class="plugins_list" id="plugins_list">
       <div class="search_results">{filterTotal.length} results</div>
-      {#each pager.results as plugin}
+      {#each filterTotal as plugin}
         <PluginItem {plugin} tags={getTags(plugin.tags)} {onSearch} />
       {/each}
-      <div class="paginate">
-        <button on:click={prev} disabled={pager.first}>prev</button>
-        <div>{curPage} of {pager.total}</div>
-        <button on:click={next} disabled={pager.last}>next</button>
-      </div>
     </div>
   </div>
 </div>
@@ -163,12 +140,6 @@
 <style>
   :global(body) {
     overflow-y: hidden;
-  }
-
-  .paginate {
-    margin: 30px 0;
-    display: flex;
-    align-items: center;
   }
 
   .desc {
@@ -247,26 +218,6 @@
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-  }
-
-  button {
-    padding: 10px 15px;
-    margin: 0 10px;
-    background-color: var(--highlight-color);
-    color: var(--primary-color);
-    cursor: pointer;
-    outline: 0;
-    border: 1px solid var(--primary-color);
-    border-radius: 3px;
-  }
-
-  button:disabled {
-    cursor: default;
-    background-color: var(--primary-color);
-  }
-
-  button:hover:enabled {
-    background-color: var(--highlight-secondary);
   }
 
   @media only screen and (max-width: 700px) {
