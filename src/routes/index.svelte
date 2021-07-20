@@ -222,7 +222,7 @@
 
   @media only screen and (max-width: 700px) {
     .container {
-      grid-template-columns: 95%;
+      grid-template-columns: 92%;
       justify-content: center;
     }
 
