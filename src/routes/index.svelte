@@ -12,7 +12,7 @@
       props: {
         plugins,
         tags,
-        tagDb
+        tagDb,
       },
     };
   }
@@ -89,7 +89,25 @@
 
   export let plugins: Plugin[] = [];
   export let tags: Tag[] = [];
-  $: results = filterPlugins({ search, plugins });
+  $: filterTotal = filterPlugins({ search, plugins });
+
+  function paginate(p: number, items: Plugin[]) {
+    const PER_PAGE = 15;
+    const total = Math.ceil(items.length / PER_PAGE);
+    const first = p === 1;
+    const last = p === total;
+    const end = p * PER_PAGE;
+    const start = end - PER_PAGE;
+    return { results: items.slice(start, end), first, last, total };
+  }
+  let curPage = 1;
+  $: pager = paginate(curPage, filterTotal);
+  const changePage = (next: number) => {
+    curPage = next;
+    document.getElementById('plugins_list').scrollTo(0, 0);
+  };
+  const prev = () => changePage(curPage - 1);
+  const next = () => changePage(curPage + 1);
 </script>
 
 <div class="container">
@@ -124,11 +142,16 @@
     {/each}
   </div>
   <div class="plugins">
-    <div class="plugins_list">
-      <div class="search_results">{results.length} results</div>
-      {#each results as plugin}
-        <PluginItem {plugin} tags={getTags(plugin.tags)} onSearch={onSearch} />
+    <div class="plugins_list" id="plugins_list">
+      <div class="search_results">{filterTotal.length} results</div>
+      {#each pager.results as plugin}
+        <PluginItem {plugin} tags={getTags(plugin.tags)} {onSearch} />
       {/each}
+      <div class="paginate">
+        <button on:click={prev} disabled={pager.first}>prev</button>
+        <div>{curPage} of {pager.total}</div>
+        <button on:click={next} disabled={pager.last}>next</button>
+      </div>
     </div>
   </div>
 </div>
@@ -138,6 +161,16 @@
 </svelte:head>
 
 <style>
+  :global(body) {
+    overflow-y: hidden;
+  }
+
+  .paginate {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+  }
+
   .desc {
     margin-bottom: 5px;
   }
@@ -150,7 +183,7 @@
 
   .search_icon {
     position: absolute;
-    top: 15px;
+    top: 12px;
     left: 0;
   }
 
@@ -162,14 +195,16 @@
   }
 
   #search {
-    width: calc(100% - 60px);
+    width: 100%;
     height: 47px;
     padding-left: 30px;
     padding-right: 30px;
   }
 
   .search_results {
-    margin: 5px 0;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .container {
@@ -212,6 +247,26 @@
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
+  }
+
+  button {
+    padding: 10px 15px;
+    margin: 0 10px;
+    background-color: var(--highlight-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    outline: 0;
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+  }
+
+  button:disabled {
+    cursor: default;
+    background-color: var(--primary-color);
+  }
+
+  button:hover:enabled {
+    background-color: var(--highlight-secondary);
   }
 
   @media only screen and (max-width: 700px) {

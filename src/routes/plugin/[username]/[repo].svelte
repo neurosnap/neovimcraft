@@ -57,6 +57,10 @@
 </div>
 
 <style>
+  :global(body) {
+    overflow-y: scroll;
+  }
+
   .container {
     display: flex;
     justify-content: center;

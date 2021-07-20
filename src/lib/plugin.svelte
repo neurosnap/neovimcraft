@@ -1,13 +1,12 @@
 <script lang="ts">
-import type { Plugin, Tag } from './types';
-import Tooltip from './tooltip.svelte';
-import Icon from './icon.svelte';
-import TagItem from './tag.svelte';
-export let plugin: Plugin;
-export let tags: Tag[];
-export let onSearch: (t: string) => any = (_: string) => {};
+  import type { Plugin, Tag } from './types';
+  import Tooltip from './tooltip.svelte';
+  import Icon from './icon.svelte';
+  import TagItem from './tag.svelte';
+  export let plugin: Plugin;
+  export let tags: Tag[];
+  export let onSearch: (t: string) => any = (_: string) => {};
 </script>
-
 
 <div class="container">
   <div class="header">
@@ -29,52 +28,59 @@ export let onSearch: (t: string) => any = (_: string) => {};
     {plugin.description}
   </div>
   <div class="tags">
-  {#each tags as tag}
-    <TagItem {tag} showCount={false} {onSearch} />
-  {/each}
+    {#each tags as tag}
+      <TagItem {tag} showCount={false} {onSearch} />
+    {/each}
   </div>
 </div>
 
 <style>
-.container {
-  display: flex;
-  flex-direction: column;
-  padding: 15px 5px;
-  height: 140px;
-  border-bottom: 1px solid var(--primary-color);
-}
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 5px;
+    height: 140px;
+    width: 100%;
+    border-bottom: 1px solid var(--primary-color);
+  }
 
-.header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
-}
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
 
-.desc {
-  margin-top: 5px;
-}
+  .desc {
+    margin-top: 5px;
+  }
 
-.item_header {
-  flex: 1;
-  display: flex;
-  align-items: center;
-}
+  .item_header {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
 
-.metrics {
-  width: 150px;
-  min-width: 150px;
-  display: flex;
-  justify-content: space-between;
-}
+  .metrics {
+    width: 150px;
+    min-width: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
 
-.metric-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
+  .metric-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
 
-.tags {
-  margin-top: 5px;
-}
+  .tags {
+    margin-top: 5px;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .container {
+      height: 160px;
+    }
+  }
 </style>
