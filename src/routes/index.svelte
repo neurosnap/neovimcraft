@@ -125,13 +125,6 @@
   </div>
 </div>
 
-<svelte:head>
-  <title>neovim craft - plugin search</title>
-  <meta name="description" content="Search through our curated list of neovim plugins" />
-  <meta property="og:description" content="Search through our curated list of neovim plugins" />
-  <meta property="og:title" content="neovim craft - plugin search" />
-</svelte:head>
-
 <style>
   .desc {
     margin-bottom: 5px;
