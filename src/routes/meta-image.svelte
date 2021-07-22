@@ -45,7 +45,7 @@
     width: 1200px;
     height: 600px;
     background-color: var(--bg-color);
-    padding: 90px 40px;
+    padding: 90px 60px;
   }
 
   .top {
