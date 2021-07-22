@@ -1,6 +1,4 @@
 <script context="module" lang="ts">
-  export const prerender = true;
-
   import { derivePluginData } from '$lib/plugin-data';
   import * as db from '$lib/db.json';
 
@@ -26,6 +24,7 @@
   import TagItem from '$lib/tag.svelte';
   import Icon from '$lib/icon.svelte';
   import PluginItem from '$lib/plugin.svelte';
+  import Nav from '$lib/nav.svelte';
 
   let timer: NodeJS.Timeout;
   const debounce = (fn: (v: string) => any) => {
@@ -92,16 +91,9 @@
   $: filterTotal = filterPlugins({ search, plugins });
 </script>
 
-<div class="container">
-  <div class="intro">
-    <h1 id="logo">
-      neovim craft
-      <a href="https://github.com/neurosnap/neovimcraft" target="_blank">
-        <Icon icon="github" />
-      </a>
-    </h1>
-  </div>
+<Nav />
 
+<div class="container">
   <div class="search_view">
     <span class="search_icon"><Icon icon="search" /></span>
     <input
@@ -116,9 +108,9 @@
       </span>
     {/if}
   </div>
+  <div class="desc">Search through our curated list of neovim plugins</div>
 
   <div class="sidebar">
-    <div class="desc">Search through our curated list of neovim plugins</div>
     {#each tags as tag}
       <TagItem {tag} {onSearch} />
     {/each}
@@ -134,7 +126,7 @@
 </div>
 
 <svelte:head>
-  <title>Neovim Awesome - Plugin Search</title>
+  <title>neovim craft - plugin search</title>
 </svelte:head>
 
 <style>
@@ -144,6 +136,11 @@
 
   .desc {
     margin-bottom: 5px;
+    margin-left: 10px;
+    grid-row: 1;
+    grid-column: 1;
+    align-items: center;
+    display: flex;
   }
 
   .search_view {
@@ -179,42 +176,28 @@
   }
 
   .container {
-    height: 100vh;
     display: grid;
+    height: calc(100vh - 50px);
     grid-template-columns: minmax(250px, 400px) minmax(350px, 600px);
     grid-template-rows: 50px 1fr;
     column-gap: 10px;
-  }
-
-  .intro {
-    padding: 0 10px 0 10px;
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  #logo {
-    display: flex;
-    align-items: center;
-  }
-
-  #logo > a {
-    margin-left: 15px;
   }
 
   .sidebar {
     grid-column: 1;
     grid-row: 2;
     padding: 0 10px;
-    height: calc(100vh - 50px);
+    overflow-y: auto;
+    padding-bottom: 25px;
   }
 
   .plugins {
     grid-column: 2;
     grid-row: 2;
+    overflow-y: auto;
   }
 
   .plugins_list {
-    height: calc(100vh - 50px);
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
@@ -226,7 +209,6 @@
       justify-content: center;
     }
 
-    .intro,
     .sidebar {
       display: none;
     }
