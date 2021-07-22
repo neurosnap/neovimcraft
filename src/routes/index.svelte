@@ -1,6 +1,4 @@
 <script context="module" lang="ts">
-  export const prerender = true;
-
   import { derivePluginData } from '$lib/plugin-data';
   import * as db from '$lib/db.json';
 
@@ -128,7 +126,7 @@
 </div>
 
 <svelte:head>
-  <title>Neovim Awesome - Plugin Search</title>
+  <title>neovim craft - plugin search</title>
 </svelte:head>
 
 <style>
@@ -178,8 +176,8 @@
   }
 
   .container {
-    height: 100vh;
     display: grid;
+    height: calc(100vh - 50px);
     grid-template-columns: minmax(250px, 400px) minmax(350px, 600px);
     grid-template-rows: 50px 1fr;
     column-gap: 10px;
@@ -189,16 +187,17 @@
     grid-column: 1;
     grid-row: 2;
     padding: 0 10px;
-    height: calc(100vh - 50px);
+    overflow-y: auto;
+    padding-bottom: 25px;
   }
 
   .plugins {
     grid-column: 2;
     grid-row: 2;
+    overflow-y: auto;
   }
 
   .plugins_list {
-    height: calc(100vh - 50px);
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;

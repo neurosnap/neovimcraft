@@ -25,6 +25,7 @@
   import type { Plugin, Tag } from '$lib/types';
   import PluginView from '$lib/plugin-view.svelte';
   import Icon from '$lib/icon.svelte';
+  import Nav from '$lib/nav.svelte';
 
   export let plugin: Plugin;
   export let tags: Tag[];
@@ -45,6 +46,8 @@
   <meta name="twitter:description" content="{plugin.id}: {plugin.description}" />
 </svelte:head>
 
+<Nav />
+
 <div class="container">
   <div class="view">
     <div class="header">
@@ -58,7 +61,7 @@
 
 <style>
   :global(body) {
-    overflow-y: scroll;
+    overflow-y: auto;
   }
 
   .container {

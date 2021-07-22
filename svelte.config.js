@@ -14,7 +14,7 @@ const config = {
       // default options are shown
       pages: 'build',
       assets: 'build',
-      fallback: '404.html',
+      fallback: null,
     }),
     prerender: {
       force: true,

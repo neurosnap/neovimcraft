@@ -92,21 +92,25 @@ input:focus {
 }
 
 button {
-    padding: 10px 15px;
-    margin: 0 10px;
-    background-color: var(--highlight-color);
-    color: var(--primary-color);
-    cursor: pointer;
-    outline: 0;
-    border: 1px solid var(--primary-color);
-    border-radius: 3px;
-  }
+  padding: 10px 15px;
+  margin: 0 10px;
+  background-color: var(--highlight-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  outline: 0;
+  border: 1px solid var(--primary-color);
+  border-radius: 3px;
+}
 
-  button:disabled {
-    cursor: default;
-    background-color: var(--primary-color);
-  }
+button:disabled {
+  cursor: default;
+  background-color: var(--primary-color);
+}
 
-  button:hover:enabled {
-    background-color: var(--highlight-secondary);
-  }
+button:hover:enabled {
+  background-color: var(--highlight-secondary);
+}
+
+.active {
+  color: var(--pink) !important;
+}
