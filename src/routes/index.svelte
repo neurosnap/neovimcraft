@@ -130,10 +130,6 @@
 </svelte:head>
 
 <style>
-  :global(body) {
-    overflow-y: hidden;
-  }
-
   .desc {
     margin-bottom: 5px;
     margin-left: 10px;
@@ -177,7 +173,7 @@
 
   .container {
     display: grid;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 65px);
     grid-template-columns: minmax(250px, 400px) minmax(350px, 600px);
     grid-template-rows: 50px 1fr;
     column-gap: 10px;

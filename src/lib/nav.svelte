@@ -56,7 +56,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
   }
 
   .links {

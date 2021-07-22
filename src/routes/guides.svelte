@@ -141,10 +141,6 @@
 </div>
 
 <style>
-  :global(body) {
-    overflow-y: auto;
-  }
-
   .container {
     padding: 0 15px;
     display: flex;

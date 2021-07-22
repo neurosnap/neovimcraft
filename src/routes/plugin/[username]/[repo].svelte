@@ -60,10 +60,6 @@
 </div>
 
 <style>
-  :global(body) {
-    overflow-y: auto;
-  }
-
   .container {
     display: flex;
     justify-content: center;
