@@ -55,6 +55,13 @@
   </div>
 </div>
 
+<svelte:head>
+  <title>neovim craft - about</title>
+  <meta name="description" content="About neovim craft" />
+  <meta property="og:description" content="About neovim craft" />
+  <meta property="og:title" content="neovim craft - about" />
+</svelte:head>
+
 <style>
   .container {
     display: flex;

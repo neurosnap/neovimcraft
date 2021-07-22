@@ -140,6 +140,19 @@
   </div>
 </div>
 
+<svelte:head>
+  <title>neovim craft - guides</title>
+  <meta
+    name="description"
+    content="Curated guides to help you configure neovim and build plugins"
+  />
+  <meta
+    property="og:description"
+    content="Curated guides to help you configure neovim and build plugins"
+  />
+  <meta property="og:title" content="neovim craft - plugin guides" />
+</svelte:head>
+
 <style>
   .container {
     padding: 0 15px;
