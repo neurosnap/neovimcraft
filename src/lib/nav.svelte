@@ -21,8 +21,8 @@
 
 <div class="nav">
   <h1 id="logo">
-    neovim craft
-    <a href="https://github.com/neurosnap/neovimcraft" target="_blank">
+    <a href="/" class="logo-header">neovim craft</a>
+    <a href="https://github.com/neurosnap/neovimcraft" class="gh" target="_blank">
       <Icon icon="github" />
     </a>
   </h1>
@@ -37,7 +37,7 @@
       <div class="menu-overlay" on:click={close} />
       <div class="menu">
         <div class="menu-header">
-          <h1>neovim craft</h1>
+          <h1><a href="/" class="logo-header">neovim craft</a></h1>
           <div class="menu-btn" on:click={close}><img src="/menu.svg" alt="menu" /></div>
         </div>
         <div class="menu-body">
@@ -55,8 +55,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px;
-    padding-bottom: 15px;
+    padding: 0 25px 15px 25px;
   }
 
   .links {
@@ -132,8 +131,17 @@
     align-items: center;
   }
 
-  #logo > a {
+  .gh {
     margin-left: 15px;
+  }
+
+  .logo-header {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+
+  .logo-header:visited {
+    color: var(--text-color);
   }
 
   @media only screen and (max-width: 700px) {

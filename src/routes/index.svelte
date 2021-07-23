@@ -91,6 +91,19 @@
   $: filterTotal = filterPlugins({ search, plugins });
 </script>
 
+<svelte:head>
+  <title>neovimcraft</title>
+  <meta property="og:title" content="neovimcraft" />
+  <meta
+    name="description"
+    content="Search through our curated neovim plugin directory and read our guides on creating plugins."
+  />
+  <meta
+    property="og:description"
+    content="Search through our curated neovim plugin directory and read our guides on creating plugins."
+  />
+</svelte:head>
+
 <Nav />
 
 <div class="container">
@@ -128,7 +141,7 @@
 <style>
   .desc {
     margin-bottom: 5px;
-    margin-left: 10px;
+    margin-left: 25px;
     grid-row: 1;
     grid-column: 1;
     align-items: center;
@@ -178,21 +191,16 @@
   .sidebar {
     grid-column: 1;
     grid-row: 2;
-    padding: 0 10px;
-    overflow-y: auto;
-    padding-bottom: 25px;
+    padding: 0 25px 25px 25px;
   }
 
   .plugins {
     grid-column: 2;
     grid-row: 2;
-    overflow-y: auto;
   }
 
   .plugins_list {
     width: 100%;
-    overflow-y: auto;
-    overflow-x: hidden;
   }
 
   @media only screen and (max-width: 700px) {
