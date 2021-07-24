@@ -39,7 +39,7 @@
 
   const zero = (num: number) => (num < 10 ? `0${num}` : `${num}`);
   const format = (date: Date) => {
-    return `${date.getFullYear()}-${zero(date.getMonth())}-${zero(date.getDate())}`;
+    return `${date.getFullYear()}-${zero(date.getMonth() + 1)}-${zero(date.getDate())}`;
   };
 
   export let articles: Article[];
