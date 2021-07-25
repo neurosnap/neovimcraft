@@ -212,6 +212,7 @@
     { "type": "github", "username": "LoricAndre", "repo": "fzterm.nvim", "tags": ["fuzzy-finder"] },
     { "type": "github", "username": "amirrezaask", "repo": "fuzzy.nvim", "tags": ["fuzzy-finder"] },
     { "type": "github", "username": "camspiers", "repo": "snap", "tags": ["fuzzy-finder"] },
+    { "type": "github", "username": "lotabout", "repo": "skim", "tags": ["fuzzy-finder"] },
     { "type": "github", "username": "norcalli", "repo": "nvim-colorizer.lua", "tags": ["colors"] },
     { "type": "github", "username": "tjdevries", "repo": "colorbuddy.nvim", "tags": ["colors"] },
     { "type": "github", "username": "norcalli", "repo": "nvim-base16.lua", "tags": ["colors"] },
@@ -826,6 +827,12 @@
     { "type": "github", "username": "nacro90", "repo": "numb.nvim", "tags": ["editing-supports"] },
     {
       "type": "github",
+      "username": "abecodes",
+      "repo": "tabout.nvim",
+      "tags": ["editing-supports"]
+    },
+    {
+      "type": "github",
       "username": "mhartington",
       "repo": "formatter.nvim",
       "tags": ["formatting"]
@@ -920,6 +927,7 @@
     { "type": "github", "username": "shohi", "repo": "neva", "tags": ["version-managers"] },
     { "type": "github", "username": "gennaro-tedesco", "repo": "boilit", "tags": ["boilerplate"] },
     { "type": "github", "username": "akrawchyk", "repo": "awesome-vim#tools", "tags": ["vim"] },
+    { "type": "github", "username": "tsbohc", "repo": "zest.nvim", "tags": ["fennel"] },
     { "type": "github", "username": "fhill2", "repo": "floating.nvim", "tags": ["utility"] }
   ]
 }
