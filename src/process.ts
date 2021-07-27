@@ -32,6 +32,14 @@ async function fetchReadme({
     return { ok: true, data };
   }
 
+  const lowerUrl = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/readme.md`;
+  const lowerRes = await fetch(lowerUrl);
+  if (lowerRes.ok) {
+    const data = await lowerRes.text();
+    return { ok: true, data };
+  }
+
+  console.log(`FAILURE: could not load ${url}`);
   return {
     ok: false,
     data: {
@@ -56,6 +64,7 @@ async function fetchRepo({ username, repo }: Props): Promise<Resp<{ [key: string
     };
   }
 
+  console.log(`FAILURE: could not load ${url}`);
   return {
     ok: false,
     data: {
