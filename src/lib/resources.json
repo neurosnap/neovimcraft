@@ -933,6 +933,14 @@
     { "type": "github", "username": "gennaro-tedesco", "repo": "boilit", "tags": ["boilerplate"] },
     { "type": "github", "username": "tsbohc", "repo": "zest.nvim", "tags": ["fennel"] },
     { "type": "github", "username": "fhill2", "repo": "floating.nvim", "tags": ["utility"] },
-    { "type": "github", "username": "caenrique", "repo": "swap-buffers.nvim", "tags": ["buffers"] }
+    { "type": "github", "username": "caenrique", "repo": "swap-buffers.nvim", "tags": ["buffers"] },
+    { "type": "github", "username": "gelguy", "repo": "wilder.nvim", "tags": ["wildmenu"] },
+    { "type": "github", "username": "kazhala", "repo": "close-buffers.nvim", "tags": ["buffers"] },
+    {
+      "type": "github",
+      "username": "lazytanuki",
+      "repo": "nvim-mapper",
+      "tags": ["telescope", "keymaps"]
+    }
   ]
 }
