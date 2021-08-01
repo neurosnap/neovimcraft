@@ -143,6 +143,12 @@
       "repo": "surround.nvim",
       "tags": ["editing-supports"]
     },
+    {
+      "type": "github",
+      "username": "LoricAndre",
+      "repo": "OneTerm.nvim",
+      "tags": ["terminal-integration"]
+    },
     { "type": "github", "username": "nikvdp", "repo": "neomux", "tags": ["terminal-integration"] },
     {
       "type": "github",
@@ -209,10 +215,9 @@
       "tags": ["fuzzy-finder"]
     },
     { "type": "github", "username": "vijaymarupudi", "repo": "nvim-fzf", "tags": ["fuzzy-finder"] },
-    { "type": "github", "username": "LoricAndre", "repo": "fzterm.nvim", "tags": ["fuzzy-finder"] },
     { "type": "github", "username": "amirrezaask", "repo": "fuzzy.nvim", "tags": ["fuzzy-finder"] },
     { "type": "github", "username": "camspiers", "repo": "snap", "tags": ["fuzzy-finder"] },
-    { "type": "github", "username": "lotabout", "repo": "skim", "tags": ["fuzzy-finder"] },
+    { "type": "github", "username": "ibhagwan", "repo": "fzf-lua", "tags": ["fuzzy-finder"] },
     { "type": "github", "username": "norcalli", "repo": "nvim-colorizer.lua", "tags": ["colors"] },
     { "type": "github", "username": "tjdevries", "repo": "colorbuddy.nvim", "tags": ["colors"] },
     { "type": "github", "username": "norcalli", "repo": "nvim-base16.lua", "tags": ["colors"] },
@@ -500,8 +505,8 @@
     { "type": "github", "username": "dracula", "repo": "vim", "tags": ["treesitter-colorschemes"] },
     {
       "type": "github",
-      "username": "saurabhdaware",
-      "repo": "vscode-calvera-dark",
+      "username": "yashguptaz",
+      "repo": "calvera-dark.nvim",
       "tags": ["treesitter-colorschemes"]
     },
     {
@@ -528,7 +533,7 @@
     { "type": "github", "username": "clojure-vim", "repo": "jazz.nvim", "tags": ["utility"] },
     { "type": "github", "username": "code-biscuits", "repo": "nvim-biscuits", "tags": ["utility"] },
     { "type": "github", "username": "Pocco81", "repo": "AbbrevMan.nvim", "tags": ["utility"] },
-    { "type": "github", "username": "ryanoasis", "repo": "vim-devicons", "tags": ["icons"] },
+    { "type": "github", "username": "kyazdani42", "repo": "nvim-web-devicons", "tags": ["icons"] },
     { "type": "github", "username": "yamatsum", "repo": "nvim-nonicons", "tags": ["icons"] },
     { "type": "github", "username": "mfussenegger", "repo": "nvim-dap", "tags": ["debugging"] },
     { "type": "github", "username": "sakhnik", "repo": "nvim-gdb", "tags": ["debugging"] },
@@ -627,7 +632,7 @@
     },
     { "type": "github", "username": "hoob3rt", "repo": "lualine.nvim", "tags": ["statusline"] },
     { "type": "github", "username": "adelarsq", "repo": "neoline.vim", "tags": ["statusline"] },
-    { "type": "github", "username": "vim-airline", "repo": "vim-airline", "tags": ["statusline"] },
+    { "type": "github", "username": "ojroques", "repo": "nvim-hardline", "tags": ["statusline"] },
     { "type": "github", "username": "datwaft", "repo": "bubbly.nvim", "tags": ["statusline"] },
     {
       "type": "github",
@@ -926,8 +931,8 @@
     { "type": "github", "username": "NTBBloodbath", "repo": "nvenv", "tags": ["version-managers"] },
     { "type": "github", "username": "shohi", "repo": "neva", "tags": ["version-managers"] },
     { "type": "github", "username": "gennaro-tedesco", "repo": "boilit", "tags": ["boilerplate"] },
-    { "type": "github", "username": "akrawchyk", "repo": "awesome-vim#tools", "tags": ["vim"] },
     { "type": "github", "username": "tsbohc", "repo": "zest.nvim", "tags": ["fennel"] },
-    { "type": "github", "username": "fhill2", "repo": "floating.nvim", "tags": ["utility"] }
+    { "type": "github", "username": "fhill2", "repo": "floating.nvim", "tags": ["utility"] },
+    { "type": "github", "username": "caenrique", "repo": "swap-buffers.nvim", "tags": ["buffers"] }
   ]
 }

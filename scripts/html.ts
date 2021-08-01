@@ -2,7 +2,7 @@ import fs from 'fs';
 import util from 'util';
 import marked from 'marked';
 
-import type { Plugin } from './lib/types';
+import type { Plugin } from '../src/lib/types';
 
 const writeFile = util.promisify(fs.writeFile);
 const readFile = util.promisify(fs.readFile);

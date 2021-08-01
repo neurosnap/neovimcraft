@@ -5,9 +5,9 @@ import prettier from 'prettier';
 import fetch from 'node-fetch';
 import marked from 'marked';
 
-import type { Resource, ResourceMap } from './lib/types';
-import { createResource } from './lib/entities';
-import resourceFile from './lib/resources.json';
+import type { Resource, ResourceMap } from '../src/lib/types';
+import { createResource } from '../src/lib/entities';
+import resourceFile from '../src/lib/resources.json';
 
 const writeFile = util.promisify(fs.writeFile);
 
@@ -49,21 +49,24 @@ async function processMarkdown(text: string) {
       token.items.forEach((t) => {
         (t as any).tokens.forEach((tt: any) => {
           if (!tt.tokens) return;
-          if (heading === 'contents') return;
+
+          // hardcoded deny-list for headings
+          if (['contents', 'vim'].includes(heading)) return;
           const resource = createResource({ tags: [sanitizeTag(heading)] });
           let link = '';
-          tt.tokens.forEach((a: any) => {
-            if (a.type === 'link') {
-              link = a.href;
-              const href = a.href
-                .replace('https://github.com/', '')
-                .replace('http://github.com', '');
-              const d = href.split('/');
-              resource.username = d[0];
-              resource.repo = d[1];
-            }
-          });
+
+          // first token is always a link
+          const token = tt.tokens[0];
+          if (!token) return;
+
+          link = token.href;
+          // skip non-github links
           if (!link.includes('github.com')) return;
+
+          const href = link.replace('https://github.com/', '').replace('http://github.com', '');
+          const d = href.split('/');
+          resource.username = d[0];
+          resource.repo = d[1];
           resources.push(resource);
         });
       });

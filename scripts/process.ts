@@ -2,21 +2,51 @@ import fs from 'fs';
 import util from 'util';
 import fetch from 'node-fetch';
 
-import type { Plugin, Resource } from './lib/types';
-import { createPlugin } from './lib/entities';
-import resourceFile from './lib/resources.json';
+import type { Plugin, Resource } from '../src/lib/types';
+import { createPlugin } from '../src/lib/entities';
+import resourceFile from '../src/lib/resources.json';
 
+const readFile = util.promisify(fs.readFile);
 const writeFile = util.promisify(fs.writeFile);
 const accessToken = process.env.GITHUB_ACCESS_TOKEN || '';
 const accessUsername = process.env.GITHUB_USERNAME || '';
 
-processResources(resourceFile.resources as Resource[])
-  .then(saveData)
-  .catch(console.error);
+const args = process.argv;
+const option = args[2];
+if (option === 'missing') {
+  console.log('PROCESSING MISSING RESOURCES');
+  processMissingResources().then(saveData).catch(console.error);
+} else {
+  console.log('PROCESSING ALL RESOURCES');
+  processResources(resourceFile.resources as Resource[])
+    .then(saveData)
+    .catch(console.error);
+}
 
 interface Props {
   username: string;
   repo: string;
+}
+
+async function processMissingResources() {
+  const dbFile = await readFile('./src/lib/db.json');
+  const db = JSON.parse(dbFile.toString());
+  const missing: Resource[] = [];
+  resourceFile.resources.forEach((r: Resource) => {
+    if (db.plugins[`${r.username}/${r.repo}`]) {
+      return;
+    }
+
+    missing.push(r);
+  });
+  console.log(`Missing ${missing.length} resources`);
+
+  const results = await processResources(missing);
+  const markdownFile = await readFile('./src/lib/markdown.json');
+  const markdownJson = JSON.parse(markdownFile.toString());
+  const plugins = { ...db.plugins, ...results.plugins };
+  const markdown = { ...markdownJson.markdown, ...results.markdown };
+  return { plugins, markdown };
 }
 
 async function fetchReadme({
@@ -39,7 +69,6 @@ async function fetchReadme({
     return { ok: true, data };
   }
 
-  console.log(`FAILURE: could not load ${url}`);
   return {
     ok: false,
     data: {
@@ -64,7 +93,6 @@ async function fetchRepo({ username, repo }: Props): Promise<Resp<{ [key: string
     };
   }
 
-  console.log(`FAILURE: could not load ${url}`);
   return {
     ok: false,
     data: {
@@ -88,19 +116,25 @@ type Resp<D> = ApiSuccess<D> | ApiFailure;
 
 async function fetchGithubData(props: Props): Promise<Resp<any>> {
   const repo = await fetchRepo(props);
-  if (!repo.ok) return repo;
+  if (repo.ok === false) {
+    console.log(`${repo.data.status}: ${repo.data.error.message}`);
+    return repo;
+  }
 
   const readme = await fetchReadme({
     username: props.username,
     repo: props.repo,
     branch: repo.data.default_branch,
   });
-  if (!readme.ok) return readme;
+
+  if (readme.ok === false) {
+    console.log(`${readme.data.status}: ${readme.data.error.message}`);
+  }
 
   return {
     ok: true,
     data: {
-      readme: readme.data,
+      readme: readme.ok ? readme.data : '',
       repo: repo.data,
     },
   };
@@ -149,7 +183,6 @@ async function saveData({
 }: {
   plugins: { [key: string]: Plugin };
   markdown: { [key: string]: string };
-  resources: Resource[];
 }) {
   await writeFile('./src/lib/db.json', JSON.stringify({ plugins }));
   await writeFile('./src/lib/markdown.json', JSON.stringify({ markdown }));

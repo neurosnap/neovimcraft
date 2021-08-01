@@ -11,9 +11,10 @@
     "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --write --plugin-search-dir=. .",
     "prepare": "husky install",
-    "scrape": "node --experimental-specifier-resolution=node --loader ts-node/esm src/scrape.ts",
-    "process": "node --experimental-specifier-resolution=node --loader ts-node/esm src/process.ts",
-    "transform": "node --loader ts-node/esm src/transform.ts",
+    "scrape": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/scrape.ts",
+    "process": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/process.ts",
+    "html": "node --loader ts-node/esm scripts/html.ts",
+    "resource": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/resource.ts",
     "upload:clean": "gsutil -m rm -r gs://neovimcraft.com/*",
     "upload": "gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' rsync -r ./build gs://neovimcraft.com",
     "deploy": "yarn build:clean && yarn build && yarn upload:clean && yarn upload"
@@ -24,6 +25,7 @@
     "@types/marked": "^2.0.4",
     "@types/node": "^16.3.3",
     "@types/node-fetch": "^2.5.11",
+    "@types/prettier": "^2.3.2",
     "@typescript-eslint/eslint-plugin": "^4.19.0",
     "@typescript-eslint/parser": "^4.19.0",
     "eslint": "^7.22.0",
@@ -49,7 +51,5 @@
     "*.js": "eslint --cache --fix",
     "*.{js,css,md}": "prettier --write"
   },
-  "dependencies": {
-    "@types/prettier": "^2.3.2"
-  }
+  "dependencies": {}
 }
