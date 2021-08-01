@@ -41,18 +41,18 @@
     </Tooltip>
   </div>
   {#if isPlugin}
-  <div class="install">
-    <h3>packer</h3>
-    <pre><code>require('packer').startup(function()
+    <div class="install">
+      <h3>packer</h3>
+      <pre><code>require('packer').startup(function()
   use '{plugin.id}'
 end)</code></pre>
-  </div>
-  <div class="install">
-    <h3>paq</h3>
-    <pre><code>require "paq" &lcub; 
+    </div>
+    <div class="install">
+      <h3>paq</h3>
+      <pre><code>require "paq" &lcub; 
   '{plugin.id}'
 &rcub;</code></pre>
-  </div>
+    </div>
   {/if}
   <hr />
 </div>
