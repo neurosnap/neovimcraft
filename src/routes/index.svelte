@@ -17,7 +17,6 @@
 </script>
 
 <script lang="ts">
-  import qs from 'query-string';
   import { goto } from '$app/navigation';
   import { page } from '$app/stores';
   import type { Plugin, Tag, TagMap } from '$lib/types';
@@ -37,28 +36,19 @@
   };
 
   function onSearch(curSearch: string) {
+    if (typeof window === 'undefined') return;
     if (curSearch) {
-      const query = qs.parseUrl(window.location.search);
-      const s = encodeURIComponent(curSearch);
-      query.query.search = s;
-      goto(`/${qs.stringifyUrl(query)}`, {
+      goto(`/?search=${curSearch}`, {
         replaceState: true,
-        noscroll: true,
         keepfocus: true,
       });
     } else {
-      const query = qs.parseUrl(window.location.search);
-      delete query.query.search;
-      goto(`/${qs.stringifyUrl(query)}`, { replaceState: true, noscroll: true, keepfocus: true });
+      goto('/', { replaceState: true, keepfocus: true });
     }
   }
 
   function clearSearch() {
-    goto('/', {
-      replaceState: true,
-      noscroll: true,
-      keepfocus: true,
-    });
+    goto('/');
     document.getElementById('search').focus();
   }
 
@@ -80,11 +70,14 @@
   function getTags(tags: string[]): Tag[] {
     return tags.map((t) => tagDb[t]).filter(Boolean);
   }
-
-  let search = '';
-  page.subscribe(({ query }) => {
+  
+  // const parsed = qs.parse(typeof window !== 'undefined' ? window.location.search : '?search=');
+  // let initialSearch = (parsed['search'] as string) || '';
+  // let search = '' // initialSearch;
+  $: search = decodeURIComponent($page.query.get('search') || '');
+  /* page.subscribe(({ query }) => {
     search = decodeURIComponent(query.get('search') || '');
-  });
+  }); */
 
   export let plugins: Plugin[] = [];
   export let tags: Tag[] = [];

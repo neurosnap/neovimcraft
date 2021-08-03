@@ -17,7 +17,7 @@ const config = {
       fallback: null,
     }),
     prerender: {
-      force: true,
+      onError: 'continue',
     },
   },
 };
