@@ -648,6 +648,7 @@
     },
     { "type": "github", "username": "Famiu", "repo": "feline.nvim", "tags": ["statusline"] },
     { "type": "github", "username": "windwp", "repo": "windline.nvim", "tags": ["statusline"] },
+    { "type": "github", "username": "konapun", "repo": "vacuumline.nvim", "tags": ["statusline"] },
     { "type": "github", "username": "yamatsum", "repo": "nvim-cursorline", "tags": ["cursorline"] },
     {
       "type": "github",
@@ -941,6 +942,12 @@
       "username": "lazytanuki",
       "repo": "nvim-mapper",
       "tags": ["telescope", "keymaps"]
+    },
+    {
+      "type": "github",
+      "username": "henriquehbr",
+      "repo": "nvim-startup.lua",
+      "tags": ["metrics", "startup"]
     }
   ]
 }
