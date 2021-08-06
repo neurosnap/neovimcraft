@@ -86,6 +86,12 @@
     },
     {
       "type": "github",
+      "username": "jakewvincent",
+      "repo": "texmagic.nvim",
+      "tags": ["neovim-0.5"]
+    },
+    {
+      "type": "github",
       "username": "anott03",
       "repo": "nvim-lspinstall",
       "tags": ["lsp-installers"]
@@ -118,6 +124,7 @@
       "repo": "follow-md-links.nvim",
       "tags": ["markdown"]
     },
+    { "type": "github", "username": "jakewvincent", "repo": "mkdnflow.nvim", "tags": ["markdown"] },
     { "type": "github", "username": "jubnzv", "repo": "mdeval.nvim", "tags": ["markdown"] },
     {
       "type": "github",
