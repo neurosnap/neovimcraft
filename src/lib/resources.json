@@ -948,6 +948,13 @@
       "username": "henriquehbr",
       "repo": "nvim-startup.lua",
       "tags": ["metrics", "startup"]
-    }
+    },
+    {
+      "type": "github",
+      "username": "samrath2007",
+      "repo": "kyoto.nvim",
+      "tags": ["preconfigured-configurations"]
+    },
+    { "type": "github", "username": "rcarriga", "repo": "nvim-notify", "tags": ["notifications"] }
   ]
 }
