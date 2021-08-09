@@ -32,10 +32,16 @@ This will use the github api to fetch information about the resources and also
 fetch the associated readme for each resource and save them to `db.json` and
 `markdown.json`
 
+To only process missing resources:
+
+```bash
+yarn process missing
+```
+
 To convert markdown files to html
 
 ```bash
-yarn transform
+yarn html
 ```
 
 This will create an `html.json` file which contains the readme html which we
