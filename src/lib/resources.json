@@ -90,6 +90,7 @@
       "repo": "texmagic.nvim",
       "tags": ["neovim-0.5"]
     },
+    { "type": "github", "username": "nanotee", "repo": "nvim-lsp-basics", "tags": ["neovim-0.5"] },
     {
       "type": "github",
       "username": "anott03",
@@ -630,6 +631,7 @@
     { "type": "github", "username": "crispgm", "repo": "nvim-tabline", "tags": ["tabline"] },
     { "type": "github", "username": "alvarosevilla95", "repo": "luatab.nvim", "tags": ["tabline"] },
     { "type": "github", "username": "johann2357", "repo": "nvim-smartbufs", "tags": ["tabline"] },
+    { "type": "github", "username": "kdheepak", "repo": "tabline.nvim", "tags": ["tabline"] },
     { "type": "github", "username": "glepnir", "repo": "galaxyline.nvim", "tags": ["statusline"] },
     {
       "type": "github",
@@ -690,6 +692,7 @@
       "repo": "dependency-assist.nvim",
       "tags": ["dependency-management"]
     },
+    { "type": "github", "username": "vuki656", "repo": "package-info.nvim", "tags": ["nodejs"] },
     { "type": "github", "username": "f-person", "repo": "git-blame.nvim", "tags": ["git"] },
     { "type": "github", "username": "lewis6991", "repo": "gitsigns.nvim", "tags": ["git"] },
     { "type": "github", "username": "TimUntersberger", "repo": "neogit", "tags": ["git"] },
