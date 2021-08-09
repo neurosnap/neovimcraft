@@ -3,6 +3,18 @@
 A site dedicated to finding the best neovim plugins and other resources for
 building neovim plugins
 
+## Want to submit a plugin?
+
+If you'd like to suggest a plugin to add to `neovimcraft` then feel free to
+open a github issue or submit a PR after running the following command:
+
+```bash
+yarn resource
+```
+
+This command will step through the requirements for adding a resource to the
+site.
+
 ## Developing
 
 You need to add a couple environment variables related to using the github api:
