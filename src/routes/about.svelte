@@ -30,7 +30,7 @@
       </p>
       <p>
         I&apos;m happy to read feedback about neovim craft so please feel free to{' '}
-        <a href="mailto:eric@neovimcraft.com" target="_blank">email me</a>.
+        <a href="mailto:neovimcraft@erock.io" target="_blank">email me</a>.
       </p>
     </div>
     <div>
