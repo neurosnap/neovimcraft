@@ -535,12 +535,19 @@
       "repo": "github-nvim-theme",
       "tags": ["treesitter-colorschemes"]
     },
+    {
+      "type": "github",
+      "username": "kdheepak",
+      "repo": "monochrome.nvim",
+      "tags": ["treesitter-colorschemes"]
+    },
     { "type": "github", "username": "famiu", "repo": "bufdelete.nvim", "tags": ["utility"] },
     { "type": "github", "username": "jghauser", "repo": "mkdir.nvim", "tags": ["utility"] },
     { "type": "github", "username": "matbme", "repo": "JABS.nvim", "tags": ["utility"] },
     { "type": "github", "username": "clojure-vim", "repo": "jazz.nvim", "tags": ["utility"] },
     { "type": "github", "username": "code-biscuits", "repo": "nvim-biscuits", "tags": ["utility"] },
     { "type": "github", "username": "Pocco81", "repo": "AbbrevMan.nvim", "tags": ["utility"] },
+    { "type": "github", "username": "kazhala", "repo": "close-buffers.nvim", "tags": ["buffers"] },
     { "type": "github", "username": "kyazdani42", "repo": "nvim-web-devicons", "tags": ["icons"] },
     { "type": "github", "username": "yamatsum", "repo": "nvim-nonicons", "tags": ["icons"] },
     { "type": "github", "username": "mfussenegger", "repo": "nvim-dap", "tags": ["debugging"] },
@@ -666,6 +673,12 @@
       "tags": ["cursorline"]
     },
     { "type": "github", "username": "glepnir", "repo": "dashboard-nvim", "tags": ["start-screen"] },
+    {
+      "type": "github",
+      "username": "henriquehbr",
+      "repo": "nvim-startup.lua",
+      "tags": ["metrics", "startup"]
+    },
     { "type": "github", "username": "glepnir", "repo": "indent-guides.nvim", "tags": ["indent"] },
     {
       "type": "github",
@@ -935,6 +948,12 @@
     { "type": "github", "username": "aserowy", "repo": "tmux.nvim", "tags": ["tmux"] },
     {
       "type": "github",
+      "username": "chipsenkbeil",
+      "repo": "distant.nvim",
+      "tags": ["remote-development"]
+    },
+    {
+      "type": "github",
       "username": "jamestthompson3",
       "repo": "nvim-remote-containers",
       "tags": ["remote-container-development"]
@@ -946,18 +965,11 @@
     { "type": "github", "username": "fhill2", "repo": "floating.nvim", "tags": ["utility"] },
     { "type": "github", "username": "caenrique", "repo": "swap-buffers.nvim", "tags": ["buffers"] },
     { "type": "github", "username": "gelguy", "repo": "wilder.nvim", "tags": ["wildmenu"] },
-    { "type": "github", "username": "kazhala", "repo": "close-buffers.nvim", "tags": ["buffers"] },
     {
       "type": "github",
       "username": "lazytanuki",
       "repo": "nvim-mapper",
       "tags": ["telescope", "keymaps"]
-    },
-    {
-      "type": "github",
-      "username": "henriquehbr",
-      "repo": "nvim-startup.lua",
-      "tags": ["metrics", "startup"]
     },
     {
       "type": "github",
