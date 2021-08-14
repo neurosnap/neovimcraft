@@ -1013,6 +1013,7 @@
       "username": "ahmedkhalf",
       "repo": "project.nvim",
       "tags": ["project", "plugin"]
-    }
+    },
+    { "type": "github", "username": "nathom", "repo": "tmux.nvim", "tags": ["tmux", "plugin"] }
   ]
 }
