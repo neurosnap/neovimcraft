@@ -1014,6 +1014,7 @@
       "repo": "project.nvim",
       "tags": ["project", "plugin"]
     },
-    { "type": "github", "username": "nathom", "repo": "tmux.nvim", "tags": ["tmux", "plugin"] }
+    { "type": "github", "username": "nathom", "repo": "tmux.nvim", "tags": ["tmux", "plugin"] },
+    { "type": "github", "username": "LionC", "repo": "nest.nvim", "tags": ["keymaps", "plugin"] }
   ]
 }
