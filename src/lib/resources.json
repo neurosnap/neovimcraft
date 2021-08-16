@@ -868,6 +868,12 @@
       "repo": "nvim_context_vt",
       "tags": ["editing-supports"]
     },
+    {
+      "type": "github",
+      "username": "romgrk",
+      "repo": "nvim-treesitter-context",
+      "tags": ["editing-supports"]
+    },
     { "type": "github", "username": "mizlan", "repo": "iswap.nvim", "tags": ["editing-supports"] },
     { "type": "github", "username": "nacro90", "repo": "numb.nvim", "tags": ["editing-supports"] },
     {
@@ -901,6 +907,9 @@
       "tags": ["web-development"]
     },
     { "type": "github", "username": "ekickx", "repo": "clipboard-image.nvim", "tags": ["media"] },
+    { "type": "github", "username": "gwatcha", "repo": "reaper-keys", "tags": ["media"] },
+    { "type": "github", "username": "madskjeldgaard", "repo": "reaper-nvim", "tags": ["music"] },
+    { "type": "github", "username": "davidgranstrom", "repo": "scnvim", "tags": ["music"] },
     {
       "type": "github",
       "username": "andweeb",
@@ -980,8 +989,6 @@
       "repo": "nvim-remote-containers",
       "tags": ["remote-container-development"]
     },
-    { "type": "github", "username": "davidgranstrom", "repo": "scnvim", "tags": ["music"] },
-    { "type": "github", "username": "madskjeldgaard", "repo": "reaper-nvim", "tags": ["music"] },
     {
       "type": "github",
       "username": "beauwilliams",

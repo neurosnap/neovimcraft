@@ -100,6 +100,7 @@
       on:keyup={debounce(onSearch)}
       value={search}
       placeholder="search to find a plugin"
+      autocapitalize="off"
     />
     {#if search}
       <span class="clear_search_icon" on:click={clearSearch}>
