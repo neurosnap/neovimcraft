@@ -71,14 +71,7 @@
     return tags.map((t) => tagDb[t]).filter(Boolean);
   }
   
-  // const parsed = qs.parse(typeof window !== 'undefined' ? window.location.search : '?search=');
-  // let initialSearch = (parsed['search'] as string) || '';
-  // let search = '' // initialSearch;
   $: search = decodeURIComponent($page.query.get('search') || '');
-  /* page.subscribe(({ query }) => {
-    search = decodeURIComponent(query.get('search') || '');
-  }); */
-
   export let plugins: Plugin[] = [];
   export let tags: Tag[] = [];
   $: filterTotal = filterPlugins({ search, plugins });
