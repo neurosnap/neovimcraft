@@ -202,6 +202,12 @@
       "repo": "nterm.nvim",
       "tags": ["terminal-integration"]
     },
+    {
+      "type": "github",
+      "username": "s1n7ax",
+      "repo": "nvim-terminal",
+      "tags": ["terminal-integration"]
+    },
     { "type": "github", "username": "norcalli", "repo": "snippets.nvim", "tags": ["snippets"] },
     { "type": "github", "username": "hrsh7th", "repo": "vim-vsnip", "tags": ["snippets"] },
     {
@@ -218,6 +224,7 @@
       "tags": ["registers"]
     },
     { "type": "github", "username": "tversteeg", "repo": "registers.nvim", "tags": ["registers"] },
+    { "type": "github", "username": "AckslD", "repo": "nvim-neoclip.lua", "tags": ["clipboard"] },
     {
       "type": "github",
       "username": "nvim-telescope",
@@ -754,6 +761,7 @@
     { "type": "github", "username": "folke", "repo": "todo-comments.nvim", "tags": ["comment"] },
     { "type": "github", "username": "terrortylor", "repo": "nvim-comment", "tags": ["comment"] },
     { "type": "github", "username": "winston0410", "repo": "commented.nvim", "tags": ["comment"] },
+    { "type": "github", "username": "s1n7ax", "repo": "nvim-comment-frame", "tags": ["comment"] },
     {
       "type": "github",
       "username": "jbyuki",
@@ -1023,6 +1031,11 @@
     },
     { "type": "github", "username": "nathom", "repo": "tmux.nvim", "tags": ["tmux", "plugin"] },
     { "type": "github", "username": "LionC", "repo": "nest.nvim", "tags": ["keymaps", "plugin"] },
-    { "type": "github", "username": "AckslD", "repo": "nvim-neoclip.lua", "tags": ["clipboard"] }
+    {
+      "type": "github",
+      "username": "EdenEast",
+      "repo": "nightfox.nvim",
+      "tags": ["plugin", "treesitter-coloschemes"]
+    }
   ]
 }
