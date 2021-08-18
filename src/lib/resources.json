@@ -1035,7 +1035,7 @@
       "type": "github",
       "username": "EdenEast",
       "repo": "nightfox.nvim",
-      "tags": ["plugin", "treesitter-coloschemes"]
+      "tags": ["plugin", "treesitter-colorschemes"]
     }
   ]
 }
