@@ -111,6 +111,8 @@
     },
     { "type": "github", "username": "nvim-lua", "repo": "completion-nvim", "tags": ["completion"] },
     { "type": "github", "username": "hrsh7th", "repo": "nvim-compe", "tags": ["completion"] },
+    { "type": "github", "username": "hrsh7th", "repo": "nvim-cmp", "tags": ["completion"] },
+    { "type": "github", "username": "ms-jpq", "repo": "coq_nvim", "tags": ["completion"] },
     { "type": "github", "username": "npxbr", "repo": "glow.nvim", "tags": ["markdown"] },
     {
       "type": "github",
@@ -710,6 +712,7 @@
     { "type": "github", "username": "TimUntersberger", "repo": "neofs", "tags": ["file-explorer"] },
     { "type": "github", "username": "kevinhwang91", "repo": "rnvimr", "tags": ["file-explorer"] },
     { "type": "github", "username": "Xuyuanp", "repo": "yanil", "tags": ["file-explorer"] },
+    { "type": "github", "username": "ms-jpq", "repo": "chadtree", "tags": ["file-explorer"] },
     {
       "type": "github",
       "username": "akinsho",
@@ -1036,6 +1039,12 @@
       "username": "EdenEast",
       "repo": "nightfox.nvim",
       "tags": ["plugin", "treesitter-colorschemes"]
+    },
+    {
+      "type": "github",
+      "username": "projekt0n",
+      "repo": "circles.nvim",
+      "tags": ["icons", "plugin"]
     }
   ]
 }
