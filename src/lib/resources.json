@@ -1006,6 +1006,12 @@
       "repo": "focus.nvim",
       "tags": ["splits-and-windows"]
     },
+    {
+      "type": "github",
+      "username": "henriquehbr",
+      "repo": "ataraxis.lua",
+      "tags": ["splits-and-windows"]
+    },
     { "type": "github", "username": "NTBBloodbath", "repo": "nvenv", "tags": ["version-managers"] },
     { "type": "github", "username": "shohi", "repo": "neva", "tags": ["version-managers"] },
     { "type": "github", "username": "gennaro-tedesco", "repo": "boilit", "tags": ["boilerplate"] },
@@ -1045,6 +1051,18 @@
       "username": "projekt0n",
       "repo": "circles.nvim",
       "tags": ["icons", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "David-Kunz",
+      "repo": "treesitter-unit",
+      "tags": ["syntax", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "ironhouzi",
+      "repo": "starlite-nvim",
+      "tags": ["plugin", "neovim-0.5"]
     }
   ]
 }
