@@ -109,6 +109,12 @@
       "repo": "nvim-lspinstall",
       "tags": ["lsp-installers"]
     },
+    {
+      "type": "github",
+      "username": "williamboman",
+      "repo": "nvim-lsp-installer",
+      "tags": ["lsp-installers"]
+    },
     { "type": "github", "username": "nvim-lua", "repo": "completion-nvim", "tags": ["completion"] },
     { "type": "github", "username": "hrsh7th", "repo": "nvim-compe", "tags": ["completion"] },
     { "type": "github", "username": "hrsh7th", "repo": "nvim-cmp", "tags": ["completion"] },
@@ -1063,6 +1069,13 @@
       "username": "ironhouzi",
       "repo": "starlite-nvim",
       "tags": ["plugin", "neovim-0.5"]
+    },
+    { "type": "github", "username": "SmiteshP", "repo": "nvim-gps", "tags": ["plugin"] },
+    {
+      "type": "github",
+      "username": "Rasukarusan",
+      "repo": "nvim-select-multi-line",
+      "tags": ["plugin"]
     }
   ]
 }
