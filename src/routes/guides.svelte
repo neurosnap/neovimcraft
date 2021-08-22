@@ -54,12 +54,23 @@
       I've been compiling a list of guides that help people build and use lua plugins for neovim.
     </p>
     {#each articles as link}
-      <div class="article">
+      <div class="article"> 
         {#if link.media}
-          <a href={link.url} target="_blank">
-            <img src={link.media} alt={link.text} class="media" />
-          </a>
-        {/if}
+          {#if link.media.includes('youtube')}
+            <iframe 
+              width="560" 
+              height="315" 
+              src="{link.media}" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen></iframe>
+          {:else}
+            <a href={link.url} target="_blank">
+              <img src={link.media} alt={link.text} class="media" />
+            </a>
+          {/if} 
+        {/if} 
         <div class="article-header">
           <h2>
             <a href={link.url} target="_blank">{link.text}</a>
