@@ -1064,6 +1064,7 @@
       "repo": "vacuumline.nvim",
       "tags": ["statusline", "plugin"]
     },
+    { "type": "github", "username": "SmiteshP", "repo": "nvim-gps", "tags": ["plugin"] },
     {
       "type": "github",
       "username": "yamatsum",
@@ -1730,7 +1731,6 @@
       "repo": "starlite-nvim",
       "tags": ["plugin", "neovim-0.5"]
     },
-    { "type": "github", "username": "SmiteshP", "repo": "nvim-gps", "tags": ["plugin"] },
     {
       "type": "github",
       "username": "Rasukarusan",

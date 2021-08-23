@@ -14,6 +14,9 @@
       <a href="/plugin/{plugin.username}/{plugin.repo}">{plugin.repo}</a>
     </h2>
     <div class="metrics">
+      <Tooltip tip="github repo" bottom>
+        <a href={plugin.link} target="_blank"><Icon icon="github" /></a>
+      </Tooltip>
       <Tooltip tip="stars" bottom>
         <div class="metric-item"><Icon icon="star" /> <span>{plugin.stars}</span></div>
       </Tooltip>
@@ -61,8 +64,8 @@
   }
 
   .metrics {
-    width: 150px;
-    min-width: 150px;
+    width: 175px;
+    min-width: 175px;
     display: flex;
     justify-content: space-between;
   }

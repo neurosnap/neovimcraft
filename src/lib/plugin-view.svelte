@@ -6,6 +6,7 @@
   import TagItem from './tag.svelte';
   import Icon from './icon.svelte';
   import Tooltip from '$lib/tooltip.svelte';
+  import { format, relativeTimeFromDates } from '$lib/date';
 
   export let plugin: Plugin;
   export let tags: Tag[];
@@ -40,8 +41,10 @@
       <div class="metric"><Icon icon="git-branch" /> <span>{plugin.forks}</span></div>
     </Tooltip>
   </div>
-  <div><div>Created</div><div>{plugin.createdAt}</div></div>
-  <div><div>Last updated</div><div>{plugin.createdAt}</div></div>
+  <div class="timestamps">
+    <div><h5 class="ts-header">CREATED</h5><h2>{format(new Date(plugin.createdAt))}</h2></div>
+    <div><h5 class="ts-header">UPDATED</h5><h2>{relativeTimeFromDates(new Date(plugin.updatedAt))}</h2></div>
+  </div>
   {#if isPlugin}
     <div class="install">
       <h3><a href="https://github.com/wbthomason/packer.nvim" target="_blank">packer</a></h3>
@@ -64,6 +67,18 @@ end)</code></pre>
   :global(img) {
     max-width: 100%;
     height: auto;
+  }
+
+  .timestamps {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  .ts-header {
+    margin-bottom: 10px;
   }
 
   .meta {

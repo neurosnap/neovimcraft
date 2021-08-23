@@ -36,11 +36,7 @@
 <script lang="ts">
   import Nav from '$lib/nav.svelte';
   import Tag from '$lib/tag.svelte';
-
-  const zero = (num: number) => (num < 10 ? `0${num}` : `${num}`);
-  const format = (date: Date) => {
-    return `${date.getFullYear()}-${zero(date.getMonth() + 1)}-${zero(date.getDate())}`;
-  };
+  import { format } from '$lib/date';
 
   export let articles: Article[];
 </script>
