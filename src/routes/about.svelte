@@ -39,7 +39,7 @@
       <h3>Where do we get our content from?</h3>
       <p>
         As of right now, most of our data is scraped from github. You can find our scrape script
-        <a href="https://github.com/neurosnap/neovimcraft/blob/main/src/scrape.ts" target="_blank"
+        <a href="https://github.com/neurosnap/neovimcraft/blob/main/scripts/scrape.ts" target="_blank"
           >here</a
         >.
       </p>
