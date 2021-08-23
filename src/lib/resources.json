@@ -1076,6 +1076,12 @@
       "username": "Rasukarusan",
       "repo": "nvim-select-multi-line",
       "tags": ["plugin"]
+    },
+    {
+      "type": "github",
+      "username": "Pocco81",
+      "repo": "Catppuccino.nvim",
+      "tags": ["treesitter-colorschemes", "plugin"]
     }
   ]
 }
