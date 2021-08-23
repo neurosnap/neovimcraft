@@ -1,6 +1,7 @@
 import fs from 'fs';
 import util from 'util';
 import fetch from 'node-fetch';
+import prettier from 'prettier';
 
 import type { Plugin, Resource } from '../src/lib/types';
 import { createPlugin } from '../src/lib/entities';
@@ -169,6 +170,8 @@ async function processResources(resources: Resource[]) {
           subscribers: resp.repo.subscribers_count,
           network: resp.repo.network_count,
           description: resp.repo.description,
+          createdAt: resp.repo.created_at,
+          updatedAt: resp.repo.updated_at,
         });
       }
     }
@@ -184,6 +187,14 @@ async function saveData({
   plugins: { [key: string]: Plugin };
   markdown: { [key: string]: string };
 }) {
-  await writeFile('./src/lib/db.json', JSON.stringify({ plugins }));
-  await writeFile('./src/lib/markdown.json', JSON.stringify({ markdown }));
+  const pluginJson = prettier.format(JSON.stringify({ plugins }), {
+    parser: 'json',
+    printWidth: 100,
+  });
+  const markdownJson = prettier.format(JSON.stringify({ markdown }), {
+    parser: 'json',
+    printWidth: 100,
+  });
+  await writeFile('./src/lib/db.json', pluginJson);
+  await writeFile('./src/lib/markdown.json', markdownJson);
 }

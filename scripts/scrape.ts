@@ -52,7 +52,7 @@ async function processMarkdown(text: string) {
 
           // hardcoded deny-list for headings
           if (['contents', 'vim'].includes(heading)) return;
-          const resource = createResource({ tags: [sanitizeTag(heading)] });
+          const resource = createResource({ tags: [sanitizeTag(heading), 'plugin'] });
           let link = '';
 
           // first token is always a link

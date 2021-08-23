@@ -40,15 +40,17 @@
       <div class="metric"><Icon icon="git-branch" /> <span>{plugin.forks}</span></div>
     </Tooltip>
   </div>
+  <div><div>Created</div><div>{plugin.createdAt}</div></div>
+  <div><div>Last updated</div><div>{plugin.createdAt}</div></div>
   {#if isPlugin}
     <div class="install">
-      <h3>packer</h3>
+      <h3><a href="https://github.com/wbthomason/packer.nvim" target="_blank">packer</a></h3>
       <pre><code>require('packer').startup(function()
   use '{plugin.id}'
 end)</code></pre>
     </div>
     <div class="install">
-      <h3>paq</h3>
+      <h3><a href="https://github.com/savq/paq-nvim" target="_blank">paq</a></h3>
       <pre><code>require "paq" &lcub; 
   '{plugin.id}'
 &rcub;</code></pre>

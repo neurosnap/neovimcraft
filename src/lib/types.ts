@@ -14,6 +14,8 @@ export interface Plugin {
   subscribers: number;
   network: number;
   description: string;
+  createdAt: string;
+  updatedAt: string;
 }
 
 export type PluginMap = { [key: string]: Plugin };

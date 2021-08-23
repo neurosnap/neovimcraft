@@ -17,6 +17,8 @@ export const createPlugin = (p: Partial<Plugin> = {}): Plugin => {
     stars: 0,
     subscribers: 0,
     network: 0,
+    createdAt: '',
+    updatedAt: '',
     ...p,
   };
 };

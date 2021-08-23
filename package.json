@@ -15,6 +15,7 @@
     "process": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/process.ts",
     "html": "node --loader ts-node/esm scripts/html.ts",
     "resource": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/resource.ts",
+    "resource:clean": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/resource-clean.ts",
     "upload:clean": "gsutil -m rm -r gs://neovimcraft.com/*",
     "upload": "gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' rsync -r ./build gs://neovimcraft.com",
     "deploy": "yarn build:clean && yarn build && yarn upload:clean && yarn upload"
