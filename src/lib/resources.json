@@ -224,12 +224,6 @@
     {
       "type": "github",
       "username": "hrsh7th",
-      "repo": "nvim-compe",
-      "tags": ["completion", "plugin"]
-    },
-    {
-      "type": "github",
-      "username": "hrsh7th",
       "repo": "nvim-cmp",
       "tags": ["completion", "plugin"]
     },
@@ -522,6 +516,12 @@
     },
     {
       "type": "github",
+      "username": "FrenzyExists",
+      "repo": "aquarium-vim",
+      "tags": ["colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "rafamadriz",
       "repo": "neon",
       "tags": ["treesitter-colorschemes", "plugin"]
@@ -803,6 +803,18 @@
       "tags": ["treesitter-colorschemes", "plugin"]
     },
     { "type": "github", "username": "rose-pine", "repo": "neovim", "tags": ["colors", "plugin"] },
+    {
+      "type": "github",
+      "username": "mcchrish",
+      "repo": "zenbones.nvim",
+      "tags": ["treesitter-colorschemes", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "Pocco81",
+      "repo": "Catppuccino.nvim",
+      "tags": ["treesitter-colorschemes", "plugin"]
+    },
     {
       "type": "github",
       "username": "famiu",
@@ -1272,6 +1284,7 @@
       "repo": "nvim-comment-frame",
       "tags": ["comment", "plugin"]
     },
+    { "type": "github", "username": "danymat", "repo": "neogen", "tags": ["comment", "plugin"] },
     {
       "type": "github",
       "username": "jbyuki",
@@ -1662,6 +1675,12 @@
       "repo": "boilit",
       "tags": ["boilerplate", "plugin"]
     },
+    {
+      "type": "github",
+      "username": "hrsh7th",
+      "repo": "nvim-compe",
+      "tags": ["completion", "plugin"]
+    },
     { "type": "github", "username": "tsbohc", "repo": "zest.nvim", "tags": ["fennel", "plugin"] },
     {
       "type": "github",
@@ -1736,12 +1755,6 @@
       "username": "Rasukarusan",
       "repo": "nvim-select-multi-line",
       "tags": ["plugin"]
-    },
-    {
-      "type": "github",
-      "username": "Pocco81",
-      "repo": "Catppuccino.nvim",
-      "tags": ["treesitter-colorschemes", "plugin"]
     }
   ]
 }
