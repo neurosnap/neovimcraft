@@ -1755,6 +1755,7 @@
       "username": "Rasukarusan",
       "repo": "nvim-select-multi-line",
       "tags": ["plugin"]
-    }
+    },
+    { "type": "github", "username": "saecki", "repo": "crates.nvim", "tags": ["rust", "plugin"] }
   ]
 }
