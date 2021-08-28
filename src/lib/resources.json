@@ -498,6 +498,12 @@
     { "type": "github", "username": "rktjmp", "repo": "lush.nvim", "tags": ["colors", "plugin"] },
     {
       "type": "github",
+      "username": "Iron-E",
+      "repo": "nvim-highlite",
+      "tags": ["treesitter-colorschemes", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "tjdevries",
       "repo": "gruvbuddy.nvim",
       "tags": ["colorscheme", "plugin"]
@@ -518,6 +524,12 @@
       "type": "github",
       "username": "FrenzyExists",
       "repo": "aquarium-vim",
+      "tags": ["colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "metalelf0",
+      "repo": "jellybeans-nvim",
       "tags": ["colorscheme", "plugin"]
     },
     {
@@ -578,12 +590,6 @@
       "type": "github",
       "username": "mhartington",
       "repo": "oceanic-next",
-      "tags": ["treesitter-colorschemes", "plugin"]
-    },
-    {
-      "type": "github",
-      "username": "Iron-E",
-      "repo": "nvim-highlite",
       "tags": ["treesitter-colorschemes", "plugin"]
     },
     {
@@ -983,7 +989,7 @@
     {
       "type": "github",
       "username": "akinsho",
-      "repo": "nvim-bufferline.lua",
+      "repo": "bufferline.nvim",
       "tags": ["tabline", "plugin"]
     },
     {
@@ -1674,6 +1680,12 @@
       "username": "gennaro-tedesco",
       "repo": "boilit",
       "tags": ["boilerplate", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "akinsho",
+      "repo": "nvim-bufferline.lua",
+      "tags": ["tabline", "plugin"]
     },
     {
       "type": "github",
