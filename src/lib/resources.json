@@ -1,27 +1,27 @@
 {
   "resources": [
-    { "type": "github", "username": "yatli", "repo": "fvim", "tags": ["ui", "plugin"] },
-    { "type": "github", "username": "smolck", "repo": "uivonim", "tags": ["ui", "plugin"] },
-    { "type": "github", "username": "qvacua", "repo": "vimr", "tags": ["ui", "plugin"] },
-    { "type": "github", "username": "vhakulinen", "repo": "gnvim", "tags": ["ui", "plugin"] },
-    { "type": "github", "username": "Kethku", "repo": "neovide", "tags": ["ui", "plugin"] },
-    { "type": "github", "username": "beeender", "repo": "glrnvim", "tags": ["ui", "plugin"] },
-    { "type": "github", "username": "akiyosi", "repo": "goneovim", "tags": ["ui", "plugin"] },
-    { "type": "github", "username": "RMichelsen", "repo": "Nvy", "tags": ["ui", "plugin"] },
+    { "type": "github", "username": "yatli", "repo": "fvim", "tags": ["ui"] },
+    { "type": "github", "username": "smolck", "repo": "uivonim", "tags": ["ui"] },
+    { "type": "github", "username": "qvacua", "repo": "vimr", "tags": ["ui"] },
+    { "type": "github", "username": "vhakulinen", "repo": "gnvim", "tags": ["ui"] },
+    { "type": "github", "username": "Kethku", "repo": "neovide", "tags": ["ui"] },
+    { "type": "github", "username": "beeender", "repo": "glrnvim", "tags": ["ui"] },
+    { "type": "github", "username": "akiyosi", "repo": "goneovim", "tags": ["ui"] },
+    { "type": "github", "username": "RMichelsen", "repo": "Nvy", "tags": ["ui"] },
     {
       "type": "github",
       "username": "asvetliakov",
       "repo": "vscode-neovim",
-      "tags": ["ui", "plugin"]
+      "tags": ["ui"]
     },
-    { "type": "github", "username": "equalsraf", "repo": "neovim-qt", "tags": ["ui", "plugin"] },
-    { "type": "github", "username": "lunixbochs", "repo": "actualvim", "tags": ["ui", "plugin"] },
-    { "type": "github", "username": "vv-vim", "repo": "vv", "tags": ["ui", "plugin"] },
+    { "type": "github", "username": "equalsraf", "repo": "neovim-qt", "tags": ["ui"] },
+    { "type": "github", "username": "lunixbochs", "repo": "actualvim", "tags": ["ui"] },
+    { "type": "github", "username": "vv-vim", "repo": "vv", "tags": ["ui"] },
     {
       "type": "github",
       "username": "jebberjeb",
       "repo": "javafx-neovimpane",
-      "tags": ["ui", "plugin"]
+      "tags": ["ui"]
     },
     {
       "type": "github",
@@ -1575,43 +1575,43 @@
       "type": "github",
       "username": "NTBBloodbath",
       "repo": "doom-nvim",
-      "tags": ["preconfigured-configurations", "plugin"]
+      "tags": ["preconfigured-configurations"]
     },
     {
       "type": "github",
       "username": "crivotz",
       "repo": "nv-ide",
-      "tags": ["preconfigured-configurations", "plugin"]
+      "tags": ["preconfigured-configurations"]
     },
     {
       "type": "github",
       "username": "ChristianChiarulli",
       "repo": "LunarVim",
-      "tags": ["preconfigured-configurations", "plugin"]
+      "tags": ["preconfigured-configurations"]
     },
     {
       "type": "github",
       "username": "hackorum",
       "repo": "VapourNvim",
-      "tags": ["preconfigured-configurations", "plugin"]
+      "tags": ["preconfigured-configurations"]
     },
     {
       "type": "github",
       "username": "vi-tality",
       "repo": "neovitality",
-      "tags": ["preconfigured-configurations", "plugin"]
+      "tags": ["preconfigured-configurations"]
     },
     {
       "type": "github",
       "username": "siduck76",
       "repo": "NvChad",
-      "tags": ["preconfigured-configurations", "plugin"]
+      "tags": ["preconfigured-configurations"]
     },
     {
       "type": "github",
       "username": "ashincoder",
       "repo": "StarVim",
-      "tags": ["preconfigured-configurations", "plugin"]
+      "tags": ["preconfigured-configurations"]
     },
     {
       "type": "github",
@@ -1722,7 +1722,7 @@
       "type": "github",
       "username": "samrath2007",
       "repo": "kyoto.nvim",
-      "tags": ["preconfigured-configurations", "plugin"]
+      "tags": ["preconfigured-configurations"]
     },
     {
       "type": "github",
@@ -1768,6 +1768,7 @@
       "repo": "nvim-select-multi-line",
       "tags": ["plugin"]
     },
-    { "type": "github", "username": "saecki", "repo": "crates.nvim", "tags": ["rust", "plugin"] }
+    { "type": "github", "username": "saecki", "repo": "crates.nvim", "tags": ["rust", "plugin"] },
+    { "type": "github", "username": "rohit-px2", "repo": "nvui", "tags": ["ui"] }
   ]
 }
