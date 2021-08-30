@@ -8,21 +8,11 @@
     { "type": "github", "username": "beeender", "repo": "glrnvim", "tags": ["ui"] },
     { "type": "github", "username": "akiyosi", "repo": "goneovim", "tags": ["ui"] },
     { "type": "github", "username": "RMichelsen", "repo": "Nvy", "tags": ["ui"] },
-    {
-      "type": "github",
-      "username": "asvetliakov",
-      "repo": "vscode-neovim",
-      "tags": ["ui"]
-    },
+    { "type": "github", "username": "asvetliakov", "repo": "vscode-neovim", "tags": ["ui"] },
     { "type": "github", "username": "equalsraf", "repo": "neovim-qt", "tags": ["ui"] },
     { "type": "github", "username": "lunixbochs", "repo": "actualvim", "tags": ["ui"] },
     { "type": "github", "username": "vv-vim", "repo": "vv", "tags": ["ui"] },
-    {
-      "type": "github",
-      "username": "jebberjeb",
-      "repo": "javafx-neovimpane",
-      "tags": ["ui"]
-    },
+    { "type": "github", "username": "jebberjeb", "repo": "javafx-neovimpane", "tags": ["ui"] },
     {
       "type": "github",
       "username": "wbthomason",
@@ -45,6 +35,12 @@
       "type": "github",
       "username": "neovim",
       "repo": "nvim-lspconfig",
+      "tags": ["neovim-0.5", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "neoclide",
+      "repo": "coc.nvim",
       "tags": ["neovim-0.5", "plugin"]
     },
     {
@@ -358,6 +354,12 @@
       "type": "github",
       "username": "s1n7ax",
       "repo": "nvim-terminal",
+      "tags": ["terminal-integration", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "voldikss",
+      "repo": "vim-floaterm",
       "tags": ["terminal-integration", "plugin"]
     },
     {
@@ -1769,6 +1771,12 @@
       "tags": ["plugin"]
     },
     { "type": "github", "username": "saecki", "repo": "crates.nvim", "tags": ["rust", "plugin"] },
-    { "type": "github", "username": "rohit-px2", "repo": "nvui", "tags": ["ui"] }
+    { "type": "github", "username": "rohit-px2", "repo": "nvui", "tags": ["ui"] },
+    {
+      "type": "github",
+      "username": "rexagod",
+      "repo": "samwise.nvim",
+      "tags": ["note-taking", "plugin"]
+    }
   ]
 }
