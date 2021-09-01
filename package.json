@@ -18,7 +18,8 @@
     "resource:clean": "node --experimental-specifier-resolution=node --loader ts-node/esm scripts/resource-clean.ts",
     "upload:clean": "gsutil -m rm -r gs://neovimcraft.com/*",
     "upload": "gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' rsync -r ./build gs://neovimcraft.com",
-    "deploy": "yarn build:clean && yarn build && yarn upload:clean && yarn upload"
+    "deploy": "yarn build:clean && yarn build && yarn upload:clean && yarn upload",
+    "deploy:all": "yarn scrape && yarn process && yarn html && yarn deploy"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.0-next.13",
