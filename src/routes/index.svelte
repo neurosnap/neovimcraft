@@ -152,17 +152,17 @@
         {#if sort === 'stars'}
           stars
         {:else}
-          <a href="#" on:click={(e) => setSort(e, 'stars')}>stars</a>
+          <a href={'#'} on:click={(e) => setSort(e, 'stars')}>stars</a>
         {/if}
         {#if sort === 'createdAt'}
           created
         {:else}
-          <a href="#" on:click={(e) => setSort(e, 'createdAt')}>created</a>
+          <a href={'#'} on:click={(e) => setSort(e, 'createdAt')}>created</a>
         {/if}
         {#if sort === 'updatedAt'}
           updated
         {:else}
-          <a href="#" on:click={(e) => setSort(e, 'updatedAt')}>updated</a>
+          <a href={'#'} on:click={(e) => setSort(e, 'updatedAt')}>updated</a>
         {/if}
       </div>
       {#each filterTotal as plugin}
