@@ -1777,6 +1777,7 @@
       "username": "rexagod",
       "repo": "samwise.nvim",
       "tags": ["note-taking", "plugin"]
-    }
+    },
+    { "type": "github", "username": "lervag", "repo": "vimtex", "tags": ["tex", "syntax", "ftplugin"] }
   ]
 }
