@@ -39,8 +39,9 @@
       <h3>Where do we get our content from?</h3>
       <p>
         As of right now, most of our data is scraped from github. You can find our scrape script
-        <a href="https://github.com/neurosnap/neovimcraft/blob/main/scripts/scrape.ts" target="_blank"
-          >here</a
+        <a
+          href="https://github.com/neurosnap/neovimcraft/blob/main/scripts/scrape.ts"
+          target="_blank">here</a
         >.
       </p>
       <h3>How can I submit a plugin or resource to this project?</h3>

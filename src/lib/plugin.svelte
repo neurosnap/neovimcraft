@@ -3,6 +3,7 @@
   import Tooltip from './tooltip.svelte';
   import Icon from './icon.svelte';
   import TagItem from './tag.svelte';
+  import { relativeTimeFromDates } from './date';
   export let plugin: Plugin;
   export let tags: Tag[];
   export let onSearch: (t: string) => any = (_: string) => {};
@@ -27,6 +28,9 @@
       </Tooltip>
     </div>
   </div>
+  <div class="date">
+    updated {relativeTimeFromDates(new Date(plugin.updatedAt))}
+  </div>
   <div class="desc">
     {plugin.description}
   </div>
@@ -45,6 +49,10 @@
     height: 170px;
     width: 100%;
     border-bottom: 1px solid var(--primary-color);
+  }
+
+  .date {
+    font-size: 14px;
   }
 
   .header {

@@ -47,13 +47,38 @@
     }
   }
 
+  const sortNum = (a: number, b: number) => b - a;
+  const sortDateStr = (a: string, b: string) => {
+    const dateA = new Date(a).getTime();
+    const dateB = new Date(b).getTime();
+    return dateB - dateA;
+  };
+
+  function onSort(by: keyof Plugin) {
+    if (by === 'createdAt') {
+      return (a: Plugin, b: Plugin) => sortDateStr(a.createdAt, b.createdAt);
+    }
+    if (by === 'updatedAt') {
+      return (a: Plugin, b: Plugin) => sortDateStr(a.updatedAt, b.updatedAt);
+    }
+    return (a: Plugin, b: Plugin) => sortNum(a.stars, b.stars);
+  }
+
   function clearSearch() {
     goto('/');
     document.getElementById('search').focus();
   }
 
-  function filterPlugins({ search, plugins }: { search: string; plugins: Plugin[] }): Plugin[] {
-    if (!search) return plugins;
+  function filterPlugins({
+    search,
+    plugins,
+    sort,
+  }: {
+    search: string;
+    plugins: Plugin[];
+    sort: keyof Plugin;
+  }): Plugin[] {
+    if (!search) return plugins.sort(onSort(sort));
 
     const onFilter = (plugin: Plugin) => {
       if (search.includes('tag:')) {
@@ -63,18 +88,23 @@
       return plugin.id.toLocaleLowerCase().includes(search.toLocaleLowerCase());
     };
 
-    return plugins.filter(onFilter);
+    return plugins.filter(onFilter).sort(onSort(sort));
   }
 
   export let tagDb: TagMap = {};
   function getTags(tags: string[]): Tag[] {
     return tags.map((t) => tagDb[t]).filter(Boolean);
   }
-  
+
   $: search = decodeURIComponent($page.query.get('search') || '');
+  let sort = 'stars' as keyof Plugin;
+  const setSort = (e: any, nextSort: keyof Plugin) => {
+    e.preventDefault();
+    sort = nextSort;
+  };
   export let plugins: Plugin[] = [];
   export let tags: Tag[] = [];
-  $: filterTotal = filterPlugins({ search, plugins });
+  $: filterTotal = filterPlugins({ search, plugins, sort });
 </script>
 
 <svelte:head>
@@ -118,6 +148,23 @@
   <div class="plugins">
     <div class="plugins_list" id="plugins_list">
       <div class="search_results">{filterTotal.length} results</div>
+      <div>
+        {#if sort === 'stars'}
+          stars
+        {:else}
+          <a href="#" on:click={(e) => setSort(e, 'stars')}>stars</a>
+        {/if}
+        {#if sort === 'createdAt'}
+          created
+        {:else}
+          <a href="#" on:click={(e) => setSort(e, 'createdAt')}>created</a>
+        {/if}
+        {#if sort === 'updatedAt'}
+          updated
+        {:else}
+          <a href="#" on:click={(e) => setSort(e, 'updatedAt')}>updated</a>
+        {/if}
+      </div>
       {#each filterTotal as plugin}
         <PluginItem {plugin} tags={getTags(plugin.tags)} {onSearch} />
       {/each}

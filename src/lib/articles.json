@@ -68,7 +68,8 @@
       "desc": "New to lua?  Start with us and learn!",
       "date": "2021-07-22",
       "media": "/lua-script.png"
-    }, {
+    },
+    {
       "text": "Let's create a Neovim plugin using Treesitter and Lua",
       "tags": ["learn"],
       "url": "https://www.youtube.com/watch?v=dPQfsASHNkg",

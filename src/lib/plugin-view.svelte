@@ -42,8 +42,14 @@
     </Tooltip>
   </div>
   <div class="timestamps">
-    <div><h5 class="ts-header">CREATED</h5><h2>{format(new Date(plugin.createdAt))}</h2></div>
-    <div><h5 class="ts-header">UPDATED</h5><h2>{relativeTimeFromDates(new Date(plugin.updatedAt))}</h2></div>
+    <div>
+      <h5 class="ts-header">CREATED</h5>
+      <h2>{format(new Date(plugin.createdAt))}</h2>
+    </div>
+    <div>
+      <h5 class="ts-header">UPDATED</h5>
+      <h2>{relativeTimeFromDates(new Date(plugin.updatedAt))}</h2>
+    </div>
   </div>
   {#if isPlugin}
     <div class="install">
