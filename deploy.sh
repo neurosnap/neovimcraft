@@ -1,5 +1,6 @@
 #!/bin/bash
 set -x
+set -e
 
 $NODE --experimental-specifier-resolution=node --loader ts-node/esm scripts/scrape.ts
 $NODE --experimental-specifier-resolution=node --loader ts-node/esm scripts/process.ts
