@@ -1791,6 +1791,12 @@
       "repo": "samwise.nvim",
       "tags": ["note-taking", "plugin"]
     },
+    {
+      "type": "github",
+      "username": "jceb",
+      "repo": "blinds.nvim",
+      "tags": ["colors", "plugin"]
+    },
     { "type": "github", "username": "duane9", "repo": "nvim-rg", "tags": ["search", "plugin"] }
   ]
 }
