@@ -175,7 +175,6 @@
 <style>
   .desc {
     margin-bottom: 5px;
-    margin-left: 25px;
     grid-row: 1;
     grid-column: 1;
     align-items: center;
@@ -220,12 +219,12 @@
     grid-template-columns: minmax(250px, 400px) minmax(350px, 600px);
     grid-template-rows: 50px 1fr;
     column-gap: 10px;
+    margin: 0 25px;
   }
 
   .sidebar {
     grid-column: 1;
     grid-row: 2;
-    padding: 0 25px 25px 25px;
   }
 
   .plugins {
@@ -239,8 +238,8 @@
 
   @media only screen and (max-width: 700px) {
     .container {
-      grid-template-columns: 92%;
-      justify-content: center;
+      grid-template-columns: 100%;
+      margin: 0 15px;
     }
 
     .sidebar {
