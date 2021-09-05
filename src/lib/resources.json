@@ -1141,6 +1141,12 @@
     },
     {
       "type": "github",
+      "username": "seandewar",
+      "repo": "nvimesweeper",
+      "tags": ["games", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "kyazdani42",
       "repo": "nvim-tree.lua",
       "tags": ["file-explorer", "plugin"]
@@ -1340,6 +1346,12 @@
       "type": "github",
       "username": "pianocomposer321",
       "repo": "yabs.nvim",
+      "tags": ["code-runner", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "CRAG666",
+      "repo": "code_runner.nvim",
       "tags": ["code-runner", "plugin"]
     },
     {
@@ -1633,6 +1645,7 @@
       "repo": "nvim-cartographer",
       "tags": ["keybindings", "plugin"]
     },
+    { "type": "github", "username": "b0o", "repo": "mapx.lua", "tags": ["keybindings", "plugin"] },
     {
       "type": "github",
       "username": "numToStr",
@@ -1777,6 +1790,7 @@
       "username": "rexagod",
       "repo": "samwise.nvim",
       "tags": ["note-taking", "plugin"]
-    }
+    },
+    { "type": "github", "username": "duane9", "repo": "nvim-rg", "tags": ["search", "plugin"] }
   ]
 }
