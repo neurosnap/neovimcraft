@@ -506,36 +506,6 @@
     },
     {
       "type": "github",
-      "username": "tjdevries",
-      "repo": "gruvbuddy.nvim",
-      "tags": ["colorscheme", "plugin"]
-    },
-    {
-      "type": "github",
-      "username": "npxbr",
-      "repo": "gruvbox.nvim",
-      "tags": ["colorscheme", "plugin"]
-    },
-    {
-      "type": "github",
-      "username": "Shadorain",
-      "repo": "shadotheme",
-      "tags": ["colorscheme", "plugin"]
-    },
-    {
-      "type": "github",
-      "username": "FrenzyExists",
-      "repo": "aquarium-vim",
-      "tags": ["colorscheme", "plugin"]
-    },
-    {
-      "type": "github",
-      "username": "metalelf0",
-      "repo": "jellybeans-nvim",
-      "tags": ["colorscheme", "plugin"]
-    },
-    {
-      "type": "github",
       "username": "rafamadriz",
       "repo": "neon",
       "tags": ["treesitter-colorschemes", "plugin"]
@@ -822,6 +792,30 @@
       "username": "Pocco81",
       "repo": "Catppuccino.nvim",
       "tags": ["treesitter-colorschemes", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "FrenzyExists",
+      "repo": "aquarium-vim",
+      "tags": ["colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "tjdevries",
+      "repo": "gruvbuddy.nvim",
+      "tags": ["colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "npxbr",
+      "repo": "gruvbox.nvim",
+      "tags": ["colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "metalelf0",
+      "repo": "jellybeans-nvim",
+      "tags": ["colorscheme", "plugin"]
     },
     {
       "type": "github",
@@ -1695,6 +1689,12 @@
       "username": "gennaro-tedesco",
       "repo": "boilit",
       "tags": ["boilerplate", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "Shadorain",
+      "repo": "shadotheme",
+      "tags": ["colorscheme", "plugin"]
     },
     {
       "type": "github",
