@@ -801,6 +801,12 @@
     },
     {
       "type": "github",
+      "username": "EdenEast",
+      "repo": "nightfox.nvim",
+      "tags": ["plugin", "treesitter-colorschemes"]
+    },
+    {
+      "type": "github",
       "username": "tjdevries",
       "repo": "gruvbuddy.nvim",
       "tags": ["colorscheme", "plugin"]
@@ -1753,12 +1759,6 @@
     },
     { "type": "github", "username": "nathom", "repo": "tmux.nvim", "tags": ["tmux", "plugin"] },
     { "type": "github", "username": "LionC", "repo": "nest.nvim", "tags": ["keymaps", "plugin"] },
-    {
-      "type": "github",
-      "username": "EdenEast",
-      "repo": "nightfox.nvim",
-      "tags": ["plugin", "treesitter-colorschemes"]
-    },
     {
       "type": "github",
       "username": "projekt0n",
