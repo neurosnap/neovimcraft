@@ -46,7 +46,7 @@
     display: flex;
     flex-direction: column;
     padding: 15px 0;
-    height: 170px;
+    min-height: 170px;
     width: 100%;
     border-bottom: 1px solid var(--primary-color);
   }
