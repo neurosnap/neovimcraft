@@ -39,12 +39,6 @@
     },
     {
       "type": "github",
-      "username": "neoclide",
-      "repo": "coc.nvim",
-      "tags": ["neovim-0.5", "plugin"]
-    },
-    {
-      "type": "github",
       "username": "nvim-lua",
       "repo": "lsp-status.nvim",
       "tags": ["neovim-0.5", "plugin"]
@@ -354,12 +348,6 @@
       "type": "github",
       "username": "s1n7ax",
       "repo": "nvim-terminal",
-      "tags": ["terminal-integration", "plugin"]
-    },
-    {
-      "type": "github",
-      "username": "voldikss",
-      "repo": "vim-floaterm",
       "tags": ["terminal-integration", "plugin"]
     },
     {
@@ -1645,7 +1633,7 @@
       "repo": "nvim-cartographer",
       "tags": ["keybindings", "plugin"]
     },
-    { "type": "github", "username": "b0o", "repo": "mapx.lua", "tags": ["keybindings", "plugin"] },
+    { "type": "github", "username": "b0o", "repo": "mapx.nvim", "tags": ["keybinding", "plugin"] },
     {
       "type": "github",
       "username": "numToStr",
@@ -1696,6 +1684,19 @@
       "repo": "boilit",
       "tags": ["boilerplate", "plugin"]
     },
+    {
+      "type": "github",
+      "username": "neoclide",
+      "repo": "coc.nvim",
+      "tags": ["neovim-0.5", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "voldikss",
+      "repo": "vim-floaterm",
+      "tags": ["terminal-integration", "plugin"]
+    },
+    { "type": "github", "username": "b0o", "repo": "mapx.lua", "tags": ["keybindings", "plugin"] },
     {
       "type": "github",
       "username": "Shadorain",
