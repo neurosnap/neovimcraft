@@ -223,6 +223,12 @@
       "repo": "coq_nvim",
       "tags": ["completion", "plugin"]
     },
+    {
+      "type": "github",
+      "username": "jameshiew",
+      "repo": "nvim-magic",
+      "tags": ["completion", "plugin"]
+    },
     { "type": "github", "username": "npxbr", "repo": "glow.nvim", "tags": ["markdown", "plugin"] },
     {
       "type": "github",
@@ -792,6 +798,12 @@
       "username": "EdenEast",
       "repo": "nightfox.nvim",
       "tags": ["plugin", "treesitter-colorschemes"]
+    },
+    {
+      "type": "github",
+      "username": "kvrohit",
+      "repo": "substrata.nvim",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
     },
     {
       "type": "github",
@@ -1634,6 +1646,7 @@
       "tags": ["keybindings", "plugin"]
     },
     { "type": "github", "username": "b0o", "repo": "mapx.nvim", "tags": ["keybinding", "plugin"] },
+    { "type": "github", "username": "LionC", "repo": "nest.nvim", "tags": ["keymaps", "plugin"] },
     {
       "type": "github",
       "username": "numToStr",
@@ -1759,7 +1772,6 @@
       "tags": ["project", "plugin"]
     },
     { "type": "github", "username": "nathom", "repo": "tmux.nvim", "tags": ["tmux", "plugin"] },
-    { "type": "github", "username": "LionC", "repo": "nest.nvim", "tags": ["keymaps", "plugin"] },
     {
       "type": "github",
       "username": "projekt0n",
