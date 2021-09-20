@@ -980,6 +980,12 @@
       "repo": "nui.nvim",
       "tags": ["neovim-lua-development", "plugin"]
     },
+    {
+      "type": "github",
+      "username": "m00qek",
+      "repo": "plugin-template.nvim",
+      "tags": ["neovim-lua-development", "plugin"]
+    },
     { "type": "github", "username": "Olical", "repo": "aniseed", "tags": ["fennel", "plugin"] },
     { "type": "github", "username": "rktjmp", "repo": "hotpot.nvim", "tags": ["fennel", "plugin"] },
     {
@@ -1531,6 +1537,12 @@
     },
     {
       "type": "github",
+      "username": "h-hg",
+      "repo": "fcitx.nvim",
+      "tags": ["editing-support", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "mhartington",
       "repo": "formatter.nvim",
       "tags": ["formatting", "plugin"]
@@ -1805,6 +1817,12 @@
       "tags": ["note-taking", "plugin"]
     },
     { "type": "github", "username": "jceb", "repo": "blinds.nvim", "tags": ["colors", "plugin"] },
-    { "type": "github", "username": "duane9", "repo": "nvim-rg", "tags": ["search", "plugin"] }
+    { "type": "github", "username": "duane9", "repo": "nvim-rg", "tags": ["search", "plugin"] },
+    {
+      "type": "github",
+      "username": "GustavoKatel",
+      "repo": "sidebar.nvim",
+      "tags": ["sidebar", "plugin"]
+    }
   ]
 }
