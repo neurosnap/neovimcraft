@@ -807,6 +807,12 @@
     },
     {
       "type": "github",
+      "username": "ldelossa",
+      "repo": "vimdark",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "tjdevries",
       "repo": "gruvbuddy.nvim",
       "tags": ["colorscheme", "plugin"]
