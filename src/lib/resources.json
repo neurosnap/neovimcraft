@@ -1603,6 +1603,7 @@
       "tags": ["sessions", "plugin"]
     },
     { "type": "github", "username": "rcarriga", "repo": "vim-ultest", "tags": ["tests", "plugin"] },
+    { "type": "github", "username": "David-Kunz", "repo": "jester", "tags": ["test", "plugin"] },
     {
       "type": "github",
       "username": "NTBBloodbath",
