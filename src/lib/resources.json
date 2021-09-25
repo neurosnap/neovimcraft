@@ -813,6 +813,18 @@
     },
     {
       "type": "github",
+      "username": "Mangeshrex",
+      "repo": "uwu.vim",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "adisen99",
+      "repo": "apprentice.nvim",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "tjdevries",
       "repo": "gruvbuddy.nvim",
       "tags": ["colorscheme", "plugin"]
@@ -870,6 +882,12 @@
       "type": "github",
       "username": "rktjmp",
       "repo": "paperplanes.nvim",
+      "tags": ["utility", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "max397574",
+      "repo": "better-escape.nvim",
       "tags": ["utility", "plugin"]
     },
     {
@@ -1032,7 +1050,7 @@
     },
     {
       "type": "github",
-      "username": "glepnir",
+      "username": "NTBBloodbath",
       "repo": "galaxyline.nvim",
       "tags": ["statusline", "plugin"]
     },
@@ -1715,6 +1733,12 @@
       "username": "gennaro-tedesco",
       "repo": "boilit",
       "tags": ["boilerplate", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "glepnir",
+      "repo": "galaxyline.nvim",
+      "tags": ["statusline", "plugin"]
     },
     {
       "type": "github",
