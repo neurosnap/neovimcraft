@@ -87,7 +87,13 @@ async function updateResources(resources: Resource[]) {
     db[getId(r)] = r;
   });
 
-  const data = { resources: Object.values(db) };
+  const newResources = Object.values(db).sort((a, b) => {
+    if (a.username === b.username) {
+      return a.repo.localeCompare(b.repo);
+    }
+    return a.username.localeCompare(b.username);
+  });
+  const data = { resources: newResources };
   const json = prettier.format(JSON.stringify(data), {
     parser: 'json',
     printWidth: 100,

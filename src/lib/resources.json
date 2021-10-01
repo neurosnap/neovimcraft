@@ -1730,6 +1730,12 @@
     },
     {
       "type": "github",
+      "username": "sindrets",
+      "repo": "winshift.nvim",
+      "tags": ["split-and-window", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "NTBBloodbath",
       "repo": "nvenv",
       "tags": ["version-managers", "plugin"]

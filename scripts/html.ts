@@ -1,6 +1,7 @@
 import fs from 'fs';
 import util from 'util';
 import marked from 'marked';
+import prettier from 'prettier';
 
 import type { Plugin } from '../src/lib/types';
 
@@ -42,7 +43,11 @@ async function clean() {
   });
 
   try {
-    await writeFile('./src/lib/html.json', JSON.stringify({ html: nextDb }));
+    const json = prettier.format(JSON.stringify({ html: nextDb }), {
+      parser: 'json',
+      printWidth: 100,
+    });
+    await writeFile('./src/lib/html.json', JSON.stringify(json));
   } catch (err) {
     console.error(err);
   }
