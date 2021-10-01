@@ -1050,6 +1050,12 @@
     },
     {
       "type": "github",
+      "username": "noib3",
+      "repo": "cokeline.nvim",
+      "tags": ["tabline", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "NTBBloodbath",
       "repo": "galaxyline.nvim",
       "tags": ["statusline", "plugin"]
@@ -1575,6 +1581,12 @@
       "type": "github",
       "username": "lukas-reineke",
       "repo": "format.nvim",
+      "tags": ["formatting", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "sbdchd",
+      "repo": "neoformat",
       "tags": ["formatting", "plugin"]
     },
     {
