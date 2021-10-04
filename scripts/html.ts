@@ -47,7 +47,7 @@ async function clean() {
       parser: 'json',
       printWidth: 100,
     });
-    await writeFile('./src/lib/html.json', JSON.stringify(json));
+    await writeFile('./src/lib/html.json', json);
   } catch (err) {
     console.error(err);
   }

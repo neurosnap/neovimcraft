@@ -280,6 +280,12 @@
     },
     {
       "type": "github",
+      "username": "dcampos",
+      "repo": "nvim-snippy",
+      "tags": ["snippet", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "dracula",
       "repo": "vim",
       "tags": ["treesitter-colorschemes", "plugin"]
@@ -1593,6 +1599,12 @@
     {
       "type": "github",
       "username": "stevearc",
+      "repo": "gkeep.nvim",
+      "tags": ["note-taking", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "stevearc",
       "repo": "qf_helper.nvim",
       "tags": ["quickfix", "plugin"]
     },
@@ -1781,6 +1793,12 @@
       "username": "wbthomason",
       "repo": "packer.nvim",
       "tags": ["plugin-managers", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "weilbith",
+      "repo": "nvim-code-action-menu",
+      "tags": ["neovim-0.5", "plugin"]
     },
     {
       "type": "github",
