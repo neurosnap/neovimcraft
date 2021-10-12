@@ -712,6 +712,18 @@
     },
     {
       "type": "github",
+      "username": "Julian",
+      "repo": "lean.nvim",
+      "tags": ["programming-languages-support", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "jvgrootveld",
+      "repo": "telescope-zoxide",
+      "tags": ["fuzzy-finder", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "kabouzeid",
       "repo": "nvim-lspinstall",
       "tags": ["lsp-installers", "plugin"]
@@ -958,6 +970,12 @@
     },
     {
       "type": "github",
+      "username": "mjlbach",
+      "repo": "defaults.nvim",
+      "tags": ["preconfigured-configuration", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "monaqa",
       "repo": "dial.nvim",
       "tags": ["editing-supports", "plugin"]
@@ -1136,6 +1154,12 @@
     {
       "type": "github",
       "username": "numToStr",
+      "repo": "Comment.nvim",
+      "tags": ["comment", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "numToStr",
       "repo": "FTerm.nvim",
       "tags": ["terminal-integration", "plugin"]
     },
@@ -1224,6 +1248,18 @@
       "tags": ["neovim-0.5", "plugin"]
     },
     { "type": "github", "username": "Olical", "repo": "aniseed", "tags": ["fennel", "plugin"] },
+    {
+      "type": "github",
+      "username": "olimorris",
+      "repo": "onedark.nvim",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "onsails",
+      "repo": "diaglist.nvim",
+      "tags": ["neovim-0.5", "plugin"]
+    },
     {
       "type": "github",
       "username": "onsails",
