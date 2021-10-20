@@ -879,6 +879,12 @@
     { "type": "github", "username": "lunixbochs", "repo": "actualvim", "tags": ["ui"] },
     {
       "type": "github",
+      "username": "luukvbaal",
+      "repo": "nnn.nvim",
+      "tags": ["file-explorer", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "m00qek",
       "repo": "plugin-template.nvim",
       "tags": ["neovim-lua-development", "plugin"]
@@ -1252,6 +1258,12 @@
       "type": "github",
       "username": "olimorris",
       "repo": "onedark.nvim",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "olimorris",
+      "repo": "onedarkpro.nvim",
       "tags": ["tree-sitter-supported-colorscheme", "plugin"]
     },
     {
@@ -1667,6 +1679,12 @@
       "type": "github",
       "username": "tami5",
       "repo": "sql.nvim",
+      "tags": ["neovim-lua-development", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "tami5",
+      "repo": "sqlite.lua",
       "tags": ["neovim-lua-development", "plugin"]
     },
     {
