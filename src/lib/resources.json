@@ -530,7 +530,7 @@
     { "type": "github", "username": "hkupty", "repo": "nvimux", "tags": ["tmux", "plugin"] },
     {
       "type": "github",
-      "username": "hoob3rt",
+      "username": "nvim-lualine",
       "repo": "lualine.nvim",
       "tags": ["statusline", "plugin"]
     },
