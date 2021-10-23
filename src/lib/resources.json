@@ -198,6 +198,7 @@
       "repo": "snap",
       "tags": ["fuzzy-finder", "plugin"]
     },
+    { "type": "github", "username": "chentau", "repo": "marks.nvim", "tags": ["marks", "plugin"] },
     {
       "type": "github",
       "username": "chipsenkbeil",
@@ -941,6 +942,12 @@
     {
       "type": "github",
       "username": "mfussenegger",
+      "repo": "nvim-lint",
+      "tags": ["neovim-0.5", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "mfussenegger",
       "repo": "nvim-ts-hint-textobject",
       "tags": ["motions", "plugin"]
     },
@@ -1204,6 +1211,12 @@
       "username": "nvim-lua",
       "repo": "popup.nvim",
       "tags": ["neovim-lua-development", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "nvim-lualine",
+      "repo": "lualine.nvim",
+      "tags": ["statusline", "plugin"]
     },
     {
       "type": "github",
