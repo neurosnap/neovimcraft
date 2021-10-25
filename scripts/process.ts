@@ -79,13 +79,29 @@ async function fetchReadme({
   };
 }
 
-async function fetchRepo({ username, repo }: Props): Promise<Resp<{ [key: string]: any }>> {
-  const url = `https://api.github.com/repos/${username}/${repo}`;
+async function delay(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(() => resolve(), ms));
+}
+
+async function githubApi(endpoint: string): Promise<Resp<{ [key: string]: any }>> {
+  const url = `https://api.github.com${endpoint}`;
   console.log(`Fetching ${url}`);
   const token = Buffer.from(`${accessUsername}:${accessToken}`).toString('base64');
   const res = await fetch(url, {
     headers: { Authorization: `Basic ${token}` },
   });
+
+  const rateLimitRemaining = parseInt(res.headers.get('X-RateLimit-Remaining'));
+  const rateLimitReset = parseInt(res.headers.get('X-RateLimit-Reset'));
+  console.log(`rate limit remaining: ${rateLimitRemaining}`);
+  if (rateLimitRemaining === 1) {
+    const now = Date.now();
+    const RESET_BUFFER = 500;
+    const wait = rateLimitReset + RESET_BUFFER - now;
+    console.log(`About to hit github rate limit, waiting ${wait * 1000} seconds`);
+    await delay(wait);
+  }
+
   const data = await res.json();
   if (res.ok) {
     return {
@@ -101,6 +117,20 @@ async function fetchRepo({ username, repo }: Props): Promise<Resp<{ [key: string
       error: new Error(`Could not load ${url}`),
     },
   };
+}
+
+async function fetchRepo({ username, repo }: Props): Promise<Resp<{ [key: string]: any }>> {
+  const result = await githubApi(`/repos/${username}/${repo}`);
+  return result;
+}
+
+async function fetchBranch({
+  username,
+  repo,
+  branch,
+}: Props & { branch: string }): Promise<Resp<{ [key: string]: any }>> {
+  const result = await githubApi(`/repos/${username}/${repo}/branches/${branch}`);
+  return result;
 }
 
 interface ApiSuccess<D = any> {
@@ -122,12 +152,16 @@ async function fetchGithubData(props: Props): Promise<Resp<any>> {
     return repo;
   }
 
+  const branch = await fetchBranch({ ...props, branch: repo.data.default_branch });
+  if (branch.ok === false) {
+    console.log(`${branch.data.status}: ${branch.data.error.message}`);
+  }
+
   const readme = await fetchReadme({
     username: props.username,
     repo: props.repo,
     branch: repo.data.default_branch,
   });
-
   if (readme.ok === false) {
     console.log(`${readme.data.status}: ${readme.data.error.message}`);
   }
@@ -137,6 +171,7 @@ async function fetchGithubData(props: Props): Promise<Resp<any>> {
     data: {
       readme: readme.ok ? readme.data : '',
       repo: repo.data,
+      branch: branch.data,
     },
   };
 }
@@ -171,7 +206,7 @@ async function processResources(resources: Resource[]) {
           network: resp.repo.network_count,
           description: resp.repo.description,
           createdAt: resp.repo.created_at,
-          updatedAt: resp.repo.updated_at,
+          updatedAt: resp.branch.commit.commit.committer.date,
         });
       }
     }
