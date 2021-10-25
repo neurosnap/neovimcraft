@@ -179,6 +179,9 @@ async function fetchGithubData(props: Props): Promise<Resp<any>> {
 async function processResources(resources: Resource[]) {
   const plugins: { [key: string]: Plugin } = {};
   const markdown: { [key: string]: string } = {};
+
+  console.log(`Fetching ${resources.length} resources`);
+
   for (let i = 0; i < resources.length; i += 1) {
     const d = resources[i];
 
