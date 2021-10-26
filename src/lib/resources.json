@@ -139,6 +139,12 @@
     { "type": "github", "username": "b0o", "repo": "mapx.nvim", "tags": ["keybinding", "plugin"] },
     {
       "type": "github",
+      "username": "b0o",
+      "repo": "SchemaStore.nvim",
+      "tags": ["neovim-0.5", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "b3nj5m1n",
       "repo": "kommentary",
       "tags": ["comment", "plugin"]
