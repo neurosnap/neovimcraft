@@ -259,6 +259,18 @@
       "repo": "nv-ide",
       "tags": ["preconfigured-configurations"]
     },
+    {
+      "type": "github",
+      "username": "cstsunfu",
+      "repo": ".sea.nvim",
+      "tags": ["preconfigured-configuration", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "danielpieper",
+      "repo": "telescope-tmuxinator.nvim",
+      "tags": ["tmux", "plugin"]
+    },
     { "type": "github", "username": "danymat", "repo": "neogen", "tags": ["comment", "plugin"] },
     {
       "type": "github",
@@ -327,6 +339,18 @@
       "username": "ekickx",
       "repo": "clipboard-image.nvim",
       "tags": ["media", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "ellisonleao",
+      "repo": "glow.nvim",
+      "tags": ["markdown", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "ellisonleao",
+      "repo": "gruvbox.nvim",
+      "tags": ["lua-colorscheme", "plugin"]
     },
     { "type": "github", "username": "equalsraf", "repo": "neovim-qt", "tags": ["ui"] },
     {
@@ -496,6 +520,12 @@
       "username": "glepnir",
       "repo": "zephyr-nvim",
       "tags": ["treesitter-colorschemes", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "goolord",
+      "repo": "alpha-nvim",
+      "tags": ["startup", "plugin"]
     },
     {
       "type": "github",
@@ -923,6 +953,12 @@
     },
     {
       "type": "github",
+      "username": "McAuleyPenney",
+      "repo": "tidy.nvim",
+      "tags": ["editing-support", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "mcchrish",
       "repo": "zenbones.nvim",
       "tags": ["treesitter-colorschemes", "plugin"]
@@ -986,6 +1022,12 @@
       "username": "mjlbach",
       "repo": "defaults.nvim",
       "tags": ["preconfigured-configuration", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "Mofiqul",
+      "repo": "vscode.nvim",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
     },
     {
       "type": "github",
@@ -1482,6 +1524,12 @@
       "repo": "auto-session",
       "tags": ["sessions", "plugin"]
     },
+    {
+      "type": "github",
+      "username": "rmehri01",
+      "repo": "onenord.nvim",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
     { "type": "github", "username": "RMichelsen", "repo": "Nvy", "tags": ["ui"] },
     {
       "type": "github",
@@ -1529,6 +1577,12 @@
       "tags": ["terminal-integration", "plugin"]
     },
     { "type": "github", "username": "saecki", "repo": "crates.nvim", "tags": ["rust", "plugin"] },
+    {
+      "type": "github",
+      "username": "saifulapm",
+      "repo": "chartoggle.nvim",
+      "tags": ["utility", "plugin"]
+    },
     {
       "type": "github",
       "username": "sainnhe",
@@ -1686,6 +1740,12 @@
       "type": "github",
       "username": "tamago324",
       "repo": "nlsp-settings.nvim",
+      "tags": ["neovim-0.5", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "tami5",
+      "repo": "lspsaga.nvim",
       "tags": ["neovim-0.5", "plugin"]
     },
     {
