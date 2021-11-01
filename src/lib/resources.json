@@ -2023,6 +2023,12 @@
       "username": "yonlu",
       "repo": "omni.vim",
       "tags": ["treesitter-colorschemes", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "mattleong",
+      "repo": "CosmicNvim",
+      "tags": ["preconfigured-configuration"]
     }
   ]
 }
