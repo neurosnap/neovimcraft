@@ -1427,6 +1427,12 @@
     { "type": "github", "username": "qvacua", "repo": "vimr", "tags": ["ui"] },
     {
       "type": "github",
+      "username": "rafaelsq",
+      "repo": "nvim-goc.lua",
+      "tags": ["programming-languages-support", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "rafamadriz",
       "repo": "friendly-snippets",
       "tags": ["snippets", "plugin"]
