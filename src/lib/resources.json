@@ -132,7 +132,7 @@
       "type": "github",
       "username": "ashincoder",
       "repo": "StarVim",
-      "tags": ["preconfigured-configurations"]
+      "tags": ["preconfigured-configuration"]
     },
     { "type": "github", "username": "asvetliakov", "repo": "vscode-neovim", "tags": ["ui"] },
     { "type": "github", "username": "b0o", "repo": "mapx.lua", "tags": ["keybindings", "plugin"] },
@@ -215,7 +215,7 @@
       "type": "github",
       "username": "ChristianChiarulli",
       "repo": "LunarVim",
-      "tags": ["preconfigured-configurations"]
+      "tags": ["preconfigured-configuration"]
     },
     {
       "type": "github",
@@ -257,7 +257,7 @@
       "type": "github",
       "username": "crivotz",
       "repo": "nv-ide",
-      "tags": ["preconfigured-configurations"]
+      "tags": ["preconfigured-configuration"]
     },
     {
       "type": "github",
@@ -544,7 +544,7 @@
       "type": "github",
       "username": "hackorum",
       "repo": "VapourNvim",
-      "tags": ["preconfigured-configurations"]
+      "tags": ["preconfigured-configuration"]
     },
     {
       "type": "github",
@@ -1180,7 +1180,7 @@
       "type": "github",
       "username": "NTBBloodbath",
       "repo": "doom-nvim",
-      "tags": ["preconfigured-configurations"]
+      "tags": ["preconfigured-configuration"]
     },
     {
       "type": "github",
@@ -1623,7 +1623,7 @@
       "type": "github",
       "username": "samrath2007",
       "repo": "kyoto.nvim",
-      "tags": ["preconfigured-configurations"]
+      "tags": ["preconfigured-configuration"]
     },
     {
       "type": "github",
@@ -1677,7 +1677,7 @@
       "type": "github",
       "username": "siduck76",
       "repo": "NvChad",
-      "tags": ["preconfigured-configurations"]
+      "tags": ["preconfigured-configuration"]
     },
     {
       "type": "github",
@@ -1813,7 +1813,7 @@
       "type": "github",
       "username": "theory-of-everything",
       "repo": "nii-nvim",
-      "tags": ["preconfigured-configurations"]
+      "tags": ["preconfigured-configuration"]
     },
     {
       "type": "github",
@@ -1900,7 +1900,7 @@
       "type": "github",
       "username": "vi-tality",
       "repo": "neovitality",
-      "tags": ["preconfigured-configurations"]
+      "tags": ["preconfigured-configuration"]
     },
     {
       "type": "github",
