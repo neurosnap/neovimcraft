@@ -127,6 +127,12 @@
       "repo": "nvim-lspinstall",
       "tags": ["lsp-installers", "plugin"]
     },
+    {
+      "type": "github",
+      "username": "artart222",
+      "repo": "CodeArt",
+      "tags": ["preconfigured-configuration", "plugin"]
+    },
     { "type": "github", "username": "aserowy", "repo": "tmux.nvim", "tags": ["tmux", "plugin"] },
     {
       "type": "github",
@@ -916,6 +922,12 @@
     },
     {
       "type": "github",
+      "username": "luukvbaal",
+      "repo": "stabilize.nvim",
+      "tags": ["split-and-window", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "m00qek",
       "repo": "plugin-template.nvim",
       "tags": ["neovim-lua-development", "plugin"]
@@ -945,6 +957,12 @@
       "tags": ["treesitter-colorschemes", "plugin"]
     },
     { "type": "github", "username": "matbme", "repo": "JABS.nvim", "tags": ["utility", "plugin"] },
+    {
+      "type": "github",
+      "username": "mattleong",
+      "repo": "CosmicNvim",
+      "tags": ["preconfigured-configuration"]
+    },
     {
       "type": "github",
       "username": "max397574",
@@ -1657,6 +1675,12 @@
     },
     {
       "type": "github",
+      "username": "shaeinst",
+      "repo": "roshnivim",
+      "tags": ["preconfigured-configuration", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "shaunsingh",
       "repo": "moonlight.nvim",
       "tags": ["treesitter-colorschemes", "plugin"]
@@ -2029,12 +2053,6 @@
       "username": "yonlu",
       "repo": "omni.vim",
       "tags": ["treesitter-colorschemes", "plugin"]
-    },
-    {
-      "type": "github",
-      "username": "mattleong",
-      "repo": "CosmicNvim",
-      "tags": ["preconfigured-configuration"]
     }
   ]
 }
