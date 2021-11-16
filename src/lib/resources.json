@@ -210,6 +210,12 @@
       "repo": "snap",
       "tags": ["fuzzy-finder", "plugin"]
     },
+    {
+      "type": "github",
+      "username": "catppuccin",
+      "repo": "nvim",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
     { "type": "github", "username": "chentau", "repo": "marks.nvim", "tags": ["marks", "plugin"] },
     {
       "type": "github",
@@ -926,6 +932,7 @@
       "repo": "stabilize.nvim",
       "tags": ["split-and-window", "plugin"]
     },
+    { "type": "github", "username": "Lyude", "repo": "neovim-gtk", "tags": ["ui", "plugin"] },
     {
       "type": "github",
       "username": "m00qek",
@@ -1678,6 +1685,12 @@
       "username": "shaeinst",
       "repo": "roshnivim",
       "tags": ["preconfigured-configuration", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "shaeinst",
+      "repo": "roshnivim-cs",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
     },
     {
       "type": "github",
