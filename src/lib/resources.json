@@ -1526,6 +1526,12 @@
     {
       "type": "github",
       "username": "RishabhRD",
+      "repo": "gruvy",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "RishabhRD",
       "repo": "nvim-lsputils",
       "tags": ["neovim-0.5", "plugin"]
     },
