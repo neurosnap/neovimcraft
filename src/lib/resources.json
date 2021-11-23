@@ -330,6 +330,96 @@
     { "type": "github", "username": "duane9", "repo": "nvim-rg", "tags": ["search", "plugin"] },
     {
       "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minibase16",
+      "tags": ["colorscheme-creation", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minibufremove",
+      "tags": ["utility", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minicomment",
+      "tags": ["comment", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minicompletion",
+      "tags": ["completion", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minicursorword",
+      "tags": ["cursorline", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minifuzzy",
+      "tags": ["fuzzy-finder", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minijump",
+      "tags": ["motion", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minipairs",
+      "tags": ["editing-support", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minisessions",
+      "tags": ["session", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#ministarter",
+      "tags": ["startup", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#ministatusline",
+      "tags": ["statusline", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minisurround",
+      "tags": ["syntax", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minitabline",
+      "tags": ["tabline", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#minitrailspace",
+      "tags": ["editing-support", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim#plugin-colorscheme",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "EdenEast",
       "repo": "nightfox.nvim",
       "tags": ["plugin", "treesitter-colorschemes"]
