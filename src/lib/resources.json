@@ -963,6 +963,12 @@
     {
       "type": "github",
       "username": "ldelossa",
+      "repo": "calltree.nvim",
+      "tags": ["neovim-0.5", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "ldelossa",
       "repo": "vimdark",
       "tags": ["tree-sitter-supported-colorscheme", "plugin"]
     },
