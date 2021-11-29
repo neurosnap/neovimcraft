@@ -66,7 +66,7 @@ async function processMarkdown(text: string) {
           const href = link.replace('https://github.com/', '').replace('http://github.com', '');
           const d = href.split('/');
           resource.username = d[0];
-          resource.repo = d[1];
+          resource.repo = d[1].replace(/#.+/, '');
           resources.push(resource);
         });
       });
