@@ -21,7 +21,7 @@
 
 <div class="nav">
   <h1 id="logo">
-    <a href="/" class="logo-header">neovim craft</a>
+    <a href="/" class="logo-header">neovimcraft</a>
     <a href="https://github.com/neurosnap/neovimcraft" class="gh" target="_blank">
       <Icon icon="github" />
     </a>
