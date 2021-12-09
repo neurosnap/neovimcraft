@@ -117,6 +117,12 @@
     },
     {
       "type": "github",
+      "username": "andersevenrud",
+      "repo": "nordic.nvim",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "andweeb",
       "repo": "presence.nvim",
       "tags": ["discord-rich-presence", "plugin"]
@@ -373,6 +379,12 @@
     { "type": "github", "username": "equalsraf", "repo": "neovim-qt", "tags": ["ui"] },
     {
       "type": "github",
+      "username": "ethanholz",
+      "repo": "nvim-lastplace",
+      "tags": ["editing-support", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "f-person",
       "repo": "git-blame.nvim",
       "tags": ["git", "plugin"]
@@ -400,6 +412,12 @@
       "username": "fhill2",
       "repo": "floating.nvim",
       "tags": ["utility", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "filipdutescu",
+      "repo": "renamer.nvim",
+      "tags": ["editing-support", "plugin"]
     },
     {
       "type": "github",
@@ -454,6 +472,12 @@
       "username": "FrenzyExists",
       "repo": "aquarium-vim",
       "tags": ["colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "gbprod",
+      "repo": "cutlass.nvim",
+      "tags": ["editing-support", "plugin"]
     },
     {
       "type": "github",
@@ -625,6 +649,13 @@
       "repo": "starlite-nvim",
       "tags": ["plugin", "neovim-0.5"]
     },
+    {
+      "type": "github",
+      "username": "is0n",
+      "repo": "fm-nvim",
+      "tags": ["file-explorer", "plugin"]
+    },
+    { "type": "github", "username": "is0n", "repo": "jaq-nvim", "tags": ["code-runner", "plugin"] },
     {
       "type": "github",
       "username": "ishan9299",
@@ -1581,6 +1612,12 @@
     },
     {
       "type": "github",
+      "username": "rmagatti",
+      "repo": "goto-preview",
+      "tags": ["neovim-0.5", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "rmehri01",
       "repo": "onenord.nvim",
       "tags": ["tree-sitter-supported-colorscheme", "plugin"]
@@ -1617,6 +1654,12 @@
       "username": "RRethy",
       "repo": "nvim-treesitter-textsubjects",
       "tags": ["syntax", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "RRethy",
+      "repo": "vim-illuminate",
+      "tags": ["cursorline", "plugin"]
     },
     { "type": "github", "username": "ruifm", "repo": "gitlinker.nvim", "tags": ["git", "plugin"] },
     {
@@ -1781,6 +1824,12 @@
     {
       "type": "github",
       "username": "stevearc",
+      "repo": "dressing.nvim",
+      "tags": ["utility", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "stevearc",
       "repo": "gkeep.nvim",
       "tags": ["note-taking", "plugin"]
     },
@@ -1789,6 +1838,12 @@
       "username": "stevearc",
       "repo": "qf_helper.nvim",
       "tags": ["quickfix", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "sudormrfbin",
+      "repo": "cheatsheet.nvim",
+      "tags": ["utility", "plugin"]
     },
     { "type": "github", "username": "sunjon", "repo": "Shade.nvim", "tags": ["colors", "plugin"] },
     {
