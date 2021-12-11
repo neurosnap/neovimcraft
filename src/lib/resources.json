@@ -253,6 +253,13 @@
       "repo": "nvim-biscuits",
       "tags": ["utility", "plugin"]
     },
+    { "type": "github", "username": "CosmicNvim", "repo": "cosmic-ui", "tags": ["ui", "plugin"] },
+    {
+      "type": "github",
+      "username": "CosmicNvim",
+      "repo": "CosmicNvim",
+      "tags": ["preconfigured-configuration", "plugin"]
+    },
     {
       "type": "github",
       "username": "CRAG666",
@@ -1809,6 +1816,12 @@
     },
     { "type": "github", "username": "SmiteshP", "repo": "nvim-gps", "tags": ["plugin"] },
     { "type": "github", "username": "smolck", "repo": "uivonim", "tags": ["ui"] },
+    {
+      "type": "github",
+      "username": "sQVe",
+      "repo": "sort.nvim",
+      "tags": ["editing-support", "plugin"]
+    },
     {
       "type": "github",
       "username": "steelsojka",
