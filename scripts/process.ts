@@ -50,35 +50,6 @@ async function processMissingResources() {
   return { plugins, markdown };
 }
 
-async function fetchReadme({
-  username,
-  repo,
-  branch,
-}: Props & { branch: string }): Promise<Resp<string>> {
-  const url = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/README.md`;
-  console.log(`Fetching ${url}`);
-  const res = await fetch(url);
-  if (res.ok) {
-    const data = await res.text();
-    return { ok: true, data };
-  }
-
-  const lowerUrl = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/readme.md`;
-  const lowerRes = await fetch(lowerUrl);
-  if (lowerRes.ok) {
-    const data = await lowerRes.text();
-    return { ok: true, data };
-  }
-
-  return {
-    ok: false,
-    data: {
-      status: res.status,
-      error: new Error(`Could not load ${url}`),
-    },
-  };
-}
-
 async function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(() => resolve(), ms));
 }
@@ -116,6 +87,25 @@ async function githubApi(endpoint: string): Promise<Resp<{ [key: string]: any }>
       status: res.status,
       error: new Error(`Could not load ${url}`),
     },
+  };
+}
+
+async function fetchReadme({ username, repo }: Props): Promise<Resp<string>> {
+  const result = await githubApi(`/repos/${username}/${repo}/readme`);
+  if (!result.ok) {
+    return {
+      ok: false,
+      data: result.data as any,
+    };
+  }
+
+  const url = result.data.download_url;
+  console.log(`Fetching ${url}`);
+  const readme = await fetch(url);
+  const data = await readme.text();
+  return {
+    ok: true,
+    data,
   };
 }
 
@@ -160,7 +150,6 @@ async function fetchGithubData(props: Props): Promise<Resp<any>> {
   const readme = await fetchReadme({
     username: props.username,
     repo: props.repo,
-    branch: repo.data.default_branch,
   });
   if (readme.ok === false) {
     console.log(`${readme.data.status}: ${readme.data.error.message}`);
