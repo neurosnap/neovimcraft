@@ -13,6 +13,7 @@
           buildInputs = [
             pkgs.nodejs-14_x
             pkgs.yarn
+            pkgs.google-cloud-sdk
           ];
         };
       });
