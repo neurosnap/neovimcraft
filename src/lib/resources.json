@@ -488,6 +488,12 @@
     },
     {
       "type": "github",
+      "username": "gbprod",
+      "repo": "substitute.nvim",
+      "tags": ["editing-support", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "gelguy",
       "repo": "wilder.nvim",
       "tags": ["wildmenu", "plugin"]
