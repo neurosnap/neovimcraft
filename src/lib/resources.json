@@ -929,6 +929,12 @@
     {
       "type": "github",
       "username": "ldelossa",
+      "repo": "litee.nvim",
+      "tags": ["neovim-0.5", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "ldelossa",
       "repo": "vimdark",
       "tags": ["tree-sitter-supported-colorscheme", "plugin"]
     },
@@ -1340,6 +1346,18 @@
       "username": "nvim-lualine",
       "repo": "lualine.nvim",
       "tags": ["statusline", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "nvim-neorg",
+      "repo": "neorg",
+      "tags": ["note-taking", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "nvim-orgmode",
+      "repo": "orgmode",
+      "tags": ["note-taking", "plugin"]
     },
     {
       "type": "github",
@@ -1827,6 +1845,12 @@
       "username": "sQVe",
       "repo": "sort.nvim",
       "tags": ["editing-support", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "startup-nvim",
+      "repo": "startup.nvim",
+      "tags": ["startup", "plugin"]
     },
     {
       "type": "github",
