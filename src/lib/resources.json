@@ -1197,6 +1197,12 @@
     },
     {
       "type": "github",
+      "username": "nvim-neo-tree",
+      "repo": "neo-tree.nvim",
+      "tags": ["file-explorer", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "NFrid",
       "repo": "due.nvim",
       "tags": ["note-taking", "plugin"]
