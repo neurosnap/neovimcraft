@@ -206,6 +206,12 @@
     },
     {
       "type": "github",
+      "username": "booperlv",
+      "repo": "nvim-gomove",
+      "tags": ["editing-support", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "caenrique",
       "repo": "swap-buffers.nvim",
       "tags": ["buffers", "plugin"]
@@ -983,6 +989,12 @@
     },
     {
       "type": "github",
+      "username": "luisiacc",
+      "repo": "gruvbox-baby",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "lukas-reineke",
       "repo": "format.nvim",
       "tags": ["formatting", "plugin"]
@@ -1209,12 +1221,6 @@
     },
     {
       "type": "github",
-      "username": "nvim-neo-tree",
-      "repo": "neo-tree.nvim",
-      "tags": ["file-explorer", "plugin"]
-    },
-    {
-      "type": "github",
       "username": "NFrid",
       "repo": "due.nvim",
       "tags": ["note-taking", "plugin"]
@@ -1367,6 +1373,12 @@
     },
     {
       "type": "github",
+      "username": "nvim-neo-tree",
+      "repo": "neo-tree.nvim",
+      "tags": ["file-explorer", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "nvim-neorg",
       "repo": "neorg",
       "tags": ["note-taking", "plugin"]
@@ -1400,6 +1412,12 @@
       "username": "nxvu699134",
       "repo": "vn-night.nvim",
       "tags": ["treesitter-colorschemes", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "nyngwang",
+      "repo": "NeoRoot.lua",
+      "tags": ["project", "plugin"]
     },
     {
       "type": "github",
@@ -2015,6 +2033,12 @@
       "username": "TimUntersberger",
       "repo": "neogit",
       "tags": ["git", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "titanzero",
+      "repo": "zephyrium",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
     },
     {
       "type": "github",
