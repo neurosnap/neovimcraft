@@ -873,6 +873,12 @@
     },
     {
       "type": "github",
+      "username": "klen",
+      "repo": "nvim-config-local",
+      "tags": ["project", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "konapun",
       "repo": "vacuumline.nvim",
       "tags": ["statusline", "plugin"]
@@ -949,6 +955,12 @@
       "username": "lewis6991",
       "repo": "spellsitter.nvim",
       "tags": ["spellcheck", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "LinArcX",
+      "repo": "telescope-command-palette.nvim",
+      "tags": ["keybinding", "plugin"]
     },
     { "type": "github", "username": "LionC", "repo": "nest.nvim", "tags": ["keymaps", "plugin"] },
     {
