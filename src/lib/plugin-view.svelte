@@ -53,13 +53,13 @@
   </div>
   {#if isPlugin}
     <div class="install">
-      <h3><a href="https://github.com/wbthomason/packer.nvim" target="_blank">packer</a></h3>
+      <h3><a href="https://github.com/wbthomason/packer.nvim">packer</a></h3>
       <pre><code>require('packer').startup(function()
   use '{plugin.id}'
 end)</code></pre>
     </div>
     <div class="install">
-      <h3><a href="https://github.com/savq/paq-nvim" target="_blank">paq</a></h3>
+      <h3><a href="https://github.com/savq/paq-nvim">paq</a></h3>
       <pre><code>require "paq" &lcub; 
   '{plugin.id}'
 &rcub;</code></pre>

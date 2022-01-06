@@ -16,7 +16,7 @@
     </h2>
     <div class="metrics">
       <Tooltip tip="github repo" bottom>
-        <a href={plugin.link} target="_blank"><Icon icon="github" /></a>
+        <a href={plugin.link}><Icon icon="github" /></a>
       </Tooltip>
       <Tooltip tip="stars" bottom>
         <div class="metric-item"><Icon icon="star" /> <span>{plugin.stars}</span></div>
