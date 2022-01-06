@@ -52,8 +52,8 @@
   <div class="view">
     <div class="header">
       <h1>{plugin.id}</h1>
-      {#if plugin.homepage}<a href={plugin.homepage} target="_blank">website</a>{/if}
-      <a href={plugin.link} target="_blank"><Icon icon="github" /> <span>github</span></a>
+      {#if plugin.homepage}<a href={plugin.homepage}>website</a>{/if}
+      <a href={plugin.link}><Icon icon="github" /> <span>github</span></a>
     </div>
     <PluginView {plugin} {tags} {html} />
   </div>

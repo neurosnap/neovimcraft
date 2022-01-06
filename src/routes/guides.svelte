@@ -63,14 +63,14 @@
               allowfullscreen
             />
           {:else}
-            <a href={link.url} target="_blank">
+            <a href={link.url}>
               <img src={link.media} alt={link.text} class="media" />
             </a>
           {/if}
         {/if}
         <div class="article-header">
           <h2>
-            <a href={link.url} target="_blank">{link.text}</a>
+            <a href={link.url}>{link.text}</a>
           </h2>
           <small class="date">{format(link.date)}</small>
           <div class="tags">

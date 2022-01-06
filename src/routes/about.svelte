@@ -24,13 +24,13 @@
       </p>
       <p>
         I also care deeply about open-source code and have an active{' '}
-        <a href="https://github.com/neurosnap" target="_blank">Github</a>
+        <a href="https://github.com/neurosnap">Github</a>
         , check it out if you&apos;re interested. I also write{' '}
-        <a href="https://erock.io" target="_blank">blog articles about software</a>.
+        <a href="https://erock.io">blog articles about software</a>.
       </p>
       <p>
         I&apos;m happy to read feedback about neovim craft so please feel free to{' '}
-        <a href="mailto:neovimcraft@erock.io" target="_blank">email me</a>.
+        <a href="mailto:neovimcraft@erock.io">email me</a>.
       </p>
     </div>
     <div>
@@ -41,7 +41,7 @@
         As of right now, most of our data is scraped from github. You can find our scrape script
         <a
           href="https://github.com/neurosnap/neovimcraft/blob/main/scripts/scrape.ts"
-          target="_blank">here</a
+         >here</a
         >.
       </p>
       <h3>How can I submit a plugin or resource to this project?</h3>
@@ -49,7 +49,7 @@
         The easiest way is to submit a PR that adds the resource to our
         <a
           href="https://github.com/neurosnap/neovimcraft/blob/main/src/lib/resources.json"
-          target="_blank">resources.json file</a
+         >resources.json file</a
         >.
       </p>
     </div>
