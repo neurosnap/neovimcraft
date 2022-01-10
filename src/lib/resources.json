@@ -1480,6 +1480,12 @@
       "repo": "nvim-ts-rainbow",
       "tags": ["editing-supports", "plugin"]
     },
+    {
+      "type": "github",
+      "username": "petertriho",
+      "repo": "nvim-scrollbar",
+      "tags": ["scrollbar", "plugin"]
+    },
     { "type": "github", "username": "phaazon", "repo": "hop.nvim", "tags": ["motions", "plugin"] },
     {
       "type": "github",
