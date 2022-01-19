@@ -2,6 +2,12 @@
   "resources": [
     {
       "type": "github",
+      "username": "0styx0",
+      "repo": "abbreinder.nvim",
+      "tags": ["note-taking", "plugin"]
+    },
+    {
+      "type": "github",
       "username": "abecodes",
       "repo": "tabout.nvim",
       "tags": ["editing-supports", "plugin"]
@@ -132,6 +138,12 @@
       "username": "anott03",
       "repo": "nvim-lspinstall",
       "tags": ["lsp-installers", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "anuvyklack",
+      "repo": "pretty-fold.nvim",
+      "tags": ["editing-support", "plugin"]
     },
     {
       "type": "github",
@@ -1639,6 +1651,12 @@
       "tags": ["notifications", "plugin"]
     },
     { "type": "github", "username": "rcarriga", "repo": "vim-ultest", "tags": ["tests", "plugin"] },
+    {
+      "type": "github",
+      "username": "rebelot",
+      "repo": "kanagawa.nvim",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
     {
       "type": "github",
       "username": "rexagod",
