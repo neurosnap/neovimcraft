@@ -1149,6 +1149,12 @@
     {
       "type": "github",
       "username": "Mofiqul",
+      "repo": "dracula.nvim",
+      "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "Mofiqul",
       "repo": "vscode.nvim",
       "tags": ["tree-sitter-supported-colorscheme", "plugin"]
     },
