@@ -1701,6 +1701,7 @@
       "repo": "paperplanes.nvim",
       "tags": ["utility", "plugin"]
     },
+    { "type": "github", "username": "rlane", "repo": "pounce.nvim", "tags": ["motion", "plugin"] },
     {
       "type": "github",
       "username": "rmagatti",
