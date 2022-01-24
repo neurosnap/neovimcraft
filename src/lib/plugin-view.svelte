@@ -11,7 +11,6 @@
   export let plugin: Plugin;
   export let tags: Tag[];
   export let html: string = '<div>readme not found</div>';
-  const isPlugin = tags.find((t) => t.id === 'plugin');
 
   function onSearch(curSearch: string) {
     const query = qs.parseUrl(window.location.search);
@@ -51,20 +50,6 @@
       <h2>{relativeTimeFromDates(new Date(plugin.updatedAt))}</h2>
     </div>
   </div>
-  {#if isPlugin}
-    <div class="install">
-      <h3><a href="https://github.com/wbthomason/packer.nvim">packer</a></h3>
-      <pre><code>require('packer').startup(function()
-  use '{plugin.id}'
-end)</code></pre>
-    </div>
-    <div class="install">
-      <h3><a href="https://github.com/savq/paq-nvim">paq</a></h3>
-      <pre><code>require "paq" &lcub; 
-  '{plugin.id}'
-&rcub;</code></pre>
-    </div>
-  {/if}
   <hr />
 </div>
 {@html html}

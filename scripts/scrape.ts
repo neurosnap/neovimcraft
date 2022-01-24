@@ -5,9 +5,8 @@ import prettier from 'prettier';
 import fetch from 'node-fetch';
 import marked from 'marked';
 
-import type { Resource, ResourceMap } from '../src/lib/types';
+import type { Resource } from '../src/lib/types';
 import { createResource } from '../src/lib/entities';
-import resourceFile from '../src/lib/resources.json';
 
 const writeFile = util.promisify(fs.writeFile);
 
@@ -21,7 +20,7 @@ Promise.all(URLS.map((url) => fetchMarkdown(url).then(processMarkdown)))
     }, []);
     return flatten;
   })
-  .then(updateResources)
+  .then(saveScrapeData)
   .catch(console.error);
 
 async function fetchMarkdown(url: string) {
@@ -52,7 +51,7 @@ async function processMarkdown(text: string) {
 
           // hardcoded deny-list for headings
           if (['contents', 'vim'].includes(heading)) return;
-          const resource = createResource({ tags: [sanitizeTag(heading), 'plugin'] });
+          const resource = createResource({ tags: [sanitizeTag(heading)] });
           let link = '';
 
           // first token is always a link
@@ -76,18 +75,8 @@ async function processMarkdown(text: string) {
   return resources;
 }
 
-async function updateResources(resources: Resource[]) {
-  const db: ResourceMap = {};
-  const getId = (r: Resource) => `${r.username}/${r.repo}`;
-  resources.forEach((r) => {
-    db[getId(r)] = r;
-  });
-  // resource file trumps what we scrape so we can make changes to things like the tags
-  resourceFile.resources.forEach((r: Resource) => {
-    db[getId(r)] = r;
-  });
-
-  const newResources = Object.values(db).sort((a, b) => {
+async function saveScrapeData(resources: Resource[]) {
+  const newResources = resources.sort((a, b) => {
     if (a.username === b.username) {
       return a.repo.localeCompare(b.repo);
     }
@@ -98,5 +87,5 @@ async function updateResources(resources: Resource[]) {
     parser: 'json',
     printWidth: 100,
   });
-  await writeFile('./src/lib/resources.json', json);
+  await writeFile('./src/lib/scrape.json', json);
 }

@@ -4,6 +4,7 @@ import readline from 'readline';
 import prettier from 'prettier';
 
 import resourceFile from '../src/lib/resources.json';
+import manualFile from '../src/lib/manual.json';
 import type { Resource } from '../src/lib/types';
 import { createResource } from '../src/lib/entities';
 
@@ -37,7 +38,7 @@ async function init() {
     return;
   }
 
-  resourceFile.resources.push(
+  manualFile.resources.push(
     createResource({
       type: 'github',
       username,
@@ -51,7 +52,7 @@ async function init() {
     printWidth: 100,
   });
 
-  await writeFile('./src/lib/resources.json', json);
+  await writeFile('./src/lib/manual.json', json);
 
   rl.close();
 }
