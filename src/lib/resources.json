@@ -1495,6 +1495,12 @@
     {
       "type": "github",
       "username": "p00f",
+      "repo": "cphelper.nvim",
+      "tags": ["competitive-programming", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "p00f",
       "repo": "nvim-ts-rainbow",
       "tags": ["editing-supports", "plugin"]
     },
@@ -1662,6 +1668,12 @@
       "username": "rebelot",
       "repo": "kanagawa.nvim",
       "tags": ["tree-sitter-supported-colorscheme", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "renerocksai",
+      "repo": "telekasten.nvim",
+      "tags": ["note-taking", "plugin"]
     },
     {
       "type": "github",
@@ -2212,6 +2224,12 @@
       "username": "winston0410",
       "repo": "range-highlight.nvim",
       "tags": ["colors", "plugin"]
+    },
+    {
+      "type": "github",
+      "username": "xeluxee",
+      "repo": "competitest.nvim",
+      "tags": ["competitive-programming", "plugin"]
     },
     {
       "type": "github",
