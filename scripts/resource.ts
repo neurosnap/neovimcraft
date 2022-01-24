@@ -47,7 +47,7 @@ async function init() {
     }),
   );
 
-  const json = prettier.format(JSON.stringify(resourceFile), {
+  const json = prettier.format(JSON.stringify(manualFile), {
     parser: 'json',
     printWidth: 100,
   });

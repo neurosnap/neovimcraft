@@ -1,1 +1,17 @@
-{"resources":[]}
+{
+  "resources": [
+    { "type": "github", "username": "jceb", "repo": "blinds.nvim", "tags": ["color"] },
+    {
+      "type": "github",
+      "username": "theory-of-everything",
+      "repo": "nii-nvim",
+      "tags": ["preconfigured-configuration"]
+    },
+    {
+      "type": "github",
+      "username": "nvim-neo-tree",
+      "repo": "neo-tree.nvim",
+      "tags": ["file-explorer"]
+    }
+  ]
+}
