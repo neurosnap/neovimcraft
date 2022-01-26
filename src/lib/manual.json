@@ -12,6 +12,7 @@
       "username": "nvim-neo-tree",
       "repo": "neo-tree.nvim",
       "tags": ["file-explorer"]
-    }
+    },
+    { "type": "github", "username": "j-hui", "repo": "fidget.nvim", "tags": ["neovim-0.5"] }
   ]
 }
