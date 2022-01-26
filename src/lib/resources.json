@@ -402,6 +402,7 @@
       "repo": "nvim-solarized-lua",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    { "type": "github", "username": "j-hui", "repo": "fidget.nvim", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "jakewvincent", "repo": "mkdnflow.nvim", "tags": ["markdown"] },
     {
       "type": "github",
