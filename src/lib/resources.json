@@ -1223,6 +1223,12 @@
     },
     { "type": "github", "username": "ThePrimeagen", "repo": "vim-apm", "tags": ["game"] },
     { "type": "github", "username": "ThePrimeagen", "repo": "vim-be-good", "tags": ["game"] },
+    {
+      "type": "github",
+      "username": "tiagovla",
+      "repo": "tokyodark.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
     { "type": "github", "username": "TimUntersberger", "repo": "neofs", "tags": ["file-explorer"] },
     { "type": "github", "username": "TimUntersberger", "repo": "neogit", "tags": ["git"] },
     {
