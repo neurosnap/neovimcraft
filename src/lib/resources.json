@@ -351,6 +351,12 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "goolord", "repo": "alpha-nvim", "tags": ["startup"] },
+    {
+      "type": "github",
+      "username": "gpanders",
+      "repo": "editorconfig.nvim",
+      "tags": ["formatting"]
+    },
     { "type": "github", "username": "gwatcha", "repo": "reaper-keys", "tags": ["media"] },
     { "type": "github", "username": "h-hg", "repo": "fcitx.nvim", "tags": ["editing-support"] },
     {
@@ -661,6 +667,12 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "michaelb", "repo": "sniprun", "tags": ["code-runner"] },
+    {
+      "type": "github",
+      "username": "milisims",
+      "repo": "nvim-luaref",
+      "tags": ["neovim-lua-development"]
+    },
     { "type": "github", "username": "mizlan", "repo": "iswap.nvim", "tags": ["editing-support"] },
     { "type": "github", "username": "mjlbach", "repo": "babelfish.nvim", "tags": ["markdown"] },
     {
@@ -697,6 +709,12 @@
       "tags": ["neovim-lua-development"]
     },
     { "type": "github", "username": "nacro90", "repo": "numb.nvim", "tags": ["editing-support"] },
+    {
+      "type": "github",
+      "username": "nanotee",
+      "repo": "luv-vimdocs",
+      "tags": ["neovim-lua-development"]
+    },
     { "type": "github", "username": "nanotee", "repo": "nvim-lsp-basics", "tags": ["neovim-0.5"] },
     {
       "type": "github",
@@ -1136,6 +1154,7 @@
       "repo": "winshift.nvim",
       "tags": ["split-and-window"]
     },
+    { "type": "github", "username": "slugbyte", "repo": "unruly-worker", "tags": ["keybinding"] },
     {
       "type": "github",
       "username": "SmiteshP",
