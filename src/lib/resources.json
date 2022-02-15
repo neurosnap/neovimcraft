@@ -1154,7 +1154,12 @@
       "repo": "winshift.nvim",
       "tags": ["split-and-window"]
     },
-    { "type": "github", "username": "slugbyte", "repo": "unruly-worker", "tags": ["keybinding"] },
+    {
+      "type": "github",
+      "username": "slugbyte",
+      "repo": "unruly-worker",
+      "tags": ["keybinding", "workman-layout"]
+    },
     {
       "type": "github",
       "username": "SmiteshP",
