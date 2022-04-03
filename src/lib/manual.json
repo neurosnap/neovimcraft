@@ -19,6 +19,12 @@
       "username": "slugbyte",
       "repo": "unruly-worker",
       "tags": ["keybinding", "workman-layout"]
+    },
+    {
+      "type": "github",
+      "username": "phha",
+      "repo": "zenburn.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
     }
   ]
 }
