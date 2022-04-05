@@ -164,6 +164,12 @@
     { "type": "github", "username": "camspiers", "repo": "snap", "tags": ["fuzzy-finder"] },
     {
       "type": "github",
+      "username": "CanKolay3499",
+      "repo": "CNvim",
+      "tags": ["preconfigured-configuration"]
+    },
+    {
+      "type": "github",
       "username": "catppuccin",
       "repo": "nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
@@ -676,6 +682,12 @@
     { "type": "github", "username": "matbme", "repo": "JABS.nvim", "tags": ["utility"] },
     {
       "type": "github",
+      "username": "max-0406",
+      "repo": "autoclose.nvim",
+      "tags": ["editing-support"]
+    },
+    {
+      "type": "github",
       "username": "max397574",
       "repo": "better-escape.nvim",
       "tags": ["utility"]
@@ -797,6 +809,7 @@
     { "type": "github", "username": "NFrid", "repo": "due.nvim", "tags": ["note-taking"] },
     { "type": "github", "username": "nikvdp", "repo": "neomux", "tags": ["terminal-integration"] },
     { "type": "github", "username": "noib3", "repo": "cokeline.nvim", "tags": ["tabline"] },
+    { "type": "github", "username": "noib3", "repo": "nvim-compleet", "tags": ["completion"] },
     {
       "type": "github",
       "username": "norcalli",
@@ -955,6 +968,12 @@
     },
     { "type": "github", "username": "petertriho", "repo": "nvim-scrollbar", "tags": ["scrollbar"] },
     { "type": "github", "username": "phaazon", "repo": "hop.nvim", "tags": ["motion"] },
+    {
+      "type": "github",
+      "username": "phha",
+      "repo": "zenburn.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
     {
       "type": "github",
       "username": "PHSix",
@@ -1170,6 +1189,7 @@
     { "type": "github", "username": "sbdchd", "repo": "neoformat", "tags": ["formatting"] },
     { "type": "github", "username": "seandewar", "repo": "killersheep.nvim", "tags": ["game"] },
     { "type": "github", "username": "seandewar", "repo": "nvimesweeper", "tags": ["game"] },
+    { "type": "github", "username": "shaeinst", "repo": "penvim", "tags": ["project"] },
     {
       "type": "github",
       "username": "shaeinst",
