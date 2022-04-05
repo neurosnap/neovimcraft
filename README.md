@@ -3,6 +3,10 @@
 A site dedicated to finding the best neovim plugins and other resources for
 building neovim plugins
 
+## Requirements
+
+- node v16.14.0
+
 ## Want to submit a plugin?
 
 If you'd like to suggest a plugin to add to `neovimcraft` then feel free to
