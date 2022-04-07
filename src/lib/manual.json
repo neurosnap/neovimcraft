@@ -30,7 +30,7 @@
       "type": "github",
       "username": "mrjones2014",
       "repo": "smart-splits.nvim",
-      "tags": ["splits", "window-management", "panes", "split-resizing"]
+      "tags": ["split-and-window"]
     }
   ]
 }
