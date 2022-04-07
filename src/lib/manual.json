@@ -25,6 +25,12 @@
       "username": "phha",
       "repo": "zenburn.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
+      "username": "mrjones2014",
+      "repo": "smart-splits.nvim",
+      "tags": ["split-and-window"]
     }
   ]
 }
