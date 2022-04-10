@@ -346,6 +346,7 @@
       "repo": "substitute.nvim",
       "tags": ["editing-support"]
     },
+    { "type": "github", "username": "gbprod", "repo": "yanky.nvim", "tags": ["editing-support"] },
     { "type": "github", "username": "gelguy", "repo": "wilder.nvim", "tags": ["command-line"] },
     { "type": "github", "username": "gennaro-tedesco", "repo": "boilit", "tags": ["boilerplate"] },
     {
@@ -769,6 +770,12 @@
       "username": "mrjones2014",
       "repo": "legendary.nvim",
       "tags": ["keybinding"]
+    },
+    {
+      "type": "github",
+      "username": "mrjones2014",
+      "repo": "smart-splits.nvim",
+      "tags": ["split-and-window"]
     },
     { "type": "github", "username": "ms-jpq", "repo": "chadtree", "tags": ["file-explorer"] },
     { "type": "github", "username": "ms-jpq", "repo": "coq_nvim", "tags": ["completion"] },

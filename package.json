@@ -21,7 +21,8 @@
     "upload": "gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' rsync -r ./build gs://neovimcraft.com",
     "upload:db": "gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' cp ./src/lib/db.json gs://neovimcraft.com/db.json",
     "deploy": "yarn build:clean && yarn build && yarn upload:clean && yarn upload && yarn upload:db",
-    "deploy:all": "yarn scrape && yarn patch && yarn process && yarn html && yarn deploy"
+    "deploy:all": "yarn scrape && yarn patch && yarn process && yarn html && yarn deploy",
+    "ci": "yarn scrape && yarn patch && yarn process && yarn html"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.0-next.13",
