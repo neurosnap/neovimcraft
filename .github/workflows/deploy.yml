@@ -1,11 +1,11 @@
 name: "Fetch resources and deploy every 2 hours"
 
-on:
-  push:
-    branches: [main]
 #on:
-#  schedule:
-#  - cron: "0 */2 * * *"
+#  push:
+#    branches: [main]
+on:
+  schedule:
+  - cron: "0 */2 * * *"
 
 env:
   GITHUB_ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
