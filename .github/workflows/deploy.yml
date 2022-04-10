@@ -1,0 +1,40 @@
+name: "Fetch resources and Deploy"
+on:
+  schedule:
+  - cron: "0 */2 * * *"
+
+env:
+  GITHUB_ACCESS_TOKEN: {{secrets.GITHUB_TOKEN}}
+  GITHUB_USERNAME: {{secrets.GITHUB_USERNAME}}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.14.0]
+    steps:
+    - uses: actions/checkout@v2
+    - name: use node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - run: yarn
+    - run: yarn build:all
+    - name: 'gcp auth'
+      uses: 'google-github-actions/auth@v0'
+      with:
+        workload_identity_provider: 'projects/123456789/locations/global/workloadIdentityPools/my-pool/providers/my-provider'
+        service_account: 'my-service-account@my-project.iam.gserviceaccount.com' 
+    - name: 'upload-folder'
+      uses: 'google-github-actions/upload-cloud-storage@v0'
+      with:
+        path: './build'
+        destination: 'neovimcraft.com'
+    - name: 'upload-file'
+      uses: 'google-github-actions/upload-cloud-storage@v0'
+      with:
+        path: './src/lib/db.json'
+        destination: 'neovimcraft.com/db.json'
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v4
