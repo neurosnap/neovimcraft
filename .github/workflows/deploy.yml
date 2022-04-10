@@ -8,7 +8,8 @@ on:
 #  - cron: "0 */2 * * *"
 
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
+  GITHUB_USERNAME: ${{secrets.USERNAME}}
 
 jobs:
   build:
