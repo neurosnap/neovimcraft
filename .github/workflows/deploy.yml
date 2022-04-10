@@ -1,7 +1,11 @@
 name: "Fetch resources and deploy every 2 hours"
+
 on:
-  schedule:
-  - cron: "0 */2 * * *"
+  push:
+    branches: [main]
+#on:
+#  schedule:
+#  - cron: "0 */2 * * *"
 
 jobs:
   build:
