@@ -10,3 +10,4 @@ src/lib/markdown.json
 src/lib/html.json
 .direnv
 src/lib/scrape.json
+gha-creds-*
