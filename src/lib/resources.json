@@ -1,5 +1,11 @@
 {
   "resources": [
+    {
+      "type": "github",
+      "username": "FeiyouG",
+      "repo": "command_center.nvim",
+      "tags": ["keybinding"]
+    },
     { "type": "github", "username": "0styx0", "repo": "abbreinder.nvim", "tags": ["note-taking"] },
     {
       "type": "github",
