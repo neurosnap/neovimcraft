@@ -298,6 +298,12 @@
     { "type": "github", "username": "Famiu", "repo": "feline.nvim", "tags": ["statusline"] },
     {
       "type": "github",
+      "username": "FeiyouG",
+      "repo": "command_center.nvim",
+      "tags": ["keybinding"]
+    },
+    {
+      "type": "github",
       "username": "fenetikm",
       "repo": "falcon",
       "tags": ["tree-sitter-supported-colorscheme"]
