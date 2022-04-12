@@ -50,6 +50,12 @@
     },
     {
       "type": "github",
+      "username": "SpaceVim",
+      "repo": "SpaceVim",
+      "tags": ["preconfigured-configuration"]
+    },
+    {
+      "type": "github",
       "username": "akinsho",
       "repo": "nvim-toggleterm.lua",
       "tags": ["terminal-integration"]
