@@ -19,6 +19,16 @@ yarn resource
 This command will step through the requirements for adding a resource to the
 site.
 
+## nvim.sh
+
+Want to query neovimcraft from the terminal?
+
+```bash
+curl https://nvim.sh
+```
+
+https://github.com/neurosnap/nvim.sh
+
 ## Developing
 
 You need to add a couple environment variables related to using the github api:
