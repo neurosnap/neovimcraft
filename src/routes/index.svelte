@@ -138,12 +138,17 @@
       </span>
     {/if}
   </div>
-  <div class="desc">Search through our curated list of neovim plugins</div>
+  <div class="desc">
+    Search through our curated list of neovim plugins
+  </div>
 
   <div class="sidebar">
     {#each tags as tag}
       <TagItem {tag} {onSearch} />
     {/each}
+  </div>
+  <div class="rightbar">
+    <div>Want to search for plugins in the terminal? <a href="https://nvim.sh">https://nvim.sh</a></div>
   </div>
   <div class="plugins">
     <div class="plugins_list" id="plugins_list">
@@ -185,6 +190,14 @@
     grid-column: 2;
     grid-row: 1;
     position: relative;
+  }
+
+  .rightbar {
+    grid-row: 1;
+    grid-column: 3;
+    margin-bottom: 5px;
+    align-items: center;
+    display: flex;
   }
 
   .search_icon {
@@ -243,6 +256,10 @@
     }
 
     .sidebar {
+      display: none;
+    }
+
+    .rightbar {
       display: none;
     }
 
