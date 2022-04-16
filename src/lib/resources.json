@@ -827,6 +827,12 @@
     { "type": "github", "username": "neovim", "repo": "nvim-lspconfig", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "NFrid", "repo": "due.nvim", "tags": ["note-taking"] },
     { "type": "github", "username": "nikvdp", "repo": "neomux", "tags": ["terminal-integration"] },
+    {
+      "type": "github",
+      "username": "nkakouros-original",
+      "repo": "numbers.nvim",
+      "tags": ["utility"]
+    },
     { "type": "github", "username": "noib3", "repo": "cokeline.nvim", "tags": ["tabline"] },
     { "type": "github", "username": "noib3", "repo": "nvim-compleet", "tags": ["completion"] },
     {
