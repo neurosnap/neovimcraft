@@ -978,7 +978,7 @@
     },
     { "type": "github", "username": "olimorris", "repo": "persisted.nvim", "tags": ["session"] },
     { "type": "github", "username": "onsails", "repo": "diaglist.nvim", "tags": ["neovim-0.5"] },
-    { "type": "github", "username": "onsails", "repo": "lspkind-nvim", "tags": ["neovim-0.5"] },
+    { "type": "github", "username": "onsails", "repo": "lspkind.nvim", "tags": ["neovim-0.5"] },
     {
       "type": "github",
       "username": "p00f",
@@ -1212,6 +1212,7 @@
     },
     { "type": "github", "username": "savq", "repo": "paq-nvim", "tags": ["plugin-manager"] },
     { "type": "github", "username": "sbdchd", "repo": "neoformat", "tags": ["formatting"] },
+    { "type": "github", "username": "scalameta", "repo": "nvim-metals", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "seandewar", "repo": "killersheep.nvim", "tags": ["game"] },
     { "type": "github", "username": "seandewar", "repo": "nvimesweeper", "tags": ["game"] },
     { "type": "github", "username": "shaeinst", "repo": "penvim", "tags": ["project"] },
