@@ -107,6 +107,12 @@
       "repo": "StarVim",
       "tags": ["preconfigured-configuration"]
     },
+    {
+      "type": "github",
+      "username": "AstroNvim",
+      "repo": "AstroNvim",
+      "tags": ["preconfigured-configuration"]
+    },
     { "type": "github", "username": "asvetliakov", "repo": "vscode-neovim", "tags": ["ui"] },
     { "type": "github", "username": "axieax", "repo": "urlview.nvim", "tags": ["utility"] },
     { "type": "github", "username": "b0o", "repo": "mapx.nvim", "tags": ["keybinding"] },
@@ -548,12 +554,6 @@
       "username": "jvgrootveld",
       "repo": "telescope-zoxide",
       "tags": ["fuzzy-finder"]
-    },
-    {
-      "type": "github",
-      "username": "kabinspace",
-      "repo": "AstroVim",
-      "tags": ["preconfigured-configuration"]
     },
     { "type": "github", "username": "karb94", "repo": "neoscroll.nvim", "tags": ["scrolling"] },
     { "type": "github", "username": "kazhala", "repo": "close-buffers.nvim", "tags": ["utility"] },
