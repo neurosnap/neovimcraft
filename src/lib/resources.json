@@ -109,10 +109,11 @@
     },
     {
       "type": "github",
-      "username": "AstroNvim",
-      "repo": "AstroNvim",
+      "username": "askfiy",
+      "repo": "nvim",
       "tags": ["preconfigured-configuration"]
     },
+    { "type": "github", "username": "askfiy", "repo": "nvim-picgo", "tags": ["media"] },
     { "type": "github", "username": "asvetliakov", "repo": "vscode-neovim", "tags": ["ui"] },
     { "type": "github", "username": "axieax", "repo": "urlview.nvim", "tags": ["utility"] },
     { "type": "github", "username": "b0o", "repo": "mapx.nvim", "tags": ["keybinding"] },
@@ -246,7 +247,7 @@
       "type": "github",
       "username": "davidgranstrom",
       "repo": "nvim-markdown-preview",
-      "tags": ["markdown"]
+      "tags": ["markdown-/-latex"]
     },
     { "type": "github", "username": "davidgranstrom", "repo": "scnvim", "tags": ["media"] },
     { "type": "github", "username": "dcampos", "repo": "nvim-snippy", "tags": ["snippet"] },
@@ -279,7 +280,12 @@
       "tags": ["file-explorer"]
     },
     { "type": "github", "username": "ellisonleao", "repo": "carbon-now.nvim", "tags": ["snippet"] },
-    { "type": "github", "username": "ellisonleao", "repo": "glow.nvim", "tags": ["markdown"] },
+    {
+      "type": "github",
+      "username": "ellisonleao",
+      "repo": "glow.nvim",
+      "tags": ["markdown-/-latex"]
+    },
     {
       "type": "github",
       "username": "ellisonleao",
@@ -338,6 +344,7 @@
     { "type": "github", "username": "folke", "repo": "twilight.nvim", "tags": ["color"] },
     { "type": "github", "username": "folke", "repo": "which-key.nvim", "tags": ["keybinding"] },
     { "type": "github", "username": "folke", "repo": "zen-mode.nvim", "tags": ["editing-support"] },
+    { "type": "github", "username": "frabjous", "repo": "knap", "tags": ["markdown-/-latex"] },
     {
       "type": "github",
       "username": "FrenzyExists",
@@ -380,6 +387,7 @@
       "tags": ["register"]
     },
     { "type": "github", "username": "gfanto", "repo": "fzf-lsp.nvim", "tags": ["neovim-0.5"] },
+    { "type": "github", "username": "ggandor", "repo": "leap.nvim", "tags": ["motion"] },
     { "type": "github", "username": "ggandor", "repo": "lightspeed.nvim", "tags": ["motion"] },
     {
       "type": "github",
@@ -454,7 +462,12 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "j-hui", "repo": "fidget.nvim", "tags": ["neovim-0.5"] },
-    { "type": "github", "username": "jakewvincent", "repo": "mkdnflow.nvim", "tags": ["markdown"] },
+    {
+      "type": "github",
+      "username": "jakewvincent",
+      "repo": "mkdnflow.nvim",
+      "tags": ["markdown-/-latex"]
+    },
     {
       "type": "github",
       "username": "jakewvincent",
@@ -484,13 +497,18 @@
     { "type": "github", "username": "jbyuki", "repo": "venn.nvim", "tags": ["note-taking"] },
     { "type": "github", "username": "jceb", "repo": "blinds.nvim", "tags": ["color"] },
     { "type": "github", "username": "jebberjeb", "repo": "javafx-neovimpane", "tags": ["ui"] },
-    { "type": "github", "username": "jghauser", "repo": "auto-pandoc.nvim", "tags": ["markdown"] },
+    {
+      "type": "github",
+      "username": "jghauser",
+      "repo": "auto-pandoc.nvim",
+      "tags": ["markdown-/-latex"]
+    },
     { "type": "github", "username": "jghauser", "repo": "fold-cycle.nvim", "tags": ["utility"] },
     {
       "type": "github",
       "username": "jghauser",
       "repo": "follow-md-links.nvim",
-      "tags": ["markdown"]
+      "tags": ["markdown-/-latex"]
     },
     {
       "type": "github",
@@ -536,7 +554,7 @@
       "repo": "ModuleVim",
       "tags": ["preconfigured-configuration"]
     },
-    { "type": "github", "username": "jubnzv", "repo": "mdeval.nvim", "tags": ["markdown"] },
+    { "type": "github", "username": "jubnzv", "repo": "mdeval.nvim", "tags": ["markdown-/-latex"] },
     {
       "type": "github",
       "username": "jubnzv",
@@ -549,11 +567,18 @@
       "repo": "lean.nvim",
       "tags": ["programming-languages-support"]
     },
+    { "type": "github", "username": "Junnplus", "repo": "nvim-lsp-setup", "tags": ["neovim-0.5"] },
     {
       "type": "github",
       "username": "jvgrootveld",
       "repo": "telescope-zoxide",
       "tags": ["fuzzy-finder"]
+    },
+    {
+      "type": "github",
+      "username": "kabinspace",
+      "repo": "AstroVim",
+      "tags": ["preconfigured-configuration"]
     },
     { "type": "github", "username": "karb94", "repo": "neoscroll.nvim", "tags": ["scrolling"] },
     { "type": "github", "username": "kazhala", "repo": "close-buffers.nvim", "tags": ["utility"] },
@@ -564,7 +589,7 @@
       "repo": "monochrome.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "kdheepak", "repo": "panvimdoc", "tags": ["markdown"] },
+    { "type": "github", "username": "kdheepak", "repo": "panvimdoc", "tags": ["markdown-/-latex"] },
     { "type": "github", "username": "kdheepak", "repo": "tabline.nvim", "tags": ["tabline"] },
     { "type": "github", "username": "Kethku", "repo": "neovide", "tags": ["ui"] },
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-bqf", "tags": ["quickfix"] },
@@ -751,7 +776,12 @@
       "tags": ["neovim-lua-development"]
     },
     { "type": "github", "username": "mizlan", "repo": "iswap.nvim", "tags": ["editing-support"] },
-    { "type": "github", "username": "mjlbach", "repo": "babelfish.nvim", "tags": ["markdown"] },
+    {
+      "type": "github",
+      "username": "mjlbach",
+      "repo": "babelfish.nvim",
+      "tags": ["markdown-/-latex"]
+    },
     {
       "type": "github",
       "username": "mjlbach",
@@ -954,6 +984,7 @@
       "repo": "vn-night.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    { "type": "github", "username": "nyngwang", "repo": "NeoNoName.lua", "tags": ["utility"] },
     { "type": "github", "username": "nyngwang", "repo": "NeoRoot.lua", "tags": ["project"] },
     {
       "type": "github",
@@ -1511,6 +1542,7 @@
       "username": "ZhiyuanLck",
       "repo": "smart-pairs",
       "tags": ["editing-support"]
-    }
+    },
+    { "type": "github", "username": "ziontee113", "repo": "syntax-tree-surfer", "tags": ["motion"] }
   ]
 }
