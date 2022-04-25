@@ -1,5 +1,6 @@
 {
   "resources": [
+    { "type": "github", "username": "frabjous", "repo": "knap", "tags": ["latex","markdown"] },
     { "type": "github", "username": "0styx0", "repo": "abbreinder.nvim", "tags": ["note-taking"] },
     {
       "type": "github",
