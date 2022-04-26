@@ -251,6 +251,8 @@
     },
     { "type": "github", "username": "davidgranstrom", "repo": "scnvim", "tags": ["media"] },
     { "type": "github", "username": "dcampos", "repo": "nvim-snippy", "tags": ["snippet"] },
+    { "type": "github", "username": "declancm", "repo": "cinnamon.nvim", "tags": ["scrolling"] },
+    { "type": "github", "username": "declancm", "repo": "windex.nvim", "tags": ["tmux"] },
     {
       "type": "github",
       "username": "dracula",
@@ -1452,6 +1454,8 @@
     { "type": "github", "username": "toppair", "repo": "reach.nvim", "tags": ["utility"] },
     { "type": "github", "username": "tversteeg", "repo": "registers.nvim", "tags": ["register"] },
     { "type": "github", "username": "tveskag", "repo": "nvim-blame-line", "tags": ["git"] },
+    { "type": "github", "username": "udayvir-singh", "repo": "hibiscus.nvim", "tags": ["fennel"] },
+    { "type": "github", "username": "udayvir-singh", "repo": "tangerine.nvim", "tags": ["fennel"] },
     { "type": "github", "username": "vhakulinen", "repo": "gnvim", "tags": ["ui"] },
     {
       "type": "github",
