@@ -45,6 +45,7 @@ jobs:
       with:
         path: './src/lib/db.json'
         destination: 'neovimcraft.com/db.json'
+        parent: false
         headers: |-
           cache-control: private, max-age=0, no-transform
 
