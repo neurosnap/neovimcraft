@@ -1,5 +1,11 @@
 {
   "resources": [
+    { 
+      "type": "github", 
+      "username": "frabjous", 
+      "repo": "knap", 
+      "tags": ["latex","markdown"] 
+    },
     { "type": "github", "username": "jceb", "repo": "blinds.nvim", "tags": ["color"] },
     {
       "type": "github",
