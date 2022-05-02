@@ -352,7 +352,7 @@
     { "type": "github", "username": "folke", "repo": "twilight.nvim", "tags": ["color"] },
     { "type": "github", "username": "folke", "repo": "which-key.nvim", "tags": ["keybinding"] },
     { "type": "github", "username": "folke", "repo": "zen-mode.nvim", "tags": ["editing-support"] },
-    { "type": "github", "username": "frabjous", "repo": "knap", "tags": ["markdown-/-latex"] },
+    { "type": "github", "username": "frabjous", "repo": "knap", "tags": ["latex", "markdown"] },
     {
       "type": "github",
       "username": "FrenzyExists",
