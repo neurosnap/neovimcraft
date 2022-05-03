@@ -122,6 +122,7 @@
     },
     { "type": "github", "username": "asvetliakov", "repo": "vscode-neovim", "tags": ["ui"] },
     { "type": "github", "username": "axieax", "repo": "urlview.nvim", "tags": ["utility"] },
+    { "type": "github", "username": "b0o", "repo": "incline.nvim", "tags": ["statusline"] },
     { "type": "github", "username": "b0o", "repo": "mapx.nvim", "tags": ["keybinding"] },
     { "type": "github", "username": "b0o", "repo": "SchemaStore.nvim", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "b3nj5m1n", "repo": "kommentary", "tags": ["comment"] },
@@ -700,6 +701,12 @@
     },
     { "type": "github", "username": "Lyude", "repo": "neovim-gtk", "tags": ["ui"] },
     { "type": "github", "username": "m-demare", "repo": "hlargs.nvim", "tags": ["syntax"] },
+    {
+      "type": "github",
+      "username": "m00qek",
+      "repo": "baleia.nvim",
+      "tags": ["terminal-integration"]
+    },
     {
       "type": "github",
       "username": "m00qek",
