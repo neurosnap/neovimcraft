@@ -235,6 +235,7 @@
       "repo": "nv-ide",
       "tags": ["preconfigured-configuration"]
     },
+    { "type": "github", "username": "crusj", "repo": "structrue-go.nvim", "tags": ["utility"] },
     {
       "type": "github",
       "username": "cstsunfu",
