@@ -491,6 +491,7 @@
       "repo": "nvim-remote-containers",
       "tags": ["remote-development"]
     },
+    { "type": "github", "username": "jbyuki", "repo": "carrot.nvim", "tags": ["markdown-/-latex"] },
     {
       "type": "github",
       "username": "jbyuki",
