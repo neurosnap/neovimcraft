@@ -235,6 +235,12 @@
       "repo": "nv-ide",
       "tags": ["preconfigured-configuration"]
     },
+    {
+      "type": "github",
+      "username": "crusj",
+      "repo": "hierarchy-tree-go.nvim",
+      "tags": ["programming-languages-support"]
+    },
     { "type": "github", "username": "crusj", "repo": "structrue-go.nvim", "tags": ["utility"] },
     {
       "type": "github",
@@ -508,6 +514,18 @@
     { "type": "github", "username": "jbyuki", "repo": "venn.nvim", "tags": ["note-taking"] },
     { "type": "github", "username": "jceb", "repo": "blinds.nvim", "tags": ["color"] },
     { "type": "github", "username": "jebberjeb", "repo": "javafx-neovimpane", "tags": ["ui"] },
+    {
+      "type": "github",
+      "username": "jedrzejboczar",
+      "repo": "possession.nvim",
+      "tags": ["session"]
+    },
+    {
+      "type": "github",
+      "username": "jedrzejboczar",
+      "repo": "toggletasks.nvim",
+      "tags": ["code-runner"]
+    },
     {
       "type": "github",
       "username": "jghauser",
