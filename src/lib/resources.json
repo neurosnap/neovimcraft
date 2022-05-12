@@ -201,6 +201,12 @@
       "repo": "nvcode-color-schemes.vim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    {
+      "type": "github",
+      "username": "chrsm",
+      "repo": "paramount-ng.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
     { "type": "github", "username": "clojure-vim", "repo": "jazz.nvim", "tags": ["utility"] },
     { "type": "github", "username": "code-biscuits", "repo": "nvim-biscuits", "tags": ["utility"] },
     { "type": "github", "username": "CosmicNvim", "repo": "cosmic-ui", "tags": ["ui"] },
@@ -323,13 +329,13 @@
     },
     { "type": "github", "username": "f-person", "repo": "git-blame.nvim", "tags": ["git"] },
     { "type": "github", "username": "famiu", "repo": "bufdelete.nvim", "tags": ["utility"] },
-    { "type": "github", "username": "Famiu", "repo": "feline.nvim", "tags": ["statusline"] },
     {
       "type": "github",
       "username": "FeiyouG",
       "repo": "command_center.nvim",
       "tags": ["keybinding"]
     },
+    { "type": "github", "username": "feline-nvim", "repo": "feline.nvim", "tags": ["statusline"] },
     {
       "type": "github",
       "username": "fenetikm",
@@ -998,6 +1004,12 @@
     {
       "type": "github",
       "username": "nvim-treesitter",
+      "repo": "nvim-treesitter-context",
+      "tags": ["editing-support"]
+    },
+    {
+      "type": "github",
+      "username": "nvim-treesitter",
       "repo": "nvim-treesitter-textobjects",
       "tags": ["syntax"]
     },
@@ -1147,6 +1159,7 @@
     { "type": "github", "username": "rcarriga", "repo": "nvim-dap-ui", "tags": ["debugging"] },
     { "type": "github", "username": "rcarriga", "repo": "nvim-notify", "tags": ["utility"] },
     { "type": "github", "username": "rcarriga", "repo": "vim-ultest", "tags": ["test"] },
+    { "type": "github", "username": "rebelot", "repo": "heirline.nvim", "tags": ["statusline"] },
     {
       "type": "github",
       "username": "rebelot",
@@ -1205,12 +1218,6 @@
     },
     { "type": "github", "username": "rohit-px2", "repo": "nvui", "tags": ["ui"] },
     { "type": "github", "username": "romgrk", "repo": "barbar.nvim", "tags": ["tabline"] },
-    {
-      "type": "github",
-      "username": "romgrk",
-      "repo": "nvim-treesitter-context",
-      "tags": ["editing-support"]
-    },
     {
       "type": "github",
       "username": "rose-pine",
