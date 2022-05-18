@@ -37,6 +37,12 @@
       "username": "mrjones2014",
       "repo": "smart-splits.nvim",
       "tags": ["split-and-window"]
+    },
+    {
+      "type": "github",
+      "username": "linty-org",
+      "repo": "readline.nvim",
+      "tags": ["editing-support"]
     }
   ]
 }
