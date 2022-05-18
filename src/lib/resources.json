@@ -680,6 +680,12 @@
       "repo": "telescope-command-palette.nvim",
       "tags": ["keybinding"]
     },
+    {
+      "type": "github",
+      "username": "linty-org",
+      "repo": "readline.nvim",
+      "tags": ["editing-support"]
+    },
     { "type": "github", "username": "LionC", "repo": "nest.nvim", "tags": ["keybinding"] },
     {
       "type": "github",
