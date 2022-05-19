@@ -188,7 +188,7 @@
       "repo": "nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "chentau", "repo": "marks.nvim", "tags": ["marks"] },
+    { "type": "github", "username": "chentoast", "repo": "marks.nvim", "tags": ["marks"] },
     {
       "type": "github",
       "username": "chipsenkbeil",
@@ -708,14 +708,14 @@
     {
       "type": "github",
       "username": "lukas-reineke",
-      "repo": "format.nvim",
-      "tags": ["formatting"]
+      "repo": "indent-blankline.nvim",
+      "tags": ["indent"]
     },
     {
       "type": "github",
       "username": "lukas-reineke",
-      "repo": "indent-blankline.nvim",
-      "tags": ["indent"]
+      "repo": "lsp-format.nvim",
+      "tags": ["formatting"]
     },
     {
       "type": "github",
@@ -1358,7 +1358,19 @@
       "repo": "nvim-gps",
       "tags": ["statusline-component"]
     },
+    {
+      "type": "github",
+      "username": "smjonas",
+      "repo": "snippet-converter.nvim",
+      "tags": ["snippet"]
+    },
     { "type": "github", "username": "smolck", "repo": "uivonim", "tags": ["ui"] },
+    {
+      "type": "github",
+      "username": "someone-stole-my-name",
+      "repo": "yaml-companion.nvim",
+      "tags": ["utility"]
+    },
     { "type": "github", "username": "sQVe", "repo": "sort.nvim", "tags": ["editing-support"] },
     { "type": "github", "username": "startup-nvim", "repo": "startup.nvim", "tags": ["startup"] },
     {
