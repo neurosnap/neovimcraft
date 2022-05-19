@@ -70,6 +70,7 @@
     },
     { "type": "github", "username": "alvarosevilla95", "repo": "luatab.nvim", "tags": ["tabline"] },
     { "type": "github", "username": "amirrezaask", "repo": "fuzzy.nvim", "tags": ["fuzzy-finder"] },
+    { "type": "github", "username": "amrbashir", "repo": "nvim-docs-view", "tags": ["neovim-0.5"] },
     {
       "type": "github",
       "username": "andersevenrud",
