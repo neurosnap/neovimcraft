@@ -412,6 +412,7 @@
     { "type": "github", "username": "gfanto", "repo": "fzf-lsp.nvim", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "ggandor", "repo": "leap.nvim", "tags": ["motion"] },
     { "type": "github", "username": "ggandor", "repo": "lightspeed.nvim", "tags": ["motion"] },
+    { "type": "github", "username": "ghillb", "repo": "cybu.nvim", "tags": ["utility"] },
     {
       "type": "github",
       "username": "glacambre",
