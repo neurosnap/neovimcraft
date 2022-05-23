@@ -242,6 +242,7 @@
       "repo": "nv-ide",
       "tags": ["preconfigured-configuration"]
     },
+    { "type": "github", "username": "crusj", "repo": "bookmarks.nvim", "tags": ["utility"] },
     {
       "type": "github",
       "username": "crusj",
@@ -812,6 +813,7 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "michaelb", "repo": "sniprun", "tags": ["code-runner"] },
+    { "type": "github", "username": "mickael-menu", "repo": "zk-nvim", "tags": ["note-taking"] },
     {
       "type": "github",
       "username": "milisims",
