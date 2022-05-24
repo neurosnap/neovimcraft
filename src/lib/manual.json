@@ -43,6 +43,12 @@
       "username": "linty-org",
       "repo": "readline.nvim",
       "tags": ["editing-support"]
+    },
+    {
+      "type": "github",
+      "username": "linty-org",
+      "repo": "key-menu.nvim",
+      "tags": ["keybinding"]
     }
   ]
 }
