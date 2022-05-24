@@ -683,6 +683,7 @@
       "repo": "telescope-command-palette.nvim",
       "tags": ["keybinding"]
     },
+    { "type": "github", "username": "linty-org", "repo": "key-menu.nvim", "tags": ["keybinding"] },
     {
       "type": "github",
       "username": "linty-org",
