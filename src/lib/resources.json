@@ -663,6 +663,7 @@
       "repo": "cobalt2.nvim",
       "tags": ["lua-colorscheme"]
     },
+    { "type": "github", "username": "ldelossa", "repo": "gh.nvim", "tags": ["github"] },
     { "type": "github", "username": "ldelossa", "repo": "litee.nvim", "tags": ["neovim-0.5"] },
     {
       "type": "github",
