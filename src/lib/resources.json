@@ -889,6 +889,7 @@
       "tags": ["neovim-lua-development"]
     },
     { "type": "github", "username": "nanotee", "repo": "sqls.nvim", "tags": ["neovim-0.5"] },
+    { "type": "github", "username": "nanozuki", "repo": "tabby.nvim", "tags": ["tabline"] },
     {
       "type": "github",
       "username": "navarasu",
