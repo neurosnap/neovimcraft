@@ -465,6 +465,12 @@
     { "type": "github", "username": "hkupty", "repo": "nvimux", "tags": ["tmux"] },
     { "type": "github", "username": "hrsh7th", "repo": "nvim-cmp", "tags": ["completion"] },
     { "type": "github", "username": "ibhagwan", "repo": "fzf-lua", "tags": ["fuzzy-finder"] },
+    {
+      "type": "github",
+      "username": "imbacraft",
+      "repo": "dusk.nvim",
+      "tags": ["preconfigured-configuration"]
+    },
     { "type": "github", "username": "Iron-E", "repo": "nvim-cartographer", "tags": ["keybinding"] },
     {
       "type": "github",
