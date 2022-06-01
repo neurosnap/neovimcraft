@@ -202,6 +202,7 @@
       "repo": "nvcode-color-schemes.vim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    { "type": "github", "username": "chrsm", "repo": "impulse.nvim", "tags": ["note-taking"] },
     {
       "type": "github",
       "username": "chrsm",
