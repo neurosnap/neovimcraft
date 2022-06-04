@@ -1,5 +1,7 @@
 # neovimcraft.com
 
+[neovimcraft](https://neovimcraft.com)
+
 A site dedicated to finding the best neovim plugins and other resources for
 building neovim plugins
 
