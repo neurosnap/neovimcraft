@@ -49,6 +49,24 @@
       "username": "linty-org",
       "repo": "key-menu.nvim",
       "tags": ["keybinding"]
+    },
+    {
+      "type": "github",
+      "username": "koenverburg",
+      "repo": "minimal-tabline.nvim",
+      "tags": ["tabline"]
+    },
+    {
+      "type": "github",
+      "username": "koenverburg",
+      "repo": "peepsight.nvim",
+      "tags": ["color"]
+    },
+    {
+      "type": "github",
+      "username": "koenverburg",
+      "repo": "cmd-palette.nvim",
+      "tags": ["utility"]
     }
   ]
 }
