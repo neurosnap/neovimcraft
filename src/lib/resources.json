@@ -1603,6 +1603,7 @@
       "tags": ["cursorline"]
     },
     { "type": "github", "username": "xiyaowong", "repo": "nvim-transparent", "tags": ["color"] },
+    { "type": "github", "username": "xiyaowong", "repo": "virtcolumn.nvim", "tags": ["utility"] },
     { "type": "github", "username": "Xuyuanp", "repo": "scrollbar.nvim", "tags": ["scrollbar"] },
     { "type": "github", "username": "Xuyuanp", "repo": "yanil", "tags": ["file-explorer"] },
     { "type": "github", "username": "yamatsum", "repo": "nvim-cursorline", "tags": ["cursorline"] },
