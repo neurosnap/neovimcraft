@@ -15,12 +15,6 @@
       "repo": "nvim-revJ.lua",
       "tags": ["editing-support"]
     },
-    {
-      "type": "github",
-      "username": "AckslD",
-      "repo": "nvim-whichkey-setup.lua",
-      "tags": ["keybinding"]
-    },
     { "type": "github", "username": "adelarsq", "repo": "neoline.vim", "tags": ["statusline"] },
     {
       "type": "github",
@@ -559,12 +553,6 @@
     { "type": "github", "username": "jghauser", "repo": "mkdir.nvim", "tags": ["utility"] },
     {
       "type": "github",
-      "username": "jim-at-jibba",
-      "repo": "ariake-vim-colors",
-      "tags": ["tree-sitter-supported-colorscheme"]
-    },
-    {
-      "type": "github",
       "username": "jlesquembre",
       "repo": "nterm.nvim",
       "tags": ["terminal-integration"]
@@ -631,6 +619,7 @@
     { "type": "github", "username": "kevinhwang91", "repo": "rnvimr", "tags": ["file-explorer"] },
     { "type": "github", "username": "klen", "repo": "nvim-config-local", "tags": ["project"] },
     { "type": "github", "username": "klen", "repo": "nvim-test", "tags": ["test"] },
+    { "type": "github", "username": "koenverburg", "repo": "peepsight.nvim", "tags": ["color"] },
     { "type": "github", "username": "konapun", "repo": "vacuumline.nvim", "tags": ["statusline"] },
     { "type": "github", "username": "kosayoda", "repo": "nvim-lightbulb", "tags": ["neovim-0.5"] },
     {
