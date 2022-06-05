@@ -39,12 +39,6 @@
     {
       "type": "github",
       "username": "akinsho",
-      "repo": "dependency-assist.nvim",
-      "tags": ["dependency-management"]
-    },
-    {
-      "type": "github",
-      "username": "akinsho",
       "repo": "flutter-tools.nvim",
       "tags": ["programming-languages-support"]
     },
@@ -282,6 +276,7 @@
       "repo": "vim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    { "type": "github", "username": "drybalka", "repo": "tree-climber.nvim", "tags": ["motion"] },
     { "type": "github", "username": "dstein64", "repo": "nvim-scrollview", "tags": ["scrollbar"] },
     { "type": "github", "username": "echasnovski", "repo": "mini.nvim", "tags": ["session"] },
     {
@@ -937,12 +932,6 @@
     { "type": "github", "username": "norcalli", "repo": "snippets.nvim", "tags": ["snippet"] },
     { "type": "github", "username": "notomo", "repo": "cmdbuf.nvim", "tags": ["command-line"] },
     { "type": "github", "username": "notomo", "repo": "gesture.nvim", "tags": ["mouse"] },
-    {
-      "type": "github",
-      "username": "novakne",
-      "repo": "kosmikoa.nvim",
-      "tags": ["tree-sitter-supported-colorscheme"]
-    },
     { "type": "github", "username": "NTBBloodbath", "repo": "cheovim", "tags": ["plugin-manager"] },
     {
       "type": "github",
