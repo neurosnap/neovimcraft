@@ -57,7 +57,6 @@
       "tags": ["editing-support"]
     },
     { "type": "github", "username": "alvarosevilla95", "repo": "luatab.nvim", "tags": ["tabline"] },
-    { "type": "github", "username": "amirrezaask", "repo": "fuzzy.nvim", "tags": ["fuzzy-finder"] },
     { "type": "github", "username": "amrbashir", "repo": "nvim-docs-view", "tags": ["neovim-0.5"] },
     {
       "type": "github",
@@ -619,6 +618,18 @@
     { "type": "github", "username": "kevinhwang91", "repo": "rnvimr", "tags": ["file-explorer"] },
     { "type": "github", "username": "klen", "repo": "nvim-config-local", "tags": ["project"] },
     { "type": "github", "username": "klen", "repo": "nvim-test", "tags": ["test"] },
+    {
+      "type": "github",
+      "username": "koenverburg",
+      "repo": "cmd-palette.nvim",
+      "tags": ["utility"]
+    },
+    {
+      "type": "github",
+      "username": "koenverburg",
+      "repo": "minimal-tabline.nvim",
+      "tags": ["tabline"]
+    },
     { "type": "github", "username": "koenverburg", "repo": "peepsight.nvim", "tags": ["color"] },
     { "type": "github", "username": "konapun", "repo": "vacuumline.nvim", "tags": ["statusline"] },
     { "type": "github", "username": "kosayoda", "repo": "nvim-lightbulb", "tags": ["neovim-0.5"] },
@@ -1351,6 +1362,7 @@
       "repo": "nvim-gps",
       "tags": ["statusline-component"]
     },
+    { "type": "github", "username": "smjonas", "repo": "inc-rename.nvim", "tags": ["neovim-0.5"] },
     {
       "type": "github",
       "username": "smjonas",
