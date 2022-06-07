@@ -853,12 +853,6 @@
     { "type": "github", "username": "MordechaiHadad", "repo": "bob", "tags": ["version-manager"] },
     {
       "type": "github",
-      "username": "MordechaiHadad",
-      "repo": "nvim-papadark",
-      "tags": ["tree-sitter-supported-colorscheme"]
-    },
-    {
-      "type": "github",
       "username": "mrjones2014",
       "repo": "legendary.nvim",
       "tags": ["keybinding"]
