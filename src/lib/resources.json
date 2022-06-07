@@ -314,6 +314,12 @@
     { "type": "github", "username": "equalsraf", "repo": "neovim-qt", "tags": ["ui"] },
     {
       "type": "github",
+      "username": "esensar",
+      "repo": "nvim-dev-container",
+      "tags": ["remote-development"]
+    },
+    {
+      "type": "github",
       "username": "ethanholz",
       "repo": "nvim-lastplace",
       "tags": ["editing-support"]
