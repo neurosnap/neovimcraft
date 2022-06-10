@@ -91,12 +91,6 @@
     { "type": "github", "username": "aserowy", "repo": "tmux.nvim", "tags": ["tmux"] },
     {
       "type": "github",
-      "username": "ashincoder",
-      "repo": "StarVim",
-      "tags": ["preconfigured-configuration"]
-    },
-    {
-      "type": "github",
       "username": "askfiy",
       "repo": "nvim",
       "tags": ["preconfigured-configuration"]
@@ -523,7 +517,6 @@
     },
     { "type": "github", "username": "jbyuki", "repo": "venn.nvim", "tags": ["note-taking"] },
     { "type": "github", "username": "jceb", "repo": "blinds.nvim", "tags": ["color"] },
-    { "type": "github", "username": "jebberjeb", "repo": "javafx-neovimpane", "tags": ["ui"] },
     {
       "type": "github",
       "username": "jedrzejboczar",
@@ -897,12 +890,6 @@
       "type": "github",
       "username": "navarasu",
       "repo": "onedark.nvim",
-      "tags": ["tree-sitter-supported-colorscheme"]
-    },
-    {
-      "type": "github",
-      "username": "nekonako",
-      "repo": "xresources-nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "neovim", "repo": "nvim-lspconfig", "tags": ["neovim-0.5"] },
