@@ -1349,6 +1349,12 @@
       "repo": "nvim-gps",
       "tags": ["statusline-component"]
     },
+    {
+      "type": "github",
+      "username": "SmiteshP",
+      "repo": "nvim-navic",
+      "tags": ["statusline-component"]
+    },
     { "type": "github", "username": "smjonas", "repo": "inc-rename.nvim", "tags": ["neovim-0.5"] },
     {
       "type": "github",
@@ -1382,12 +1388,6 @@
       "username": "svermeulen",
       "repo": "vimpeccable",
       "tags": ["neovim-lua-development"]
-    },
-    {
-      "type": "github",
-      "username": "ta-tikoma",
-      "repo": "php.easy.vim",
-      "tags": ["editing-support"]
     },
     { "type": "github", "username": "tamago324", "repo": "lir.nvim", "tags": ["file-explorer"] },
     {
