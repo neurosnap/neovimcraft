@@ -1347,13 +1347,13 @@
       "type": "github",
       "username": "SmiteshP",
       "repo": "nvim-gps",
-      "tags": ["statusline-component"]
+      "tags": ["winbar-and-statusline-component"]
     },
     {
       "type": "github",
       "username": "SmiteshP",
       "repo": "nvim-navic",
-      "tags": ["statusline-component"]
+      "tags": ["winbar-and-statusline-component"]
     },
     { "type": "github", "username": "smjonas", "repo": "inc-rename.nvim", "tags": ["neovim-0.5"] },
     {
@@ -1518,6 +1518,12 @@
       "username": "vi-tality",
       "repo": "neovitality",
       "tags": ["preconfigured-configuration"]
+    },
+    {
+      "type": "github",
+      "username": "vigoux",
+      "repo": "complementree.nvim",
+      "tags": ["completion"]
     },
     { "type": "github", "username": "vijaymarupudi", "repo": "nvim-fzf", "tags": ["fuzzy-finder"] },
     {
