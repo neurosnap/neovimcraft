@@ -827,12 +827,6 @@
     {
       "type": "github",
       "username": "mjlbach",
-      "repo": "babelfish.nvim",
-      "tags": ["markdown-/-latex"]
-    },
-    {
-      "type": "github",
-      "username": "mjlbach",
       "repo": "defaults.nvim",
       "tags": ["preconfigured-configuration"]
     },
