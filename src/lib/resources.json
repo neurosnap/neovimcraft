@@ -979,6 +979,7 @@
       "tags": ["file-explorer"]
     },
     { "type": "github", "username": "nvim-neorg", "repo": "neorg", "tags": ["note-taking"] },
+    { "type": "github", "username": "nvim-neotest", "repo": "neotest", "tags": ["test"] },
     { "type": "github", "username": "nvim-orgmode", "repo": "orgmode", "tags": ["note-taking"] },
     {
       "type": "github",
