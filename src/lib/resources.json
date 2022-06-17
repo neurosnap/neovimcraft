@@ -738,6 +738,7 @@
       "tags": ["split-and-window"]
     },
     { "type": "github", "username": "Lyude", "repo": "neovim-gtk", "tags": ["ui"] },
+    { "type": "github", "username": "m-demare", "repo": "attempt.nvim", "tags": ["utility"] },
     { "type": "github", "username": "m-demare", "repo": "hlargs.nvim", "tags": ["syntax"] },
     {
       "type": "github",
