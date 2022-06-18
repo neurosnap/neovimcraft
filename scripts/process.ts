@@ -73,7 +73,19 @@ async function githubApi(endpoint: string): Promise<Resp<{ [key: string]: any }>
     await delay(wait);
   }
 
-  const data = await res.json();
+  let data = null;
+  try {
+    data = await res.json();
+  } catch {
+    return {
+      ok: false,
+      data: {
+        status: res.status,
+        error: new Error(`JSON parsing error [${url}]`)
+      }
+    }
+  }
+
   if (res.ok) {
     return {
       ok: true,
@@ -85,7 +97,7 @@ async function githubApi(endpoint: string): Promise<Resp<{ [key: string]: any }>
     ok: false,
     data: {
       status: res.status,
-      error: new Error(`Could not load ${url}`),
+      error: new Error(`Could not load [${url}]`),
     },
   };
 }
