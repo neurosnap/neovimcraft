@@ -7,6 +7,12 @@
       "repo": "tabout.nvim",
       "tags": ["editing-support"]
     },
+    {
+      "type": "github",
+      "username": "Abstract-IDE",
+      "repo": "Abstract",
+      "tags": ["preconfigured-configuration"]
+    },
     { "type": "github", "username": "AckslD", "repo": "nvim-gfold.lua", "tags": ["git"] },
     { "type": "github", "username": "AckslD", "repo": "nvim-neoclip.lua", "tags": ["register"] },
     {
