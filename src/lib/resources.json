@@ -324,6 +324,12 @@
       "repo": "nvim-lastplace",
       "tags": ["editing-support"]
     },
+    {
+      "type": "github",
+      "username": "EthanJWright",
+      "repo": "vs-tasks.nvim",
+      "tags": ["code-runner"]
+    },
     { "type": "github", "username": "f-person", "repo": "git-blame.nvim", "tags": ["git"] },
     { "type": "github", "username": "famiu", "repo": "bufdelete.nvim", "tags": ["utility"] },
     {
