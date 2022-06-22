@@ -170,6 +170,7 @@
       "repo": "CNvim",
       "tags": ["preconfigured-configuration"]
     },
+    { "type": "github", "username": "cappyzawa", "repo": "trim.nvim", "tags": ["formatting"] },
     {
       "type": "github",
       "username": "catppuccin",
@@ -1046,6 +1047,12 @@
     },
     { "type": "github", "username": "ojroques", "repo": "nvim-hardline", "tags": ["statusline"] },
     { "type": "github", "username": "ojroques", "repo": "nvim-lspfuzzy", "tags": ["neovim-0.5"] },
+    {
+      "type": "github",
+      "username": "olexsmir",
+      "repo": "gopher.nvim",
+      "tags": ["programming-languages-support"]
+    },
     { "type": "github", "username": "Olical", "repo": "aniseed", "tags": ["fennel"] },
     {
       "type": "github",
