@@ -1,12 +1,7 @@
 {
   "resources": [
     { "type": "github", "username": "0styx0", "repo": "abbreinder.nvim", "tags": ["note-taking"] },
-    {
-      "type": "github",
-      "username": "abecodes",
-      "repo": "tabout.nvim",
-      "tags": ["editing-support"]
-    },
+    { "type": "github", "username": "abecodes", "repo": "tabout.nvim", "tags": ["motion"] },
     {
       "type": "github",
       "username": "Abstract-IDE",
@@ -270,7 +265,12 @@
       "repo": "vim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "drybalka", "repo": "tree-climber.nvim", "tags": ["motion"] },
+    {
+      "type": "github",
+      "username": "drybalka",
+      "repo": "tree-climber.nvim",
+      "tags": ["treesitter-based"]
+    },
     { "type": "github", "username": "dstein64", "repo": "nvim-scrollview", "tags": ["scrollbar"] },
     { "type": "github", "username": "echasnovski", "repo": "mini.nvim", "tags": ["session"] },
     {
@@ -279,7 +279,7 @@
       "repo": "nightfox.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "edluffy", "repo": "specs.nvim", "tags": ["editing-support"] },
+    { "type": "github", "username": "edluffy", "repo": "specs.nvim", "tags": ["motion"] },
     {
       "type": "github",
       "username": "edolphin-ydf",
@@ -821,7 +821,7 @@
       "type": "github",
       "username": "mfussenegger",
       "repo": "nvim-ts-hint-textobject",
-      "tags": ["motion"]
+      "tags": ["treesitter-based"]
     },
     {
       "type": "github",
@@ -1631,6 +1631,11 @@
       "repo": "smart-pairs",
       "tags": ["editing-support"]
     },
-    { "type": "github", "username": "ziontee113", "repo": "syntax-tree-surfer", "tags": ["motion"] }
+    {
+      "type": "github",
+      "username": "ziontee113",
+      "repo": "syntax-tree-surfer",
+      "tags": ["treesitter-based"]
+    }
   ]
 }
