@@ -1,11 +1,6 @@
 {
   "resources": [
-    { 
-      "type": "github", 
-      "username": "frabjous", 
-      "repo": "knap", 
-      "tags": ["latex","markdown"] 
-    },
+    { "type": "github", "username": "frabjous", "repo": "knap", "tags": ["latex", "markdown"] },
     { "type": "github", "username": "jceb", "repo": "blinds.nvim", "tags": ["color"] },
     {
       "type": "github",
@@ -44,29 +39,25 @@
       "repo": "readline.nvim",
       "tags": ["editing-support"]
     },
-    {
-      "type": "github",
-      "username": "linty-org",
-      "repo": "key-menu.nvim",
-      "tags": ["keybinding"]
-    },
+    { "type": "github", "username": "linty-org", "repo": "key-menu.nvim", "tags": ["keybinding"] },
     {
       "type": "github",
       "username": "koenverburg",
       "repo": "minimal-tabline.nvim",
       "tags": ["tabline"]
     },
-    {
-      "type": "github",
-      "username": "koenverburg",
-      "repo": "peepsight.nvim",
-      "tags": ["color"]
-    },
+    { "type": "github", "username": "koenverburg", "repo": "peepsight.nvim", "tags": ["color"] },
     {
       "type": "github",
       "username": "koenverburg",
       "repo": "cmd-palette.nvim",
       "tags": ["utility"]
+    },
+    {
+      "type": "github",
+      "username": "wuelnerdotexe",
+      "repo": "vim-enfocado",
+      "tags": ["tree-sitter-supported-colorscheme"]
     }
   ]
 }
