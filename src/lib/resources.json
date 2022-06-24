@@ -77,6 +77,7 @@
       "repo": "nvim-lspinstall",
       "tags": ["lsp-installer"]
     },
+    { "type": "github", "username": "anuvyklack", "repo": "hydra.nvim", "tags": ["keybinding"] },
     {
       "type": "github",
       "username": "anuvyklack",
@@ -240,6 +241,7 @@
       "repo": ".sea.nvim",
       "tags": ["preconfigured-configuration"]
     },
+    { "type": "github", "username": "cuducos", "repo": "yaml.nvim", "tags": ["utility"] },
     {
       "type": "github",
       "username": "danielpieper",
@@ -416,6 +418,7 @@
     { "type": "github", "username": "ggandor", "repo": "leap.nvim", "tags": ["motion"] },
     { "type": "github", "username": "ggandor", "repo": "lightspeed.nvim", "tags": ["motion"] },
     { "type": "github", "username": "ghillb", "repo": "cybu.nvim", "tags": ["utility"] },
+    { "type": "github", "username": "github", "repo": "copilot.vim", "tags": ["completion"] },
     {
       "type": "github",
       "username": "glacambre",
