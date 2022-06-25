@@ -12,12 +12,9 @@
 <div class="container">
   <div class="header">
     <h2 class="item_header">
-      <a href="/plugin/{plugin.username}/{plugin.repo}">{plugin.repo}</a>
+      <a href="{plugin.link}">{plugin.repo}</a>
     </h2>
     <div class="metrics">
-      <Tooltip tip="github repo" bottom>
-        <a href={plugin.link}><Icon icon="github" /></a>
-      </Tooltip>
       <Tooltip tip="stars" bottom>
         <div class="metric-item"><Icon icon="star" /> <span>{plugin.stars}</span></div>
       </Tooltip>
