@@ -58,6 +58,12 @@
       "username": "wuelnerdotexe",
       "repo": "vim-enfocado",
       "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
+      "username": "strash",
+      "repo": "everybody-wants-that-line.nvim",
+      "tags": ["statusline"]
     }
   ]
 }

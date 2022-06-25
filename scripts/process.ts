@@ -43,11 +43,8 @@ async function processMissingResources() {
   console.log(`Missing ${missing.length} resources`);
 
   const results = await processResources(missing);
-  const markdownFile = await readFile('./src/lib/markdown.json');
-  const markdownJson = JSON.parse(markdownFile.toString());
   const plugins = { ...db.plugins, ...results.plugins };
-  const markdown = { ...markdownJson.markdown, ...results.markdown };
-  return { plugins, markdown };
+  return plugins;
 }
 
 async function delay(ms: number): Promise<void> {
@@ -81,9 +78,9 @@ async function githubApi(endpoint: string): Promise<Resp<{ [key: string]: any }>
       ok: false,
       data: {
         status: res.status,
-        error: new Error(`JSON parsing error [${url}]`)
-      }
-    }
+        error: new Error(`JSON parsing error [${url}]`),
+      },
+    };
   }
 
   if (res.ok) {
@@ -99,25 +96,6 @@ async function githubApi(endpoint: string): Promise<Resp<{ [key: string]: any }>
       status: res.status,
       error: new Error(`Could not load [${url}]`),
     },
-  };
-}
-
-async function fetchReadme({ username, repo }: Props): Promise<Resp<string>> {
-  const result = await githubApi(`/repos/${username}/${repo}/readme`);
-  if (!result.ok) {
-    return {
-      ok: false,
-      data: result.data as any,
-    };
-  }
-
-  const url = result.data.download_url;
-  console.log(`Fetching ${url}`);
-  const readme = await fetch(url);
-  const data = await readme.text();
-  return {
-    ok: true,
-    data,
   };
 }
 
@@ -159,18 +137,10 @@ async function fetchGithubData(props: Props): Promise<Resp<any>> {
     console.log(`${branch.data.status}: ${branch.data.error.message}`);
   }
 
-  const readme = await fetchReadme({
-    username: props.username,
-    repo: props.repo,
-  });
-  if (readme.ok === false) {
-    console.log(`${readme.data.status}: ${readme.data.error.message}`);
-  }
-
   return {
     ok: true,
     data: {
-      readme: readme.ok ? readme.data : '',
+      readme: '',
       repo: repo.data,
       branch: branch.data,
     },
@@ -179,7 +149,6 @@ async function fetchGithubData(props: Props): Promise<Resp<any>> {
 
 async function processResources(resources: Resource[]) {
   const plugins: { [key: string]: Plugin } = {};
-  const markdown: { [key: string]: string } = {};
 
   console.log(`Fetching ${resources.length} resources`);
 
@@ -192,7 +161,6 @@ async function processResources(resources: Resource[]) {
         const resp = result.data;
         const id = `${d.username}/${d.repo}`;
 
-        markdown[id] = resp.readme;
         plugins[id] = createPlugin({
           id,
           username: d.username,
@@ -216,24 +184,13 @@ async function processResources(resources: Resource[]) {
     }
   }
 
-  return { plugins, markdown };
+  return plugins;
 }
 
-async function saveData({
-  plugins,
-  markdown,
-}: {
-  plugins: { [key: string]: Plugin };
-  markdown: { [key: string]: string };
-}) {
+async function saveData(plugins: { [key: string]: Plugin }) {
   const pluginJson = prettier.format(JSON.stringify({ plugins }), {
     parser: 'json',
     printWidth: 100,
   });
-  const markdownJson = prettier.format(JSON.stringify({ markdown }), {
-    parser: 'json',
-    printWidth: 100,
-  });
   await writeFile('./src/lib/db.json', pluginJson);
-  await writeFile('./src/lib/markdown.json', markdownJson);
 }
