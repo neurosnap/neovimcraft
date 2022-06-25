@@ -43,11 +43,8 @@ async function processMissingResources() {
   console.log(`Missing ${missing.length} resources`);
 
   const results = await processResources(missing);
-  const markdownFile = await readFile('./src/lib/markdown.json');
-  const markdownJson = JSON.parse(markdownFile.toString());
   const plugins = { ...db.plugins, ...results.plugins };
-  const markdown = { ...markdownJson.markdown, ...results.markdown };
-  return { plugins, markdown };
+  return plugins;
 }
 
 async function delay(ms: number): Promise<void> {
