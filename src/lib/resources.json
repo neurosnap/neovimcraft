@@ -1634,6 +1634,7 @@
       "repo": "smart-pairs",
       "tags": ["editing-support"]
     },
+    { "type": "github", "username": "ziontee113", "repo": "icon-picker.nvim", "tags": ["icon"] },
     {
       "type": "github",
       "username": "ziontee113",
