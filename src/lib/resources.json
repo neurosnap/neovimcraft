@@ -1605,6 +1605,12 @@
     },
     {
       "type": "github",
+      "username": "wuelnerdotexe",
+      "repo": "vim-enfocado",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
       "username": "xeluxee",
       "repo": "competitest.nvim",
       "tags": ["competitive-programming"]
