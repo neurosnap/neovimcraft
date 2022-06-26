@@ -1405,6 +1405,12 @@
     { "type": "github", "username": "stevearc", "repo": "dressing.nvim", "tags": ["utility"] },
     { "type": "github", "username": "stevearc", "repo": "gkeep.nvim", "tags": ["note-taking"] },
     { "type": "github", "username": "stevearc", "repo": "qf_helper.nvim", "tags": ["quickfix"] },
+    {
+      "type": "github",
+      "username": "strash",
+      "repo": "everybody-wants-that-line.nvim",
+      "tags": ["statusline"]
+    },
     { "type": "github", "username": "sudormrfbin", "repo": "cheatsheet.nvim", "tags": ["utility"] },
     { "type": "github", "username": "sunjon", "repo": "Shade.nvim", "tags": ["color"] },
     {
