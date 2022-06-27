@@ -793,7 +793,6 @@
       "repo": "material.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "Massolari", "repo": "forem.nvim", "tags": ["utility"] },
     { "type": "github", "username": "matbme", "repo": "JABS.nvim", "tags": ["utility"] },
     {
       "type": "github",
