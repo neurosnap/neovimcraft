@@ -86,7 +86,7 @@
 </div>
 
 <svelte:head>
-  <title>neovim craft - guides</title>
+  <title>neovimcraft - guides</title>
   <meta
     name="description"
     content="Curated guides to help you configure neovim and build plugins"
@@ -95,7 +95,7 @@
     property="og:description"
     content="Curated guides to help you configure neovim and build plugins"
   />
-  <meta property="og:title" content="neovim craft - plugin guides" />
+  <meta property="og:title" content="neovimcraft - plugin guides" />
 </svelte:head>
 
 <style>

@@ -16,7 +16,7 @@
         <img class="logo" src="/neovim-mark-flat.png" alt="neovim logo" />
       </div>
       <div>
-        <h1 class="header">neovim craft</h1>
+        <h1 class="header">neovimcraft</h1>
         <div class="desc">
           Search through our curated neovim plugin directory and read our guides on creating
           plugins.

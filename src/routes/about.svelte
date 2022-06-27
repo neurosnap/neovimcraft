@@ -29,7 +29,7 @@
         <a href="https://erock.io">blog articles about software</a>.
       </p>
       <p>
-        I&apos;m happy to read feedback about neovim craft so please feel free to{' '}
+        I&apos;m happy to read feedback about neovimcraft so please feel free to{' '}
         <a href="mailto:neovimcraft@erock.io">email me</a>.
       </p>
     </div>
@@ -46,21 +46,17 @@
       </p>
       <h3>How can I submit a plugin or resource to this project?</h3>
       <p>
-        The easiest way is to submit a PR that adds the resource to our
-        <a
-          href="https://github.com/neurosnap/neovimcraft/blob/main/src/lib/resources.json"
-         >resources.json file</a
-        >.
+        Please read the <a href="https://github.com/neurosnap/neovimcraft#want-to-submit-a-plugin">neovimcraft README</a>.
       </p>
     </div>
   </div>
 </div>
 
 <svelte:head>
-  <title>neovim craft - about</title>
-  <meta name="description" content="About neovim craft" />
-  <meta property="og:description" content="About neovim craft" />
-  <meta property="og:title" content="neovim craft - about" />
+  <title>neovimcraft - about</title>
+  <meta name="description" content="About neovimcraft" />
+  <meta property="og:description" content="About neovimcraft" />
+  <meta property="og:title" content="neovimcraft - about" />
 </svelte:head>
 
 <style>
@@ -86,8 +82,8 @@
 
   .profile {
     border-radius: 9999px;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
 
   @media only screen and (max-width: 700px) {

@@ -37,7 +37,7 @@
       <div class="menu-overlay" on:click={close} />
       <div class="menu">
         <div class="menu-header">
-          <h1><a href="/" class="logo-header">neovim craft</a></h1>
+          <h1><a href="/" class="logo-header">neovimcraft</a></h1>
           <div class="menu-btn" on:click={close}><img src="/menu.svg" alt="menu" /></div>
         </div>
         <div class="menu-body">
