@@ -390,6 +390,12 @@
     {
       "type": "github",
       "username": "gbprod",
+      "repo": "phpactor.nvim",
+      "tags": ["programming-languages-support"]
+    },
+    {
+      "type": "github",
+      "username": "gbprod",
       "repo": "substitute.nvim",
       "tags": ["editing-support"]
     },
@@ -800,12 +806,7 @@
       "repo": "better-escape.nvim",
       "tags": ["utility"]
     },
-    {
-      "type": "github",
-      "username": "McAuleyPenney",
-      "repo": "tidy.nvim",
-      "tags": ["editing-support"]
-    },
+    { "type": "github", "username": "mcauley-penney", "repo": "tidy.nvim", "tags": ["formatting"] },
     {
       "type": "github",
       "username": "mcchrish",
