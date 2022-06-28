@@ -723,6 +723,12 @@
     { "type": "github", "username": "LionC", "repo": "nest.nvim", "tags": ["keybinding"] },
     {
       "type": "github",
+      "username": "lmburns",
+      "repo": "kimbox",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
       "username": "LoricAndre",
       "repo": "OneTerm.nvim",
       "tags": ["terminal-integration"]
@@ -1267,6 +1273,12 @@
       "username": "s1n7ax",
       "repo": "nvim-terminal",
       "tags": ["terminal-integration"]
+    },
+    {
+      "type": "github",
+      "username": "Saecki",
+      "repo": "crates.nvim",
+      "tags": ["dependency-management"]
     },
     { "type": "github", "username": "saifulapm", "repo": "chartoggle.nvim", "tags": ["utility"] },
     {
