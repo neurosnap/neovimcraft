@@ -857,12 +857,6 @@
     { "type": "github", "username": "mizlan", "repo": "iswap.nvim", "tags": ["editing-support"] },
     {
       "type": "github",
-      "username": "mjlbach",
-      "repo": "defaults.nvim",
-      "tags": ["preconfigured-configuration"]
-    },
-    {
-      "type": "github",
       "username": "Mofiqul",
       "repo": "dracula.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
