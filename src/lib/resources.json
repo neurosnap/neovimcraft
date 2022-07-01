@@ -685,6 +685,7 @@
       "tags": ["file-explorer"]
     },
     { "type": "github", "username": "kyazdani42", "repo": "nvim-web-devicons", "tags": ["icon"] },
+    { "type": "github", "username": "kylechui", "repo": "nvim-surround", "tags": ["formatting"] },
     { "type": "github", "username": "L3MON4D3", "repo": "LuaSnip", "tags": ["snippet"] },
     {
       "type": "github",
