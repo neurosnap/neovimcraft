@@ -14,14 +14,15 @@
     "scrape": "node --no-warnings --es-module-specifier-resolution=node --loader ts-node/esm scripts/scrape.ts",
     "patch": "node --no-warnings --es-module-specifier-resolution=node --loader ts-node/esm scripts/patch.ts",
     "process": "node --no-warnings --es-module-specifier-resolution=node --loader ts-node/esm scripts/process.ts",
+    "html": "node --no-warnings --es-module-specifier-resolution=node --loader ts-node/esm scripts/html.ts",
     "resource": "node --no-warnings --es-module-specifier-resolution=node --loader ts-node/esm scripts/resource.ts",
     "resource:clean": "node --no-warnings --es-module-specifier-resolution=node --loader ts-node/esm scripts/resource-clean.ts",
     "upload:clean": "gsutil -m rm -r gs://neovimcraft.com/*",
     "upload": "gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' rsync -r ./build gs://neovimcraft.com",
     "upload:db": "gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' cp ./src/lib/db.json gs://neovimcraft.com/db.json",
-    "build:all": "yarn scrape && yarn patch && yarn process && yarn build:clean && yarn build",
+    "build:all": "yarn scrape && yarn patch && yarn process && yarn html && yarn build:clean && yarn build",
     "deploy": "yarn build:clean && yarn build && yarn upload:clean && yarn upload && yarn upload:db",
-    "deploy:all": "yarn scrape && yarn patch && yarn process && yarn deploy"
+    "deploy:all": "yarn scrape && yarn patch && yarn process && yarn html && yarn deploy"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^1.0.0-next.13",
