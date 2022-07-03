@@ -642,6 +642,7 @@
     { "type": "github", "username": "Kethku", "repo": "neovide", "tags": ["ui"] },
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-bqf", "tags": ["quickfix"] },
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-hlslens", "tags": ["search"] },
+    { "type": "github", "username": "kevinhwang91", "repo": "nvim-ufo", "tags": ["utility"] },
     { "type": "github", "username": "kevinhwang91", "repo": "rnvimr", "tags": ["file-explorer"] },
     { "type": "github", "username": "klen", "repo": "nvim-config-local", "tags": ["project"] },
     { "type": "github", "username": "klen", "repo": "nvim-test", "tags": ["test"] },
