@@ -66,6 +66,7 @@
       "tags": ["statusline"]
     },
     { "type": "github", "username": "Massolari", "repo": "forem.nvim", "tags": ["utility"] },
-    { "type": "github", "username": "kylechui", "repo": "nvim-surround", "tags": ["formatting"] }
+    { "type": "github", "username": "kylechui", "repo": "nvim-surround", "tags": ["formatting"] },
+    { "type": "github", "username": "ktunprasert", "repo": "gui-font-resize.nvim", "tags": ["utility"]}
   ]
 }
