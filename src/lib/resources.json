@@ -249,6 +249,7 @@
       "tags": ["tmux"]
     },
     { "type": "github", "username": "danymat", "repo": "neogen", "tags": ["comment"] },
+    { "type": "github", "username": "Darazaki", "repo": "indent-o-matic", "tags": ["indent"] },
     { "type": "github", "username": "datwaft", "repo": "bubbly.nvim", "tags": ["statusline"] },
     { "type": "github", "username": "David-Kunz", "repo": "jester", "tags": ["test"] },
     {
@@ -922,6 +923,7 @@
       "repo": "numbers.nvim",
       "tags": ["utility"]
     },
+    { "type": "github", "username": "NMAC427", "repo": "guess-indent.nvim", "tags": ["indent"] },
     { "type": "github", "username": "noib3", "repo": "cokeline.nvim", "tags": ["tabline"] },
     { "type": "github", "username": "noib3", "repo": "nvim-compleet", "tags": ["completion"] },
     {
@@ -1625,6 +1627,7 @@
       "repo": "competitest.nvim",
       "tags": ["competitive-programming"]
     },
+    { "type": "github", "username": "xiyaowong", "repo": "link-visitor.nvim", "tags": ["utility"] },
     {
       "type": "github",
       "username": "xiyaowong",
