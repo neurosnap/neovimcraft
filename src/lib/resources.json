@@ -664,6 +664,12 @@
     { "type": "github", "username": "kosayoda", "repo": "nvim-lightbulb", "tags": ["neovim-0.5"] },
     {
       "type": "github",
+      "username": "ktunprasert",
+      "repo": "gui-font-resize.nvim",
+      "tags": ["utility"]
+    },
+    {
+      "type": "github",
       "username": "kvrohit",
       "repo": "rasmus.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
