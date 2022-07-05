@@ -645,6 +645,13 @@
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-hlslens", "tags": ["search"] },
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-ufo", "tags": ["utility"] },
     { "type": "github", "username": "kevinhwang91", "repo": "rnvimr", "tags": ["file-explorer"] },
+    { "type": "github", "username": "kkharji", "repo": "lspsaga.nvim", "tags": ["neovim-0.5"] },
+    {
+      "type": "github",
+      "username": "kkharji",
+      "repo": "sqlite.lua",
+      "tags": ["neovim-lua-development"]
+    },
     { "type": "github", "username": "klen", "repo": "nvim-config-local", "tags": ["project"] },
     { "type": "github", "username": "klen", "repo": "nvim-test", "tags": ["test"] },
     {
@@ -1060,12 +1067,6 @@
       "repo": "neuron.nvim",
       "tags": ["note-taking"]
     },
-    {
-      "type": "github",
-      "username": "oberblastmeister",
-      "repo": "termwrapper.nvim",
-      "tags": ["terminal-integration"]
-    },
     { "type": "github", "username": "ojroques", "repo": "nvim-hardline", "tags": ["statusline"] },
     { "type": "github", "username": "ojroques", "repo": "nvim-lspfuzzy", "tags": ["neovim-0.5"] },
     {
@@ -1445,13 +1446,6 @@
       "repo": "nlsp-settings.nvim",
       "tags": ["neovim-0.5"]
     },
-    { "type": "github", "username": "tami5", "repo": "lspsaga.nvim", "tags": ["neovim-0.5"] },
-    {
-      "type": "github",
-      "username": "tami5",
-      "repo": "sqlite.lua",
-      "tags": ["neovim-lua-development"]
-    },
     {
       "type": "github",
       "username": "tamton-aquib",
@@ -1470,12 +1464,6 @@
       "type": "github",
       "username": "Th3Whit3Wolf",
       "repo": "one-nvim",
-      "tags": ["tree-sitter-supported-colorscheme"]
-    },
-    {
-      "type": "github",
-      "username": "Th3Whit3Wolf",
-      "repo": "onebuddy",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     {
