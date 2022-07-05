@@ -1379,6 +1379,7 @@
       "repo": "winshift.nvim",
       "tags": ["split-and-window"]
     },
+    { "type": "github", "username": "sitiom", "repo": "nvim-numbertoggle", "tags": ["utility"] },
     {
       "type": "github",
       "username": "slugbyte",
