@@ -626,7 +626,7 @@
     {
       "type": "github",
       "username": "kaiuri",
-      "repo": "nvim-mariana",
+      "repo": "nvim-juliana",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "karb94", "repo": "neoscroll.nvim", "tags": ["scrolling"] },
