@@ -1472,6 +1472,7 @@
       "repo": "space-nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    { "type": "github", "username": "TheBlob42", "repo": "drex.nvim", "tags": ["file-explorer"] },
     {
       "type": "github",
       "username": "themercorp",
