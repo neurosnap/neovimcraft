@@ -67,6 +67,12 @@
     },
     {
       "type": "github",
+      "username": "andrewferrier",
+      "repo": "textobj-diagnostic.nvim",
+      "tags": ["diagnostics"]
+    },
+    {
+      "type": "github",
       "username": "andweeb",
       "repo": "presence.nvim",
       "tags": ["discord-rich-presence"]
@@ -1582,6 +1588,12 @@
       "username": "weilbith",
       "repo": "nvim-code-action-menu",
       "tags": ["neovim-0.5"]
+    },
+    {
+      "type": "github",
+      "username": "Weissle",
+      "repo": "persistent-breakpoints.nvim",
+      "tags": ["debugging"]
     },
     {
       "type": "github",
