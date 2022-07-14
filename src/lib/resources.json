@@ -8,6 +8,7 @@
       "repo": "Abstract",
       "tags": ["preconfigured-configuration"]
     },
+    { "type": "github", "username": "Abstract-IDE", "repo": "penvim", "tags": ["indent"] },
     { "type": "github", "username": "AckslD", "repo": "nvim-gfold.lua", "tags": ["git"] },
     { "type": "github", "username": "AckslD", "repo": "nvim-neoclip.lua", "tags": ["register"] },
     {
@@ -1254,6 +1255,12 @@
       "type": "github",
       "username": "rockerBOO",
       "repo": "boo-colorscheme-nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
+      "username": "rockyzhang24",
+      "repo": "arctic.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "rohit-px2", "repo": "nvui", "tags": ["ui"] },
