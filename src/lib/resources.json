@@ -636,6 +636,12 @@
       "repo": "nvim-juliana",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    {
+      "type": "github",
+      "username": "kaiuri",
+      "repo": "nvim-termcolors",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
     { "type": "github", "username": "karb94", "repo": "neoscroll.nvim", "tags": ["scrolling"] },
     { "type": "github", "username": "kazhala", "repo": "close-buffers.nvim", "tags": ["utility"] },
     { "type": "github", "username": "kdheepak", "repo": "lazygit.nvim", "tags": ["git"] },
