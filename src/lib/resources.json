@@ -1670,6 +1670,12 @@
     { "type": "github", "username": "yatli", "repo": "fvim", "tags": ["ui"] },
     {
       "type": "github",
+      "username": "yazeed1s",
+      "repo": "minimal.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
       "username": "yonlu",
       "repo": "omni.vim",
       "tags": ["tree-sitter-supported-colorscheme"]
