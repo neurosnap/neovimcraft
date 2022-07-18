@@ -851,6 +851,12 @@
     },
     {
       "type": "github",
+      "username": "meliora-theme",
+      "repo": "neovim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
       "username": "metalelf0",
       "repo": "jellybeans-nvim",
       "tags": ["lua-colorscheme"]
@@ -1379,6 +1385,7 @@
       "tags": ["preconfigured-configuration"]
     },
     { "type": "github", "username": "shohi", "repo": "neva", "tags": ["version-manager"] },
+    { "type": "github", "username": "SidOfc", "repo": "carbon.nvim", "tags": ["file-explorer"] },
     {
       "type": "github",
       "username": "siduck76",
