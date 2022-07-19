@@ -1441,12 +1441,6 @@
     },
     { "type": "github", "username": "sQVe", "repo": "sort.nvim", "tags": ["editing-support"] },
     { "type": "github", "username": "startup-nvim", "repo": "startup.nvim", "tags": ["startup"] },
-    {
-      "type": "github",
-      "username": "steelsojka",
-      "repo": "pears.nvim",
-      "tags": ["editing-support"]
-    },
     { "type": "github", "username": "stevearc", "repo": "aerial.nvim", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "stevearc", "repo": "dressing.nvim", "tags": ["utility"] },
     { "type": "github", "username": "stevearc", "repo": "gkeep.nvim", "tags": ["note-taking"] },
