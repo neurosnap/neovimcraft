@@ -410,6 +410,12 @@
     {
       "type": "github",
       "username": "gbprod",
+      "repo": "stay-in-place.nvim",
+      "tags": ["editing-support"]
+    },
+    {
+      "type": "github",
+      "username": "gbprod",
       "repo": "substitute.nvim",
       "tags": ["editing-support"]
     },
