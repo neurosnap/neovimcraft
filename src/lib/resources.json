@@ -88,6 +88,12 @@
     {
       "type": "github",
       "username": "anuvyklack",
+      "repo": "keymap-amend.nvim",
+      "tags": ["keybinding"]
+    },
+    {
+      "type": "github",
+      "username": "anuvyklack",
       "repo": "pretty-fold.nvim",
       "tags": ["editing-support"]
     },
