@@ -178,6 +178,12 @@
       "repo": "nvim-gomove",
       "tags": ["editing-support"]
     },
+    {
+      "type": "github",
+      "username": "brenoprata10",
+      "repo": "nvim-highlight-colors",
+      "tags": ["color"]
+    },
     { "type": "github", "username": "camspiers", "repo": "snap", "tags": ["fuzzy-finder"] },
     {
       "type": "github",
