@@ -756,6 +756,12 @@
     },
     {
       "type": "github",
+      "username": "lewpoly",
+      "repo": "sherbet.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
       "username": "LinArcX",
       "repo": "telescope-command-palette.nvim",
       "tags": ["keybinding"]
