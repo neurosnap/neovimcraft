@@ -1469,6 +1469,7 @@
     { "type": "github", "username": "stevearc", "repo": "aerial.nvim", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "stevearc", "repo": "dressing.nvim", "tags": ["utility"] },
     { "type": "github", "username": "stevearc", "repo": "gkeep.nvim", "tags": ["note-taking"] },
+    { "type": "github", "username": "stevearc", "repo": "overseer.nvim", "tags": ["code-runner"] },
     { "type": "github", "username": "stevearc", "repo": "qf_helper.nvim", "tags": ["quickfix"] },
     {
       "type": "github",
