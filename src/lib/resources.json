@@ -1638,6 +1638,12 @@
     {
       "type": "github",
       "username": "williamboman",
+      "repo": "mason.nvim",
+      "tags": ["lsp-installer"]
+    },
+    {
+      "type": "github",
+      "username": "williamboman",
       "repo": "nvim-lsp-installer",
       "tags": ["lsp-installer"]
     },
