@@ -359,6 +359,12 @@
       "repo": "vs-tasks.nvim",
       "tags": ["code-runner"]
     },
+    {
+      "type": "github",
+      "username": "Everblush",
+      "repo": "everblush.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
     { "type": "github", "username": "f-person", "repo": "git-blame.nvim", "tags": ["git"] },
     { "type": "github", "username": "famiu", "repo": "bufdelete.nvim", "tags": ["utility"] },
     {
@@ -840,12 +846,6 @@
       "tags": ["neovim-lua-development"]
     },
     { "type": "github", "username": "madskjeldgaard", "repo": "reaper-nvim", "tags": ["media"] },
-    {
-      "type": "github",
-      "username": "Mangeshrex",
-      "repo": "uwu.vim",
-      "tags": ["tree-sitter-supported-colorscheme"]
-    },
     {
       "type": "github",
       "username": "marko-cerovac",
