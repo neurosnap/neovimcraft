@@ -78,6 +78,18 @@
       "username": "brenoprata10",
       "repo": "nvim-highlight-colors",
       "tags": ["color"]
+    },
+    {
+      "type": "github",
+      "username": "andymass",
+      "repo": "vim-matchup",
+      "tags": [
+        "keybinding",
+        "programming-languages-support",
+        "motion",
+        "treesitter-based",
+        "text-objects"
+      ]
     }
   ]
 }
