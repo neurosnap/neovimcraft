@@ -677,6 +677,12 @@
     },
     { "type": "github", "username": "kdheepak", "repo": "panvimdoc", "tags": ["markdown-/-latex"] },
     { "type": "github", "username": "kdheepak", "repo": "tabline.nvim", "tags": ["tabline"] },
+    {
+      "type": "github",
+      "username": "keaising",
+      "repo": "im-select.nvim",
+      "tags": ["editing-support"]
+    },
     { "type": "github", "username": "Kethku", "repo": "neovide", "tags": ["ui"] },
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-bqf", "tags": ["quickfix"] },
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-hlslens", "tags": ["search"] },
