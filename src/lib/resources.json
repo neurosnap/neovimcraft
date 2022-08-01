@@ -1544,6 +1544,12 @@
       "tags": ["preconfigured-configuration"]
     },
     { "type": "github", "username": "ThePrimeagen", "repo": "harpoon", "tags": ["marks"] },
+    {
+      "type": "github",
+      "username": "ThePrimeagen",
+      "repo": "refactoring.nvim",
+      "tags": ["treesitter-based", "programming-languages-support", "editing-support"]
+    },
     { "type": "github", "username": "ThePrimeagen", "repo": "vim-apm", "tags": ["game"] },
     { "type": "github", "username": "ThePrimeagen", "repo": "vim-be-good", "tags": ["game"] },
     {
