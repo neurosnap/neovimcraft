@@ -78,6 +78,12 @@
       "username": "brenoprata10",
       "repo": "nvim-highlight-colors",
       "tags": ["color"]
+    },
+    {
+      "type": "github",
+      "username": "ThePrimeagen",
+      "repo": "refactoring.nvim",
+      "tags": ["treesitter-based", "programming-languages-support", "editing-support"]
     }
   ]
 }
