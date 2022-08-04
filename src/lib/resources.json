@@ -9,6 +9,12 @@
       "tags": ["preconfigured-configuration"]
     },
     { "type": "github", "username": "Abstract-IDE", "repo": "penvim", "tags": ["indent"] },
+    {
+      "type": "github",
+      "username": "AckslD",
+      "repo": "nvim-FeMaco.lua",
+      "tags": ["markdown-/-latex"]
+    },
     { "type": "github", "username": "AckslD", "repo": "nvim-gfold.lua", "tags": ["git"] },
     { "type": "github", "username": "AckslD", "repo": "nvim-neoclip.lua", "tags": ["register"] },
     {
@@ -78,6 +84,7 @@
       "repo": "presence.nvim",
       "tags": ["discord-rich-presence"]
     },
+    { "type": "github", "username": "andythigpen", "repo": "nvim-coverage", "tags": ["test"] },
     {
       "type": "github",
       "username": "anott03",
