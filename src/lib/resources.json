@@ -1249,7 +1249,6 @@
     { "type": "github", "username": "ray-x", "repo": "navigator.lua", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "rcarriga", "repo": "nvim-dap-ui", "tags": ["debugging"] },
     { "type": "github", "username": "rcarriga", "repo": "nvim-notify", "tags": ["utility"] },
-    { "type": "github", "username": "rcarriga", "repo": "vim-ultest", "tags": ["test"] },
     { "type": "github", "username": "rebelot", "repo": "heirline.nvim", "tags": ["statusline"] },
     {
       "type": "github",
