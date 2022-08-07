@@ -1001,7 +1001,6 @@
       "repo": "nvim-base16.lua",
       "tags": ["colorscheme-creation"]
     },
-    { "type": "github", "username": "norcalli", "repo": "nvim-colorizer.lua", "tags": ["color"] },
     {
       "type": "github",
       "username": "norcalli",
@@ -1045,6 +1044,7 @@
       "tags": ["terminal-integration"]
     },
     { "type": "github", "username": "numToStr", "repo": "Navigator.nvim", "tags": ["tmux"] },
+    { "type": "github", "username": "NvChad", "repo": "nvim-colorizer.lua", "tags": ["color"] },
     {
       "type": "github",
       "username": "nvim-lua",
