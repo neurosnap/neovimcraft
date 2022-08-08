@@ -512,12 +512,6 @@
       "repo": "ataraxis.lua",
       "tags": ["split-and-window"]
     },
-    {
-      "type": "github",
-      "username": "henriquehbr",
-      "repo": "nvim-startup.lua",
-      "tags": ["startup"]
-    },
     { "type": "github", "username": "hkupty", "repo": "nvimux", "tags": ["tmux"] },
     { "type": "github", "username": "hrsh7th", "repo": "nvim-cmp", "tags": ["completion"] },
     { "type": "github", "username": "ibhagwan", "repo": "fzf-lua", "tags": ["fuzzy-finder"] },
