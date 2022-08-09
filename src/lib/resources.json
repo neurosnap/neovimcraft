@@ -187,6 +187,12 @@
     },
     {
       "type": "github",
+      "username": "brendalf",
+      "repo": "mix.nvim",
+      "tags": ["programming-languages-support"]
+    },
+    {
+      "type": "github",
       "username": "brenoprata10",
       "repo": "nvim-highlight-colors",
       "tags": ["color"]
