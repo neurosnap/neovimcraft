@@ -926,6 +926,12 @@
       "repo": "nvim-luaref",
       "tags": ["neovim-lua-development"]
     },
+    {
+      "type": "github",
+      "username": "miversen33",
+      "repo": "import.nvim",
+      "tags": ["neovim-lua-development"]
+    },
     { "type": "github", "username": "mizlan", "repo": "iswap.nvim", "tags": ["editing-support"] },
     {
       "type": "github",
