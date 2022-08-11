@@ -84,6 +84,12 @@
       "username": "ThePrimeagen",
       "repo": "refactoring.nvim",
       "tags": ["treesitter-based", "programming-languages-support", "editing-support"]
+    },
+    {
+      "type": "github",
+      "username": "lcheylus",
+      "repo": "overlength.nvim",
+      "tags": ["editing-support"]
     }
   ]
 }
