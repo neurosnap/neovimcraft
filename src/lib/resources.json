@@ -44,6 +44,7 @@
       "repo": "flutter-tools.nvim",
       "tags": ["programming-languages-support"]
     },
+    { "type": "github", "username": "akinsho", "repo": "git-conflict.nvim", "tags": ["git"] },
     {
       "type": "github",
       "username": "akinsho",
@@ -71,6 +72,12 @@
       "username": "andersevenrud",
       "repo": "nordic.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
+      "username": "andrewferrier",
+      "repo": "debugprint.nvim",
+      "tags": ["debugging"]
     },
     {
       "type": "github",
@@ -945,6 +952,12 @@
       "tags": ["neovim-lua-development"]
     },
     { "type": "github", "username": "mizlan", "repo": "iswap.nvim", "tags": ["editing-support"] },
+    {
+      "type": "github",
+      "username": "Mofiqul",
+      "repo": "adwaita.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
     {
       "type": "github",
       "username": "Mofiqul",
