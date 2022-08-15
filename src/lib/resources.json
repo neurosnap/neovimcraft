@@ -1171,6 +1171,12 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "olimorris", "repo": "persisted.nvim", "tags": ["session"] },
+    {
+      "type": "github",
+      "username": "olivercederborg",
+      "repo": "poimandres.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
     { "type": "github", "username": "onsails", "repo": "diaglist.nvim", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "onsails", "repo": "lspkind.nvim", "tags": ["neovim-0.5"] },
     {
