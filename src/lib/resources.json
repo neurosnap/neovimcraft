@@ -1490,12 +1490,6 @@
     {
       "type": "github",
       "username": "SmiteshP",
-      "repo": "nvim-gps",
-      "tags": ["winbar-and-statusline-component"]
-    },
-    {
-      "type": "github",
-      "username": "SmiteshP",
       "repo": "nvim-navic",
       "tags": ["winbar-and-statusline-component"]
     },
