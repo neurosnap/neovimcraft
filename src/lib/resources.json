@@ -1154,6 +1154,12 @@
       "repo": "neuron.nvim",
       "tags": ["note-taking"]
     },
+    {
+      "type": "github",
+      "username": "ofirgall",
+      "repo": "goto-breakpoints.nvim",
+      "tags": ["debugging"]
+    },
     { "type": "github", "username": "ojroques", "repo": "nvim-hardline", "tags": ["statusline"] },
     { "type": "github", "username": "ojroques", "repo": "nvim-lspfuzzy", "tags": ["neovim-0.5"] },
     {
