@@ -90,6 +90,12 @@
       "username": "lcheylus",
       "repo": "overlength.nvim",
       "tags": ["editing-support"]
+    },
+    {
+      "type": "github",
+      "username": "justinhj",
+      "repo": "battery.nvim",
+      "tags": ["statusline", "diagnostics"]
     }
   ]
 }
