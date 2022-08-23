@@ -877,6 +877,12 @@
       "repo": "plugin-template.nvim",
       "tags": ["neovim-lua-development"]
     },
+    {
+      "type": "github",
+      "username": "m4xshen",
+      "repo": "autoclose.nvim",
+      "tags": ["editing-support"]
+    },
     { "type": "github", "username": "madskjeldgaard", "repo": "reaper-nvim", "tags": ["media"] },
     {
       "type": "github",
@@ -886,12 +892,6 @@
     },
     { "type": "github", "username": "Massolari", "repo": "forem.nvim", "tags": ["utility"] },
     { "type": "github", "username": "matbme", "repo": "JABS.nvim", "tags": ["utility"] },
-    {
-      "type": "github",
-      "username": "max-0406",
-      "repo": "autoclose.nvim",
-      "tags": ["editing-support"]
-    },
     {
       "type": "github",
       "username": "max397574",
@@ -1507,6 +1507,7 @@
       "tags": ["snippet"]
     },
     { "type": "github", "username": "smolck", "repo": "uivonim", "tags": ["ui"] },
+    { "type": "github", "username": "smzm", "repo": "hydrovim", "tags": ["code-runner"] },
     {
       "type": "github",
       "username": "someone-stole-my-name",
