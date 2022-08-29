@@ -677,12 +677,6 @@
     {
       "type": "github",
       "username": "kaiuri",
-      "repo": "github-vscode-theme.nvim",
-      "tags": ["tree-sitter-supported-colorscheme"]
-    },
-    {
-      "type": "github",
-      "username": "kaiuri",
       "repo": "nvim-juliana",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
