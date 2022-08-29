@@ -1016,6 +1016,7 @@
     },
     { "type": "github", "username": "neovim", "repo": "nvim-lspconfig", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "NFrid", "repo": "due.nvim", "tags": ["note-taking"] },
+    { "type": "github", "username": "nguyenvukhang", "repo": "nvim-toggler", "tags": ["utility"] },
     { "type": "github", "username": "nikvdp", "repo": "neomux", "tags": ["terminal-integration"] },
     {
       "type": "github",
@@ -1076,6 +1077,12 @@
     },
     { "type": "github", "username": "numToStr", "repo": "Navigator.nvim", "tags": ["tmux"] },
     { "type": "github", "username": "NvChad", "repo": "nvim-colorizer.lua", "tags": ["color"] },
+    {
+      "type": "github",
+      "username": "nvim-lua",
+      "repo": "kickstart.nvim",
+      "tags": ["preconfigured-configuration"]
+    },
     {
       "type": "github",
       "username": "nvim-lua",
