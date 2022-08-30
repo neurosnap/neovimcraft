@@ -1071,6 +1071,7 @@
     },
     { "type": "github", "username": "numToStr", "repo": "Navigator.nvim", "tags": ["tmux"] },
     { "type": "github", "username": "NvChad", "repo": "nvim-colorizer.lua", "tags": ["color"] },
+    { "type": "github", "username": "nvim-colortils", "repo": "colortils.nvim", "tags": ["color"] },
     {
       "type": "github",
       "username": "nvim-lua",
@@ -1289,8 +1290,27 @@
       "repo": "go.nvim",
       "tags": ["programming-languages-support"]
     },
+    {
+      "type": "github",
+      "username": "ray-x",
+      "repo": "guihua.lua",
+      "tags": ["neovim-lua-development"]
+    },
     { "type": "github", "username": "ray-x", "repo": "lsp_signature.nvim", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "ray-x", "repo": "navigator.lua", "tags": ["neovim-0.5"] },
+    { "type": "github", "username": "ray-x", "repo": "sad.nvim", "tags": ["search"] },
+    {
+      "type": "github",
+      "username": "ray-x",
+      "repo": "starry.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
+      "username": "ray-x",
+      "repo": "web-tools.nvim",
+      "tags": ["web-development"]
+    },
     { "type": "github", "username": "rcarriga", "repo": "nvim-dap-ui", "tags": ["debugging"] },
     { "type": "github", "username": "rcarriga", "repo": "nvim-notify", "tags": ["utility"] },
     { "type": "github", "username": "rebelot", "repo": "heirline.nvim", "tags": ["statusline"] },
