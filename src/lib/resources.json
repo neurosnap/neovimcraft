@@ -85,12 +85,7 @@
       "repo": "textobj-diagnostic.nvim",
       "tags": ["diagnostics"]
     },
-    {
-      "type": "github",
-      "username": "andweeb",
-      "repo": "presence.nvim",
-      "tags": ["discord-rich-presence"]
-    },
+    { "type": "github", "username": "andweeb", "repo": "presence.nvim", "tags": ["media"] },
     { "type": "github", "username": "andythigpen", "repo": "nvim-coverage", "tags": ["test"] },
     {
       "type": "github",
