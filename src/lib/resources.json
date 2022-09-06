@@ -775,12 +775,7 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "lewis6991", "repo": "gitsigns.nvim", "tags": ["git"] },
-    {
-      "type": "github",
-      "username": "lewis6991",
-      "repo": "spellsitter.nvim",
-      "tags": ["spellcheck"]
-    },
+    { "type": "github", "username": "lewis6991", "repo": "spellsitter.nvim", "tags": ["language"] },
     {
       "type": "github",
       "username": "lewpoly",
@@ -975,11 +970,18 @@
     },
     { "type": "github", "username": "ms-jpq", "repo": "chadtree", "tags": ["file-explorer"] },
     { "type": "github", "username": "ms-jpq", "repo": "coq_nvim", "tags": ["completion"] },
+    { "type": "github", "username": "MunifTanjim", "repo": "exrc.nvim", "tags": ["project"] },
     {
       "type": "github",
       "username": "MunifTanjim",
       "repo": "nui.nvim",
       "tags": ["neovim-lua-development"]
+    },
+    {
+      "type": "github",
+      "username": "MunifTanjim",
+      "repo": "prettier.nvim",
+      "tags": ["formatting"]
     },
     { "type": "github", "username": "nacro90", "repo": "numb.nvim", "tags": ["editing-support"] },
     {
@@ -1240,6 +1242,7 @@
       "repo": "TrueZen.nvim",
       "tags": ["editing-support"]
     },
+    { "type": "github", "username": "potamides", "repo": "pantran.nvim", "tags": ["language"] },
     {
       "type": "github",
       "username": "projekt0n",
@@ -1536,7 +1539,6 @@
     { "type": "github", "username": "stevearc", "repo": "dressing.nvim", "tags": ["utility"] },
     { "type": "github", "username": "stevearc", "repo": "gkeep.nvim", "tags": ["note-taking"] },
     { "type": "github", "username": "stevearc", "repo": "overseer.nvim", "tags": ["code-runner"] },
-    { "type": "github", "username": "stevearc", "repo": "qf_helper.nvim", "tags": ["quickfix"] },
     {
       "type": "github",
       "username": "strash",
@@ -1766,6 +1768,8 @@
     { "type": "github", "username": "Xuyuanp", "repo": "yanil", "tags": ["file-explorer"] },
     { "type": "github", "username": "yamatsum", "repo": "nvim-cursorline", "tags": ["cursorline"] },
     { "type": "github", "username": "yamatsum", "repo": "nvim-nonicons", "tags": ["icon"] },
+    { "type": "github", "username": "yaocccc", "repo": "nvim-hlchunk", "tags": ["indent"] },
+    { "type": "github", "username": "yaocccc", "repo": "nvim-lines.lua", "tags": ["statusline"] },
     {
       "type": "github",
       "username": "yashguptaz",
