@@ -816,6 +816,12 @@
     },
     {
       "type": "github",
+      "username": "LudoPinelli",
+      "repo": "comment-box.nvim",
+      "tags": ["comment"]
+    },
+    {
+      "type": "github",
       "username": "luisiacc",
       "repo": "gruvbox-baby",
       "tags": ["tree-sitter-supported-colorscheme"]
