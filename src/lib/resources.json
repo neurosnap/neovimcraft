@@ -724,6 +724,12 @@
     { "type": "github", "username": "kosayoda", "repo": "nvim-lightbulb", "tags": ["neovim-0.5"] },
     {
       "type": "github",
+      "username": "krady21",
+      "repo": "compiler-explorer.nvim",
+      "tags": ["media"]
+    },
+    {
+      "type": "github",
       "username": "ktunprasert",
       "repo": "gui-font-resize.nvim",
       "tags": ["utility"]
