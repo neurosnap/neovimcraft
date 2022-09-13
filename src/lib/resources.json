@@ -213,6 +213,7 @@
       "repo": "nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    { "type": "github", "username": "Chaitanyabsprip", "repo": "present.nvim", "tags": ["media"] },
     { "type": "github", "username": "chentoast", "repo": "marks.nvim", "tags": ["marks"] },
     {
       "type": "github",
