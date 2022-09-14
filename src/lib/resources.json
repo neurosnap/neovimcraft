@@ -236,7 +236,7 @@
     },
     { "type": "github", "username": "clojure-vim", "repo": "jazz.nvim", "tags": ["utility"] },
     { "type": "github", "username": "code-biscuits", "repo": "nvim-biscuits", "tags": ["utility"] },
-    { "type": "github", "username": "CosmicNvim", "repo": "cosmic-ui", "tags": ["ui"] },
+    { "type": "github", "username": "CosmicNvim", "repo": "cosmic-ui", "tags": ["utility"] },
     {
       "type": "github",
       "username": "CosmicNvim",
@@ -1726,12 +1726,6 @@
       "type": "github",
       "username": "williamboman",
       "repo": "mason.nvim",
-      "tags": ["lsp-installer"]
-    },
-    {
-      "type": "github",
-      "username": "williamboman",
-      "repo": "nvim-lsp-installer",
       "tags": ["lsp-installer"]
     },
     {
