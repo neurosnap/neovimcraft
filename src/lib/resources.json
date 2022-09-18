@@ -96,6 +96,12 @@
     {
       "type": "github",
       "username": "anuvyklack",
+      "repo": "animation.nvim",
+      "tags": ["neovim-lua-development"]
+    },
+    {
+      "type": "github",
+      "username": "anuvyklack",
       "repo": "fold-preview.nvim",
       "tags": ["utility"]
     },
@@ -111,6 +117,12 @@
       "username": "anuvyklack",
       "repo": "pretty-fold.nvim",
       "tags": ["editing-support"]
+    },
+    {
+      "type": "github",
+      "username": "anuvyklack",
+      "repo": "windows.nvim",
+      "tags": ["split-and-window"]
     },
     {
       "type": "github",
