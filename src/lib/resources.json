@@ -9,6 +9,7 @@
       "tags": ["preconfigured-configuration"]
     },
     { "type": "github", "username": "Abstract-IDE", "repo": "penvim", "tags": ["indent"] },
+    { "type": "github", "username": "AckslD", "repo": "messages.nvim", "tags": ["utility"] },
     {
       "type": "github",
       "username": "AckslD",
@@ -22,6 +23,12 @@
       "username": "AckslD",
       "repo": "nvim-revJ.lua",
       "tags": ["editing-support"]
+    },
+    {
+      "type": "github",
+      "username": "AckslD",
+      "repo": "swenv.nvim",
+      "tags": ["programming-languages-support"]
     },
     { "type": "github", "username": "adelarsq", "repo": "neoline.vim", "tags": ["statusline"] },
     {
