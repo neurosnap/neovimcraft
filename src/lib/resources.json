@@ -474,6 +474,7 @@
     },
     { "type": "github", "username": "gbprod", "repo": "yanky.nvim", "tags": ["editing-support"] },
     { "type": "github", "username": "gelguy", "repo": "wilder.nvim", "tags": ["command-line"] },
+    { "type": "github", "username": "gen740", "repo": "SmoothCursor.nvim", "tags": ["motion"] },
     { "type": "github", "username": "gennaro-tedesco", "repo": "boilit", "tags": ["boilerplate"] },
     {
       "type": "github",
@@ -1702,6 +1703,7 @@
     { "type": "github", "username": "tveskag", "repo": "nvim-blame-line", "tags": ["git"] },
     { "type": "github", "username": "udayvir-singh", "repo": "hibiscus.nvim", "tags": ["fennel"] },
     { "type": "github", "username": "udayvir-singh", "repo": "tangerine.nvim", "tags": ["fennel"] },
+    { "type": "github", "username": "uga-rosa", "repo": "ccc.nvim", "tags": ["color"] },
     { "type": "github", "username": "vhakulinen", "repo": "gnvim", "tags": ["ui"] },
     {
       "type": "github",
