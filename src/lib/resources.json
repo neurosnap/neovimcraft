@@ -375,6 +375,7 @@
       "repo": "nvim-plugin-template",
       "tags": ["neovim-lua-development"]
     },
+    { "type": "github", "username": "epwalsh", "repo": "obsidian.nvim", "tags": ["note-taking"] },
     { "type": "github", "username": "equalsraf", "repo": "neovim-qt", "tags": ["ui"] },
     {
       "type": "github",
