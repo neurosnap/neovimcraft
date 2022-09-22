@@ -642,6 +642,12 @@
     { "type": "github", "username": "jghauser", "repo": "mkdir.nvim", "tags": ["utility"] },
     {
       "type": "github",
+      "username": "jim-at-jibba",
+      "repo": "ariake-vim-colors",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
       "username": "jlesquembre",
       "repo": "nterm.nvim",
       "tags": ["terminal-integration"]
@@ -1193,6 +1199,12 @@
       "repo": "goto-breakpoints.nvim",
       "tags": ["debugging"]
     },
+    {
+      "type": "github",
+      "username": "ofirgall",
+      "repo": "ofirkai.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
     { "type": "github", "username": "ojroques", "repo": "nvim-hardline", "tags": ["statusline"] },
     { "type": "github", "username": "ojroques", "repo": "nvim-lspfuzzy", "tags": ["neovim-0.5"] },
     {
@@ -1366,12 +1378,6 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "RishabhRD", "repo": "nvim-lsputils", "tags": ["neovim-0.5"] },
-    {
-      "type": "github",
-      "username": "RishabhRD",
-      "repo": "nvim-rdark",
-      "tags": ["tree-sitter-supported-colorscheme"]
-    },
     {
       "type": "github",
       "username": "rktjmp",
@@ -1617,6 +1623,12 @@
     {
       "type": "github",
       "username": "Th3Whit3Wolf",
+      "repo": "onebuddy",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
+      "username": "Th3Whit3Wolf",
       "repo": "space-nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
@@ -1646,7 +1658,6 @@
       "repo": "refactoring.nvim",
       "tags": ["treesitter-based", "programming-languages-support", "editing-support"]
     },
-    { "type": "github", "username": "ThePrimeagen", "repo": "vim-apm", "tags": ["game"] },
     { "type": "github", "username": "ThePrimeagen", "repo": "vim-be-good", "tags": ["game"] },
     {
       "type": "github",
@@ -1686,7 +1697,6 @@
       "repo": "nlua.nvim",
       "tags": ["neovim-lua-development"]
     },
-    { "type": "github", "username": "tjdevries", "repo": "train.nvim", "tags": ["motion"] },
     {
       "type": "github",
       "username": "tjdevries",
