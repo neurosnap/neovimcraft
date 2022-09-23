@@ -304,6 +304,12 @@
     { "type": "github", "username": "cuducos", "repo": "yaml.nvim", "tags": ["utility"] },
     {
       "type": "github",
+      "username": "danielfalk",
+      "repo": "smart-open.nvim",
+      "tags": ["fuzzy-finder"]
+    },
+    {
+      "type": "github",
       "username": "danielpieper",
       "repo": "telescope-tmuxinator.nvim",
       "tags": ["tmux"]
