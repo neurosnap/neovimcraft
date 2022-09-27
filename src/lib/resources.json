@@ -335,6 +335,7 @@
     { "type": "github", "username": "dcampos", "repo": "nvim-snippy", "tags": ["snippet"] },
     { "type": "github", "username": "declancm", "repo": "cinnamon.nvim", "tags": ["scrolling"] },
     { "type": "github", "username": "declancm", "repo": "windex.nvim", "tags": ["tmux"] },
+    { "type": "github", "username": "desdic", "repo": "greyjoy.nvim", "tags": ["code-runner"] },
     {
       "type": "github",
       "username": "dracula",
