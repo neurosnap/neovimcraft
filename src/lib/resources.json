@@ -1488,6 +1488,12 @@
     { "type": "github", "username": "sakhnik", "repo": "nvim-gdb", "tags": ["debugging"] },
     {
       "type": "github",
+      "username": "Saverio976",
+      "repo": "music.nvim",
+      "tags": ["media", "utility"]
+    },
+    {
+      "type": "github",
       "username": "savq",
       "repo": "melange",
       "tags": ["tree-sitter-supported-colorscheme"]
