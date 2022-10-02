@@ -951,6 +951,7 @@
       "tags": ["lua-colorscheme"]
     },
     { "type": "github", "username": "mfussenegger", "repo": "nvim-dap", "tags": ["debugging"] },
+    { "type": "github", "username": "mfussenegger", "repo": "nvim-jdtls", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "mfussenegger", "repo": "nvim-lint", "tags": ["neovim-0.5"] },
     {
       "type": "github",
