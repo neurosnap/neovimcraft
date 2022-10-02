@@ -531,6 +531,7 @@
     { "type": "github", "username": "github", "repo": "copilot.vim", "tags": ["completion"] },
     { "type": "github", "username": "glepnir", "repo": "dashboard-nvim", "tags": ["startup"] },
     { "type": "github", "username": "glepnir", "repo": "indent-guides.nvim", "tags": ["indent"] },
+    { "type": "github", "username": "glepnir", "repo": "lspsaga.nvim", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "glepnir", "repo": "prodoc.nvim", "tags": ["comment"] },
     {
       "type": "github",
@@ -736,7 +737,6 @@
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-hlslens", "tags": ["search"] },
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-ufo", "tags": ["utility"] },
     { "type": "github", "username": "kevinhwang91", "repo": "rnvimr", "tags": ["file-explorer"] },
-    { "type": "github", "username": "kkharji", "repo": "lspsaga.nvim", "tags": ["neovim-0.5"] },
     {
       "type": "github",
       "username": "kkharji",
