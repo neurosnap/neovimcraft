@@ -653,6 +653,7 @@
       "tags": ["terminal-integration"]
     },
     { "type": "github", "username": "jghauser", "repo": "mkdir.nvim", "tags": ["utility"] },
+    { "type": "github", "username": "jghauser", "repo": "papis.nvim", "tags": ["note-taking"] },
     {
       "type": "github",
       "username": "jim-at-jibba",
