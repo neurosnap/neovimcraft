@@ -9,6 +9,7 @@
       "tags": ["preconfigured-configuration"]
     },
     { "type": "github", "username": "Abstract-IDE", "repo": "penvim", "tags": ["indent"] },
+    { "type": "github", "username": "AckslD", "repo": "messages.nvim", "tags": ["utility"] },
     {
       "type": "github",
       "username": "AckslD",
@@ -22,6 +23,12 @@
       "username": "AckslD",
       "repo": "nvim-revJ.lua",
       "tags": ["editing-support"]
+    },
+    {
+      "type": "github",
+      "username": "AckslD",
+      "repo": "swenv.nvim",
+      "tags": ["programming-languages-support"]
     },
     { "type": "github", "username": "adelarsq", "repo": "neoline.vim", "tags": ["statusline"] },
     {
@@ -51,7 +58,6 @@
       "repo": "nvim-toggleterm.lua",
       "tags": ["terminal-integration"]
     },
-    { "type": "github", "username": "akiyosi", "repo": "goneovim", "tags": ["ui"] },
     { "type": "github", "username": "alec-gibson", "repo": "nvim-tetris", "tags": ["game"] },
     {
       "type": "github",
@@ -85,18 +91,19 @@
       "repo": "textobj-diagnostic.nvim",
       "tags": ["diagnostics"]
     },
-    {
-      "type": "github",
-      "username": "andweeb",
-      "repo": "presence.nvim",
-      "tags": ["discord-rich-presence"]
-    },
+    { "type": "github", "username": "andweeb", "repo": "presence.nvim", "tags": ["media"] },
     { "type": "github", "username": "andythigpen", "repo": "nvim-coverage", "tags": ["test"] },
     {
       "type": "github",
       "username": "anott03",
       "repo": "nvim-lspinstall",
       "tags": ["lsp-installer"]
+    },
+    {
+      "type": "github",
+      "username": "anuvyklack",
+      "repo": "animation.nvim",
+      "tags": ["neovim-lua-development"]
     },
     {
       "type": "github",
@@ -119,6 +126,12 @@
     },
     {
       "type": "github",
+      "username": "anuvyklack",
+      "repo": "windows.nvim",
+      "tags": ["split-and-window"]
+    },
+    {
+      "type": "github",
       "username": "artart222",
       "repo": "CodeArt",
       "tags": ["preconfigured-configuration"]
@@ -137,7 +150,6 @@
       "repo": "AstroNvim",
       "tags": ["preconfigured-configuration"]
     },
-    { "type": "github", "username": "asvetliakov", "repo": "vscode-neovim", "tags": ["ui"] },
     { "type": "github", "username": "axieax", "repo": "urlview.nvim", "tags": ["utility"] },
     { "type": "github", "username": "b0o", "repo": "incline.nvim", "tags": ["statusline"] },
     { "type": "github", "username": "b0o", "repo": "mapx.nvim", "tags": ["keybinding"] },
@@ -155,7 +167,6 @@
       "repo": "statusline.lua",
       "tags": ["statusline"]
     },
-    { "type": "github", "username": "beeender", "repo": "glrnvim", "tags": ["ui"] },
     {
       "type": "github",
       "username": "bennypowers",
@@ -218,6 +229,7 @@
       "repo": "nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    { "type": "github", "username": "Chaitanyabsprip", "repo": "present.nvim", "tags": ["media"] },
     { "type": "github", "username": "chentoast", "repo": "marks.nvim", "tags": ["marks"] },
     {
       "type": "github",
@@ -240,7 +252,7 @@
     },
     { "type": "github", "username": "clojure-vim", "repo": "jazz.nvim", "tags": ["utility"] },
     { "type": "github", "username": "code-biscuits", "repo": "nvim-biscuits", "tags": ["utility"] },
-    { "type": "github", "username": "CosmicNvim", "repo": "cosmic-ui", "tags": ["ui"] },
+    { "type": "github", "username": "CosmicNvim", "repo": "cosmic-ui", "tags": ["utility"] },
     {
       "type": "github",
       "username": "CosmicNvim",
@@ -279,14 +291,36 @@
       "repo": "hierarchy-tree-go.nvim",
       "tags": ["programming-languages-support"]
     },
-    { "type": "github", "username": "crusj", "repo": "structrue-go.nvim", "tags": ["utility"] },
+    {
+      "type": "github",
+      "username": "crusj",
+      "repo": "structrue-go.nvim",
+      "tags": ["programming-languages-support"]
+    },
     {
       "type": "github",
       "username": "cstsunfu",
       "repo": ".sea.nvim",
       "tags": ["preconfigured-configuration"]
     },
-    { "type": "github", "username": "cuducos", "repo": "yaml.nvim", "tags": ["utility"] },
+    {
+      "type": "github",
+      "username": "cuducos",
+      "repo": "yaml.nvim",
+      "tags": ["programming-languages-support"]
+    },
+    {
+      "type": "github",
+      "username": "cunderw",
+      "repo": "nvim",
+      "tags": ["preconfigured-configuration"]
+    },
+    {
+      "type": "github",
+      "username": "danielfalk",
+      "repo": "smart-open.nvim",
+      "tags": ["fuzzy-finder"]
+    },
     {
       "type": "github",
       "username": "danielpieper",
@@ -307,6 +341,7 @@
     { "type": "github", "username": "dcampos", "repo": "nvim-snippy", "tags": ["snippet"] },
     { "type": "github", "username": "declancm", "repo": "cinnamon.nvim", "tags": ["scrolling"] },
     { "type": "github", "username": "declancm", "repo": "windex.nvim", "tags": ["tmux"] },
+    { "type": "github", "username": "desdic", "repo": "greyjoy.nvim", "tags": ["code-runner"] },
     {
       "type": "github",
       "username": "dracula",
@@ -320,7 +355,12 @@
       "tags": ["treesitter-based"]
     },
     { "type": "github", "username": "dstein64", "repo": "nvim-scrollview", "tags": ["scrollbar"] },
-    { "type": "github", "username": "echasnovski", "repo": "mini.nvim", "tags": ["session"] },
+    {
+      "type": "github",
+      "username": "echasnovski",
+      "repo": "mini.nvim",
+      "tags": ["split-and-window"]
+    },
     {
       "type": "github",
       "username": "EdenEast",
@@ -358,9 +398,9 @@
       "type": "github",
       "username": "ellisonleao",
       "repo": "nvim-plugin-template",
-      "tags": ["neovim-lua-development"]
+      "tags": ["boilerplate"]
     },
-    { "type": "github", "username": "equalsraf", "repo": "neovim-qt", "tags": ["ui"] },
+    { "type": "github", "username": "epwalsh", "repo": "obsidian.nvim", "tags": ["note-taking"] },
     {
       "type": "github",
       "username": "esensar",
@@ -386,7 +426,12 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "f-person", "repo": "git-blame.nvim", "tags": ["git"] },
-    { "type": "github", "username": "famiu", "repo": "bufdelete.nvim", "tags": ["utility"] },
+    {
+      "type": "github",
+      "username": "famiu",
+      "repo": "bufdelete.nvim",
+      "tags": ["split-and-window"]
+    },
     {
       "type": "github",
       "username": "FeiyouG",
@@ -406,7 +451,7 @@
       "repo": "renamer.nvim",
       "tags": ["editing-support"]
     },
-    { "type": "github", "username": "folke", "repo": "lsp-colors.nvim", "tags": ["neovim-0.5"] },
+    { "type": "github", "username": "folke", "repo": "lsp-colors.nvim", "tags": ["diagnostics"] },
     {
       "type": "github",
       "username": "folke",
@@ -420,7 +465,7 @@
       "repo": "tokyonight.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "folke", "repo": "trouble.nvim", "tags": ["neovim-0.5"] },
+    { "type": "github", "username": "folke", "repo": "trouble.nvim", "tags": ["diagnostics"] },
     { "type": "github", "username": "folke", "repo": "twilight.nvim", "tags": ["color"] },
     { "type": "github", "username": "folke", "repo": "which-key.nvim", "tags": ["keybinding"] },
     { "type": "github", "username": "folke", "repo": "zen-mode.nvim", "tags": ["editing-support"] },
@@ -459,6 +504,7 @@
     },
     { "type": "github", "username": "gbprod", "repo": "yanky.nvim", "tags": ["editing-support"] },
     { "type": "github", "username": "gelguy", "repo": "wilder.nvim", "tags": ["command-line"] },
+    { "type": "github", "username": "gen740", "repo": "SmoothCursor.nvim", "tags": ["motion"] },
     { "type": "github", "username": "gennaro-tedesco", "repo": "boilit", "tags": ["boilerplate"] },
     {
       "type": "github",
@@ -483,14 +529,9 @@
     { "type": "github", "username": "ggandor", "repo": "lightspeed.nvim", "tags": ["motion"] },
     { "type": "github", "username": "ghillb", "repo": "cybu.nvim", "tags": ["utility"] },
     { "type": "github", "username": "github", "repo": "copilot.vim", "tags": ["completion"] },
-    {
-      "type": "github",
-      "username": "glacambre",
-      "repo": "firenvim",
-      "tags": ["browser-integration"]
-    },
     { "type": "github", "username": "glepnir", "repo": "dashboard-nvim", "tags": ["startup"] },
     { "type": "github", "username": "glepnir", "repo": "indent-guides.nvim", "tags": ["indent"] },
+    { "type": "github", "username": "glepnir", "repo": "lspsaga.nvim", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "glepnir", "repo": "prodoc.nvim", "tags": ["comment"] },
     {
       "type": "github",
@@ -518,12 +559,6 @@
       "username": "haringsrob",
       "repo": "nvim_context_vt",
       "tags": ["editing-support"]
-    },
-    {
-      "type": "github",
-      "username": "henriquehbr",
-      "repo": "ataraxis.lua",
-      "tags": ["split-and-window"]
     },
     { "type": "github", "username": "hkupty", "repo": "nvimux", "tags": ["tmux"] },
     { "type": "github", "username": "hrsh7th", "repo": "nvim-cmp", "tags": ["completion"] },
@@ -576,12 +611,7 @@
       "tags": ["remote-development"]
     },
     { "type": "github", "username": "jbyuki", "repo": "carrot.nvim", "tags": ["markdown-/-latex"] },
-    {
-      "type": "github",
-      "username": "jbyuki",
-      "repo": "instant.nvim",
-      "tags": ["collaborative-editing"]
-    },
+    { "type": "github", "username": "jbyuki", "repo": "instant.nvim", "tags": ["utility"] },
     { "type": "github", "username": "jbyuki", "repo": "nabla.nvim", "tags": ["note-taking"] },
     {
       "type": "github",
@@ -623,6 +653,13 @@
       "tags": ["terminal-integration"]
     },
     { "type": "github", "username": "jghauser", "repo": "mkdir.nvim", "tags": ["utility"] },
+    { "type": "github", "username": "jghauser", "repo": "papis.nvim", "tags": ["note-taking"] },
+    {
+      "type": "github",
+      "username": "jim-at-jibba",
+      "repo": "ariake-vim-colors",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
     {
       "type": "github",
       "username": "jlesquembre",
@@ -677,12 +714,6 @@
     {
       "type": "github",
       "username": "kaiuri",
-      "repo": "github-vscode-theme.nvim",
-      "tags": ["tree-sitter-supported-colorscheme"]
-    },
-    {
-      "type": "github",
-      "username": "kaiuri",
       "repo": "nvim-juliana",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
@@ -703,12 +734,10 @@
       "repo": "im-select.nvim",
       "tags": ["editing-support"]
     },
-    { "type": "github", "username": "Kethku", "repo": "neovide", "tags": ["ui"] },
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-bqf", "tags": ["quickfix"] },
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-hlslens", "tags": ["search"] },
     { "type": "github", "username": "kevinhwang91", "repo": "nvim-ufo", "tags": ["utility"] },
     { "type": "github", "username": "kevinhwang91", "repo": "rnvimr", "tags": ["file-explorer"] },
-    { "type": "github", "username": "kkharji", "repo": "lspsaga.nvim", "tags": ["neovim-0.5"] },
     {
       "type": "github",
       "username": "kkharji",
@@ -732,6 +761,12 @@
     { "type": "github", "username": "koenverburg", "repo": "peepsight.nvim", "tags": ["color"] },
     { "type": "github", "username": "konapun", "repo": "vacuumline.nvim", "tags": ["statusline"] },
     { "type": "github", "username": "kosayoda", "repo": "nvim-lightbulb", "tags": ["neovim-0.5"] },
+    {
+      "type": "github",
+      "username": "krady21",
+      "repo": "compiler-explorer.nvim",
+      "tags": ["media"]
+    },
     {
       "type": "github",
       "username": "ktunprasert",
@@ -786,12 +821,7 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "lewis6991", "repo": "gitsigns.nvim", "tags": ["git"] },
-    {
-      "type": "github",
-      "username": "lewis6991",
-      "repo": "spellsitter.nvim",
-      "tags": ["spellcheck"]
-    },
+    { "type": "github", "username": "lewis6991", "repo": "spellsitter.nvim", "tags": ["language"] },
     {
       "type": "github",
       "username": "lewpoly",
@@ -832,6 +862,12 @@
     },
     {
       "type": "github",
+      "username": "LudoPinelli",
+      "repo": "comment-box.nvim",
+      "tags": ["comment"]
+    },
+    {
+      "type": "github",
       "username": "luisiacc",
       "repo": "gruvbox-baby",
       "tags": ["tree-sitter-supported-colorscheme"]
@@ -854,7 +890,6 @@
       "repo": "LunarVim",
       "tags": ["preconfigured-configuration"]
     },
-    { "type": "github", "username": "lunixbochs", "repo": "actualvim", "tags": ["ui"] },
     { "type": "github", "username": "luukvbaal", "repo": "nnn.nvim", "tags": ["file-explorer"] },
     {
       "type": "github",
@@ -862,7 +897,6 @@
       "repo": "stabilize.nvim",
       "tags": ["split-and-window"]
     },
-    { "type": "github", "username": "Lyude", "repo": "neovim-gtk", "tags": ["ui"] },
     { "type": "github", "username": "m-demare", "repo": "attempt.nvim", "tags": ["utility"] },
     { "type": "github", "username": "m-demare", "repo": "hlargs.nvim", "tags": ["syntax"] },
     {
@@ -875,7 +909,13 @@
       "type": "github",
       "username": "m00qek",
       "repo": "plugin-template.nvim",
-      "tags": ["neovim-lua-development"]
+      "tags": ["boilerplate"]
+    },
+    {
+      "type": "github",
+      "username": "m4xshen",
+      "repo": "autoclose.nvim",
+      "tags": ["editing-support"]
     },
     { "type": "github", "username": "madskjeldgaard", "repo": "reaper-nvim", "tags": ["media"] },
     {
@@ -888,15 +928,9 @@
     { "type": "github", "username": "matbme", "repo": "JABS.nvim", "tags": ["utility"] },
     {
       "type": "github",
-      "username": "max-0406",
-      "repo": "autoclose.nvim",
-      "tags": ["editing-support"]
-    },
-    {
-      "type": "github",
       "username": "max397574",
       "repo": "better-escape.nvim",
-      "tags": ["utility"]
+      "tags": ["keybinding"]
     },
     { "type": "github", "username": "mcauley-penney", "repo": "tidy.nvim", "tags": ["formatting"] },
     {
@@ -918,6 +952,7 @@
       "tags": ["lua-colorscheme"]
     },
     { "type": "github", "username": "mfussenegger", "repo": "nvim-dap", "tags": ["debugging"] },
+    { "type": "github", "username": "mfussenegger", "repo": "nvim-jdtls", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "mfussenegger", "repo": "nvim-lint", "tags": ["neovim-0.5"] },
     {
       "type": "github",
@@ -986,11 +1021,18 @@
     },
     { "type": "github", "username": "ms-jpq", "repo": "chadtree", "tags": ["file-explorer"] },
     { "type": "github", "username": "ms-jpq", "repo": "coq_nvim", "tags": ["completion"] },
+    { "type": "github", "username": "MunifTanjim", "repo": "exrc.nvim", "tags": ["project"] },
     {
       "type": "github",
       "username": "MunifTanjim",
       "repo": "nui.nvim",
       "tags": ["neovim-lua-development"]
+    },
+    {
+      "type": "github",
+      "username": "MunifTanjim",
+      "repo": "prettier.nvim",
+      "tags": ["formatting"]
     },
     { "type": "github", "username": "nacro90", "repo": "numb.nvim", "tags": ["editing-support"] },
     {
@@ -1016,6 +1058,7 @@
     },
     { "type": "github", "username": "neovim", "repo": "nvim-lspconfig", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "NFrid", "repo": "due.nvim", "tags": ["note-taking"] },
+    { "type": "github", "username": "nguyenvukhang", "repo": "nvim-toggler", "tags": ["utility"] },
     { "type": "github", "username": "nikvdp", "repo": "neomux", "tags": ["terminal-integration"] },
     {
       "type": "github",
@@ -1076,6 +1119,13 @@
     },
     { "type": "github", "username": "numToStr", "repo": "Navigator.nvim", "tags": ["tmux"] },
     { "type": "github", "username": "NvChad", "repo": "nvim-colorizer.lua", "tags": ["color"] },
+    { "type": "github", "username": "nvim-colortils", "repo": "colortils.nvim", "tags": ["color"] },
+    {
+      "type": "github",
+      "username": "nvim-lua",
+      "repo": "kickstart.nvim",
+      "tags": ["preconfigured-configuration"]
+    },
     {
       "type": "github",
       "username": "nvim-lua",
@@ -1146,7 +1196,12 @@
       "repo": "vn-night.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "nyngwang", "repo": "NeoNoName.lua", "tags": ["utility"] },
+    {
+      "type": "github",
+      "username": "nyngwang",
+      "repo": "NeoNoName.lua",
+      "tags": ["split-and-window"]
+    },
     { "type": "github", "username": "nyngwang", "repo": "NeoRoot.lua", "tags": ["project"] },
     {
       "type": "github",
@@ -1159,6 +1214,12 @@
       "username": "ofirgall",
       "repo": "goto-breakpoints.nvim",
       "tags": ["debugging"]
+    },
+    {
+      "type": "github",
+      "username": "ofirgall",
+      "repo": "ofirkai.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "ojroques", "repo": "nvim-hardline", "tags": ["statusline"] },
     { "type": "github", "username": "ojroques", "repo": "nvim-lspfuzzy", "tags": ["neovim-0.5"] },
@@ -1183,7 +1244,7 @@
       "repo": "poimandres.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "onsails", "repo": "diaglist.nvim", "tags": ["neovim-0.5"] },
+    { "type": "github", "username": "onsails", "repo": "diaglist.nvim", "tags": ["diagnostics"] },
     { "type": "github", "username": "onsails", "repo": "lspkind.nvim", "tags": ["neovim-0.5"] },
     {
       "type": "github",
@@ -1243,6 +1304,7 @@
       "repo": "TrueZen.nvim",
       "tags": ["editing-support"]
     },
+    { "type": "github", "username": "potamides", "repo": "pantran.nvim", "tags": ["language"] },
     {
       "type": "github",
       "username": "projekt0n",
@@ -1251,7 +1313,6 @@
     },
     { "type": "github", "username": "pwntester", "repo": "codeql.nvim", "tags": ["github"] },
     { "type": "github", "username": "pwntester", "repo": "octo.nvim", "tags": ["github"] },
-    { "type": "github", "username": "qvacua", "repo": "vimr", "tags": ["ui"] },
     {
       "type": "github",
       "username": "rafaelsq",
@@ -1288,8 +1349,27 @@
       "repo": "go.nvim",
       "tags": ["programming-languages-support"]
     },
+    {
+      "type": "github",
+      "username": "ray-x",
+      "repo": "guihua.lua",
+      "tags": ["neovim-lua-development"]
+    },
     { "type": "github", "username": "ray-x", "repo": "lsp_signature.nvim", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "ray-x", "repo": "navigator.lua", "tags": ["neovim-0.5"] },
+    { "type": "github", "username": "ray-x", "repo": "sad.nvim", "tags": ["search"] },
+    {
+      "type": "github",
+      "username": "ray-x",
+      "repo": "starry.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
+      "username": "ray-x",
+      "repo": "web-tools.nvim",
+      "tags": ["web-development"]
+    },
     { "type": "github", "username": "rcarriga", "repo": "nvim-dap-ui", "tags": ["debugging"] },
     { "type": "github", "username": "rcarriga", "repo": "nvim-notify", "tags": ["utility"] },
     { "type": "github", "username": "rebelot", "repo": "heirline.nvim", "tags": ["statusline"] },
@@ -1315,12 +1395,6 @@
     { "type": "github", "username": "RishabhRD", "repo": "nvim-lsputils", "tags": ["neovim-0.5"] },
     {
       "type": "github",
-      "username": "RishabhRD",
-      "repo": "nvim-rdark",
-      "tags": ["tree-sitter-supported-colorscheme"]
-    },
-    {
-      "type": "github",
       "username": "rktjmp",
       "repo": "highlight-current-n.nvim",
       "tags": ["search"]
@@ -1342,7 +1416,6 @@
       "repo": "onenord.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "RMichelsen", "repo": "Nvy", "tags": ["ui"] },
     {
       "type": "github",
       "username": "rockerBOO",
@@ -1355,7 +1428,6 @@
       "repo": "arctic.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "rohit-px2", "repo": "nvui", "tags": ["ui"] },
     { "type": "github", "username": "romgrk", "repo": "barbar.nvim", "tags": ["tabline"] },
     {
       "type": "github",
@@ -1416,6 +1488,12 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "sakhnik", "repo": "nvim-gdb", "tags": ["debugging"] },
+    {
+      "type": "github",
+      "username": "Saverio976",
+      "repo": "music.nvim",
+      "tags": ["media", "utility"]
+    },
     {
       "type": "github",
       "username": "savq",
@@ -1506,12 +1584,12 @@
       "repo": "snippet-converter.nvim",
       "tags": ["snippet"]
     },
-    { "type": "github", "username": "smolck", "repo": "uivonim", "tags": ["ui"] },
+    { "type": "github", "username": "smzm", "repo": "hydrovim", "tags": ["code-runner"] },
     {
       "type": "github",
       "username": "someone-stole-my-name",
       "repo": "yaml-companion.nvim",
-      "tags": ["utility"]
+      "tags": ["programming-languages-support"]
     },
     { "type": "github", "username": "sQVe", "repo": "sort.nvim", "tags": ["editing-support"] },
     { "type": "github", "username": "startup-nvim", "repo": "startup.nvim", "tags": ["startup"] },
@@ -1519,7 +1597,6 @@
     { "type": "github", "username": "stevearc", "repo": "dressing.nvim", "tags": ["utility"] },
     { "type": "github", "username": "stevearc", "repo": "gkeep.nvim", "tags": ["note-taking"] },
     { "type": "github", "username": "stevearc", "repo": "overseer.nvim", "tags": ["code-runner"] },
-    { "type": "github", "username": "stevearc", "repo": "qf_helper.nvim", "tags": ["quickfix"] },
     {
       "type": "github",
       "username": "strash",
@@ -1564,6 +1641,12 @@
     {
       "type": "github",
       "username": "Th3Whit3Wolf",
+      "repo": "onebuddy",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
+      "username": "Th3Whit3Wolf",
       "repo": "space-nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
@@ -1593,7 +1676,6 @@
       "repo": "refactoring.nvim",
       "tags": ["treesitter-based", "programming-languages-support", "editing-support"]
     },
-    { "type": "github", "username": "ThePrimeagen", "repo": "vim-apm", "tags": ["game"] },
     { "type": "github", "username": "ThePrimeagen", "repo": "vim-be-good", "tags": ["game"] },
     {
       "type": "github",
@@ -1633,7 +1715,6 @@
       "repo": "nlua.nvim",
       "tags": ["neovim-lua-development"]
     },
-    { "type": "github", "username": "tjdevries", "repo": "train.nvim", "tags": ["motion"] },
     {
       "type": "github",
       "username": "tjdevries",
@@ -1651,7 +1732,7 @@
     { "type": "github", "username": "tveskag", "repo": "nvim-blame-line", "tags": ["git"] },
     { "type": "github", "username": "udayvir-singh", "repo": "hibiscus.nvim", "tags": ["fennel"] },
     { "type": "github", "username": "udayvir-singh", "repo": "tangerine.nvim", "tags": ["fennel"] },
-    { "type": "github", "username": "vhakulinen", "repo": "gnvim", "tags": ["ui"] },
+    { "type": "github", "username": "uga-rosa", "repo": "ccc.nvim", "tags": ["color"] },
     {
       "type": "github",
       "username": "vi-tality",
@@ -1671,7 +1752,6 @@
       "repo": "package-info.nvim",
       "tags": ["dependency-management"]
     },
-    { "type": "github", "username": "vv-vim", "repo": "vv", "tags": ["ui"] },
     {
       "type": "github",
       "username": "wbthomason",
@@ -1694,12 +1774,6 @@
       "type": "github",
       "username": "williamboman",
       "repo": "mason.nvim",
-      "tags": ["lsp-installer"]
-    },
-    {
-      "type": "github",
-      "username": "williamboman",
-      "repo": "nvim-lsp-installer",
       "tags": ["lsp-installer"]
     },
     {
@@ -1749,13 +1823,14 @@
     { "type": "github", "username": "Xuyuanp", "repo": "yanil", "tags": ["file-explorer"] },
     { "type": "github", "username": "yamatsum", "repo": "nvim-cursorline", "tags": ["cursorline"] },
     { "type": "github", "username": "yamatsum", "repo": "nvim-nonicons", "tags": ["icon"] },
+    { "type": "github", "username": "yaocccc", "repo": "nvim-hlchunk", "tags": ["indent"] },
+    { "type": "github", "username": "yaocccc", "repo": "nvim-lines.lua", "tags": ["statusline"] },
     {
       "type": "github",
       "username": "yashguptaz",
       "repo": "calvera-dark.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "yatli", "repo": "fvim", "tags": ["ui"] },
     {
       "type": "github",
       "username": "yazeed1s",
