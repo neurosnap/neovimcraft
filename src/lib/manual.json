@@ -98,6 +98,7 @@
       "tags": ["statusline", "diagnostics"]
     },
     {
+      "type": "github",
       "username": "danielfalk",
       "repo": "smart-open.nvim",
       "tags": ["fuzzy-finder"]
