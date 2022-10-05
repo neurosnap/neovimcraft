@@ -707,6 +707,12 @@
     { "type": "github", "username": "Junnplus", "repo": "nvim-lsp-setup", "tags": ["neovim-0.5"] },
     {
       "type": "github",
+      "username": "justinhj",
+      "repo": "battery.nvim",
+      "tags": ["statusline", "diagnostics"]
+    },
+    {
+      "type": "github",
       "username": "jvgrootveld",
       "repo": "telescope-zoxide",
       "tags": ["fuzzy-finder"]
