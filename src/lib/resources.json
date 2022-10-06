@@ -1116,6 +1116,7 @@
       "repo": "rest.nvim",
       "tags": ["web-development"]
     },
+    { "type": "github", "username": "numToStr", "repo": "BufOnly.nvim", "tags": ["utility"] },
     { "type": "github", "username": "numToStr", "repo": "Comment.nvim", "tags": ["comment"] },
     {
       "type": "github",
