@@ -1531,6 +1531,7 @@
       "repo": "neovim-session-manager",
       "tags": ["session"]
     },
+    { "type": "github", "username": "Shatur", "repo": "neovim-tasks", "tags": ["code-runner"] },
     {
       "type": "github",
       "username": "shaunsingh",
