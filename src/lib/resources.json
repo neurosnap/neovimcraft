@@ -957,6 +957,7 @@
       "repo": "neovim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    { "type": "github", "username": "melkster", "repo": "modicator.nvim", "tags": ["cursorline"] },
     {
       "type": "github",
       "username": "metalelf0",
