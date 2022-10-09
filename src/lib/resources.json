@@ -562,6 +562,12 @@
     },
     { "type": "github", "username": "hkupty", "repo": "nvimux", "tags": ["tmux"] },
     { "type": "github", "username": "hrsh7th", "repo": "nvim-cmp", "tags": ["completion"] },
+    {
+      "type": "github",
+      "username": "iamcco",
+      "repo": "markdown-preview.nvim",
+      "tags": ["markdown-/-latex"]
+    },
     { "type": "github", "username": "ibhagwan", "repo": "fzf-lua", "tags": ["fuzzy-finder"] },
     {
       "type": "github",
