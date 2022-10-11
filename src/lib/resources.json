@@ -562,12 +562,6 @@
     },
     { "type": "github", "username": "hkupty", "repo": "nvimux", "tags": ["tmux"] },
     { "type": "github", "username": "hrsh7th", "repo": "nvim-cmp", "tags": ["completion"] },
-    {
-      "type": "github",
-      "username": "iamcco",
-      "repo": "markdown-preview.nvim",
-      "tags": ["markdown-/-latex"]
-    },
     { "type": "github", "username": "ibhagwan", "repo": "fzf-lua", "tags": ["fuzzy-finder"] },
     {
       "type": "github",
@@ -677,7 +671,7 @@
       "type": "github",
       "username": "JoosepAlviste",
       "repo": "nvim-ts-context-commentstring",
-      "tags": ["editing-support"]
+      "tags": ["comment"]
     },
     {
       "type": "github",
@@ -1593,6 +1587,12 @@
       "tags": ["winbar-and-statusline-component"]
     },
     { "type": "github", "username": "smjonas", "repo": "inc-rename.nvim", "tags": ["neovim-0.5"] },
+    {
+      "type": "github",
+      "username": "smjonas",
+      "repo": "live-command.nvim",
+      "tags": ["editing-support"]
+    },
     {
       "type": "github",
       "username": "smjonas",
