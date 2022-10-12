@@ -682,7 +682,7 @@
     {
       "type": "github",
       "username": "jose-elias-alvarez",
-      "repo": "nvim-lsp-ts-utils",
+      "repo": "typescript.nvim",
       "tags": ["neovim-0.5"]
     },
     {
