@@ -1415,6 +1415,7 @@
       "tags": ["colorscheme-creation"]
     },
     { "type": "github", "username": "rktjmp", "repo": "paperplanes.nvim", "tags": ["utility"] },
+    { "type": "github", "username": "rktjmp", "repo": "shenzhen-solitaire.nvim", "tags": ["game"] },
     { "type": "github", "username": "rlane", "repo": "pounce.nvim", "tags": ["motion"] },
     { "type": "github", "username": "rmagatti", "repo": "auto-session", "tags": ["session"] },
     { "type": "github", "username": "rmagatti", "repo": "goto-preview", "tags": ["neovim-0.5"] },
