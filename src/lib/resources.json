@@ -30,6 +30,7 @@
       "repo": "swenv.nvim",
       "tags": ["programming-languages-support"]
     },
+    { "type": "github", "username": "adelarsq", "repo": "image_preview.nvim", "tags": ["media"] },
     { "type": "github", "username": "adelarsq", "repo": "neoline.vim", "tags": ["statusline"] },
     {
       "type": "github",
@@ -1497,6 +1498,7 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "sakhnik", "repo": "nvim-gdb", "tags": ["debugging"] },
+    { "type": "github", "username": "samodostal", "repo": "image.nvim", "tags": ["media"] },
     {
       "type": "github",
       "username": "Saverio976",
