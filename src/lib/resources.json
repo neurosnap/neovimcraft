@@ -1135,12 +1135,6 @@
       "repo": "kickstart.nvim",
       "tags": ["preconfigured-configuration"]
     },
-    {
-      "type": "github",
-      "username": "nvim-lua",
-      "repo": "lsp_extensions.nvim",
-      "tags": ["neovim-0.5"]
-    },
     { "type": "github", "username": "nvim-lua", "repo": "lsp-status.nvim", "tags": ["neovim-0.5"] },
     {
       "type": "github",
