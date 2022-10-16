@@ -459,6 +459,7 @@
       "repo": "lua-dev.nvim",
       "tags": ["neovim-lua-development"]
     },
+    { "type": "github", "username": "folke", "repo": "noice.nvim", "tags": ["utility"] },
     { "type": "github", "username": "folke", "repo": "todo-comments.nvim", "tags": ["comment"] },
     {
       "type": "github",
