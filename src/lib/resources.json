@@ -1249,6 +1249,7 @@
     },
     { "type": "github", "username": "onsails", "repo": "diaglist.nvim", "tags": ["diagnostics"] },
     { "type": "github", "username": "onsails", "repo": "lspkind.nvim", "tags": ["neovim-0.5"] },
+    { "type": "github", "username": "ostralyan", "repo": "scribe.nvim", "tags": ["note-taking"] },
     {
       "type": "github",
       "username": "p00f",
