@@ -1494,6 +1494,12 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "sakhnik", "repo": "nvim-gdb", "tags": ["debugging"] },
+    {
+      "type": "github",
+      "username": "samjwill",
+      "repo": "nvim-unception",
+      "tags": ["terminal-integration"]
+    },
     { "type": "github", "username": "samodostal", "repo": "image.nvim", "tags": ["media"] },
     {
       "type": "github",
