@@ -542,6 +542,7 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "goolord", "repo": "alpha-nvim", "tags": ["startup"] },
+    { "type": "github", "username": "gorbit99", "repo": "codewindow.nvim", "tags": ["scrollbar"] },
     {
       "type": "github",
       "username": "gpanders",
