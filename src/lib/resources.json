@@ -1768,6 +1768,7 @@
       "tags": ["completion"]
     },
     { "type": "github", "username": "vijaymarupudi", "repo": "nvim-fzf", "tags": ["fuzzy-finder"] },
+    { "type": "github", "username": "Vonr", "repo": "align.nvim", "tags": ["formatting"] },
     {
       "type": "github",
       "username": "vuki656",
