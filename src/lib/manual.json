@@ -108,6 +108,7 @@
       "username": "Saverio976",
       "repo": "music.nvim",
       "tags": ["media", "utility"]
-    }
+    },
+    { "type": "github", "username": "Vonr", "repo": "align.nvim", "tags": ["formatting"] }
   ]
 }
