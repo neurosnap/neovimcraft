@@ -786,6 +786,12 @@
     {
       "type": "github",
       "username": "kvrohit",
+      "repo": "mellow.nvim",
+      "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
+      "username": "kvrohit",
       "repo": "rasmus.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
