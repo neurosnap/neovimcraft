@@ -180,6 +180,7 @@
       "repo": "nvim-luadev",
       "tags": ["neovim-lua-development"]
     },
+    { "type": "github", "username": "bfredl", "repo": "nvim-miniyank", "tags": ["utility"] },
     {
       "type": "github",
       "username": "bkegley",
@@ -238,6 +239,7 @@
       "repo": "distant.nvim",
       "tags": ["remote-development"]
     },
+    { "type": "github", "username": "chiyadev", "repo": "dep", "tags": ["plugin-manager"] },
     {
       "type": "github",
       "username": "ChristianChiarulli",
@@ -727,6 +729,12 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "karb94", "repo": "neoscroll.nvim", "tags": ["scrolling"] },
+    {
+      "type": "github",
+      "username": "Kasama",
+      "repo": "nvim-custom-diagnostic-highlight",
+      "tags": ["neovim-0.5"]
+    },
     { "type": "github", "username": "kazhala", "repo": "close-buffers.nvim", "tags": ["utility"] },
     { "type": "github", "username": "kdheepak", "repo": "lazygit.nvim", "tags": ["git"] },
     {
@@ -1872,6 +1880,7 @@
       "repo": "omni.vim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    { "type": "github", "username": "zbirenbaum", "repo": "neodim", "tags": ["utility"] },
     {
       "type": "github",
       "username": "ZhiyuanLck",
