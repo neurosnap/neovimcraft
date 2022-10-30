@@ -1241,6 +1241,7 @@
       "repo": "ofirkai.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    { "type": "github", "username": "ofirgall", "repo": "open.nvim", "tags": ["marks"] },
     { "type": "github", "username": "ojroques", "repo": "nvim-hardline", "tags": ["statusline"] },
     { "type": "github", "username": "ojroques", "repo": "nvim-lspfuzzy", "tags": ["neovim-0.5"] },
     {
@@ -1835,6 +1836,7 @@
       "repo": "range-highlight.nvim",
       "tags": ["color"]
     },
+    { "type": "github", "username": "woosaaahh", "repo": "sj.nvim", "tags": ["motion"] },
     {
       "type": "github",
       "username": "wuelnerdotexe",
