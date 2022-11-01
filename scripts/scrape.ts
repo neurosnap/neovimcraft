@@ -57,6 +57,7 @@ async function processMarkdown(text: string) {
           // first token is always a link
           const token = tt.tokens[0];
           if (!token) return;
+          if (!token.href) return;
 
           link = token.href;
           // skip non-github links
