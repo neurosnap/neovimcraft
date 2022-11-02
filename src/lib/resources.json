@@ -351,12 +351,7 @@
       "repo": "vim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    {
-      "type": "github",
-      "username": "drybalka",
-      "repo": "tree-climber.nvim",
-      "tags": ["treesitter-based"]
-    },
+    { "type": "github", "username": "drybalka", "repo": "tree-climber.nvim", "tags": ["motion"] },
     { "type": "github", "username": "dstein64", "repo": "nvim-scrollview", "tags": ["scrollbar"] },
     {
       "type": "github",
@@ -983,7 +978,7 @@
       "type": "github",
       "username": "mfussenegger",
       "repo": "nvim-ts-hint-textobject",
-      "tags": ["treesitter-based"]
+      "tags": ["motion"]
     },
     {
       "type": "github",
@@ -1802,6 +1797,7 @@
       "repo": "nvim-code-action-menu",
       "tags": ["neovim-0.5"]
     },
+    { "type": "github", "username": "Weissle", "repo": "easy-action", "tags": ["motion"] },
     {
       "type": "github",
       "username": "Weissle",
@@ -1891,11 +1887,6 @@
     },
     { "type": "github", "username": "ziontee113", "repo": "color-picker.nvim", "tags": ["color"] },
     { "type": "github", "username": "ziontee113", "repo": "icon-picker.nvim", "tags": ["icon"] },
-    {
-      "type": "github",
-      "username": "ziontee113",
-      "repo": "syntax-tree-surfer",
-      "tags": ["treesitter-based"]
-    }
+    { "type": "github", "username": "ziontee113", "repo": "syntax-tree-surfer", "tags": ["motion"] }
   ]
 }
