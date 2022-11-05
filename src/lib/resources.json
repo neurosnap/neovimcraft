@@ -1029,6 +1029,12 @@
     { "type": "github", "username": "MordechaiHadad", "repo": "bob", "tags": ["version-manager"] },
     {
       "type": "github",
+      "username": "MrcJkb",
+      "repo": "haskell-tools.nvim",
+      "tags": ["neovim-0.5"]
+    },
+    {
+      "type": "github",
       "username": "mrjones2014",
       "repo": "legendary.nvim",
       "tags": ["keybinding"]
