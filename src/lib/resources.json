@@ -351,7 +351,12 @@
       "repo": "vim",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
-    { "type": "github", "username": "drybalka", "repo": "tree-climber.nvim", "tags": ["motion"] },
+    {
+      "type": "github",
+      "username": "drybalka",
+      "repo": "tree-climber.nvim",
+      "tags": ["treesitter-based"]
+    },
     { "type": "github", "username": "dstein64", "repo": "nvim-scrollview", "tags": ["scrollbar"] },
     {
       "type": "github",
@@ -978,7 +983,7 @@
       "type": "github",
       "username": "mfussenegger",
       "repo": "nvim-ts-hint-textobject",
-      "tags": ["motion"]
+      "tags": ["treesitter-based"]
     },
     {
       "type": "github",
@@ -1084,6 +1089,18 @@
     },
     { "type": "github", "username": "neovim", "repo": "nvim-lspconfig", "tags": ["neovim-0.5"] },
     { "type": "github", "username": "NFrid", "repo": "due.nvim", "tags": ["note-taking"] },
+    {
+      "type": "github",
+      "username": "NFrid",
+      "repo": "markdown-togglecheck",
+      "tags": ["markdown-/-latex"]
+    },
+    {
+      "type": "github",
+      "username": "NFrid",
+      "repo": "treesitter-utils",
+      "tags": ["neovim-lua-development"]
+    },
     { "type": "github", "username": "nguyenvukhang", "repo": "nvim-toggler", "tags": ["utility"] },
     { "type": "github", "username": "nikvdp", "repo": "neomux", "tags": ["terminal-integration"] },
     {
@@ -1360,6 +1377,7 @@
       "repo": "tabline-framework.nvim",
       "tags": ["tabline"]
     },
+    { "type": "github", "username": "ranjithshegde", "repo": "ccls.nvim", "tags": ["neovim-0.5"] },
     {
       "type": "github",
       "username": "ray-x",
@@ -1893,6 +1911,11 @@
     },
     { "type": "github", "username": "ziontee113", "repo": "color-picker.nvim", "tags": ["color"] },
     { "type": "github", "username": "ziontee113", "repo": "icon-picker.nvim", "tags": ["icon"] },
-    { "type": "github", "username": "ziontee113", "repo": "syntax-tree-surfer", "tags": ["motion"] }
+    {
+      "type": "github",
+      "username": "ziontee113",
+      "repo": "syntax-tree-surfer",
+      "tags": ["treesitter-based"]
+    }
   ]
 }
