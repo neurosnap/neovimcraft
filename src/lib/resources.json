@@ -1220,6 +1220,12 @@
     },
     {
       "type": "github",
+      "username": "nvim-zh",
+      "repo": "colorful-winsep.nvim",
+      "tags": ["split-and-window"]
+    },
+    {
+      "type": "github",
       "username": "nvoid-lua",
       "repo": "nvoid",
       "tags": ["preconfigured-configuration"]
