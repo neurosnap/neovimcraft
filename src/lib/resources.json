@@ -511,7 +511,6 @@
     { "type": "github", "username": "glepnir", "repo": "dashboard-nvim", "tags": ["startup"] },
     { "type": "github", "username": "glepnir", "repo": "indent-guides.nvim", "tags": ["indent"] },
     { "type": "github", "username": "glepnir", "repo": "lspsaga.nvim", "tags": ["neovim-0.5"] },
-    { "type": "github", "username": "glepnir", "repo": "prodoc.nvim", "tags": ["comment"] },
     {
       "type": "github",
       "username": "glepnir",
