@@ -109,6 +109,12 @@
       "repo": "music.nvim",
       "tags": ["media", "utility"]
     },
-    { "type": "github", "username": "Vonr", "repo": "align.nvim", "tags": ["formatting"] }
+    { "type": "github", "username": "Vonr", "repo": "align.nvim", "tags": ["formatting"] },
+    {
+      "type": "github",
+      "username": "Wansmer",
+      "repo": "treesj",
+      "tags": ["refactoring", "treesitter", "splitjoin"]
+    }
   ]
 }
