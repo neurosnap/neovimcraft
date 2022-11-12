@@ -1793,6 +1793,12 @@
     },
     {
       "type": "github",
+      "username": "Wansmer",
+      "repo": "treesj",
+      "tags": ["refactoring", "treesitter", "splitjoin"]
+    },
+    {
+      "type": "github",
       "username": "wbthomason",
       "repo": "packer.nvim",
       "tags": ["plugin-manager"]
