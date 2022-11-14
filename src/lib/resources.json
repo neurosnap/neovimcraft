@@ -1764,6 +1764,12 @@
       "repo": "vim-code-dark",
       "tags": ["tree-sitter-supported-colorscheme"]
     },
+    {
+      "type": "github",
+      "username": "toppair",
+      "repo": "peek.nvim",
+      "tags": ["markdown-and-latex"]
+    },
     { "type": "github", "username": "toppair", "repo": "reach.nvim", "tags": ["utility"] },
     { "type": "github", "username": "tversteeg", "repo": "registers.nvim", "tags": ["register"] },
     { "type": "github", "username": "tveskag", "repo": "nvim-blame-line", "tags": ["git"] },
