@@ -116,5 +116,11 @@
       "repo": "treesj",
       "tags": ["refactoring", "treesitter", "splitjoin"]
     }
+    {
+      "type": "github",
+      "username": "lvim-tech",
+      "repo": "lvim",
+      "tags": ["preconfigured-configuration"]
+    }
   ]
 }
