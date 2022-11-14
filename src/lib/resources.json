@@ -1800,6 +1800,18 @@
     {
       "type": "github",
       "username": "Wansmer",
+      "repo": "binary-swap.nvim",
+      "tags": ["editing-support"]
+    },
+    {
+      "type": "github",
+      "username": "Wansmer",
+      "repo": "sibling-swap.nvim",
+      "tags": ["editing-support"]
+    },
+    {
+      "type": "github",
+      "username": "Wansmer",
       "repo": "treesj",
       "tags": ["refactoring", "treesitter", "splitjoin"]
     },
