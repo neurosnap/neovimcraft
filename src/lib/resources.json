@@ -911,6 +911,12 @@
       "repo": "stabilize.nvim",
       "tags": ["split-and-window"]
     },
+    {
+      "type": "github",
+      "username": "lvim-tech",
+      "repo": "lvim",
+      "tags": ["preconfigured-configuration"]
+    },
     { "type": "github", "username": "m-demare", "repo": "attempt.nvim", "tags": ["utility"] },
     { "type": "github", "username": "m-demare", "repo": "hlargs.nvim", "tags": ["syntax"] },
     {
