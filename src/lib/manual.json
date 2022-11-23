@@ -121,6 +121,12 @@
       "username": "lvim-tech",
       "repo": "lvim",
       "tags": ["preconfigured-configuration"]
+    },
+    {
+      "type": "github",
+      "username": "TimotheeSai",
+      "repo": "git-sessions.nvim",
+      "tags": ["session", "git"]
     }
   ]
 }
