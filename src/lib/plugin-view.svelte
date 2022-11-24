@@ -90,8 +90,4 @@
   .tags_view {
     margin-bottom: 10px;
   }
-
-  .install {
-    margin-top: 10px;
-  }
 </style>
