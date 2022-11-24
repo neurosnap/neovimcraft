@@ -835,7 +835,6 @@
       "tags": ["tree-sitter-supported-colorscheme"]
     },
     { "type": "github", "username": "lewis6991", "repo": "gitsigns.nvim", "tags": ["git"] },
-    { "type": "github", "username": "lewis6991", "repo": "spellsitter.nvim", "tags": ["language"] },
     {
       "type": "github",
       "username": "lewpoly",
@@ -1725,6 +1724,12 @@
       "username": "tiagovla",
       "repo": "tokyodark.nvim",
       "tags": ["tree-sitter-supported-colorscheme"]
+    },
+    {
+      "type": "github",
+      "username": "TimotheeSai",
+      "repo": "git-sessions.nvim",
+      "tags": ["session", "git"]
     },
     { "type": "github", "username": "TimUntersberger", "repo": "neofs", "tags": ["file-explorer"] },
     { "type": "github", "username": "TimUntersberger", "repo": "neogit", "tags": ["git"] },
