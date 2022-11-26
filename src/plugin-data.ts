@@ -1,4 +1,4 @@
-import type { Tag, Plugin, PluginMap, TagMap } from './types';
+import type { Plugin, PluginData, PluginMap, TagMap } from "./types.ts";
 
 function getTagsDb(plist: Plugin[]): TagMap {
   const tagsDb: TagMap = {};
@@ -13,9 +13,7 @@ function getTagsDb(plist: Plugin[]): TagMap {
   return tagsDb;
 }
 
-export function derivePluginData(
-  pluginDb: PluginMap,
-): { plugins: Plugin[]; tags: Tag[]; tagDb: TagMap } {
+export function derivePluginData(pluginDb: PluginMap): PluginData {
   const plugins = Object.values(pluginDb).sort((a, b) => b.stars - a.stars);
   const tagDb = getTagsDb(plugins);
   const tags = Object.values(tagDb).sort((a, b) => b.count - a.count);

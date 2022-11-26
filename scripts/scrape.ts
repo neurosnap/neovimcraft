@@ -1,16 +1,11 @@
-import fs from 'fs';
-import util from 'util';
+import { marked } from "npm:marked";
 
-import prettier from 'prettier';
-import fetch from 'node-fetch';
-import marked from 'marked';
+import type { Resource } from "../src/types.ts";
+import { createResource } from "../src/entities.ts";
 
-import type { Resource } from '../src/lib/types';
-import { createResource } from '../src/lib/entities';
-
-const writeFile = util.promisify(fs.writeFile);
-
-const URLS = ['https://raw.githubusercontent.com/rockerBOO/awesome-neovim/main/README.md'];
+const URLS = [
+  "https://raw.githubusercontent.com/rockerBOO/awesome-neovim/main/README.md",
+];
 
 Promise.all(URLS.map((url) => fetchMarkdown(url).then(processMarkdown)))
   .then((resources) => {
@@ -30,29 +25,31 @@ async function fetchMarkdown(url: string) {
 }
 
 function sanitizeTag(tag: string) {
-  if (tag === '(requires neovim 0.5)') return 'neovim-0.5';
-  if (tag === 'treesitter supported colorschemes') return 'treesitter-colorschemes';
-  return tag.toLocaleLowerCase().replace(/\s/g, '-');
+  if (tag === "(requires neovim 0.5)") return "neovim-0.5";
+  if (tag === "treesitter supported colorschemes") {
+    return "treesitter-colorschemes";
+  }
+  return tag.toLocaleLowerCase().replace(/\s/g, "-");
 }
 
-async function processMarkdown(text: string) {
+function processMarkdown(text: string) {
   const resources: Resource[] = [];
   const tree = marked.lexer(text);
-  let heading = '';
-  tree.forEach((token) => {
-    if (token.type === 'heading') {
+  let heading = "";
+  tree.forEach((token: any) => {
+    if (token.type === "heading") {
       heading = token.text.toLocaleLowerCase();
     }
 
-    if (token.type === 'list') {
-      token.items.forEach((t) => {
+    if (token.type === "list") {
+      token.items.forEach((t: any) => {
         (t as any).tokens.forEach((tt: any) => {
           if (!tt.tokens) return;
 
           // hardcoded deny-list for headings
-          if (['contents', 'vim'].includes(heading)) return;
+          if (["contents", "vim"].includes(heading)) return;
           const resource = createResource({ tags: [sanitizeTag(heading)] });
-          let link = '';
+          let link = "";
 
           // first token is always a link
           const token = tt.tokens[0];
@@ -61,12 +58,15 @@ async function processMarkdown(text: string) {
 
           link = token.href;
           // skip non-github links
-          if (!link.includes('github.com')) return;
+          if (!link.includes("github.com")) return;
 
-          const href = link.replace('https://github.com/', '').replace('http://github.com', '');
-          const d = href.split('/');
+          const href = link.replace("https://github.com/", "").replace(
+            "http://github.com",
+            "",
+          );
+          const d = href.split("/");
           resource.username = d[0];
-          resource.repo = d[1].replace(/#.+/, '');
+          resource.repo = d[1].replace(/#.+/, "");
           resources.push(resource);
         });
       });
@@ -84,9 +84,6 @@ async function saveScrapeData(resources: Resource[]) {
     return a.username.localeCompare(b.username);
   });
   const data = { resources: newResources };
-  const json = prettier.format(JSON.stringify(data), {
-    parser: 'json',
-    printWidth: 100,
-  });
-  await writeFile('./src/lib/scrape.json', json);
+  const json = JSON.stringify(data, null, 2);
+  await Deno.writeTextFile("./data/scrape.json", json);
 }

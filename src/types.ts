@@ -27,8 +27,14 @@ export interface Tag {
 
 export type TagMap = { [key: string]: Tag };
 
+export interface PluginData {
+  plugins: Plugin[];
+  tags: Tag[];
+  tagDb: TagMap;
+}
+
 export interface Resource {
-  type: 'github';
+  type: "github";
   username: string;
   repo: string;
   tags: string[];
