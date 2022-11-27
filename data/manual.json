@@ -4,115 +4,155 @@
       "type": "github",
       "username": "frabjous",
       "repo": "knap",
-      "tags": ["latex", "markdown"]
+      "tags": [
+        "latex",
+        "markdown"
+      ]
     },
     {
       "type": "github",
       "username": "jceb",
       "repo": "blinds.nvim",
-      "tags": ["color"]
+      "tags": [
+        "color"
+      ]
     },
     {
       "type": "github",
       "username": "theory-of-everything",
       "repo": "nii-nvim",
-      "tags": ["preconfigured-configuration"]
+      "tags": [
+        "preconfigured-configuration"
+      ]
     },
     {
       "type": "github",
       "username": "nvim-neo-tree",
       "repo": "neo-tree.nvim",
-      "tags": ["file-explorer"]
+      "tags": [
+        "file-explorer"
+      ]
     },
     {
       "type": "github",
       "username": "j-hui",
       "repo": "fidget.nvim",
-      "tags": ["neovim-0.5"]
+      "tags": [
+        "neovim-0.5"
+      ]
     },
     {
       "type": "github",
       "username": "slugbyte",
       "repo": "unruly-worker",
-      "tags": ["keybinding", "workman-layout"]
+      "tags": [
+        "keybinding",
+        "workman-layout"
+      ]
     },
     {
       "type": "github",
       "username": "phha",
       "repo": "zenburn.nvim",
-      "tags": ["tree-sitter-supported-colorscheme"]
+      "tags": [
+        "tree-sitter-supported-colorscheme"
+      ]
     },
     {
       "type": "github",
       "username": "mrjones2014",
       "repo": "smart-splits.nvim",
-      "tags": ["split-and-window"]
+      "tags": [
+        "split-and-window"
+      ]
     },
     {
       "type": "github",
       "username": "linty-org",
       "repo": "readline.nvim",
-      "tags": ["editing-support"]
+      "tags": [
+        "editing-support"
+      ]
     },
     {
       "type": "github",
       "username": "linty-org",
       "repo": "key-menu.nvim",
-      "tags": ["keybinding"]
+      "tags": [
+        "keybinding"
+      ]
     },
     {
       "type": "github",
       "username": "koenverburg",
       "repo": "minimal-tabline.nvim",
-      "tags": ["tabline"]
+      "tags": [
+        "tabline"
+      ]
     },
     {
       "type": "github",
       "username": "koenverburg",
       "repo": "peepsight.nvim",
-      "tags": ["color"]
+      "tags": [
+        "color"
+      ]
     },
     {
       "type": "github",
       "username": "koenverburg",
       "repo": "cmd-palette.nvim",
-      "tags": ["utility"]
+      "tags": [
+        "utility"
+      ]
     },
     {
       "type": "github",
       "username": "wuelnerdotexe",
       "repo": "vim-enfocado",
-      "tags": ["tree-sitter-supported-colorscheme"]
+      "tags": [
+        "tree-sitter-supported-colorscheme"
+      ]
     },
     {
       "type": "github",
       "username": "strash",
       "repo": "everybody-wants-that-line.nvim",
-      "tags": ["statusline"]
+      "tags": [
+        "statusline"
+      ]
     },
     {
       "type": "github",
       "username": "Massolari",
       "repo": "forem.nvim",
-      "tags": ["utility"]
+      "tags": [
+        "utility"
+      ]
     },
     {
       "type": "github",
       "username": "kylechui",
       "repo": "nvim-surround",
-      "tags": ["formatting"]
+      "tags": [
+        "formatting"
+      ]
     },
     {
       "type": "github",
       "username": "ktunprasert",
       "repo": "gui-font-resize.nvim",
-      "tags": ["utility"]
+      "tags": [
+        "utility"
+      ]
     },
     {
       "type": "github",
       "username": "brenoprata10",
       "repo": "nvim-highlight-colors",
-      "tags": ["color"]
+      "tags": [
+        "color"
+      ]
     },
     {
       "type": "github",
@@ -128,49 +168,86 @@
       "type": "github",
       "username": "lcheylus",
       "repo": "overlength.nvim",
-      "tags": ["editing-support"]
+      "tags": [
+        "editing-support"
+      ]
     },
     {
       "type": "github",
       "username": "justinhj",
       "repo": "battery.nvim",
-      "tags": ["statusline", "diagnostics"]
+      "tags": [
+        "statusline",
+        "diagnostics"
+      ]
     },
     {
       "type": "github",
       "username": "danielfalk",
       "repo": "smart-open.nvim",
-      "tags": ["fuzzy-finder"]
+      "tags": [
+        "fuzzy-finder"
+      ]
     },
     {
       "type": "github",
       "username": "Saverio976",
       "repo": "music.nvim",
-      "tags": ["media", "utility"]
+      "tags": [
+        "media",
+        "utility"
+      ]
     },
     {
       "type": "github",
       "username": "Vonr",
       "repo": "align.nvim",
-      "tags": ["formatting"]
+      "tags": [
+        "formatting"
+      ]
     },
     {
       "type": "github",
       "username": "Wansmer",
       "repo": "treesj",
-      "tags": ["refactoring", "treesitter", "splitjoin"]
+      "tags": [
+        "refactoring",
+        "treesitter",
+        "splitjoin"
+      ]
     },
     {
       "type": "github",
       "username": "lvim-tech",
       "repo": "lvim",
-      "tags": ["preconfigured-configuration"]
+      "tags": [
+        "preconfigured-configuration"
+      ]
     },
     {
       "type": "github",
       "username": "TimotheeSai",
       "repo": "git-sessions.nvim",
-      "tags": ["session", "git"]
+      "tags": [
+        "session",
+        "git"
+      ]
+    },
+    {
+      "type": "srht",
+      "username": "vigoux",
+      "repo": "azy.nvim",
+      "tags": [
+        "fuzzy-finder"
+      ]
+    },
+    {
+      "type": "srht",
+      "username": "vigoux",
+      "repo": "complementree.nvim",
+      "tags": [
+        "completion"
+      ]
     }
   ]
 }

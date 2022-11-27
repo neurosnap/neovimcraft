@@ -7,6 +7,7 @@ on:
 env:
   GITHUB_ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
   GITHUB_USERNAME: ${{secrets.USERNAME}}
+  SRHT_ACCESS_TOKEN: ${{secrets.SRHT_ACCESS_TOKEN}}
 
 jobs:
   build:

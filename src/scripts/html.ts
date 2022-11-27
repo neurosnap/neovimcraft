@@ -16,7 +16,8 @@ async function clean() {
     marked.use({
       walkTokens: (token: any) => {
         const domain = "https://github.com";
-        const pre = `${domain}/${plugin.username}/${plugin.repo}/blob/${plugin.branch}`;
+        const pre =
+          `${domain}/${plugin.username}/${plugin.repo}/blob/${plugin.branch}`;
 
         if (token.type === "link" || token.type === "image") {
           if (

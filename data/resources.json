@@ -4040,7 +4040,15 @@
       ]
     },
     {
-      "type": "github",
+      "type": "srht",
+      "username": "vigoux",
+      "repo": "azy.nvim",
+      "tags": [
+        "fuzzy-finder"
+      ]
+    },
+    {
+      "type": "srht",
       "username": "vigoux",
       "repo": "complementree.nvim",
       "tags": [
