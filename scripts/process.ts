@@ -1,24 +1,19 @@
-import fs from 'fs';
-import util from 'util';
-import fetch from 'node-fetch';
-import prettier from 'prettier';
+import { encode } from "https://deno.land/std/encoding/base64.ts";
 
-import type { Plugin, Resource } from '../src/lib/types';
-import { createPlugin } from '../src/lib/entities';
-import resourceFile from '../src/lib/resources.json';
+import resourceFile from "../data/resources.json" assert { type: "json" };
 
-const readFile = util.promisify(fs.readFile);
-const writeFile = util.promisify(fs.writeFile);
-const accessToken = process.env.GITHUB_ACCESS_TOKEN || '';
-const accessUsername = process.env.GITHUB_USERNAME || '';
+import type { Plugin, Resource } from "../src/types.ts";
+import { createPlugin } from "../src/entities.ts";
 
-const args = process.argv;
-const option = args[2];
-if (option === 'missing') {
-  console.log('PROCESSING MISSING RESOURCES');
+const accessToken = Deno.env.get("GITHUB_ACCESS_TOKEN") || "";
+const accessUsername = Deno.env.get("GITHUB_USERNAME") || "";
+
+const option = Deno.args[0];
+if (option === "missing") {
+  console.log("PROCESSING MISSING RESOURCES");
   processMissingResources().then(saveData).catch(console.error);
 } else {
-  console.log('PROCESSING ALL RESOURCES');
+  console.log("PROCESSING ALL RESOURCES");
   processResources(resourceFile.resources as Resource[])
     .then(saveData)
     .catch(console.error);
@@ -30,10 +25,11 @@ interface Props {
 }
 
 async function processMissingResources() {
-  const dbFile = await readFile('./src/lib/db.json');
+  const dbFile = await Deno.readTextFile("./data/db.json");
   const db = JSON.parse(dbFile.toString());
   const missing: Resource[] = [];
-  resourceFile.resources.forEach((r: Resource) => {
+  const resources = resourceFile.resources as Resource[];
+  resources.forEach((r) => {
     if (db.plugins[`${r.username}/${r.repo}`]) {
       return;
     }
@@ -43,33 +39,39 @@ async function processMissingResources() {
   console.log(`Missing ${missing.length} resources`);
 
   const results = await processResources(missing);
-  const markdownFile = await readFile('./src/lib/markdown.json');
+  const markdownFile = await Deno.readTextFile("./data/markdown.json");
   const markdownJson = JSON.parse(markdownFile.toString());
   const plugins = { ...db.plugins, ...results.plugins };
   const markdown = { ...markdownJson.markdown, ...results.markdown };
   return { plugins, markdown };
 }
 
-async function delay(ms: number): Promise<void> {
+function delay(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(() => resolve(), ms));
 }
 
-async function githubApi(endpoint: string): Promise<Resp<{ [key: string]: any }>> {
+async function githubApi(
+  endpoint: string,
+): Promise<Resp<{ [key: string]: any }>> {
   const url = `https://api.github.com${endpoint}`;
   console.log(`Fetching ${url}`);
-  const token = Buffer.from(`${accessUsername}:${accessToken}`).toString('base64');
+  const token = encode(`${accessUsername}:${accessToken}`);
   const res = await fetch(url, {
     headers: { Authorization: `Basic ${token}` },
   });
 
-  const rateLimitRemaining = parseInt(res.headers.get('X-RateLimit-Remaining'));
-  const rateLimitReset = parseInt(res.headers.get('X-RateLimit-Reset'));
+  const rateLimitRemaining = parseInt(
+    res.headers.get("X-RateLimit-Remaining") || "0",
+  );
+  const rateLimitReset = parseInt(res.headers.get("X-RateLimit-Reset") || "0");
   console.log(`rate limit remaining: ${rateLimitRemaining}`);
   if (rateLimitRemaining === 1) {
     const now = Date.now();
     const RESET_BUFFER = 500;
     const wait = rateLimitReset + RESET_BUFFER - now;
-    console.log(`About to hit github rate limit, waiting ${wait * 1000} seconds`);
+    console.log(
+      `About to hit github rate limit, waiting ${wait * 1000} seconds`,
+    );
     await delay(wait);
   }
 
@@ -81,9 +83,9 @@ async function githubApi(endpoint: string): Promise<Resp<{ [key: string]: any }>
       ok: false,
       data: {
         status: res.status,
-        error: new Error(`JSON parsing error [${url}]`)
-      }
-    }
+        error: new Error(`JSON parsing error [${url}]`),
+      },
+    };
   }
 
   if (res.ok) {
@@ -121,7 +123,9 @@ async function fetchReadme({ username, repo }: Props): Promise<Resp<string>> {
   };
 }
 
-async function fetchRepo({ username, repo }: Props): Promise<Resp<{ [key: string]: any }>> {
+async function fetchRepo(
+  { username, repo }: Props,
+): Promise<Resp<{ [key: string]: any }>> {
   const result = await githubApi(`/repos/${username}/${repo}`);
   return result;
 }
@@ -131,7 +135,9 @@ async function fetchBranch({
   repo,
   branch,
 }: Props & { branch: string }): Promise<Resp<{ [key: string]: any }>> {
-  const result = await githubApi(`/repos/${username}/${repo}/branches/${branch}`);
+  const result = await githubApi(
+    `/repos/${username}/${repo}/branches/${branch}`,
+  );
   return result;
 }
 
@@ -154,7 +160,10 @@ async function fetchGithubData(props: Props): Promise<Resp<any>> {
     return repo;
   }
 
-  const branch = await fetchBranch({ ...props, branch: repo.data.default_branch });
+  const branch = await fetchBranch({
+    ...props,
+    branch: repo.data.default_branch,
+  });
   if (branch.ok === false) {
     console.log(`${branch.data.status}: ${branch.data.error.message}`);
   }
@@ -170,7 +179,7 @@ async function fetchGithubData(props: Props): Promise<Resp<any>> {
   return {
     ok: true,
     data: {
-      readme: readme.ok ? readme.data : '',
+      readme: readme.ok ? readme.data : "",
       repo: repo.data,
       branch: branch.data,
     },
@@ -186,7 +195,7 @@ async function processResources(resources: Resource[]) {
   for (let i = 0; i < resources.length; i += 1) {
     const d = resources[i];
 
-    if (d.type === 'github') {
+    if (d.type === "github") {
       const result = await fetchGithubData(d);
       if (result.ok) {
         const resp = result.data;
@@ -226,14 +235,8 @@ async function saveData({
   plugins: { [key: string]: Plugin };
   markdown: { [key: string]: string };
 }) {
-  const pluginJson = prettier.format(JSON.stringify({ plugins }), {
-    parser: 'json',
-    printWidth: 100,
-  });
-  const markdownJson = prettier.format(JSON.stringify({ markdown }), {
-    parser: 'json',
-    printWidth: 100,
-  });
-  await writeFile('./src/lib/db.json', pluginJson);
-  await writeFile('./src/lib/markdown.json', markdownJson);
+  const pluginJson = JSON.stringify({ plugins }, null, 2);
+  const markdownJson = JSON.stringify({ markdown });
+  await Deno.writeTextFile("./data/db.json", pluginJson);
+  await Deno.writeTextFile("./data/markdown.json", markdownJson);
 }

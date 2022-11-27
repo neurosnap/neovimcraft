@@ -1,0 +1,16 @@
+{
+  "lint": {
+    "files": {
+      "include": ["src/", "scripts/"]
+    },
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": ["no-explicit-any"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": ["src/", "scripts/"]
+    }
+  }
+}

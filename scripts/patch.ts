@@ -1,24 +1,21 @@
-import fs from 'fs';
-import util from 'util';
-import prettier from 'prettier';
+import scrapeData from "../data/scrape.json" assert { type: "json" };
+import manualData from "../data/manual.json" assert { type: "json" };
 
-import scrapeData from '../src/lib/scrape.json';
-import manualData from '../src/lib/manual.json';
-
-import type { Resource, ResourceMap } from '../src/lib/types';
-
-const writeFile = util.promisify(fs.writeFile);
+import type { Resource, ResourceMap } from "../src/types.ts";
 
 patch().then(console.log).catch(console.error);
 
 async function patch() {
   const db: ResourceMap = {};
   const getId = (r: Resource) => `${r.username}/${r.repo}`;
-  scrapeData.resources.forEach((r: Resource) => {
+  const scrapeResources = scrapeData.resources as Resource[];
+  scrapeResources.forEach((r: Resource) => {
     db[getId(r)] = r;
   });
+
+  const manualResources = manualData.resources as Resource[];
   // resource file trumps what we scrape so we can make changes to things like the tags
-  manualData.resources.forEach((r: Resource) => {
+  manualResources.forEach((r) => {
     db[getId(r)] = r;
   });
 
@@ -29,10 +26,7 @@ async function patch() {
     return a.username.localeCompare(b.username);
   });
   const data = { resources: newResources };
-  const json = prettier.format(JSON.stringify(data), {
-    parser: 'json',
-    printWidth: 100,
-  });
+  const json = JSON.stringify(data, null, 2);
 
-  await writeFile('./src/lib/resources.json', json);
+  await Deno.writeTextFile("./data/resources.json", json);
 }
