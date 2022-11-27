@@ -1,9 +1,8 @@
-import { encode } from "https://deno.land/std/encoding/base64.ts";
+import resourceFile from "../../data/resources.json" assert { type: "json" };
 
-import resourceFile from "../data/resources.json" assert { type: "json" };
-
-import type { Plugin, Resource } from "../src/types.ts";
-import { createPlugin } from "../src/entities.ts";
+import { encode } from "../deps.ts";
+import type { Plugin, Resource } from "../types.ts";
+import { createPlugin } from "../entities.ts";
 
 const accessToken = Deno.env.get("GITHUB_ACCESS_TOKEN") || "";
 const accessUsername = Deno.env.get("GITHUB_USERNAME") || "";

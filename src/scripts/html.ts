@@ -1,6 +1,5 @@
-import { marked } from "npm:marked";
-
-import type { Plugin } from "../src/types.ts";
+import { marked } from "../deps.ts";
+import type { Plugin } from "../types.ts";
 
 clean().catch(console.error);
 
@@ -17,12 +16,12 @@ async function clean() {
     marked.use({
       walkTokens: (token: any) => {
         const domain = "https://github.com";
-        const pre =
-          `${domain}/${plugin.username}/${plugin.repo}/blob/${plugin.branch}`;
+        const pre = `${domain}/${plugin.username}/${plugin.repo}/blob/${plugin.branch}`;
 
         if (token.type === "link" || token.type === "image") {
           if (
-            token.href && !token.href.startsWith("http") &&
+            token.href &&
+            !token.href.startsWith("http") &&
             !token.href.startsWith("#")
           ) {
             token.href = `${pre}/${token.href.replace("./", ``)}`;

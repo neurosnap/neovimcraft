@@ -1,8 +1,8 @@
-import resourceFile from "../data/resources.json" assert { type: "json" };
-import manualFile from "../data/manual.json" assert { type: "json" };
+import resourceFile from "../../data/resources.json" assert { type: "json" };
+import manualFile from "../../data/manual.json" assert { type: "json" };
 
-import type { Resource } from "../src/types.ts";
-import { createResource } from "../src/entities.ts";
+import type { Resource } from "../types.ts";
+import { createResource } from "../entities.ts";
 
 async function init() {
   const name = prompt("name (username/repo):") || "";

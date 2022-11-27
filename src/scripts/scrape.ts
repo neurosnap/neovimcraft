@@ -1,7 +1,6 @@
-import { marked } from "npm:marked";
-
-import type { Resource } from "../src/types.ts";
-import { createResource } from "../src/entities.ts";
+import { marked } from "../deps.ts";
+import type { Resource } from "../types.ts";
+import { createResource } from "../entities.ts";
 
 const URLS = [
   "https://raw.githubusercontent.com/rockerBOO/awesome-neovim/main/README.md",
@@ -60,10 +59,9 @@ function processMarkdown(text: string) {
           // skip non-github links
           if (!link.includes("github.com")) return;
 
-          const href = link.replace("https://github.com/", "").replace(
-            "http://github.com",
-            "",
-          );
+          const href = link
+            .replace("https://github.com/", "")
+            .replace("http://github.com", "");
           const d = href.split("/");
           resource.username = d[0];
           resource.repo = d[1].replace(/#.+/, "");

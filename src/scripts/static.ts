@@ -1,17 +1,16 @@
-import { dirname } from "https://deno.land/std/path/mod.ts";
+import dbFile from "../../data/db.json" assert { type: "json" };
+import htmlFile from "../../data/html.json" assert { type: "json" };
 
-import dbFile from "../data/db.json" assert { type: "json" };
-import htmlFile from "../data/html.json" assert { type: "json" };
-
-import { format, relativeTimeFromDates } from "../src/date.ts";
-import { derivePluginData } from "../src/plugin-data.ts";
+import { dirname } from "../deps.ts";
+import { format, relativeTimeFromDates } from "../date.ts";
+import { derivePluginData } from "../plugin-data.ts";
 import type {
   Plugin,
   PluginData,
   PluginMap,
   Tag,
   TagMap,
-} from "../src/types.ts";
+} from "../types.ts";
 
 async function createFile(fname: string, data: string) {
   await Deno.mkdir(dirname(fname), { recursive: true });

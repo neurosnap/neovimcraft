@@ -1,16 +1,16 @@
 dev:
-	deno run --allow-read --allow-net dev.ts
+	deno run --allow-read --allow-net src/dev.ts
 .PHONY: dev
 
 resource:
-	deno run --allow-write scripts/resource.ts
+	deno run --allow-write src/scripts/resource.ts
 .PHONY: resource
 
 scrape:
-	deno run --allow-write --allow-net scripts/scrape.ts
-	deno run --allow-write scripts/patch.ts
-	deno run --allow-write --allow-env --allow-net scripts/process.ts
-	deno run --allow-write --allow-read scripts/html.ts
+	deno run --allow-write --allow-net src/scripts/scrape.ts
+	deno run --allow-write src/scripts/patch.ts
+	deno run --allow-write --allow-env --allow-net src/scripts/process.ts
+	deno run --allow-write --allow-read src/scripts/html.ts
 .PHONY: scrape
 
 clean:
@@ -22,7 +22,7 @@ clean:
 .PHONY: clean
 
 build: clean
-	deno run --allow-write scripts/static.ts
+	deno run --allow-write src/scripts/static.ts
 .PHONY: build
 
 upload:

@@ -1,7 +1,7 @@
-import scrapeData from "../data/scrape.json" assert { type: "json" };
-import manualData from "../data/manual.json" assert { type: "json" };
+import scrapeData from "../../data/scrape.json" assert { type: "json" };
+import manualData from "../../data/manual.json" assert { type: "json" };
 
-import type { Resource, ResourceMap } from "../src/types.ts";
+import type { Resource, ResourceMap } from "../types.ts";
 
 patch().then(console.log).catch(console.error);
 
