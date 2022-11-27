@@ -14,7 +14,7 @@ scrape:
 .PHONY: scrape
 
 clean:
-	rm static/*.html
+	rm -f static/*.html
 	rm -rf static/plugin
 	rm -rf static/about
 	rm -rf static/created
