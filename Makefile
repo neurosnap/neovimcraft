@@ -6,11 +6,27 @@ resource:
 	deno run --allow-write src/scripts/resource.ts
 .PHONY: resource
 
-scrape:
+download:
 	deno run --allow-write --allow-net src/scripts/scrape.ts
+.PHONY: download
+
+patch:
 	deno run --allow-write src/scripts/patch.ts
+.PHONY: patch
+
+process:
 	deno run --allow-write --allow-env --allow-net src/scripts/process.ts
+.PHONY: process
+
+missing:
+	deno run --allow-write --allow-env --allow-net --allow-read src/scripts/process.ts missing
+.PHONY: missing
+
+html:
 	deno run --allow-write --allow-read src/scripts/html.ts
+.PHONY: html
+
+scrape: download patch process html
 .PHONY: scrape
 
 clean:

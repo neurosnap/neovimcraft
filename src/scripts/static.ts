@@ -4,13 +4,7 @@ import htmlFile from "../../data/html.json" assert { type: "json" };
 import { dirname } from "../deps.ts";
 import { format, relativeTimeFromDates } from "../date.ts";
 import { derivePluginData } from "../plugin-data.ts";
-import type {
-  Plugin,
-  PluginData,
-  PluginMap,
-  Tag,
-  TagMap,
-} from "../types.ts";
+import type { Plugin, PluginData, PluginMap, Tag, TagMap } from "../types.ts";
 
 async function createFile(fname: string, data: string) {
   await Deno.mkdir(dirname(fname), { recursive: true });

@@ -1,4 +1,5 @@
 export interface Plugin {
+  type: "github" | "srht";
   id: string;
   name: string;
   username: string;
@@ -34,10 +35,28 @@ export interface PluginData {
 }
 
 export interface Resource {
-  type: "github";
+  type: "github" | "srht";
   username: string;
   repo: string;
   tags: string[];
 }
 
 export type ResourceMap = { [key: string]: Resource };
+
+export interface ApiSuccess<D = any> {
+  ok: true;
+  data: D;
+}
+
+export interface ApiFailure {
+  ok: false;
+  data: { status: number; error: Error };
+}
+
+export type Resp<D> = ApiSuccess<D> | ApiFailure;
+
+export interface FetchRepoProps {
+  username: string;
+  repo: string;
+  token: string;
+}

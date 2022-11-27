@@ -2,6 +2,7 @@ import type { Plugin, Resource } from "./types.ts";
 
 export const createPlugin = (p: Partial<Plugin> = {}): Plugin => {
   return {
+    type: "github",
     id: "",
     name: "",
     username: "",
