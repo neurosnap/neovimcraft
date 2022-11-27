@@ -77,7 +77,7 @@ const createNav = () => {
 <div class="nav">
   <h1 id="logo">
     <a href="/" class="logo-header">neovimcraft</a>
-    <a href="https://github.com/neurosnap/neovimcraft" class="gh">
+    <a href="https://github.com/neurosnap/neovimcraft" class="flex">
       ${createIcon("github")}
     </a>
   </h1>
@@ -130,6 +130,17 @@ const createPluginItem = (plugin: Plugin, tags: Tag[]) => {
     .map((t) => t.id)
     .join(",")
     .toLocaleLowerCase();
+  const nf = new Intl.NumberFormat('en-US');
+
+  let repoLink = `
+    <a href=${plugin.link} class="flex">${createIcon("github")}</a>
+    <div class="metric-item">${createIcon("star")} <span>${nf.format(plugin.stars)}</span></div>
+    <div class="metric-item">
+      ${createIcon("alert-circle")} <span>${nf.format(plugin.openIssues)}</span>
+    </div>`;
+  if (plugin.type === 'srht') {
+    repoLink = `<a href=${plugin.link} class="flex">${createIcon("srht")}</a>`
+  }
 
   return `
 <div class="container plugin" data-repo="${dataRepo}" data-desc="${dataDesc}" data-tags="${dataTags}">
@@ -138,19 +149,7 @@ const createPluginItem = (plugin: Plugin, tags: Tag[]) => {
       <a href="/plugin/${plugin.username}/${plugin.repo}">${plugin.repo}</a>
     </h2>
     <div class="metrics">
-      <Tooltip tip="github repo" bottom>
-        <a href=${plugin.link}>${createIcon("github")}</a>
-      </Tooltip>
-      <Tooltip tip="stars" bottom>
-        <div class="metric-item">${
-    createIcon("star")
-  } <span>${plugin.stars}</span></div>
-      </Tooltip>
-      <Tooltip tip="open issues" bottom>
-        <div class="metric-item">
-          ${createIcon("alert-circle")} <span>${plugin.openIssues}</span>
-        </div>
-      </Tooltip>
+      ${repoLink}
     </div>
   </div>
   <div class="date">
@@ -319,34 +318,35 @@ const createPluginView = (plugin: Plugin, tags: Tag[]) => {
     acc += createTag(tag, false);
     return acc;
   }, "");
+  const nf = new Intl.NumberFormat('en-US');
+
+  let metricsStr = '';
+  if (plugin.type === 'github') {
+    metricsStr = `
+    <div class="metrics_view">
+        <div class="metric">
+          ${createIcon("star")}
+          <span>${nf.format(plugin.stars)}</span>
+        </div>
+        <div class="metric">
+          ${createIcon("alert-circle")}
+          <span>${nf.format(plugin.openIssues)}</span>
+        </div>
+        <div class="metric">
+          ${createIcon("users")} <span>${nf.format(plugin.subscribers)}</span>
+        </div>
+        <div class="metric">
+          ${createIcon("git-branch")} <span>${nf.format(plugin.forks)}</span>
+        </div>
+    </div>`;
+  }
 
   return `
 <div class="meta">
   <div class="tags_view">
     ${tagsStr}
   </div>
-  <div class="metrics_view">
-    <Tooltip tip="stars" bottom>
-      <div class="metric">${
-    createIcon("star")
-  } <span>${plugin.stars}</span></div>
-    </Tooltip>
-    <Tooltip tip="open issues" bottom>
-      <div class="metric">${
-    createIcon("alert-circle")
-  } <span>${plugin.openIssues}</span></div>
-    </Tooltip>
-    <Tooltip tip="subscribers" bottom>
-      <div class="metric">${
-    createIcon("users")
-  } <span>${plugin.subscribers}</span></div>
-    </Tooltip>
-    <Tooltip tip="forks" bottom>
-      <div class="metric">${
-    createIcon("git-branch")
-  } <span>${plugin.forks}</span></div>
-    </Tooltip>
-  </div>
+  ${metricsStr}
   <div class="timestamps">
     <div>
       <h5 class="ts_header">CREATED</h5>
@@ -382,7 +382,7 @@ const createPluginPage = (plugin: Plugin, tags: Tag[], html: string) => {
     <div class="header">
       <h1>${plugin.id}</h1>
       ${plugin.homepage ? `<a href=${plugin.homepage}>website</a>` : ""}
-      <a href=${plugin.link}>${createIcon("github")} <span>github</span></a>
+      <a href=${plugin.link} class="flex">${createIcon("github")} <span>github</span></a>
     </div>
     ${createPluginView(plugin, tags)}
     ${html}

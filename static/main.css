@@ -38,6 +38,10 @@
   background-color: var(--highlight-secondary);
 }
 
+.flex {
+  display: flex;
+}
+
 html {
   overflow-x: hidden;
 }
