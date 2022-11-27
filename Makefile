@@ -9,7 +9,7 @@ resource:
 scrape:
 	deno run --allow-write --allow-net scripts/scrape.ts
 	deno run --allow-write scripts/patch.ts
-	deno run --allow-env --allow-net scripts/process.ts
+	deno run --allow-write --allow-env --allow-net scripts/process.ts
 	deno run --allow-write --allow-read scripts/html.ts
 .PHONY: scrape
 
