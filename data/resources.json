@@ -2900,6 +2900,30 @@
     },
     {
       "type": "github",
+      "username": "otavioschwanck",
+      "repo": "mood-nvim",
+      "tags": [
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "otavioschwanck",
+      "repo": "telescope-alternate.nvim",
+      "tags": [
+        "project"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "otavioschwanck",
+      "repo": "tmux-awesome-manager.nvim",
+      "tags": [
+        "tmux"
+      ]
+    },
+    {
+      "type": "github",
       "username": "p00f",
       "repo": "cphelper.nvim",
       "tags": [
