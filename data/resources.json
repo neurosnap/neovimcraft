@@ -1219,6 +1219,14 @@
     },
     {
       "type": "github",
+      "username": "gnikdroy",
+      "repo": "projections.nvim",
+      "tags": [
+        "project"
+      ]
+    },
+    {
+      "type": "github",
       "username": "goolord",
       "repo": "alpha-nvim",
       "tags": [
