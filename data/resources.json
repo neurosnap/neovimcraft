@@ -3261,6 +3261,14 @@
     {
       "type": "github",
       "username": "rktjmp",
+      "repo": "pact.nvim",
+      "tags": [
+        "plugin-manager"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "rktjmp",
       "repo": "paperplanes.nvim",
       "tags": [
         "utility"
