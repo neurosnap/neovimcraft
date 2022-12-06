@@ -1076,6 +1076,14 @@
     {
       "type": "github",
       "username": "gbprod",
+      "repo": "nord.nvim",
+      "tags": [
+        "tree-sitter-supported-colorscheme"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "gbprod",
       "repo": "phpactor.nvim",
       "tags": [
         "programming-languages-support"
