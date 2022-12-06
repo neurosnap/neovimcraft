@@ -546,6 +546,14 @@
     },
     {
       "type": "github",
+      "username": "Civitasv",
+      "repo": "cmake-tools.nvim",
+      "tags": [
+        "code-runner"
+      ]
+    },
+    {
+      "type": "github",
       "username": "clojure-vim",
       "repo": "jazz.nvim",
       "tags": [
