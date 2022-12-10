@@ -2980,6 +2980,14 @@
     },
     {
       "type": "github",
+      "username": "phaazon",
+      "repo": "mind.nvim",
+      "tags": [
+        "note-taking"
+      ]
+    },
+    {
+      "type": "github",
       "username": "phha",
       "repo": "zenburn.nvim",
       "tags": [
