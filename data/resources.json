@@ -1933,6 +1933,14 @@
     {
       "type": "github",
       "username": "ldelossa",
+      "repo": "nvim-ide",
+      "tags": [
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "ldelossa",
       "repo": "vimdark",
       "tags": [
         "tree-sitter-supported-colorscheme"
