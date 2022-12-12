@@ -490,6 +490,14 @@
     },
     {
       "type": "github",
+      "username": "cbochs",
+      "repo": "grapple.nvim",
+      "tags": [
+        "marks"
+      ]
+    },
+    {
+      "type": "github",
       "username": "Chaitanyabsprip",
       "repo": "present.nvim",
       "tags": [
