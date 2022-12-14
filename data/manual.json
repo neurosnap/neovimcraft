@@ -248,6 +248,14 @@
       "tags": [
         "completion"
       ]
+    },
+    {
+      "type": "github",
+      "username": "shortcuts",
+      "repo": "no-neck-pain.nvim",
+      "tags": [
+        "editing-support"
+      ]
     }
   ]
 }
