@@ -130,16 +130,18 @@ const createPluginItem = (plugin: Plugin, tags: Tag[]) => {
     .map((t) => t.id)
     .join(",")
     .toLocaleLowerCase();
-  const nf = new Intl.NumberFormat('en-US');
+  const nf = new Intl.NumberFormat("en-US");
 
   let repoLink = `
     <a href=${plugin.link} class="flex">${createIcon("github")}</a>
-    <div class="metric-item">${createIcon("star")} <span>${nf.format(plugin.stars)}</span></div>
+    <div class="metric-item">${createIcon("star")} <span>${
+    nf.format(plugin.stars)
+  }</span></div>
     <div class="metric-item">
       ${createIcon("alert-circle")} <span>${nf.format(plugin.openIssues)}</span>
     </div>`;
-  if (plugin.type === 'srht') {
-    repoLink = `<a href=${plugin.link} class="flex">${createIcon("srht")}</a>`
+  if (plugin.type === "srht") {
+    repoLink = `<a href=${plugin.link} class="flex">${createIcon("srht")}</a>`;
   }
 
   return `
@@ -318,10 +320,10 @@ const createPluginView = (plugin: Plugin, tags: Tag[]) => {
     acc += createTag(tag, false);
     return acc;
   }, "");
-  const nf = new Intl.NumberFormat('en-US');
+  const nf = new Intl.NumberFormat("en-US");
 
-  let metricsStr = '';
-  if (plugin.type === 'github') {
+  let metricsStr = "";
+  if (plugin.type === "github") {
     metricsStr = `
     <div class="metrics_view">
         <div class="metric">
@@ -382,7 +384,9 @@ const createPluginPage = (plugin: Plugin, tags: Tag[], html: string) => {
     <div class="header">
       <h1>${plugin.id}</h1>
       ${plugin.homepage ? `<a href=${plugin.homepage}>website</a>` : ""}
-      <a href=${plugin.link} class="flex">${createIcon("github")} <span>github</span></a>
+      <a href=${plugin.link} class="flex">${
+    createIcon("github")
+  } <span>github</span></a>
     </div>
     ${createPluginView(plugin, tags)}
     ${html}

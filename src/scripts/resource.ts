@@ -8,8 +8,8 @@ const forges = ["github", "srht"];
 const forgesStr = forges.join(",");
 
 async function init() {
-  const type =
-    prompt(`code forge [${forgesStr}] (default: github):`) || "github";
+  const type = prompt(`code forge [${forgesStr}] (default: github):`) ||
+    "github";
   if (!forges.includes(type)) {
     throw new Error(`${type} is not a valid code forge, choose ${forgesStr}`);
   }
@@ -21,7 +21,7 @@ async function init() {
   }
 
   const foundResource = (resourceFile.resources as Resource[]).find(
-    (r) => `${r.username}/${r.repo}` === name
+    (r) => `${r.username}/${r.repo}` === name,
   );
   if (foundResource) {
     console.log(`${name} aleady found in resources, not adding`);
@@ -29,7 +29,7 @@ async function init() {
   }
 
   console.log(
-    "\nNOTICE: Please review all current tags and see if any fit, only add new tags if absolutely necessary\n"
+    "\nNOTICE: Please review all current tags and see if any fit, only add new tags if absolutely necessary\n",
   );
   const tagsRes = prompt("tags (comma separated):") || "";
   const tags = tagsRes.split(",");
@@ -40,7 +40,7 @@ async function init() {
       username,
       repo,
       tags,
-    })
+    }),
   );
 
   const json = JSON.stringify(manualFile, null, 2);
