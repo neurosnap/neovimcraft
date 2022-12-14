@@ -49,3 +49,11 @@ upload:
 
 deploy: scrape build upload
 .PHONY: deploy
+
+format:
+	deno fmt
+.PHONY: format
+
+test:
+	deno lint
+.PHONY: test
