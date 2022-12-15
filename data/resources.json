@@ -538,6 +538,25 @@
     },
     {
       "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-genghis",
+      "tags": [
+        "file-explorer",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-recorder",
+      "tags": [
+        "utility",
+        "keybinding",
+        "macros"
+      ]
+    },
+    {
+      "type": "github",
       "username": "ChristianChiarulli",
       "repo": "nvcode-color-schemes.vim",
       "tags": [
