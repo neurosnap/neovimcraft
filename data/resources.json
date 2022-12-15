@@ -3645,6 +3645,14 @@
     },
     {
       "type": "github",
+      "username": "shortcuts",
+      "repo": "no-neck-pain.nvim",
+      "tags": [
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
       "username": "SidOfc",
       "repo": "carbon.nvim",
       "tags": [
