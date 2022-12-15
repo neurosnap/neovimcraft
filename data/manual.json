@@ -256,6 +256,25 @@
       "tags": [
         "editing-support"
       ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-genghis",
+      "tags": [
+        "file-explorer",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-recorder",
+      "tags": [
+        "utility",
+        "keybinding",
+        "macros"
+      ]
     }
   ]
 }
