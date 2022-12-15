@@ -2813,6 +2813,14 @@
     {
       "type": "github",
       "username": "nyngwang",
+      "repo": "murmur.lua",
+      "tags": [
+        "cursorline"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nyngwang",
       "repo": "NeoNoName.lua",
       "tags": [
         "split-and-window"
@@ -2822,6 +2830,30 @@
       "type": "github",
       "username": "nyngwang",
       "repo": "NeoRoot.lua",
+      "tags": [
+        "project"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nyngwang",
+      "repo": "NeoTerm.lua",
+      "tags": [
+        "terminal-integration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nyngwang",
+      "repo": "NeoWell.lua",
+      "tags": [
+        "quickfix"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nyngwang",
+      "repo": "suave.lua",
       "tags": [
         "project"
       ]
