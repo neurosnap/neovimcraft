@@ -805,6 +805,14 @@
     },
     {
       "type": "github",
+      "username": "desdic",
+      "repo": "telescope-rooter.nvim",
+      "tags": [
+        "project"
+      ]
+    },
+    {
+      "type": "github",
       "username": "dracula",
       "repo": "vim",
       "tags": [
@@ -2215,14 +2223,6 @@
     },
     {
       "type": "github",
-      "username": "meliora-theme",
-      "repo": "neovim",
-      "tags": [
-        "tree-sitter-supported-colorscheme"
-      ]
-    },
-    {
-      "type": "github",
       "username": "melkster",
       "repo": "modicator.nvim",
       "tags": [
@@ -3195,6 +3195,14 @@
       "repo": "tabline-framework.nvim",
       "tags": [
         "tabline"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "ramojus",
+      "repo": "mellifluous.nvim",
+      "tags": [
+        "tree-sitter-supported-colorscheme"
       ]
     },
     {
