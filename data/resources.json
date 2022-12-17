@@ -4478,6 +4478,14 @@
     },
     {
       "type": "github",
+      "username": "yazeed1s",
+      "repo": "oh-lucy.nvim",
+      "tags": [
+        "tree-sitter-supported-colorscheme"
+      ]
+    },
+    {
+      "type": "github",
       "username": "yonlu",
       "repo": "omni.vim",
       "tags": [
