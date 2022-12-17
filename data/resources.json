@@ -917,6 +917,14 @@
     },
     {
       "type": "github",
+      "username": "emileferreira",
+      "repo": "nvim-strict",
+      "tags": [
+        "formatting"
+      ]
+    },
+    {
+      "type": "github",
       "username": "epwalsh",
       "repo": "obsidian.nvim",
       "tags": [
