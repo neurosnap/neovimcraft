@@ -781,6 +781,14 @@
     },
     {
       "type": "github",
+      "username": "debugloop",
+      "repo": "telescope-undo.nvim",
+      "tags": [
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
       "username": "declancm",
       "repo": "cinnamon.nvim",
       "tags": [
