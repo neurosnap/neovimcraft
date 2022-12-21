@@ -1622,6 +1622,14 @@
     },
     {
       "type": "github",
+      "username": "jonathandion",
+      "repo": "web-dev.nvim",
+      "tags": [
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
       "username": "JoosepAlviste",
       "repo": "nvim-ts-context-commentstring",
       "tags": [
