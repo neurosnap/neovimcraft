@@ -557,6 +557,16 @@
     },
     {
       "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-various-textobjs",
+      "tags": [
+        "editing-support",
+        "keybinding",
+        "text-object"
+      ]
+    },
+    {
+      "type": "github",
       "username": "ChristianChiarulli",
       "repo": "nvcode-color-schemes.vim",
       "tags": [
@@ -1017,6 +1027,14 @@
       "repo": "renamer.nvim",
       "tags": [
         "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "folke",
+      "repo": "lazy.nvim",
+      "tags": [
+        "plugin-manager"
       ]
     },
     {
