@@ -275,6 +275,16 @@
         "keybinding",
         "macros"
       ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-various-textobjs",
+      "tags": [
+        "editing-support",
+        "keybinding",
+        "text-object"
+      ]
     }
   ]
 }
