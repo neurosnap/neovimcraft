@@ -2521,6 +2521,14 @@
     },
     {
       "type": "github",
+      "username": "natecraddock",
+      "repo": "workspaces.nvim",
+      "tags": [
+        "project"
+      ]
+    },
+    {
+      "type": "github",
       "username": "navarasu",
       "repo": "onedark.nvim",
       "tags": [
