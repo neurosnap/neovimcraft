@@ -1272,14 +1272,6 @@
     },
     {
       "type": "github",
-      "username": "github",
-      "repo": "copilot.vim",
-      "tags": [
-        "completion"
-      ]
-    },
-    {
-      "type": "github",
       "username": "glepnir",
       "repo": "dashboard-nvim",
       "tags": [
@@ -2541,6 +2533,14 @@
       "repo": "nvim-lspconfig",
       "tags": [
         "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Nexmean",
+      "repo": "caskey.nvim",
+      "tags": [
+        "keybinding"
       ]
     },
     {
@@ -4548,6 +4548,14 @@
       "repo": "omni.vim",
       "tags": [
         "tree-sitter-supported-colorscheme"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "zbirenbaum",
+      "repo": "copilot.lua",
+      "tags": [
+        "completion"
       ]
     },
     {
