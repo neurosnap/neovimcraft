@@ -3145,6 +3145,14 @@
     },
     {
       "type": "github",
+      "username": "pluffie",
+      "repo": "neoproj",
+      "tags": [
+        "project"
+      ]
+    },
+    {
+      "type": "github",
       "username": "Pocco81",
       "repo": "AbbrevMan.nvim",
       "tags": [
