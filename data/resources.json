@@ -3924,6 +3924,14 @@
     {
       "type": "github",
       "username": "stevearc",
+      "repo": "oil.nvim",
+      "tags": [
+        "file-explorer"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "stevearc",
       "repo": "overseer.nvim",
       "tags": [
         "code-runner"
