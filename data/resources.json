@@ -4488,6 +4488,14 @@
     },
     {
       "type": "github",
+      "username": "XXiaoA",
+      "repo": "ns-textobject.nvim",
+      "tags": [
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
       "username": "yamatsum",
       "repo": "nvim-cursorline",
       "tags": [
