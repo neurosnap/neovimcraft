@@ -1400,6 +1400,30 @@
     },
     {
       "type": "github",
+      "username": "idanarye",
+      "repo": "nvim-buffls",
+      "tags": [
+        "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "idanarye",
+      "repo": "nvim-channelot",
+      "tags": [
+        "terminal-integration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "idanarye",
+      "repo": "nvim-moonicipal",
+      "tags": [
+        "code-runner"
+      ]
+    },
+    {
+      "type": "github",
       "username": "imbacraft",
       "repo": "dusk.nvim",
       "tags": [
@@ -3541,6 +3565,14 @@
       "repo": "gitlinker.nvim",
       "tags": [
         "git"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "RutaTang",
+      "repo": "quicknote.nvim",
+      "tags": [
+        "note-taking"
       ]
     },
     {
