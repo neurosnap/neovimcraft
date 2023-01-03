@@ -214,7 +214,7 @@ const createAboutPage = () => {
       <p>
         As of right now, most of our data is scraped from github. You can find our scrape script
         <a
-          href="https://github.com/neurosnap/neovimcraft/blob/main/scripts/scrape.ts"
+          href="https://github.com/neurosnap/neovimcraft/blob/main/src/scripts/scrape.ts"
          >here</a
         >.
       </p>
