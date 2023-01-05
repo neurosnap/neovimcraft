@@ -2065,6 +2065,14 @@
     },
     {
       "type": "github",
+      "username": "LhKipp",
+      "repo": "nvim-nu",
+      "tags": [
+        "syntax"
+      ]
+    },
+    {
+      "type": "github",
       "username": "LinArcX",
       "repo": "telescope-command-palette.nvim",
       "tags": [
