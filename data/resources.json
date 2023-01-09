@@ -751,14 +751,6 @@
     },
     {
       "type": "github",
-      "username": "datwaft",
-      "repo": "bubbly.nvim",
-      "tags": [
-        "statusline"
-      ]
-    },
-    {
-      "type": "github",
       "username": "David-Kunz",
       "repo": "jester",
       "tags": [
