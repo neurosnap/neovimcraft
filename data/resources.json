@@ -823,6 +823,14 @@
     },
     {
       "type": "github",
+      "username": "dinhhuy258",
+      "repo": "sfm.nvim",
+      "tags": [
+        "file-explorer"
+      ]
+    },
+    {
+      "type": "github",
       "username": "dracula",
       "repo": "vim",
       "tags": [
@@ -875,6 +883,14 @@
       "repo": "goimpl.nvim",
       "tags": [
         "golang"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "EdvinVikstrom",
+      "repo": "filetree.nvim",
+      "tags": [
+        "file-explorer"
       ]
     },
     {
@@ -1476,6 +1492,14 @@
       "repo": "fidget.nvim",
       "tags": [
         "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "j-morano",
+      "repo": "buffer_manager.nvim",
+      "tags": [
+        "utility"
       ]
     },
     {
@@ -2117,6 +2141,14 @@
       "repo": "github-colors",
       "tags": [
         "tree-sitter-supported-colorscheme"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "LucasTavaresA",
+      "repo": "simpleIndentGuides.nvim",
+      "tags": [
+        "indent"
       ]
     },
     {
@@ -3529,6 +3561,14 @@
     },
     {
       "type": "github",
+      "username": "roobert",
+      "repo": "search-replace.nvim",
+      "tags": [
+        "search"
+      ]
+    },
+    {
+      "type": "github",
       "username": "rose-pine",
       "repo": "neovim",
       "tags": [
@@ -3581,6 +3621,14 @@
       "repo": "nvim-comment-frame",
       "tags": [
         "comment"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "s1n7ax",
+      "repo": "nvim-search-and-replace",
+      "tags": [
+        "search"
       ]
     },
     {
@@ -4210,6 +4258,14 @@
       "repo": "vlog.nvim",
       "tags": [
         "neovim-lua-development"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "tmillr",
+      "repo": "sos.nvim",
+      "tags": [
+        "editing-support"
       ]
     },
     {
