@@ -338,6 +338,14 @@
     },
     {
       "type": "github",
+      "username": "axkirillov",
+      "repo": "easypick.nvim",
+      "tags": [
+        "fuzzy-finder"
+      ]
+    },
+    {
+      "type": "github",
       "username": "b0o",
       "repo": "incline.nvim",
       "tags": [
@@ -1244,6 +1252,14 @@
       "repo": "nvim-peekup",
       "tags": [
         "register"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "gennaro-tedesco",
+      "repo": "nvim-possession",
+      "tags": [
+        "session"
       ]
     },
     {
