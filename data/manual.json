@@ -285,6 +285,14 @@
         "keybinding",
         "text-object"
       ]
+    },
+    {
+      "type": "github",
+      "username": "antonk52",
+      "repo": "markdowny.nvim",
+      "tags": [
+        "keybinding"
+      ]
     }
   ]
 }
