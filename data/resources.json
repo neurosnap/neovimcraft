@@ -242,6 +242,14 @@
     },
     {
       "type": "github",
+      "username": "antonk52",
+      "repo": "markdowny.nvim",
+      "tags": [
+        "keybinding"
+      ]
+    },
+    {
+      "type": "github",
       "username": "anuvyklack",
       "repo": "animation.nvim",
       "tags": [
