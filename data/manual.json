@@ -293,6 +293,17 @@
       "tags": [
         "keybinding"
       ]
+    },
+    {
+      "type": "github",
+      "username": "dharmx",
+      "repo": "nvim-colo",
+      "tags": [
+        "themes",
+        "colorscheme",
+        "library",
+        "telescope"
+      ]
     }
   ]
 }
