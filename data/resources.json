@@ -839,6 +839,17 @@
     },
     {
       "type": "github",
+      "username": "dharmx",
+      "repo": "nvim-colo",
+      "tags": [
+        "themes",
+        "colorscheme",
+        "library",
+        "telescope"
+      ]
+    },
+    {
+      "type": "github",
       "username": "dinhhuy258",
       "repo": "sfm.nvim",
       "tags": [
