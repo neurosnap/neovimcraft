@@ -25,7 +25,7 @@ async function fetchMarkdown(url: string) {
 
 function sanitizeTag(tag: string) {
   if (tag === "(requires neovim 0.5)") return "neovim-0.5";
-  if (tag === "treesitter supported colorschemes") {
+  if (tag === "tree-sitter supported colorscheme") {
     return "treesitter-colorschemes";
   }
   return tag.toLocaleLowerCase().replace(/\s/g, "-");
@@ -34,10 +34,11 @@ function sanitizeTag(tag: string) {
 function processMarkdown(text: string) {
   const resources: Resource[] = [];
   const tree = marked.lexer(text);
-  let heading = "";
+  let headings: string[] = [];
   tree.forEach((token: any) => {
-    if (token.type === "heading") {
-      heading = token.text.toLocaleLowerCase();
+    if (token.type === "heading" && token.depth > 1) {
+      headings = headings.slice(0, token.depth - 2);
+      headings.push(token.text.toLocaleLowerCase());
     }
 
     if (token.type === "list") {
@@ -46,8 +47,15 @@ function processMarkdown(text: string) {
           if (!tt.tokens) return;
 
           // hardcoded deny-list for headings
-          if (["contents", "vim"].includes(heading)) return;
-          const resource = createResource({ tags: [sanitizeTag(heading)] });
+          for (let i = 0; i < headings.length; i += 1) {
+            const heading = headings[i];
+            if (["contents", "vim", "ui", "wishlist", "resource"].includes(heading)) return;
+          }
+
+          const tags = headings.map(sanitizeTag);
+          const resource = createResource({
+            tags,
+          });
           let link = "";
 
           // first token is always a link

@@ -5,6 +5,7 @@
       "username": "0styx0",
       "repo": "abbreinder.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -13,6 +14,7 @@
       "username": "abecodes",
       "repo": "tabout.nvim",
       "tags": [
+        "plugin",
         "motion"
       ]
     },
@@ -21,6 +23,7 @@
       "username": "Abstract-IDE",
       "repo": "Abstract",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -29,6 +32,8 @@
       "username": "Abstract-IDE",
       "repo": "penvim",
       "tags": [
+        "plugin",
+        "formatting",
         "indent"
       ]
     },
@@ -37,6 +42,7 @@
       "username": "AckslD",
       "repo": "messages.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -45,6 +51,8 @@
       "username": "AckslD",
       "repo": "nvim-FeMaco.lua",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "markdown-and-latex"
       ]
     },
@@ -53,6 +61,7 @@
       "username": "AckslD",
       "repo": "nvim-gfold.lua",
       "tags": [
+        "plugin",
         "git"
       ]
     },
@@ -61,6 +70,7 @@
       "username": "AckslD",
       "repo": "nvim-neoclip.lua",
       "tags": [
+        "plugin",
         "register"
       ]
     },
@@ -69,6 +79,7 @@
       "username": "AckslD",
       "repo": "nvim-revJ.lua",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -77,6 +88,7 @@
       "username": "AckslD",
       "repo": "swenv.nvim",
       "tags": [
+        "plugin",
         "programming-languages-support"
       ]
     },
@@ -85,6 +97,7 @@
       "username": "adelarsq",
       "repo": "image_preview.nvim",
       "tags": [
+        "plugin",
         "media"
       ]
     },
@@ -93,6 +106,8 @@
       "username": "adelarsq",
       "repo": "neoline.vim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -101,7 +116,9 @@
       "username": "adisen99",
       "repo": "apprentice.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -109,7 +126,9 @@
       "username": "adisen99",
       "repo": "codeschool.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -117,6 +136,7 @@
       "username": "ahmedkhalf",
       "repo": "project.nvim",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -125,6 +145,8 @@
       "username": "akinsho",
       "repo": "bufferline.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "tabline"
       ]
     },
@@ -133,6 +155,7 @@
       "username": "akinsho",
       "repo": "flutter-tools.nvim",
       "tags": [
+        "plugin",
         "programming-languages-support"
       ]
     },
@@ -141,6 +164,7 @@
       "username": "akinsho",
       "repo": "git-conflict.nvim",
       "tags": [
+        "plugin",
         "git"
       ]
     },
@@ -149,6 +173,7 @@
       "username": "akinsho",
       "repo": "nvim-toggleterm.lua",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -157,6 +182,7 @@
       "username": "alec-gibson",
       "repo": "nvim-tetris",
       "tags": [
+        "plugin",
         "game"
       ]
     },
@@ -165,6 +191,9 @@
       "username": "alexaandru",
       "repo": "nvim-lspupdate",
       "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5",
         "lsp-installer"
       ]
     },
@@ -173,6 +202,7 @@
       "username": "AllenDang",
       "repo": "nvim-expand-expr",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -181,6 +211,8 @@
       "username": "alvarosevilla95",
       "repo": "luatab.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "tabline"
       ]
     },
@@ -189,6 +221,8 @@
       "username": "amrbashir",
       "repo": "nvim-docs-view",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -197,7 +231,9 @@
       "username": "andersevenrud",
       "repo": "nordic.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -205,6 +241,7 @@
       "username": "andrewferrier",
       "repo": "debugprint.nvim",
       "tags": [
+        "plugin",
         "debugging"
       ]
     },
@@ -213,6 +250,9 @@
       "username": "andrewferrier",
       "repo": "textobj-diagnostic.nvim",
       "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5",
         "diagnostics"
       ]
     },
@@ -221,6 +261,7 @@
       "username": "andweeb",
       "repo": "presence.nvim",
       "tags": [
+        "plugin",
         "media"
       ]
     },
@@ -229,6 +270,7 @@
       "username": "andythigpen",
       "repo": "nvim-coverage",
       "tags": [
+        "plugin",
         "test"
       ]
     },
@@ -237,6 +279,9 @@
       "username": "anott03",
       "repo": "nvim-lspinstall",
       "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5",
         "lsp-installer"
       ]
     },
@@ -253,6 +298,7 @@
       "username": "anuvyklack",
       "repo": "animation.nvim",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -261,6 +307,7 @@
       "username": "anuvyklack",
       "repo": "fold-preview.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -269,6 +316,7 @@
       "username": "anuvyklack",
       "repo": "hydra.nvim",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -277,6 +325,7 @@
       "username": "anuvyklack",
       "repo": "keymap-amend.nvim",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -285,6 +334,7 @@
       "username": "anuvyklack",
       "repo": "pretty-fold.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -293,6 +343,7 @@
       "username": "anuvyklack",
       "repo": "windows.nvim",
       "tags": [
+        "plugin",
         "split-and-window"
       ]
     },
@@ -301,6 +352,7 @@
       "username": "artart222",
       "repo": "CodeArt",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -309,6 +361,8 @@
       "username": "aserowy",
       "repo": "tmux.nvim",
       "tags": [
+        "plugin",
+        "split-and-window",
         "tmux"
       ]
     },
@@ -317,6 +371,7 @@
       "username": "askfiy",
       "repo": "nvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -325,6 +380,7 @@
       "username": "askfiy",
       "repo": "nvim-picgo",
       "tags": [
+        "plugin",
         "media"
       ]
     },
@@ -333,6 +389,7 @@
       "username": "AstroNvim",
       "repo": "AstroNvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -341,6 +398,7 @@
       "username": "axieax",
       "repo": "urlview.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -349,6 +407,7 @@
       "username": "axkirillov",
       "repo": "easypick.nvim",
       "tags": [
+        "plugin",
         "fuzzy-finder"
       ]
     },
@@ -357,6 +416,8 @@
       "username": "b0o",
       "repo": "incline.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -365,6 +426,7 @@
       "username": "b0o",
       "repo": "mapx.nvim",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -373,6 +435,8 @@
       "username": "b0o",
       "repo": "SchemaStore.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -381,6 +445,8 @@
       "username": "b3nj5m1n",
       "repo": "kommentary",
       "tags": [
+        "plugin",
+        "editing-support",
         "comment"
       ]
     },
@@ -389,6 +455,7 @@
       "username": "beauwilliams",
       "repo": "focus.nvim",
       "tags": [
+        "plugin",
         "split-and-window"
       ]
     },
@@ -397,6 +464,8 @@
       "username": "beauwilliams",
       "repo": "statusline.lua",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -405,6 +474,7 @@
       "username": "bennypowers",
       "repo": "nvim-regexplainer",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -413,6 +483,7 @@
       "username": "bfredl",
       "repo": "nvim-luadev",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -421,6 +492,7 @@
       "username": "bfredl",
       "repo": "nvim-miniyank",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -429,7 +501,9 @@
       "username": "bkegley",
       "repo": "gloombuddy",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -437,7 +511,9 @@
       "username": "bluz71",
       "repo": "vim-moonfly-colors",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -445,7 +521,9 @@
       "username": "bluz71",
       "repo": "vim-nightfly-colors",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -453,6 +531,7 @@
       "username": "booperlv",
       "repo": "nvim-gomove",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -461,6 +540,7 @@
       "username": "brendalf",
       "repo": "mix.nvim",
       "tags": [
+        "plugin",
         "programming-languages-support"
       ]
     },
@@ -477,6 +557,7 @@
       "username": "camspiers",
       "repo": "snap",
       "tags": [
+        "plugin",
         "fuzzy-finder"
       ]
     },
@@ -485,6 +566,7 @@
       "username": "CanKolay3499",
       "repo": "CNvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -493,6 +575,7 @@
       "username": "cappyzawa",
       "repo": "trim.nvim",
       "tags": [
+        "plugin",
         "formatting"
       ]
     },
@@ -501,7 +584,9 @@
       "username": "catppuccin",
       "repo": "nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -509,6 +594,7 @@
       "username": "cbochs",
       "repo": "grapple.nvim",
       "tags": [
+        "plugin",
         "marks"
       ]
     },
@@ -517,6 +603,7 @@
       "username": "cbochs",
       "repo": "portal.nvim",
       "tags": [
+        "plugin",
         "motion"
       ]
     },
@@ -525,6 +612,7 @@
       "username": "Chaitanyabsprip",
       "repo": "present.nvim",
       "tags": [
+        "plugin",
         "media"
       ]
     },
@@ -533,6 +621,7 @@
       "username": "chentoast",
       "repo": "marks.nvim",
       "tags": [
+        "plugin",
         "marks"
       ]
     },
@@ -541,6 +630,7 @@
       "username": "chipsenkbeil",
       "repo": "distant.nvim",
       "tags": [
+        "plugin",
         "remote-development"
       ]
     },
@@ -549,6 +639,7 @@
       "username": "chiyadev",
       "repo": "dep",
       "tags": [
+        "plugin",
         "plugin-manager"
       ]
     },
@@ -586,7 +677,9 @@
       "username": "ChristianChiarulli",
       "repo": "nvcode-color-schemes.vim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -594,6 +687,7 @@
       "username": "chrsm",
       "repo": "impulse.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -602,7 +696,9 @@
       "username": "chrsm",
       "repo": "paramount-ng.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -610,6 +706,7 @@
       "username": "Civitasv",
       "repo": "cmake-tools.nvim",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -618,6 +715,7 @@
       "username": "clojure-vim",
       "repo": "jazz.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -626,6 +724,7 @@
       "username": "code-biscuits",
       "repo": "nvim-biscuits",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -634,6 +733,7 @@
       "username": "CosmicNvim",
       "repo": "cosmic-ui",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -642,6 +742,7 @@
       "username": "CosmicNvim",
       "repo": "CosmicNvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -650,7 +751,9 @@
       "username": "cpea2506",
       "repo": "one_monokai.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -658,6 +761,7 @@
       "username": "CRAG666",
       "repo": "code_runner.nvim",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -666,6 +770,8 @@
       "username": "crispgm",
       "repo": "nvim-go",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "golang"
       ]
     },
@@ -674,6 +780,8 @@
       "username": "crispgm",
       "repo": "nvim-tabline",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "tabline"
       ]
     },
@@ -682,6 +790,7 @@
       "username": "crivotz",
       "repo": "nv-ide",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -690,6 +799,7 @@
       "username": "crusj",
       "repo": "bookmarks.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -698,6 +808,8 @@
       "username": "crusj",
       "repo": "hierarchy-tree-go.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "golang"
       ]
     },
@@ -706,6 +818,8 @@
       "username": "crusj",
       "repo": "structrue-go.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "golang"
       ]
     },
@@ -714,6 +828,7 @@
       "username": "cstsunfu",
       "repo": ".sea.nvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -722,6 +837,8 @@
       "username": "cuducos",
       "repo": "yaml.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "yaml"
       ]
     },
@@ -730,6 +847,7 @@
       "username": "cunderw",
       "repo": "nvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -746,6 +864,8 @@
       "username": "danielpieper",
       "repo": "telescope-tmuxinator.nvim",
       "tags": [
+        "plugin",
+        "split-and-window",
         "tmux"
       ]
     },
@@ -754,6 +874,8 @@
       "username": "danymat",
       "repo": "neogen",
       "tags": [
+        "plugin",
+        "editing-support",
         "comment"
       ]
     },
@@ -762,6 +884,8 @@
       "username": "Darazaki",
       "repo": "indent-o-matic",
       "tags": [
+        "plugin",
+        "formatting",
         "indent"
       ]
     },
@@ -770,6 +894,7 @@
       "username": "David-Kunz",
       "repo": "jester",
       "tags": [
+        "plugin",
         "test"
       ]
     },
@@ -778,6 +903,8 @@
       "username": "davidgranstrom",
       "repo": "nvim-markdown-preview",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "markdown-and-latex"
       ]
     },
@@ -786,6 +913,7 @@
       "username": "davidgranstrom",
       "repo": "scnvim",
       "tags": [
+        "plugin",
         "media"
       ]
     },
@@ -794,6 +922,7 @@
       "username": "dcampos",
       "repo": "nvim-snippy",
       "tags": [
+        "plugin",
         "snippet"
       ]
     },
@@ -802,6 +931,7 @@
       "username": "debugloop",
       "repo": "telescope-undo.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -810,6 +940,7 @@
       "username": "declancm",
       "repo": "cinnamon.nvim",
       "tags": [
+        "plugin",
         "scrolling"
       ]
     },
@@ -818,6 +949,8 @@
       "username": "declancm",
       "repo": "windex.nvim",
       "tags": [
+        "plugin",
+        "split-and-window",
         "tmux"
       ]
     },
@@ -826,6 +959,7 @@
       "username": "desdic",
       "repo": "greyjoy.nvim",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -834,6 +968,7 @@
       "username": "desdic",
       "repo": "telescope-rooter.nvim",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -853,6 +988,7 @@
       "username": "dinhhuy258",
       "repo": "sfm.nvim",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -861,7 +997,9 @@
       "username": "dracula",
       "repo": "vim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -869,6 +1007,8 @@
       "username": "drybalka",
       "repo": "tree-climber.nvim",
       "tags": [
+        "plugin",
+        "motion",
         "treesitter-based"
       ]
     },
@@ -877,6 +1017,8 @@
       "username": "dstein64",
       "repo": "nvim-scrollview",
       "tags": [
+        "plugin",
+        "scrolling",
         "scrollbar"
       ]
     },
@@ -885,6 +1027,7 @@
       "username": "echasnovski",
       "repo": "mini.nvim",
       "tags": [
+        "plugin",
         "split-and-window"
       ]
     },
@@ -893,7 +1036,9 @@
       "username": "EdenEast",
       "repo": "nightfox.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -901,6 +1046,7 @@
       "username": "edluffy",
       "repo": "specs.nvim",
       "tags": [
+        "plugin",
         "motion"
       ]
     },
@@ -909,6 +1055,8 @@
       "username": "edolphin-ydf",
       "repo": "goimpl.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "golang"
       ]
     },
@@ -917,6 +1065,7 @@
       "username": "EdvinVikstrom",
       "repo": "filetree.nvim",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -925,6 +1074,7 @@
       "username": "ekickx",
       "repo": "clipboard-image.nvim",
       "tags": [
+        "plugin",
         "media"
       ]
     },
@@ -933,6 +1083,7 @@
       "username": "elihunter173",
       "repo": "dirbuf.nvim",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -941,6 +1092,7 @@
       "username": "ellisonleao",
       "repo": "carbon-now.nvim",
       "tags": [
+        "plugin",
         "snippet"
       ]
     },
@@ -949,6 +1101,8 @@
       "username": "ellisonleao",
       "repo": "glow.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "markdown-and-latex"
       ]
     },
@@ -957,6 +1111,8 @@
       "username": "ellisonleao",
       "repo": "gruvbox.nvim",
       "tags": [
+        "plugin",
+        "colorscheme",
         "lua-colorscheme"
       ]
     },
@@ -965,6 +1121,7 @@
       "username": "ellisonleao",
       "repo": "nvim-plugin-template",
       "tags": [
+        "external",
         "boilerplate"
       ]
     },
@@ -973,6 +1130,7 @@
       "username": "emileferreira",
       "repo": "nvim-strict",
       "tags": [
+        "plugin",
         "formatting"
       ]
     },
@@ -981,6 +1139,7 @@
       "username": "epwalsh",
       "repo": "obsidian.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -989,6 +1148,7 @@
       "username": "esensar",
       "repo": "nvim-dev-container",
       "tags": [
+        "plugin",
         "remote-development"
       ]
     },
@@ -997,6 +1157,7 @@
       "username": "ethanholz",
       "repo": "nvim-lastplace",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -1005,6 +1166,7 @@
       "username": "EthanJWright",
       "repo": "vs-tasks.nvim",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -1013,7 +1175,9 @@
       "username": "Everblush",
       "repo": "everblush.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1021,6 +1185,7 @@
       "username": "f-person",
       "repo": "git-blame.nvim",
       "tags": [
+        "plugin",
         "git"
       ]
     },
@@ -1029,6 +1194,7 @@
       "username": "famiu",
       "repo": "bufdelete.nvim",
       "tags": [
+        "plugin",
         "split-and-window"
       ]
     },
@@ -1037,6 +1203,7 @@
       "username": "FeiyouG",
       "repo": "command_center.nvim",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -1045,6 +1212,8 @@
       "username": "feline-nvim",
       "repo": "feline.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -1053,7 +1222,9 @@
       "username": "fenetikm",
       "repo": "falcon",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1061,6 +1232,7 @@
       "username": "filipdutescu",
       "repo": "renamer.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -1069,6 +1241,7 @@
       "username": "folke",
       "repo": "lazy.nvim",
       "tags": [
+        "plugin",
         "plugin-manager"
       ]
     },
@@ -1077,6 +1250,9 @@
       "username": "folke",
       "repo": "lsp-colors.nvim",
       "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5",
         "diagnostics"
       ]
     },
@@ -1085,6 +1261,7 @@
       "username": "folke",
       "repo": "lua-dev.nvim",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -1093,6 +1270,7 @@
       "username": "folke",
       "repo": "noice.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -1101,6 +1279,8 @@
       "username": "folke",
       "repo": "todo-comments.nvim",
       "tags": [
+        "plugin",
+        "editing-support",
         "comment"
       ]
     },
@@ -1109,7 +1289,9 @@
       "username": "folke",
       "repo": "tokyonight.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1117,6 +1299,9 @@
       "username": "folke",
       "repo": "trouble.nvim",
       "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5",
         "diagnostics"
       ]
     },
@@ -1125,6 +1310,7 @@
       "username": "folke",
       "repo": "twilight.nvim",
       "tags": [
+        "plugin",
         "color"
       ]
     },
@@ -1133,6 +1319,7 @@
       "username": "folke",
       "repo": "which-key.nvim",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -1141,6 +1328,7 @@
       "username": "folke",
       "repo": "zen-mode.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -1158,7 +1346,9 @@
       "username": "FrenzyExists",
       "repo": "aquarium-vim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1166,6 +1356,7 @@
       "username": "gaborvecsei",
       "repo": "cryptoprice.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -1174,6 +1365,7 @@
       "username": "gaborvecsei",
       "repo": "memento.nvim",
       "tags": [
+        "plugin",
         "search"
       ]
     },
@@ -1182,6 +1374,7 @@
       "username": "gbprod",
       "repo": "cutlass.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -1190,7 +1383,9 @@
       "username": "gbprod",
       "repo": "nord.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1198,6 +1393,7 @@
       "username": "gbprod",
       "repo": "phpactor.nvim",
       "tags": [
+        "plugin",
         "programming-languages-support"
       ]
     },
@@ -1206,6 +1402,7 @@
       "username": "gbprod",
       "repo": "stay-in-place.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -1214,6 +1411,7 @@
       "username": "gbprod",
       "repo": "substitute.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -1222,6 +1420,7 @@
       "username": "gbprod",
       "repo": "yanky.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -1230,6 +1429,7 @@
       "username": "gelguy",
       "repo": "wilder.nvim",
       "tags": [
+        "plugin",
         "command-line"
       ]
     },
@@ -1238,6 +1438,7 @@
       "username": "gen740",
       "repo": "SmoothCursor.nvim",
       "tags": [
+        "plugin",
         "motion"
       ]
     },
@@ -1246,6 +1447,7 @@
       "username": "gennaro-tedesco",
       "repo": "boilit",
       "tags": [
+        "external",
         "boilerplate"
       ]
     },
@@ -1254,6 +1456,8 @@
       "username": "gennaro-tedesco",
       "repo": "nvim-commaround",
       "tags": [
+        "plugin",
+        "editing-support",
         "comment"
       ]
     },
@@ -1262,6 +1466,7 @@
       "username": "gennaro-tedesco",
       "repo": "nvim-jqx",
       "tags": [
+        "plugin",
         "programming-languages-support"
       ]
     },
@@ -1270,6 +1475,7 @@
       "username": "gennaro-tedesco",
       "repo": "nvim-peekup",
       "tags": [
+        "plugin",
         "register"
       ]
     },
@@ -1278,6 +1484,7 @@
       "username": "gennaro-tedesco",
       "repo": "nvim-possession",
       "tags": [
+        "plugin",
         "session"
       ]
     },
@@ -1286,6 +1493,8 @@
       "username": "gfanto",
       "repo": "fzf-lsp.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -1294,6 +1503,7 @@
       "username": "ggandor",
       "repo": "leap.nvim",
       "tags": [
+        "plugin",
         "motion"
       ]
     },
@@ -1302,6 +1512,7 @@
       "username": "ggandor",
       "repo": "lightspeed.nvim",
       "tags": [
+        "plugin",
         "motion"
       ]
     },
@@ -1310,6 +1521,7 @@
       "username": "ghillb",
       "repo": "cybu.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -1318,6 +1530,7 @@
       "username": "glepnir",
       "repo": "dashboard-nvim",
       "tags": [
+        "plugin",
         "startup"
       ]
     },
@@ -1326,6 +1539,8 @@
       "username": "glepnir",
       "repo": "indent-guides.nvim",
       "tags": [
+        "plugin",
+        "formatting",
         "indent"
       ]
     },
@@ -1334,6 +1549,8 @@
       "username": "glepnir",
       "repo": "lspsaga.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -1342,7 +1559,9 @@
       "username": "glepnir",
       "repo": "zephyr-nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1350,6 +1569,7 @@
       "username": "gnikdroy",
       "repo": "projections.nvim",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -1358,6 +1578,7 @@
       "username": "goolord",
       "repo": "alpha-nvim",
       "tags": [
+        "plugin",
         "startup"
       ]
     },
@@ -1366,6 +1587,8 @@
       "username": "gorbit99",
       "repo": "codewindow.nvim",
       "tags": [
+        "plugin",
+        "scrolling",
         "scrollbar"
       ]
     },
@@ -1374,6 +1597,7 @@
       "username": "gpanders",
       "repo": "editorconfig.nvim",
       "tags": [
+        "plugin",
         "formatting"
       ]
     },
@@ -1382,6 +1606,7 @@
       "username": "gwatcha",
       "repo": "reaper-keys",
       "tags": [
+        "plugin",
         "media"
       ]
     },
@@ -1390,6 +1615,7 @@
       "username": "h-hg",
       "repo": "fcitx.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -1398,6 +1624,7 @@
       "username": "hackorum",
       "repo": "VapourNvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -1406,6 +1633,7 @@
       "username": "haringsrob",
       "repo": "nvim_context_vt",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -1414,6 +1642,7 @@
       "username": "hkupty",
       "repo": "iron.nvim",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -1422,6 +1651,8 @@
       "username": "hkupty",
       "repo": "nvimux",
       "tags": [
+        "plugin",
+        "split-and-window",
         "tmux"
       ]
     },
@@ -1430,6 +1661,7 @@
       "username": "hrsh7th",
       "repo": "nvim-cmp",
       "tags": [
+        "plugin",
         "completion"
       ]
     },
@@ -1438,6 +1670,7 @@
       "username": "ibhagwan",
       "repo": "fzf-lua",
       "tags": [
+        "plugin",
         "fuzzy-finder"
       ]
     },
@@ -1446,6 +1679,8 @@
       "username": "idanarye",
       "repo": "nvim-buffls",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -1454,6 +1689,7 @@
       "username": "idanarye",
       "repo": "nvim-channelot",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -1462,6 +1698,7 @@
       "username": "idanarye",
       "repo": "nvim-moonicipal",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -1470,6 +1707,7 @@
       "username": "imbacraft",
       "repo": "dusk.nvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -1478,6 +1716,7 @@
       "username": "Iron-E",
       "repo": "nvim-cartographer",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -1486,6 +1725,8 @@
       "username": "Iron-E",
       "repo": "nvim-highlite",
       "tags": [
+        "plugin",
+        "colorscheme",
         "colorscheme-creation"
       ]
     },
@@ -1494,6 +1735,7 @@
       "username": "is0n",
       "repo": "fm-nvim",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -1502,6 +1744,7 @@
       "username": "is0n",
       "repo": "jaq-nvim",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -1510,7 +1753,9 @@
       "username": "ishan9299",
       "repo": "modus-theme-vim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1518,7 +1763,9 @@
       "username": "ishan9299",
       "repo": "nvim-solarized-lua",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1534,6 +1781,7 @@
       "username": "j-morano",
       "repo": "buffer_manager.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -1542,6 +1790,7 @@
       "username": "jakewvincent",
       "repo": "mkdnflow.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -1550,6 +1799,8 @@
       "username": "jakewvincent",
       "repo": "texmagic.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -1558,6 +1809,7 @@
       "username": "jameshiew",
       "repo": "nvim-magic",
       "tags": [
+        "plugin",
         "completion"
       ]
     },
@@ -1566,6 +1818,7 @@
       "username": "jamestthompson3",
       "repo": "nvim-remote-containers",
       "tags": [
+        "plugin",
         "remote-development"
       ]
     },
@@ -1574,6 +1827,8 @@
       "username": "jbyuki",
       "repo": "carrot.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "markdown-and-latex"
       ]
     },
@@ -1582,6 +1837,7 @@
       "username": "jbyuki",
       "repo": "instant.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -1590,6 +1846,7 @@
       "username": "jbyuki",
       "repo": "nabla.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -1598,6 +1855,7 @@
       "username": "jbyuki",
       "repo": "one-small-step-for-vimkind",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -1606,6 +1864,7 @@
       "username": "jbyuki",
       "repo": "venn.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -1622,6 +1881,7 @@
       "username": "jedrzejboczar",
       "repo": "possession.nvim",
       "tags": [
+        "plugin",
         "session"
       ]
     },
@@ -1630,6 +1890,7 @@
       "username": "jedrzejboczar",
       "repo": "toggletasks.nvim",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -1638,6 +1899,8 @@
       "username": "jghauser",
       "repo": "auto-pandoc.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "markdown-and-latex"
       ]
     },
@@ -1646,6 +1909,7 @@
       "username": "jghauser",
       "repo": "fold-cycle.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -1654,6 +1918,8 @@
       "username": "jghauser",
       "repo": "follow-md-links.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "markdown-and-latex"
       ]
     },
@@ -1662,6 +1928,7 @@
       "username": "jghauser",
       "repo": "kitty-runner.nvim",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -1670,6 +1937,7 @@
       "username": "jghauser",
       "repo": "mkdir.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -1678,6 +1946,7 @@
       "username": "jghauser",
       "repo": "papis.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -1686,7 +1955,9 @@
       "username": "jim-at-jibba",
       "repo": "ariake-vim-colors",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1694,6 +1965,7 @@
       "username": "jlesquembre",
       "repo": "nterm.nvim",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -1702,6 +1974,8 @@
       "username": "johann2357",
       "repo": "nvim-smartbufs",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "tabline"
       ]
     },
@@ -1710,6 +1984,7 @@
       "username": "jonathandion",
       "repo": "web-dev.nvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -1718,6 +1993,8 @@
       "username": "JoosepAlviste",
       "repo": "nvim-ts-context-commentstring",
       "tags": [
+        "plugin",
+        "editing-support",
         "comment"
       ]
     },
@@ -1726,6 +2003,8 @@
       "username": "jose-elias-alvarez",
       "repo": "null-ls.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -1734,6 +2013,8 @@
       "username": "jose-elias-alvarez",
       "repo": "typescript.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -1742,6 +2023,7 @@
       "username": "jrychn",
       "repo": "ModuleVim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -1750,6 +2032,8 @@
       "username": "jubnzv",
       "repo": "mdeval.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "markdown-and-latex"
       ]
     },
@@ -1758,6 +2042,8 @@
       "username": "jubnzv",
       "repo": "virtual-types.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -1766,6 +2052,7 @@
       "username": "Julian",
       "repo": "lean.nvim",
       "tags": [
+        "plugin",
         "programming-languages-support"
       ]
     },
@@ -1774,6 +2061,8 @@
       "username": "Junnplus",
       "repo": "nvim-lsp-setup",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -1791,6 +2080,7 @@
       "username": "jvgrootveld",
       "repo": "telescope-zoxide",
       "tags": [
+        "plugin",
         "fuzzy-finder"
       ]
     },
@@ -1799,7 +2089,9 @@
       "username": "kaiuri",
       "repo": "nvim-juliana",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1807,6 +2099,7 @@
       "username": "karb94",
       "repo": "neoscroll.nvim",
       "tags": [
+        "plugin",
         "scrolling"
       ]
     },
@@ -1815,6 +2108,8 @@
       "username": "Kasama",
       "repo": "nvim-custom-diagnostic-highlight",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -1823,6 +2118,7 @@
       "username": "kazhala",
       "repo": "close-buffers.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -1831,6 +2127,7 @@
       "username": "kdheepak",
       "repo": "lazygit.nvim",
       "tags": [
+        "plugin",
         "git"
       ]
     },
@@ -1839,7 +2136,9 @@
       "username": "kdheepak",
       "repo": "monochrome.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1847,6 +2146,8 @@
       "username": "kdheepak",
       "repo": "panvimdoc",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "markdown-and-latex"
       ]
     },
@@ -1855,6 +2156,8 @@
       "username": "kdheepak",
       "repo": "tabline.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "tabline"
       ]
     },
@@ -1863,6 +2166,7 @@
       "username": "keaising",
       "repo": "im-select.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -1871,6 +2175,8 @@
       "username": "kevinhwang91",
       "repo": "nvim-bqf",
       "tags": [
+        "plugin",
+        "debugging",
         "quickfix"
       ]
     },
@@ -1879,6 +2185,7 @@
       "username": "kevinhwang91",
       "repo": "nvim-hlslens",
       "tags": [
+        "plugin",
         "search"
       ]
     },
@@ -1887,6 +2194,7 @@
       "username": "kevinhwang91",
       "repo": "nvim-ufo",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -1895,6 +2203,7 @@
       "username": "kevinhwang91",
       "repo": "rnvimr",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -1903,6 +2212,7 @@
       "username": "kiran94",
       "repo": "s3edit.nvim",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -1911,6 +2221,7 @@
       "username": "kkharji",
       "repo": "sqlite.lua",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -1919,6 +2230,7 @@
       "username": "klen",
       "repo": "nvim-config-local",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -1927,6 +2239,7 @@
       "username": "klen",
       "repo": "nvim-test",
       "tags": [
+        "plugin",
         "test"
       ]
     },
@@ -1959,6 +2272,8 @@
       "username": "konapun",
       "repo": "vacuumline.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -1967,6 +2282,8 @@
       "username": "kosayoda",
       "repo": "nvim-lightbulb",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -1975,6 +2292,7 @@
       "username": "krady21",
       "repo": "compiler-explorer.nvim",
       "tags": [
+        "plugin",
         "media"
       ]
     },
@@ -1991,7 +2309,9 @@
       "username": "kvrohit",
       "repo": "mellow.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -1999,7 +2319,9 @@
       "username": "kvrohit",
       "repo": "rasmus.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2007,7 +2329,9 @@
       "username": "kvrohit",
       "repo": "substrata.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2015,7 +2339,9 @@
       "username": "kyazdani42",
       "repo": "blue-moon",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2023,6 +2349,7 @@
       "username": "kyazdani42",
       "repo": "nvim-tree.lua",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -2031,6 +2358,7 @@
       "username": "kyazdani42",
       "repo": "nvim-web-devicons",
       "tags": [
+        "plugin",
         "icon"
       ]
     },
@@ -2047,6 +2375,7 @@
       "username": "L3MON4D3",
       "repo": "LuaSnip",
       "tags": [
+        "plugin",
         "snippet"
       ]
     },
@@ -2055,6 +2384,8 @@
       "username": "lalitmee",
       "repo": "cobalt2.nvim",
       "tags": [
+        "plugin",
+        "colorscheme",
         "lua-colorscheme"
       ]
     },
@@ -2071,6 +2402,8 @@
       "username": "ldelossa",
       "repo": "gh.nvim",
       "tags": [
+        "plugin",
+        "git",
         "github"
       ]
     },
@@ -2079,6 +2412,8 @@
       "username": "ldelossa",
       "repo": "litee.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -2087,6 +2422,7 @@
       "username": "ldelossa",
       "repo": "nvim-ide",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -2095,7 +2431,9 @@
       "username": "ldelossa",
       "repo": "vimdark",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2103,6 +2441,7 @@
       "username": "lewis6991",
       "repo": "gitsigns.nvim",
       "tags": [
+        "plugin",
         "git"
       ]
     },
@@ -2111,7 +2450,9 @@
       "username": "lewpoly",
       "repo": "sherbet.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2119,6 +2460,7 @@
       "username": "LhKipp",
       "repo": "nvim-nu",
       "tags": [
+        "plugin",
         "syntax"
       ]
     },
@@ -2127,6 +2469,7 @@
       "username": "LinArcX",
       "repo": "telescope-command-palette.nvim",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -2151,6 +2494,7 @@
       "username": "LionC",
       "repo": "nest.nvim",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -2159,7 +2503,9 @@
       "username": "lmburns",
       "repo": "kimbox",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2167,6 +2513,7 @@
       "username": "LoricAndre",
       "repo": "OneTerm.nvim",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -2175,7 +2522,9 @@
       "username": "lourenci",
       "repo": "github-colors",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2183,6 +2532,8 @@
       "username": "LucasTavaresA",
       "repo": "simpleIndentGuides.nvim",
       "tags": [
+        "plugin",
+        "formatting",
         "indent"
       ]
     },
@@ -2191,6 +2542,8 @@
       "username": "LudoPinelli",
       "repo": "comment-box.nvim",
       "tags": [
+        "plugin",
+        "editing-support",
         "comment"
       ]
     },
@@ -2199,7 +2552,9 @@
       "username": "luisiacc",
       "repo": "gruvbox-baby",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2207,6 +2562,8 @@
       "username": "lukas-reineke",
       "repo": "indent-blankline.nvim",
       "tags": [
+        "plugin",
+        "formatting",
         "indent"
       ]
     },
@@ -2215,6 +2572,7 @@
       "username": "lukas-reineke",
       "repo": "lsp-format.nvim",
       "tags": [
+        "plugin",
         "formatting"
       ]
     },
@@ -2223,6 +2581,7 @@
       "username": "LunarVim",
       "repo": "LunarVim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -2231,6 +2590,7 @@
       "username": "luukvbaal",
       "repo": "nnn.nvim",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -2239,6 +2599,7 @@
       "username": "luukvbaal",
       "repo": "stabilize.nvim",
       "tags": [
+        "plugin",
         "split-and-window"
       ]
     },
@@ -2255,6 +2616,7 @@
       "username": "m-demare",
       "repo": "attempt.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -2263,6 +2625,7 @@
       "username": "m-demare",
       "repo": "hlargs.nvim",
       "tags": [
+        "plugin",
         "syntax"
       ]
     },
@@ -2271,6 +2634,7 @@
       "username": "m00qek",
       "repo": "baleia.nvim",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -2279,6 +2643,7 @@
       "username": "m00qek",
       "repo": "plugin-template.nvim",
       "tags": [
+        "external",
         "boilerplate"
       ]
     },
@@ -2287,6 +2652,7 @@
       "username": "m4xshen",
       "repo": "autoclose.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -2295,6 +2661,7 @@
       "username": "madskjeldgaard",
       "repo": "reaper-nvim",
       "tags": [
+        "plugin",
         "media"
       ]
     },
@@ -2303,7 +2670,9 @@
       "username": "marko-cerovac",
       "repo": "material.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2319,6 +2688,7 @@
       "username": "matbme",
       "repo": "JABS.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -2327,6 +2697,7 @@
       "username": "max397574",
       "repo": "better-escape.nvim",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -2335,6 +2706,7 @@
       "username": "mcauley-penney",
       "repo": "tidy.nvim",
       "tags": [
+        "plugin",
         "formatting"
       ]
     },
@@ -2343,7 +2715,9 @@
       "username": "mcchrish",
       "repo": "zenbones.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2351,6 +2725,8 @@
       "username": "melkster",
       "repo": "modicator.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "cursorline"
       ]
     },
@@ -2359,6 +2735,8 @@
       "username": "metalelf0",
       "repo": "jellybeans-nvim",
       "tags": [
+        "plugin",
+        "colorscheme",
         "lua-colorscheme"
       ]
     },
@@ -2367,6 +2745,7 @@
       "username": "mfussenegger",
       "repo": "nvim-dap",
       "tags": [
+        "plugin",
         "debugging"
       ]
     },
@@ -2375,6 +2754,8 @@
       "username": "mfussenegger",
       "repo": "nvim-jdtls",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -2383,6 +2764,8 @@
       "username": "mfussenegger",
       "repo": "nvim-lint",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -2391,6 +2774,8 @@
       "username": "mfussenegger",
       "repo": "nvim-ts-hint-textobject",
       "tags": [
+        "plugin",
+        "motion",
         "treesitter-based"
       ]
     },
@@ -2399,6 +2784,7 @@
       "username": "mhartington",
       "repo": "formatter.nvim",
       "tags": [
+        "plugin",
         "formatting"
       ]
     },
@@ -2407,7 +2793,9 @@
       "username": "mhartington",
       "repo": "oceanic-next",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2415,6 +2803,7 @@
       "username": "michaelb",
       "repo": "sniprun",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -2423,6 +2812,7 @@
       "username": "mickael-menu",
       "repo": "zk-nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -2431,6 +2821,7 @@
       "username": "milisims",
       "repo": "nvim-luaref",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -2439,6 +2830,7 @@
       "username": "miversen33",
       "repo": "import.nvim",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -2447,6 +2839,7 @@
       "username": "mizlan",
       "repo": "iswap.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -2455,7 +2848,9 @@
       "username": "Mofiqul",
       "repo": "adwaita.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2463,7 +2858,9 @@
       "username": "Mofiqul",
       "repo": "dracula.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2471,7 +2868,9 @@
       "username": "Mofiqul",
       "repo": "vscode.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2479,6 +2878,7 @@
       "username": "monaqa",
       "repo": "dial.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -2487,6 +2887,7 @@
       "username": "MordechaiHadad",
       "repo": "bob",
       "tags": [
+        "external",
         "version-manager"
       ]
     },
@@ -2495,6 +2896,8 @@
       "username": "MrcJkb",
       "repo": "haskell-tools.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -2503,6 +2906,7 @@
       "username": "mrjones2014",
       "repo": "legendary.nvim",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -2519,6 +2923,7 @@
       "username": "ms-jpq",
       "repo": "chadtree",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -2527,6 +2932,7 @@
       "username": "ms-jpq",
       "repo": "coq_nvim",
       "tags": [
+        "plugin",
         "completion"
       ]
     },
@@ -2535,6 +2941,7 @@
       "username": "MunifTanjim",
       "repo": "exrc.nvim",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -2543,6 +2950,7 @@
       "username": "MunifTanjim",
       "repo": "nui.nvim",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -2551,6 +2959,7 @@
       "username": "MunifTanjim",
       "repo": "prettier.nvim",
       "tags": [
+        "plugin",
         "formatting"
       ]
     },
@@ -2559,6 +2968,7 @@
       "username": "nacro90",
       "repo": "numb.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -2567,6 +2977,7 @@
       "username": "nanotee",
       "repo": "luv-vimdocs",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -2575,6 +2986,8 @@
       "username": "nanotee",
       "repo": "nvim-lsp-basics",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -2583,6 +2996,7 @@
       "username": "nanotee",
       "repo": "nvim-lua-guide",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -2591,6 +3005,7 @@
       "username": "nanotee",
       "repo": "sqls.nvim",
       "tags": [
+        "plugin",
         "programming-languages-support"
       ]
     },
@@ -2599,6 +3014,8 @@
       "username": "nanozuki",
       "repo": "tabby.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "tabline"
       ]
     },
@@ -2607,6 +3024,7 @@
       "username": "natecraddock",
       "repo": "workspaces.nvim",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -2615,7 +3033,9 @@
       "username": "navarasu",
       "repo": "onedark.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2623,6 +3043,8 @@
       "username": "neovim",
       "repo": "nvim-lspconfig",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -2631,6 +3053,7 @@
       "username": "Nexmean",
       "repo": "caskey.nvim",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -2639,6 +3062,7 @@
       "username": "NFrid",
       "repo": "due.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -2647,6 +3071,8 @@
       "username": "NFrid",
       "repo": "markdown-togglecheck",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "markdown-and-latex"
       ]
     },
@@ -2655,6 +3081,7 @@
       "username": "NFrid",
       "repo": "treesitter-utils",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -2663,6 +3090,7 @@
       "username": "nguyenvukhang",
       "repo": "nvim-toggler",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -2671,6 +3099,7 @@
       "username": "nikvdp",
       "repo": "neomux",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -2679,6 +3108,7 @@
       "username": "nkakouros-original",
       "repo": "numbers.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -2687,6 +3117,8 @@
       "username": "NMAC427",
       "repo": "guess-indent.nvim",
       "tags": [
+        "plugin",
+        "formatting",
         "indent"
       ]
     },
@@ -2695,6 +3127,8 @@
       "username": "noib3",
       "repo": "cokeline.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "tabline"
       ]
     },
@@ -2703,6 +3137,7 @@
       "username": "noib3",
       "repo": "nvim-compleet",
       "tags": [
+        "plugin",
         "completion"
       ]
     },
@@ -2711,6 +3146,8 @@
       "username": "norcalli",
       "repo": "nvim-base16.lua",
       "tags": [
+        "plugin",
+        "colorscheme",
         "colorscheme-creation"
       ]
     },
@@ -2719,6 +3156,7 @@
       "username": "norcalli",
       "repo": "nvim-terminal.lua",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -2727,6 +3165,7 @@
       "username": "norcalli",
       "repo": "snippets.nvim",
       "tags": [
+        "plugin",
         "snippet"
       ]
     },
@@ -2735,6 +3174,7 @@
       "username": "notomo",
       "repo": "cmdbuf.nvim",
       "tags": [
+        "plugin",
         "command-line"
       ]
     },
@@ -2743,6 +3183,7 @@
       "username": "notomo",
       "repo": "gesture.nvim",
       "tags": [
+        "plugin",
         "mouse"
       ]
     },
@@ -2751,6 +3192,7 @@
       "username": "NTBBloodbath",
       "repo": "cheovim",
       "tags": [
+        "plugin",
         "plugin-manager"
       ]
     },
@@ -2759,6 +3201,7 @@
       "username": "NTBBloodbath",
       "repo": "doom-nvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -2767,7 +3210,9 @@
       "username": "NTBBloodbath",
       "repo": "doom-one.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2775,6 +3220,8 @@
       "username": "NTBBloodbath",
       "repo": "galaxyline.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -2783,6 +3230,7 @@
       "username": "NTBBloodbath",
       "repo": "nvenv",
       "tags": [
+        "external",
         "version-manager"
       ]
     },
@@ -2791,6 +3239,8 @@
       "username": "NTBBloodbath",
       "repo": "rest.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "web-development"
       ]
     },
@@ -2799,6 +3249,7 @@
       "username": "numToStr",
       "repo": "BufOnly.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -2807,6 +3258,8 @@
       "username": "numToStr",
       "repo": "Comment.nvim",
       "tags": [
+        "plugin",
+        "editing-support",
         "comment"
       ]
     },
@@ -2815,6 +3268,7 @@
       "username": "numToStr",
       "repo": "FTerm.nvim",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -2823,6 +3277,8 @@
       "username": "numToStr",
       "repo": "Navigator.nvim",
       "tags": [
+        "plugin",
+        "split-and-window",
         "tmux"
       ]
     },
@@ -2831,6 +3287,7 @@
       "username": "NvChad",
       "repo": "nvim-colorizer.lua",
       "tags": [
+        "plugin",
         "color"
       ]
     },
@@ -2839,6 +3296,7 @@
       "username": "nvim-colortils",
       "repo": "colortils.nvim",
       "tags": [
+        "plugin",
         "color"
       ]
     },
@@ -2847,6 +3305,7 @@
       "username": "nvim-lua",
       "repo": "kickstart.nvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -2855,6 +3314,8 @@
       "username": "nvim-lua",
       "repo": "lsp-status.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -2863,6 +3324,7 @@
       "username": "nvim-lua",
       "repo": "plenary.nvim",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -2871,6 +3333,7 @@
       "username": "nvim-lua",
       "repo": "popup.nvim",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -2879,6 +3342,8 @@
       "username": "nvim-lualine",
       "repo": "lualine.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -2895,6 +3360,7 @@
       "username": "nvim-neorg",
       "repo": "neorg",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -2903,6 +3369,7 @@
       "username": "nvim-neotest",
       "repo": "neotest",
       "tags": [
+        "plugin",
         "test"
       ]
     },
@@ -2911,6 +3378,7 @@
       "username": "nvim-orgmode",
       "repo": "orgmode",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -2919,6 +3387,7 @@
       "username": "nvim-telescope",
       "repo": "telescope.nvim",
       "tags": [
+        "plugin",
         "fuzzy-finder"
       ]
     },
@@ -2927,6 +3396,7 @@
       "username": "nvim-treesitter",
       "repo": "nvim-treesitter",
       "tags": [
+        "plugin",
         "syntax"
       ]
     },
@@ -2935,6 +3405,7 @@
       "username": "nvim-treesitter",
       "repo": "nvim-treesitter-context",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -2943,6 +3414,7 @@
       "username": "nvim-treesitter",
       "repo": "nvim-treesitter-textobjects",
       "tags": [
+        "plugin",
         "syntax"
       ]
     },
@@ -2951,6 +3423,7 @@
       "username": "nvim-zh",
       "repo": "colorful-winsep.nvim",
       "tags": [
+        "plugin",
         "split-and-window"
       ]
     },
@@ -2959,6 +3432,7 @@
       "username": "nvoid-lua",
       "repo": "nvoid",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -2967,7 +3441,9 @@
       "username": "nxvu699134",
       "repo": "vn-night.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -2975,6 +3451,8 @@
       "username": "nyngwang",
       "repo": "murmur.lua",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "cursorline"
       ]
     },
@@ -2983,6 +3461,7 @@
       "username": "nyngwang",
       "repo": "NeoNoName.lua",
       "tags": [
+        "plugin",
         "split-and-window"
       ]
     },
@@ -2991,6 +3470,7 @@
       "username": "nyngwang",
       "repo": "NeoRoot.lua",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -2999,6 +3479,7 @@
       "username": "nyngwang",
       "repo": "NeoTerm.lua",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -3007,6 +3488,8 @@
       "username": "nyngwang",
       "repo": "NeoWell.lua",
       "tags": [
+        "plugin",
+        "debugging",
         "quickfix"
       ]
     },
@@ -3015,6 +3498,7 @@
       "username": "nyngwang",
       "repo": "suave.lua",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -3023,6 +3507,7 @@
       "username": "oberblastmeister",
       "repo": "neuron.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -3031,6 +3516,7 @@
       "username": "ofirgall",
       "repo": "goto-breakpoints.nvim",
       "tags": [
+        "plugin",
         "debugging"
       ]
     },
@@ -3039,7 +3525,9 @@
       "username": "ofirgall",
       "repo": "ofirkai.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3047,6 +3535,7 @@
       "username": "ofirgall",
       "repo": "open.nvim",
       "tags": [
+        "plugin",
         "marks"
       ]
     },
@@ -3055,6 +3544,8 @@
       "username": "ojroques",
       "repo": "nvim-hardline",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -3063,6 +3554,8 @@
       "username": "ojroques",
       "repo": "nvim-lspfuzzy",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -3071,6 +3564,8 @@
       "username": "olexsmir",
       "repo": "gopher.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "golang"
       ]
     },
@@ -3079,6 +3574,7 @@
       "username": "Olical",
       "repo": "aniseed",
       "tags": [
+        "plugin",
         "fennel"
       ]
     },
@@ -3087,6 +3583,7 @@
       "username": "Olical",
       "repo": "conjure",
       "tags": [
+        "plugin",
         "fennel"
       ]
     },
@@ -3095,7 +3592,9 @@
       "username": "olimorris",
       "repo": "onedarkpro.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3103,6 +3602,7 @@
       "username": "olimorris",
       "repo": "persisted.nvim",
       "tags": [
+        "plugin",
         "session"
       ]
     },
@@ -3111,7 +3611,9 @@
       "username": "olivercederborg",
       "repo": "poimandres.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3119,6 +3621,9 @@
       "username": "onsails",
       "repo": "diaglist.nvim",
       "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5",
         "diagnostics"
       ]
     },
@@ -3127,6 +3632,8 @@
       "username": "onsails",
       "repo": "lspkind.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -3135,6 +3642,7 @@
       "username": "ostralyan",
       "repo": "scribe.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -3143,6 +3651,7 @@
       "username": "otavioschwanck",
       "repo": "mood-nvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -3151,6 +3660,7 @@
       "username": "otavioschwanck",
       "repo": "telescope-alternate.nvim",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -3159,6 +3669,8 @@
       "username": "otavioschwanck",
       "repo": "tmux-awesome-manager.nvim",
       "tags": [
+        "plugin",
+        "split-and-window",
         "tmux"
       ]
     },
@@ -3167,6 +3679,8 @@
       "username": "p00f",
       "repo": "cphelper.nvim",
       "tags": [
+        "plugin",
+        "game",
         "competitive-programming"
       ]
     },
@@ -3175,6 +3689,7 @@
       "username": "p00f",
       "repo": "nvim-ts-rainbow",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -3183,6 +3698,8 @@
       "username": "petertriho",
       "repo": "nvim-scrollbar",
       "tags": [
+        "plugin",
+        "scrolling",
         "scrollbar"
       ]
     },
@@ -3191,6 +3708,7 @@
       "username": "phaazon",
       "repo": "hop.nvim",
       "tags": [
+        "plugin",
         "motion"
       ]
     },
@@ -3199,6 +3717,7 @@
       "username": "phaazon",
       "repo": "mind.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -3215,7 +3734,9 @@
       "username": "PHSix",
       "repo": "nvim-hybrid",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3223,6 +3744,7 @@
       "username": "pianocomposer321",
       "repo": "consolation.nvim",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -3231,6 +3753,7 @@
       "username": "pianocomposer321",
       "repo": "yabs.nvim",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -3239,6 +3762,7 @@
       "username": "pluffie",
       "repo": "neoproj",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -3247,6 +3771,7 @@
       "username": "Pocco81",
       "repo": "AbbrevMan.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -3255,6 +3780,7 @@
       "username": "Pocco81",
       "repo": "AutoSave.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -3263,6 +3789,7 @@
       "username": "Pocco81",
       "repo": "DAPInstall.nvim",
       "tags": [
+        "plugin",
         "debugging"
       ]
     },
@@ -3271,6 +3798,7 @@
       "username": "Pocco81",
       "repo": "HighStr.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -3279,6 +3807,7 @@
       "username": "Pocco81",
       "repo": "TrueZen.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -3287,6 +3816,7 @@
       "username": "potamides",
       "repo": "pantran.nvim",
       "tags": [
+        "plugin",
         "language"
       ]
     },
@@ -3295,7 +3825,9 @@
       "username": "projekt0n",
       "repo": "github-nvim-theme",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3303,6 +3835,8 @@
       "username": "pwntester",
       "repo": "codeql.nvim",
       "tags": [
+        "plugin",
+        "git",
         "github"
       ]
     },
@@ -3311,6 +3845,8 @@
       "username": "pwntester",
       "repo": "octo.nvim",
       "tags": [
+        "plugin",
+        "git",
         "github"
       ]
     },
@@ -3319,6 +3855,8 @@
       "username": "rafaelsq",
       "repo": "nvim-goc.lua",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "golang"
       ]
     },
@@ -3327,7 +3865,9 @@
       "username": "rafamadriz",
       "repo": "neon",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3335,6 +3875,7 @@
       "username": "rafcamlet",
       "repo": "nvim-luapad",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -3343,6 +3884,8 @@
       "username": "rafcamlet",
       "repo": "tabline-framework.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "tabline"
       ]
     },
@@ -3351,7 +3894,9 @@
       "username": "ramojus",
       "repo": "mellifluous.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3359,6 +3904,8 @@
       "username": "ranjithshegde",
       "repo": "ccls.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -3367,7 +3914,9 @@
       "username": "ray-x",
       "repo": "aurora",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3375,6 +3924,8 @@
       "username": "ray-x",
       "repo": "go.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "golang"
       ]
     },
@@ -3383,6 +3934,7 @@
       "username": "ray-x",
       "repo": "guihua.lua",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -3391,6 +3943,8 @@
       "username": "ray-x",
       "repo": "lsp_signature.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -3399,6 +3953,8 @@
       "username": "ray-x",
       "repo": "navigator.lua",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -3407,6 +3963,7 @@
       "username": "ray-x",
       "repo": "sad.nvim",
       "tags": [
+        "plugin",
         "search"
       ]
     },
@@ -3415,7 +3972,9 @@
       "username": "ray-x",
       "repo": "starry.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3423,6 +3982,8 @@
       "username": "ray-x",
       "repo": "web-tools.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "web-development"
       ]
     },
@@ -3431,6 +3992,7 @@
       "username": "rcarriga",
       "repo": "nvim-dap-ui",
       "tags": [
+        "plugin",
         "debugging"
       ]
     },
@@ -3439,6 +4001,7 @@
       "username": "rcarriga",
       "repo": "nvim-notify",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -3447,6 +4010,8 @@
       "username": "rebelot",
       "repo": "heirline.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -3455,7 +4020,9 @@
       "username": "rebelot",
       "repo": "kanagawa.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3463,6 +4030,7 @@
       "username": "renerocksai",
       "repo": "telekasten.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -3471,6 +4039,7 @@
       "username": "rgroli",
       "repo": "other.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -3479,7 +4048,9 @@
       "username": "RishabhRD",
       "repo": "gruvy",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3487,6 +4058,8 @@
       "username": "RishabhRD",
       "repo": "nvim-lsputils",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -3495,6 +4068,7 @@
       "username": "rktjmp",
       "repo": "highlight-current-n.nvim",
       "tags": [
+        "plugin",
         "search"
       ]
     },
@@ -3503,6 +4077,7 @@
       "username": "rktjmp",
       "repo": "hotpot.nvim",
       "tags": [
+        "plugin",
         "fennel"
       ]
     },
@@ -3511,6 +4086,8 @@
       "username": "rktjmp",
       "repo": "lush.nvim",
       "tags": [
+        "plugin",
+        "colorscheme",
         "colorscheme-creation"
       ]
     },
@@ -3519,6 +4096,7 @@
       "username": "rktjmp",
       "repo": "pact.nvim",
       "tags": [
+        "plugin",
         "plugin-manager"
       ]
     },
@@ -3527,6 +4105,7 @@
       "username": "rktjmp",
       "repo": "paperplanes.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -3535,6 +4114,7 @@
       "username": "rktjmp",
       "repo": "shenzhen-solitaire.nvim",
       "tags": [
+        "plugin",
         "game"
       ]
     },
@@ -3543,6 +4123,7 @@
       "username": "rlane",
       "repo": "pounce.nvim",
       "tags": [
+        "plugin",
         "motion"
       ]
     },
@@ -3551,6 +4132,7 @@
       "username": "rmagatti",
       "repo": "auto-session",
       "tags": [
+        "plugin",
         "session"
       ]
     },
@@ -3559,6 +4141,8 @@
       "username": "rmagatti",
       "repo": "goto-preview",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -3567,7 +4151,9 @@
       "username": "rmehri01",
       "repo": "onenord.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3575,7 +4161,9 @@
       "username": "rockerBOO",
       "repo": "boo-colorscheme-nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3583,7 +4171,9 @@
       "username": "rockyzhang24",
       "repo": "arctic.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3591,6 +4181,8 @@
       "username": "romgrk",
       "repo": "barbar.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "tabline"
       ]
     },
@@ -3599,6 +4191,7 @@
       "username": "roobert",
       "repo": "search-replace.nvim",
       "tags": [
+        "plugin",
         "search"
       ]
     },
@@ -3607,7 +4200,9 @@
       "username": "rose-pine",
       "repo": "neovim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3615,7 +4210,9 @@
       "username": "RRethy",
       "repo": "nvim-base16",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3623,6 +4220,7 @@
       "username": "RRethy",
       "repo": "nvim-treesitter-textsubjects",
       "tags": [
+        "plugin",
         "syntax"
       ]
     },
@@ -3631,6 +4229,8 @@
       "username": "RRethy",
       "repo": "vim-illuminate",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "cursorline"
       ]
     },
@@ -3639,6 +4239,7 @@
       "username": "ruifm",
       "repo": "gitlinker.nvim",
       "tags": [
+        "plugin",
         "git"
       ]
     },
@@ -3647,6 +4248,7 @@
       "username": "RutaTang",
       "repo": "quicknote.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -3655,6 +4257,8 @@
       "username": "s1n7ax",
       "repo": "nvim-comment-frame",
       "tags": [
+        "plugin",
+        "editing-support",
         "comment"
       ]
     },
@@ -3663,6 +4267,7 @@
       "username": "s1n7ax",
       "repo": "nvim-search-and-replace",
       "tags": [
+        "plugin",
         "search"
       ]
     },
@@ -3671,6 +4276,7 @@
       "username": "s1n7ax",
       "repo": "nvim-terminal",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -3679,6 +4285,7 @@
       "username": "Saecki",
       "repo": "crates.nvim",
       "tags": [
+        "plugin",
         "dependency-management"
       ]
     },
@@ -3687,6 +4294,7 @@
       "username": "saifulapm",
       "repo": "chartoggle.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -3695,7 +4303,9 @@
       "username": "sainnhe",
       "repo": "edge",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3703,7 +4313,9 @@
       "username": "sainnhe",
       "repo": "everforest",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3711,7 +4323,9 @@
       "username": "sainnhe",
       "repo": "gruvbox-material",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3719,7 +4333,9 @@
       "username": "sainnhe",
       "repo": "sonokai",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3727,6 +4343,7 @@
       "username": "sakhnik",
       "repo": "nvim-gdb",
       "tags": [
+        "plugin",
         "debugging"
       ]
     },
@@ -3735,6 +4352,7 @@
       "username": "samjwill",
       "repo": "nvim-unception",
       "tags": [
+        "plugin",
         "terminal-integration"
       ]
     },
@@ -3743,6 +4361,7 @@
       "username": "samodostal",
       "repo": "image.nvim",
       "tags": [
+        "plugin",
         "media"
       ]
     },
@@ -3760,7 +4379,9 @@
       "username": "savq",
       "repo": "melange",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3768,6 +4389,7 @@
       "username": "savq",
       "repo": "paq-nvim",
       "tags": [
+        "plugin",
         "plugin-manager"
       ]
     },
@@ -3776,6 +4398,7 @@
       "username": "sbdchd",
       "repo": "neoformat",
       "tags": [
+        "plugin",
         "formatting"
       ]
     },
@@ -3784,6 +4407,8 @@
       "username": "scalameta",
       "repo": "nvim-metals",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -3792,6 +4417,7 @@
       "username": "seandewar",
       "repo": "killersheep.nvim",
       "tags": [
+        "plugin",
         "game"
       ]
     },
@@ -3800,6 +4426,7 @@
       "username": "seandewar",
       "repo": "nvimesweeper",
       "tags": [
+        "plugin",
         "game"
       ]
     },
@@ -3808,6 +4435,7 @@
       "username": "shaeinst",
       "repo": "penvim",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -3816,6 +4444,7 @@
       "username": "shaeinst",
       "repo": "roshnivim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -3824,7 +4453,9 @@
       "username": "shaeinst",
       "repo": "roshnivim-cs",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3832,6 +4463,7 @@
       "username": "Shatur",
       "repo": "neovim-session-manager",
       "tags": [
+        "plugin",
         "session"
       ]
     },
@@ -3840,6 +4472,7 @@
       "username": "Shatur",
       "repo": "neovim-tasks",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -3848,7 +4481,9 @@
       "username": "shaunsingh",
       "repo": "moonlight.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3856,7 +4491,9 @@
       "username": "shaunsingh",
       "repo": "nord.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3864,6 +4501,7 @@
       "username": "shaunsingh",
       "repo": "nyoom.nvim",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -3872,6 +4510,7 @@
       "username": "shohi",
       "repo": "neva",
       "tags": [
+        "external",
         "version-manager"
       ]
     },
@@ -3888,6 +4527,7 @@
       "username": "SidOfc",
       "repo": "carbon.nvim",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -3896,6 +4536,7 @@
       "username": "siduck76",
       "repo": "NvChad",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -3904,6 +4545,7 @@
       "username": "simrat39",
       "repo": "rust-tools.nvim",
       "tags": [
+        "plugin",
         "completion"
       ]
     },
@@ -3912,6 +4554,8 @@
       "username": "simrat39",
       "repo": "symbols-outline.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -3920,6 +4564,7 @@
       "username": "sindrets",
       "repo": "diffview.nvim",
       "tags": [
+        "plugin",
         "git"
       ]
     },
@@ -3928,6 +4573,7 @@
       "username": "sindrets",
       "repo": "winshift.nvim",
       "tags": [
+        "plugin",
         "split-and-window"
       ]
     },
@@ -3936,6 +4582,7 @@
       "username": "sitiom",
       "repo": "nvim-numbertoggle",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -3953,6 +4600,7 @@
       "username": "SmiteshP",
       "repo": "nvim-navic",
       "tags": [
+        "plugin",
         "bars-and-lines"
       ]
     },
@@ -3961,6 +4609,8 @@
       "username": "smjonas",
       "repo": "inc-rename.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -3969,6 +4619,7 @@
       "username": "smjonas",
       "repo": "live-command.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -3977,6 +4628,7 @@
       "username": "smjonas",
       "repo": "snippet-converter.nvim",
       "tags": [
+        "plugin",
         "snippet"
       ]
     },
@@ -3985,6 +4637,7 @@
       "username": "smzm",
       "repo": "hydrovim",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -3993,6 +4646,8 @@
       "username": "someone-stole-my-name",
       "repo": "yaml-companion.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "yaml"
       ]
     },
@@ -4001,6 +4656,7 @@
       "username": "sQVe",
       "repo": "sort.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -4009,6 +4665,7 @@
       "username": "startup-nvim",
       "repo": "startup.nvim",
       "tags": [
+        "plugin",
         "startup"
       ]
     },
@@ -4017,6 +4674,8 @@
       "username": "stevearc",
       "repo": "aerial.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -4025,6 +4684,7 @@
       "username": "stevearc",
       "repo": "dressing.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -4033,6 +4693,7 @@
       "username": "stevearc",
       "repo": "gkeep.nvim",
       "tags": [
+        "plugin",
         "note-taking"
       ]
     },
@@ -4041,6 +4702,7 @@
       "username": "stevearc",
       "repo": "oil.nvim",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -4049,6 +4711,7 @@
       "username": "stevearc",
       "repo": "overseer.nvim",
       "tags": [
+        "plugin",
         "code-runner"
       ]
     },
@@ -4065,6 +4728,7 @@
       "username": "sudormrfbin",
       "repo": "cheatsheet.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -4073,6 +4737,7 @@
       "username": "sunjon",
       "repo": "Shade.nvim",
       "tags": [
+        "plugin",
         "color"
       ]
     },
@@ -4081,6 +4746,7 @@
       "username": "svermeulen",
       "repo": "vimpeccable",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -4089,6 +4755,7 @@
       "username": "tamago324",
       "repo": "lir.nvim",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -4097,6 +4764,8 @@
       "username": "tamago324",
       "repo": "nlsp-settings.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -4105,6 +4774,8 @@
       "username": "tamton-aquib",
       "repo": "staline.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -4113,7 +4784,9 @@
       "username": "tanvirtin",
       "repo": "monokai.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4121,6 +4794,7 @@
       "username": "tanvirtin",
       "repo": "vgit.nvim",
       "tags": [
+        "plugin",
         "git"
       ]
     },
@@ -4129,6 +4803,8 @@
       "username": "terrortylor",
       "repo": "nvim-comment",
       "tags": [
+        "plugin",
+        "editing-support",
         "comment"
       ]
     },
@@ -4137,7 +4813,9 @@
       "username": "Th3Whit3Wolf",
       "repo": "one-nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4145,7 +4823,9 @@
       "username": "Th3Whit3Wolf",
       "repo": "onebuddy",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4153,7 +4833,9 @@
       "username": "Th3Whit3Wolf",
       "repo": "space-nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4161,6 +4843,7 @@
       "username": "TheBlob42",
       "repo": "drex.nvim",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -4169,6 +4852,8 @@
       "username": "themercorp",
       "repo": "themer.lua",
       "tags": [
+        "plugin",
+        "colorscheme",
         "colorscheme-creation"
       ]
     },
@@ -4177,7 +4862,9 @@
       "username": "theniceboy",
       "repo": "nvim-deus",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4193,6 +4880,7 @@
       "username": "ThePrimeagen",
       "repo": "harpoon",
       "tags": [
+        "plugin",
         "marks"
       ]
     },
@@ -4211,6 +4899,7 @@
       "username": "ThePrimeagen",
       "repo": "vim-be-good",
       "tags": [
+        "plugin",
         "game"
       ]
     },
@@ -4219,7 +4908,9 @@
       "username": "tiagovla",
       "repo": "tokyodark.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4236,6 +4927,7 @@
       "username": "TimUntersberger",
       "repo": "neofs",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -4244,6 +4936,7 @@
       "username": "TimUntersberger",
       "repo": "neogit",
       "tags": [
+        "plugin",
         "git"
       ]
     },
@@ -4252,7 +4945,9 @@
       "username": "titanzero",
       "repo": "zephyrium",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4260,6 +4955,8 @@
       "username": "tjdevries",
       "repo": "colorbuddy.nvim",
       "tags": [
+        "plugin",
+        "colorscheme",
         "colorscheme-creation"
       ]
     },
@@ -4268,6 +4965,8 @@
       "username": "tjdevries",
       "repo": "express_line.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -4276,6 +4975,8 @@
       "username": "tjdevries",
       "repo": "gruvbuddy.nvim",
       "tags": [
+        "plugin",
+        "colorscheme",
         "lua-colorscheme"
       ]
     },
@@ -4284,6 +4985,7 @@
       "username": "tjdevries",
       "repo": "nlua.nvim",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -4292,6 +4994,7 @@
       "username": "tjdevries",
       "repo": "vlog.nvim",
       "tags": [
+        "plugin",
         "neovim-lua-development"
       ]
     },
@@ -4300,6 +5003,7 @@
       "username": "tmillr",
       "repo": "sos.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -4308,7 +5012,9 @@
       "username": "tomasiser",
       "repo": "vim-code-dark",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4316,6 +5022,8 @@
       "username": "toppair",
       "repo": "peek.nvim",
       "tags": [
+        "plugin",
+        "programming-languages-support",
         "markdown-and-latex"
       ]
     },
@@ -4324,6 +5032,7 @@
       "username": "toppair",
       "repo": "reach.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -4332,6 +5041,7 @@
       "username": "tversteeg",
       "repo": "registers.nvim",
       "tags": [
+        "plugin",
         "register"
       ]
     },
@@ -4340,6 +5050,7 @@
       "username": "tveskag",
       "repo": "nvim-blame-line",
       "tags": [
+        "plugin",
         "git"
       ]
     },
@@ -4348,6 +5059,7 @@
       "username": "udayvir-singh",
       "repo": "hibiscus.nvim",
       "tags": [
+        "plugin",
         "fennel"
       ]
     },
@@ -4356,6 +5068,7 @@
       "username": "udayvir-singh",
       "repo": "tangerine.nvim",
       "tags": [
+        "plugin",
         "fennel"
       ]
     },
@@ -4364,6 +5077,7 @@
       "username": "uga-rosa",
       "repo": "ccc.nvim",
       "tags": [
+        "plugin",
         "color"
       ]
     },
@@ -4380,6 +5094,8 @@
       "username": "utilyre",
       "repo": "barbecue.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "winbar"
       ]
     },
@@ -4388,6 +5104,7 @@
       "username": "vi-tality",
       "repo": "neovitality",
       "tags": [
+        "plugin",
         "preconfigured-configuration"
       ]
     },
@@ -4412,6 +5129,7 @@
       "username": "vijaymarupudi",
       "repo": "nvim-fzf",
       "tags": [
+        "plugin",
         "fuzzy-finder"
       ]
     },
@@ -4428,6 +5146,7 @@
       "username": "vuki656",
       "repo": "package-info.nvim",
       "tags": [
+        "plugin",
         "dependency-management"
       ]
     },
@@ -4436,6 +5155,7 @@
       "username": "Wansmer",
       "repo": "binary-swap.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -4444,6 +5164,7 @@
       "username": "Wansmer",
       "repo": "sibling-swap.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -4462,6 +5183,7 @@
       "username": "wbthomason",
       "repo": "packer.nvim",
       "tags": [
+        "plugin",
         "plugin-manager"
       ]
     },
@@ -4470,6 +5192,8 @@
       "username": "weilbith",
       "repo": "nvim-code-action-menu",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -4478,6 +5202,7 @@
       "username": "Weissle",
       "repo": "easy-action",
       "tags": [
+        "plugin",
         "motion"
       ]
     },
@@ -4486,6 +5211,7 @@
       "username": "Weissle",
       "repo": "persistent-breakpoints.nvim",
       "tags": [
+        "plugin",
         "debugging"
       ]
     },
@@ -4494,6 +5220,9 @@
       "username": "williamboman",
       "repo": "mason.nvim",
       "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5",
         "lsp-installer"
       ]
     },
@@ -4502,6 +5231,7 @@
       "username": "windwp",
       "repo": "nvim-autopairs",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -4510,6 +5240,7 @@
       "username": "windwp",
       "repo": "nvim-projectconfig",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -4518,6 +5249,7 @@
       "username": "windwp",
       "repo": "nvim-spectre",
       "tags": [
+        "plugin",
         "project"
       ]
     },
@@ -4526,6 +5258,7 @@
       "username": "windwp",
       "repo": "nvim-ts-autotag",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -4534,6 +5267,8 @@
       "username": "windwp",
       "repo": "windline.nvim",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -4542,6 +5277,8 @@
       "username": "winston0410",
       "repo": "commented.nvim",
       "tags": [
+        "plugin",
+        "editing-support",
         "comment"
       ]
     },
@@ -4550,6 +5287,7 @@
       "username": "winston0410",
       "repo": "range-highlight.nvim",
       "tags": [
+        "plugin",
         "color"
       ]
     },
@@ -4558,6 +5296,7 @@
       "username": "woosaaahh",
       "repo": "sj.nvim",
       "tags": [
+        "plugin",
         "motion"
       ]
     },
@@ -4574,6 +5313,8 @@
       "username": "xeluxee",
       "repo": "competitest.nvim",
       "tags": [
+        "plugin",
+        "game",
         "competitive-programming"
       ]
     },
@@ -4582,6 +5323,7 @@
       "username": "xiyaowong",
       "repo": "link-visitor.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -4590,6 +5332,8 @@
       "username": "xiyaowong",
       "repo": "nvim-cursorword",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "cursorline"
       ]
     },
@@ -4598,6 +5342,7 @@
       "username": "xiyaowong",
       "repo": "nvim-transparent",
       "tags": [
+        "plugin",
         "color"
       ]
     },
@@ -4606,6 +5351,7 @@
       "username": "xiyaowong",
       "repo": "virtcolumn.nvim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -4614,6 +5360,8 @@
       "username": "Xuyuanp",
       "repo": "scrollbar.nvim",
       "tags": [
+        "plugin",
+        "scrolling",
         "scrollbar"
       ]
     },
@@ -4622,6 +5370,7 @@
       "username": "Xuyuanp",
       "repo": "yanil",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -4630,6 +5379,7 @@
       "username": "XXiaoA",
       "repo": "ns-textobject.nvim",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -4638,6 +5388,8 @@
       "username": "yamatsum",
       "repo": "nvim-cursorline",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "cursorline"
       ]
     },
@@ -4646,6 +5398,7 @@
       "username": "yamatsum",
       "repo": "nvim-nonicons",
       "tags": [
+        "plugin",
         "icon"
       ]
     },
@@ -4654,6 +5407,8 @@
       "username": "yaocccc",
       "repo": "nvim-hlchunk",
       "tags": [
+        "plugin",
+        "formatting",
         "indent"
       ]
     },
@@ -4662,6 +5417,8 @@
       "username": "yaocccc",
       "repo": "nvim-lines.lua",
       "tags": [
+        "plugin",
+        "bars-and-lines",
         "statusline"
       ]
     },
@@ -4670,7 +5427,9 @@
       "username": "yashguptaz",
       "repo": "calvera-dark.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4678,7 +5437,9 @@
       "username": "yazeed1s",
       "repo": "minimal.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4686,7 +5447,9 @@
       "username": "yazeed1s",
       "repo": "oh-lucy.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4694,7 +5457,9 @@
       "username": "yonlu",
       "repo": "omni.vim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4702,6 +5467,7 @@
       "username": "zbirenbaum",
       "repo": "copilot.lua",
       "tags": [
+        "plugin",
         "completion"
       ]
     },
@@ -4710,6 +5476,7 @@
       "username": "zbirenbaum",
       "repo": "neodim",
       "tags": [
+        "plugin",
         "utility"
       ]
     },
@@ -4718,6 +5485,7 @@
       "username": "ZhiyuanLck",
       "repo": "smart-pairs",
       "tags": [
+        "plugin",
         "editing-support"
       ]
     },
@@ -4726,6 +5494,7 @@
       "username": "ziontee113",
       "repo": "color-picker.nvim",
       "tags": [
+        "plugin",
         "color"
       ]
     },
@@ -4734,6 +5503,7 @@
       "username": "ziontee113",
       "repo": "icon-picker.nvim",
       "tags": [
+        "plugin",
         "icon"
       ]
     },
@@ -4742,6 +5512,8 @@
       "username": "ziontee113",
       "repo": "syntax-tree-surfer",
       "tags": [
+        "plugin",
+        "motion",
         "treesitter-based"
       ]
     }

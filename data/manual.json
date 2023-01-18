@@ -2,15 +2,6 @@
   "resources": [
     {
       "type": "github",
-      "username": "frabjous",
-      "repo": "knap",
-      "tags": [
-        "latex",
-        "markdown"
-      ]
-    },
-    {
-      "type": "github",
       "username": "jceb",
       "repo": "blinds.nvim",
       "tags": [
@@ -27,39 +18,6 @@
     },
     {
       "type": "github",
-      "username": "nvim-neo-tree",
-      "repo": "neo-tree.nvim",
-      "tags": [
-        "file-explorer"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "j-hui",
-      "repo": "fidget.nvim",
-      "tags": [
-        "neovim-0.5"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "slugbyte",
-      "repo": "unruly-worker",
-      "tags": [
-        "keybinding",
-        "workman-layout"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "phha",
-      "repo": "zenburn.nvim",
-      "tags": [
-        "tree-sitter-supported-colorscheme"
-      ]
-    },
-    {
-      "type": "github",
       "username": "mrjones2014",
       "repo": "smart-splits.nvim",
       "tags": [
@@ -68,34 +26,10 @@
     },
     {
       "type": "github",
-      "username": "linty-org",
-      "repo": "readline.nvim",
-      "tags": [
-        "editing-support"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "linty-org",
-      "repo": "key-menu.nvim",
-      "tags": [
-        "keybinding"
-      ]
-    },
-    {
-      "type": "github",
       "username": "koenverburg",
       "repo": "minimal-tabline.nvim",
       "tags": [
         "tabline"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "koenverburg",
-      "repo": "peepsight.nvim",
-      "tags": [
-        "color"
       ]
     },
     {
@@ -132,26 +66,10 @@
     },
     {
       "type": "github",
-      "username": "kylechui",
-      "repo": "nvim-surround",
-      "tags": [
-        "formatting"
-      ]
-    },
-    {
-      "type": "github",
       "username": "ktunprasert",
       "repo": "gui-font-resize.nvim",
       "tags": [
         "utility"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "brenoprata10",
-      "repo": "nvim-highlight-colors",
-      "tags": [
-        "color"
       ]
     },
     {
@@ -161,14 +79,6 @@
       "tags": [
         "treesitter-based",
         "programming-languages-support",
-        "editing-support"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "lcheylus",
-      "repo": "overlength.nvim",
-      "tags": [
         "editing-support"
       ]
     },
@@ -204,16 +114,6 @@
       "repo": "align.nvim",
       "tags": [
         "formatting"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "Wansmer",
-      "repo": "treesj",
-      "tags": [
-        "refactoring",
-        "treesitter",
-        "splitjoin"
       ]
     },
     {
@@ -272,8 +172,7 @@
       "repo": "nvim-recorder",
       "tags": [
         "utility",
-        "keybinding",
-        "macros"
+        "keybinding"
       ]
     },
     {
@@ -299,9 +198,7 @@
       "username": "dharmx",
       "repo": "nvim-colo",
       "tags": [
-        "themes",
         "colorscheme",
-        "library",
         "telescope"
       ]
     },
