@@ -4369,6 +4369,14 @@
     },
     {
       "type": "github",
+      "username": "uloco",
+      "repo": "bluloco.nvim",
+      "tags": [
+        "tree-sitter-supported-colorscheme"
+      ]
+    },
+    {
+      "type": "github",
       "username": "utilyre",
       "repo": "barbecue.nvim",
       "tags": [

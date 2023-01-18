@@ -304,6 +304,14 @@
         "library",
         "telescope"
       ]
+    },
+    {
+      "type": "github",
+      "username": "uloco",
+      "repo": "bluloco.nvim",
+      "tags": [
+        "tree-sitter-supported-colorscheme"
+      ]
     }
   ]
 }
