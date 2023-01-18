@@ -549,6 +549,7 @@
       "username": "brenoprata10",
       "repo": "nvim-highlight-colors",
       "tags": [
+        "plugin",
         "color"
       ]
     },
@@ -658,8 +659,7 @@
       "repo": "nvim-recorder",
       "tags": [
         "utility",
-        "keybinding",
-        "macros"
+        "keybinding"
       ]
     },
     {
@@ -977,9 +977,7 @@
       "username": "dharmx",
       "repo": "nvim-colo",
       "tags": [
-        "themes",
         "colorscheme",
-        "library",
         "telescope"
       ]
     },
@@ -1337,8 +1335,9 @@
       "username": "frabjous",
       "repo": "knap",
       "tags": [
-        "latex",
-        "markdown"
+        "plugin",
+        "programming-languages-support",
+        "markdown-and-latex"
       ]
     },
     {
@@ -1773,6 +1772,8 @@
       "username": "j-hui",
       "repo": "fidget.nvim",
       "tags": [
+        "plugin",
+        "lsp",
         "neovim-0.5"
       ]
     },
@@ -2264,6 +2265,7 @@
       "username": "koenverburg",
       "repo": "peepsight.nvim",
       "tags": [
+        "plugin",
         "color"
       ]
     },
@@ -2367,7 +2369,8 @@
       "username": "kylechui",
       "repo": "nvim-surround",
       "tags": [
-        "formatting"
+        "plugin",
+        "syntax"
       ]
     },
     {
@@ -2394,7 +2397,8 @@
       "username": "lcheylus",
       "repo": "overlength.nvim",
       "tags": [
-        "editing-support"
+        "plugin",
+        "color"
       ]
     },
     {
@@ -2478,6 +2482,7 @@
       "username": "linty-org",
       "repo": "key-menu.nvim",
       "tags": [
+        "plugin",
         "keybinding"
       ]
     },
@@ -2486,7 +2491,8 @@
       "username": "linty-org",
       "repo": "readline.nvim",
       "tags": [
-        "editing-support"
+        "plugin",
+        "motion"
       ]
     },
     {
@@ -3352,6 +3358,7 @@
       "username": "nvim-neo-tree",
       "repo": "neo-tree.nvim",
       "tags": [
+        "plugin",
         "file-explorer"
       ]
     },
@@ -3726,7 +3733,9 @@
       "username": "phha",
       "repo": "zenburn.nvim",
       "tags": [
-        "tree-sitter-supported-colorscheme"
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -4591,8 +4600,8 @@
       "username": "slugbyte",
       "repo": "unruly-worker",
       "tags": [
-        "keybinding",
-        "workman-layout"
+        "plugin",
+        "keybinding"
       ]
     },
     {
@@ -5173,9 +5182,8 @@
       "username": "Wansmer",
       "repo": "treesj",
       "tags": [
-        "refactoring",
-        "treesitter",
-        "splitjoin"
+        "plugin",
+        "editing-support"
       ]
     },
     {
