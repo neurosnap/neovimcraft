@@ -28,6 +28,24 @@ function onSort(by: keyof Plugin) {
   return (a: Plugin, b: Plugin) => sortNum(a.stars, b.stars);
 }
 
+const createAds = () => {
+  return `
+<div class="ad">
+  <div><a href="https://nvim.sh">nvim.sh</a></div>
+  <div>Search for plugins in the terminal</div>
+</div>
+
+<div class="ad">
+  <div><a href="https://prose.sh">prose.sh</a></div>
+  <div>A blog platform for hackers</div>
+</div>
+<div class="ad">
+  <div><a href="https://lists.sh">lists.sh</a></div>
+  <div>A microblog for lists</div>
+</div>
+`;
+};
+
 const createHtmlFile = ({ head, body }: { head: string; body: string }) => {
   return `
 <!DOCTYPE html>
@@ -75,7 +93,7 @@ const createNav = () => {
 
   return `
 <div class="nav">
-  <h1 id="logo">
+  <h1 class="logo">
     <a href="/" class="logo-header">neovimcraft</a>
     <a href="https://github.com/neurosnap/neovimcraft" class="flex">
       ${createIcon("github")}
@@ -90,11 +108,17 @@ const createNav = () => {
     <div class="menu-overlay menu-close"></div>
     <div class="menu">
       <div class="menu-header">
-        <h1><a href="/" class="logo-header">neovimcraft</a></h1>
+        <h1 class="logo">
+          <a href="/" class="logo-header">neovimcraft</a>
+          <a href="https://github.com/neurosnap/neovimcraft" class="flex">
+            ${createIcon("github")}
+          </a>
+        </h1>
         <div class="menu-btn menu-close"><img src="/menu.svg" alt="menu" /></div>
       </div>
       <div class="menu-body">
         ${linksStr}
+        ${createAds()}
       </div>
     </div>
   </div>
@@ -134,9 +158,9 @@ const createPluginItem = (plugin: Plugin, tags: Tag[]) => {
 
   let repoLink = `
     <a href=${plugin.link} class="flex">${createIcon("github")}</a>
-    <div class="metric-item">${createIcon("star")} <span>${
-    nf.format(plugin.stars)
-  }</span></div>
+    <div class="metric-item">${createIcon("star")} <span>${nf.format(
+    plugin.stars
+  )}</span></div>
     <div class="metric-item">
       ${createIcon("alert-circle")} <span>${nf.format(plugin.openIssues)}</span>
     </div>`;
@@ -155,7 +179,8 @@ const createPluginItem = (plugin: Plugin, tags: Tag[]) => {
     </div>
   </div>
   <div class="date">
-    updated ${relativeTimeFromDates(new Date(plugin.updatedAt))}
+    <span>created ${relativeTimeFromDates(new Date(plugin.createdAt))} / </span>
+    <span>updated ${relativeTimeFromDates(new Date(plugin.updatedAt))}</span>
   </div>
   <div class="desc">
     ${plugin.description}
@@ -175,7 +200,10 @@ const createAboutPage = () => {
 <title>neovimcraft - about</title>
 <meta name="description" content="About neovimcraft" />
 <meta property="og:description" content="About neovimcraft" />
-<meta property="og:title" content="neovimcraft - about" />`;
+<meta property="og:title" content="neovimcraft - about" />
+
+<script src="/nav.js" type="text/javascript"></script>
+`;
   const nav = createNav();
   const body = `${nav}
 <div class="about_container">
@@ -236,7 +264,7 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
   }, "");
   const tagListStr = data.tags.reduce(
     (acc, tag) => `${acc}\n${createTag(tag)}`,
-    "",
+    ""
   );
   const sortStr = () => {
     let str = "";
@@ -272,6 +300,7 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
     property="og:description"
     content="Search through our curated neovim plugin directory."
   />
+  <script src="/nav.js" type="text/javascript"></script>
   <script src="/client.js" type="text/javascript"></script>
 `;
   const nav = createNav();
@@ -297,7 +326,7 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
     ${tagListStr}
   </div>
   <div class="rightbar">
-    <div>Want to search for plugins in the terminal? <a href="https://nvim.sh">https://nvim.sh</a></div>
+    ${createAds()}
   </div>
   <div class="plugins">
     <div class="plugins_container">
@@ -376,17 +405,20 @@ const createPluginPage = (plugin: Plugin, tags: Tag[], html: string) => {
 <meta name="description" content="${plugin.id}: ${plugin.description}" />
 <meta itemprop="description" content="${plugin.id}: ${plugin.description}" />
 <meta property="og:description" content="${plugin.id}: ${plugin.description}" />
-<meta name="twitter:description" content="${plugin.id}: ${plugin.description}" />`;
+<meta name="twitter:description" content="${plugin.id}: ${plugin.description}" />
+
+<script src="/nav.js" type="text/javascript"></script>
+`;
   const nav = createNav();
   const body = `${nav}
 <div class="plugin_container">
   <div class="view">
     <div class="header">
-      <h1>${plugin.id}</h1>
+      <h2>${plugin.id}</h2>
       ${plugin.homepage ? `<a href=${plugin.homepage}>website</a>` : ""}
-      <a href=${plugin.link} class="flex">${
-    createIcon("github")
-  } <span>github</span></a>
+      <a href=${plugin.link} class="flex">${createIcon(
+    "github"
+  )} <span>github</span></a>
     </div>
     ${createPluginView(plugin, tags)}
     ${html}
@@ -401,11 +433,11 @@ async function render(data: PluginData, htmlData: { [key: string]: string }) {
     createFile("./static/index.html", createSearchPage(data, "stars")),
     createFile(
       "./static/created/index.html",
-      createSearchPage(data, "createdAt"),
+      createSearchPage(data, "createdAt")
     ),
     createFile(
       "./static/updated/index.html",
-      createSearchPage(data, "updatedAt"),
+      createSearchPage(data, "updatedAt")
     ),
     createFile("./static/about/index.html", createAboutPage()),
   ];
@@ -414,8 +446,7 @@ async function render(data: PluginData, htmlData: { [key: string]: string }) {
     const tags = getTags(data.tagDb, plugin.tags);
     const id = `${plugin.username}/${plugin.repo}`;
     const html = htmlData[id] || "";
-    const fname =
-      `./static/plugin/${plugin.username}/${plugin.repo}/index.html`;
+    const fname = `./static/plugin/${plugin.username}/${plugin.repo}/index.html`;
     const page = createPluginPage(plugin, tags, html);
     files.push(createFile(fname, page));
   });

@@ -148,11 +148,17 @@ img {
 }
 
 .rightbar {
-  grid-row: 1;
+  grid-row: 1 / 3;
   grid-column: 3;
   margin-bottom: 5px;
-  align-items: center;
   display: flex;
+  flex-direction: column;
+}
+
+.ad {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid var(--text-color);
 }
 
 .search_icon {
@@ -176,6 +182,7 @@ img {
 }
 
 .search_results {
+  font-size: 12px;
   margin: 0;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -238,7 +245,7 @@ img {
 .links {
   display: flex;
   justify-content: space-between;
-  width: 250px;
+  width: 150px;
 }
 
 .link {
@@ -303,7 +310,7 @@ img {
   height: 24px;
 }
 
-#logo {
+.logo {
   display: flex;
   align-items: center;
 }
@@ -315,6 +322,7 @@ img {
 .logo-header {
   text-decoration: none;
   color: var(--text-color);
+  margin-right: 10px;
 }
 
 .logo-header:visited {
@@ -356,7 +364,7 @@ img {
 }
 
 .date {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .header {
@@ -366,7 +374,7 @@ img {
 }
 
 .desc {
-  margin-top: 5px;
+  margin-top: 8px;
 }
 
 .item_header {
@@ -376,6 +384,7 @@ img {
 }
 
 .metrics {
+  font-size: 12px;
   width: 175px;
   min-width: 175px;
   display: flex;

@@ -79,9 +79,6 @@ function mustAll(pattern) {
 function init() {
   const searchEl = must("#search");
   const clearSearchEl = must("#search_clear");
-  const menuBtnEl = must("#menu-btn");
-  const menuEl = must("#menu");
-  const menuCloseEl = mustAll(".menu-close");
   const pluginsEl = mustAll(".plugin");
   const tagsEl = mustAll(".tag");
 
@@ -119,16 +116,6 @@ function init() {
       search(value);
     });
   });
-
-  menuBtnEl.addEventListener("click", () => {
-    menu.classList.remove("hidden");
-  });
-  menuCloseEl.forEach((el) => {
-    el.addEventListener("click", () => {
-      menu.classList.add("hidden");
-    });
-  });
-
   filter(searchEl.value);
 }
 
