@@ -318,8 +318,9 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
       ${createIcon("x-circle")}
     </span>
   </div>
-  <div class="desc">
-    Search through our curated list of neovim plugins
+  <div class="tagline">
+    <span>Search through our curated list of neovim plugins. </span>
+    <span><a href="https://github.com/neurosnap/neovimcraft#want-to-submit-a-plugin">Submit a plugin</a></span>
   </div>
 
   <div class="sidebar">

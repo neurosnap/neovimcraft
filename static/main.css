@@ -133,12 +133,9 @@ img {
 }
 
 /* index */
-.desc {
-  margin-bottom: 5px;
+.tagline {
   grid-row: 1;
   grid-column: 1;
-  align-items: center;
-  display: flex;
 }
 
 .search_view {
