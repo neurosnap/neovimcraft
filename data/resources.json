@@ -2919,6 +2919,15 @@
     {
       "type": "github",
       "username": "mrjones2014",
+      "repo": "nvim-ts-rainbow",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "mrjones2014",
       "repo": "smart-splits.nvim",
       "tags": [
         "split-and-window"
@@ -3689,15 +3698,6 @@
         "plugin",
         "game",
         "competitive-programming"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "p00f",
-      "repo": "nvim-ts-rainbow",
-      "tags": [
-        "plugin",
-        "editing-support"
       ]
     },
     {
