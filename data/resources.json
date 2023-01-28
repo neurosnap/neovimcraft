@@ -1963,6 +1963,15 @@
     },
     {
       "type": "github",
+      "username": "jinzhongjia",
+      "repo": "PS_manager.nvim",
+      "tags": [
+        "plugin",
+        "project"
+      ]
+    },
+    {
+      "type": "github",
       "username": "jlesquembre",
       "repo": "nterm.nvim",
       "tags": [
@@ -3116,6 +3125,15 @@
       "tags": [
         "plugin",
         "terminal-integration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "niuiic",
+      "repo": "translate.nvim",
+      "tags": [
+        "plugin",
+        "language"
       ]
     },
     {
