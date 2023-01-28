@@ -992,6 +992,16 @@
     },
     {
       "type": "github",
+      "username": "DNLHC",
+      "repo": "glance.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
       "username": "dracula",
       "repo": "vim",
       "tags": [
