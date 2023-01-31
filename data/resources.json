@@ -2498,6 +2498,16 @@
     },
     {
       "type": "github",
+      "username": "linrongbin16",
+      "repo": "lsp-progress.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
       "username": "linty-org",
       "repo": "key-menu.nvim",
       "tags": [
@@ -3135,6 +3145,42 @@
       "tags": [
         "plugin",
         "terminal-integration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "niuiic",
+      "repo": "cp-image.nvim",
+      "tags": [
+        "plugin",
+        "media"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "niuiic",
+      "repo": "divider.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "niuiic",
+      "repo": "multiple-session.nvim",
+      "tags": [
+        "plugin",
+        "session"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "niuiic",
+      "repo": "part-edit.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
       ]
     },
     {
