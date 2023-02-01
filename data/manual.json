@@ -209,6 +209,14 @@
       "tags": [
         "tree-sitter-supported-colorscheme"
       ]
+    },
+    {
+      "type": "github",
+      "username": "Pakrohk-DotFiles",
+      "repo": "NvPak",
+      "tags": [
+         "plugin", "preconfigured-configuration"
+      ]
     }
   ]
 }
