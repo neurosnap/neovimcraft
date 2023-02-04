@@ -11,6 +11,16 @@
     },
     {
       "type": "github",
+      "username": "4e554c4c",
+      "repo": "darkman.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "colorscheme-switchers"
+      ]
+    },
+    {
+      "type": "github",
       "username": "abecodes",
       "repo": "tabout.nvim",
       "tags": [
@@ -1186,6 +1196,16 @@
         "plugin",
         "colorscheme",
         "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "f-person",
+      "repo": "auto-dark-mode.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "colorscheme-switchers"
       ]
     },
     {
@@ -2729,6 +2749,16 @@
     },
     {
       "type": "github",
+      "username": "mawkler",
+      "repo": "modicator.nvim",
+      "tags": [
+        "plugin",
+        "bars-and-lines",
+        "cursorline"
+      ]
+    },
+    {
+      "type": "github",
       "username": "max397574",
       "repo": "better-escape.nvim",
       "tags": [
@@ -2753,16 +2783,6 @@
         "plugin",
         "colorscheme",
         "treesitter-colorschemes"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "melkster",
-      "repo": "modicator.nvim",
-      "tags": [
-        "plugin",
-        "bars-and-lines",
-        "cursorline"
       ]
     },
     {
