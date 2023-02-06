@@ -2003,6 +2003,16 @@
     {
       "type": "github",
       "username": "jinzhongjia",
+      "repo": "LspUI.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "jinzhongjia",
       "repo": "PS_manager.nvim",
       "tags": [
         "plugin",
