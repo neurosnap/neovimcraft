@@ -2528,6 +2528,15 @@
     {
       "type": "github",
       "username": "linrongbin16",
+      "repo": "lin.nvim",
+      "tags": [
+        "plugin",
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "linrongbin16",
       "repo": "lsp-progress.nvim",
       "tags": [
         "plugin",
@@ -4489,7 +4498,7 @@
     {
       "type": "github",
       "username": "savq",
-      "repo": "melange",
+      "repo": "melange-nvim",
       "tags": [
         "plugin",
         "colorscheme",
