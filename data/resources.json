@@ -1296,7 +1296,7 @@
     {
       "type": "github",
       "username": "folke",
-      "repo": "lua-dev.nvim",
+      "repo": "neodev.nvim",
       "tags": [
         "plugin",
         "neovim-lua-development"
@@ -3504,6 +3504,15 @@
     },
     {
       "type": "github",
+      "username": "nvim-neorocks",
+      "repo": "luarocks-tag-release",
+      "tags": [
+        "plugin",
+        "neovim-lua-development"
+      ]
+    },
+    {
+      "type": "github",
       "username": "nvim-neotest",
       "repo": "neotest",
       "tags": [
@@ -5119,15 +5128,6 @@
         "plugin",
         "colorscheme",
         "lua-colorscheme"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "tjdevries",
-      "repo": "nlua.nvim",
-      "tags": [
-        "plugin",
-        "neovim-lua-development"
       ]
     },
     {
