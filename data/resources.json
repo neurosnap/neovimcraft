@@ -1266,6 +1266,15 @@
     },
     {
       "type": "github",
+      "username": "figsoda",
+      "repo": "nix-develop.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "filipdutescu",
       "repo": "renamer.nvim",
       "tags": [
