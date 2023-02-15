@@ -215,7 +215,21 @@
       "username": "Pakrohk-DotFiles",
       "repo": "NvPak",
       "tags": [
-         "plugin", "preconfigured-configuration"
+        "plugin",
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "charludo",
+      "repo": "projectmgr.nvim",
+      "tags": [
+        "telescope",
+        "session",
+        "plugin",
+        "utility",
+        "project",
+        "startup"
       ]
     }
   ]
