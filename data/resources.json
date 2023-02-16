@@ -2461,6 +2461,15 @@
     },
     {
       "type": "github",
+      "username": "LazyVim",
+      "repo": "LazyVim",
+      "tags": [
+        "plugin",
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
       "username": "lcheylus",
       "repo": "overlength.nvim",
       "tags": [
