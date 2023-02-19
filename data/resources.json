@@ -1154,6 +1154,16 @@
     },
     {
       "type": "github",
+      "username": "embark-theme",
+      "repo": "vim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "emileferreira",
       "repo": "nvim-strict",
       "tags": [
@@ -2755,6 +2765,15 @@
       "tags": [
         "plugin",
         "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "m4xshen",
+      "repo": "smartcolumn.nvim",
+      "tags": [
+        "plugin",
+        "bars-and-lines"
       ]
     },
     {
@@ -5263,8 +5282,7 @@
       "repo": "barbecue.nvim",
       "tags": [
         "plugin",
-        "bars-and-lines",
-        "winbar"
+        "bars-and-lines"
       ]
     },
     {
