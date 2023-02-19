@@ -2937,6 +2937,15 @@
     },
     {
       "type": "github",
+      "username": "miversen33",
+      "repo": "netman.nvim",
+      "tags": [
+        "plugin",
+        "remote-development"
+      ]
+    },
+    {
+      "type": "github",
       "username": "mizlan",
       "repo": "iswap.nvim",
       "tags": [
