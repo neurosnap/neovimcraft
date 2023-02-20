@@ -5590,6 +5590,15 @@
     {
       "type": "github",
       "username": "yaocccc",
+      "repo": "nvim-foldsign",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "yaocccc",
       "repo": "nvim-hlchunk",
       "tags": [
         "plugin",
