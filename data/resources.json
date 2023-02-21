@@ -638,6 +638,19 @@
     },
     {
       "type": "github",
+      "username": "charludo",
+      "repo": "projectmgr.nvim",
+      "tags": [
+        "telescope",
+        "session",
+        "plugin",
+        "utility",
+        "project",
+        "startup"
+      ]
+    },
+    {
+      "type": "github",
       "username": "chentoast",
       "repo": "marks.nvim",
       "tags": [
@@ -1720,6 +1733,16 @@
       "tags": [
         "plugin",
         "completion"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "https:",
+      "repo": "github.com",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
