@@ -499,6 +499,15 @@
     },
     {
       "type": "github",
+      "username": "bennypowers",
+      "repo": "splitjoin.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
       "username": "bfredl",
       "repo": "nvim-luadev",
       "tags": [
