@@ -5028,6 +5028,15 @@
     },
     {
       "type": "github",
+      "username": "tenxsoydev",
+      "repo": "nx.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "terrortylor",
       "repo": "nvim-comment",
       "tags": [
