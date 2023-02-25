@@ -2560,6 +2560,15 @@
     },
     {
       "type": "github",
+      "username": "LeonHeidelbach",
+      "repo": "trailblazer.nvim",
+      "tags": [
+        "plugin",
+        "marks"
+      ]
+    },
+    {
+      "type": "github",
       "username": "lewis6991",
       "repo": "gitsigns.nvim",
       "tags": [
