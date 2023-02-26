@@ -3741,9 +3741,8 @@
       "username": "nyoom-engineering",
       "repo": "oxocarbon.nvim",
       "tags": [
-        "plugin",
-        "colorscheme",
-        "treesitter-colorschemes"
+        "treesitter-colorschemes",
+        "colorscheme"
       ]
     },
     {
@@ -5043,6 +5042,15 @@
       "tags": [
         "plugin",
         "git"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "tenxsoydev",
+      "repo": "karen-yank.nvim",
+      "tags": [
+        "plugin",
+        "register"
       ]
     },
     {
