@@ -231,6 +231,15 @@
         "project",
         "startup"
       ]
+    },
+    {
+      "type": "github",
+      "username": "nyoom-engineering",
+      "repo": "oxocarbon.nvim",
+      "tags": [
+        "treesitter-colorschemes",
+        "colorscheme"
+      ]
     }
   ]
 }
