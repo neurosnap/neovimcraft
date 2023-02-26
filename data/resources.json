@@ -3738,6 +3738,16 @@
     },
     {
       "type": "github",
+      "username": "nyoom-engineering",
+      "repo": "oxocarbon.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "oberblastmeister",
       "repo": "neuron.nvim",
       "tags": [
