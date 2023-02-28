@@ -1756,6 +1756,16 @@
     },
     {
       "type": "github",
+      "username": "iamcco",
+      "repo": "markdown-preview.nvim",
+      "tags": [
+        "plugin",
+        "programming-languages-support",
+        "markdown-and-latex"
+      ]
+    },
+    {
+      "type": "github",
       "username": "ibhagwan",
       "repo": "fzf-lua",
       "tags": [
