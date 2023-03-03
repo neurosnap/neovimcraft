@@ -2607,6 +2607,15 @@
     },
     {
       "type": "github",
+      "username": "liangxianzhe",
+      "repo": "nap.nvim",
+      "tags": [
+        "plugin",
+        "motion"
+      ]
+    },
+    {
+      "type": "github",
       "username": "LinArcX",
       "repo": "telescope-command-palette.nvim",
       "tags": [
