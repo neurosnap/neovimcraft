@@ -240,6 +240,15 @@
         "treesitter-colorschemes",
         "colorscheme"
       ]
+    },
+    {
+      "type": "github",
+      "username": "norflin321",
+      "repo": "bicolors",
+      "tags": [
+        "treesitter-colorschemes",
+        "colorscheme"
+      ]
     }
   ]
 }
