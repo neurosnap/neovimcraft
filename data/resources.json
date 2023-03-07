@@ -5374,6 +5374,15 @@
     },
     {
       "type": "github",
+      "username": "utilyre",
+      "repo": "sentiment.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
       "username": "vi-tality",
       "repo": "neovitality",
       "tags": [
