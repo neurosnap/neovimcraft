@@ -3414,6 +3414,15 @@
     },
     {
       "type": "github",
+      "username": "norflin321",
+      "repo": "bicolors",
+      "tags": [
+        "treesitter-colorschemes",
+        "colorscheme"
+      ]
+    },
+    {
+      "type": "github",
       "username": "notomo",
       "repo": "cmdbuf.nvim",
       "tags": [
