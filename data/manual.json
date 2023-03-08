@@ -249,6 +249,16 @@
         "treesitter-colorschemes",
         "colorscheme"
       ]
+    },
+    {
+      "type": "github",
+      "username": "dpayne",
+      "repo": "CodeGPT.nvim",
+      "tags": [
+        "plugin",
+        "completion",
+        "editing-support"
+      ]
     }
   ]
 }
