@@ -158,9 +158,11 @@ const createPluginItem = (plugin: Plugin, tags: Tag[]) => {
 
   let repoLink = `
     <a href=${plugin.link} class="flex">${createIcon("github")}</a>
-    <div class="metric-item">${createIcon("star")} <span>${nf.format(
-    plugin.stars
-  )}</span></div>
+    <div class="metric-item">${createIcon("star")} <span>${
+    nf.format(
+      plugin.stars,
+    )
+  }</span></div>
     <div class="metric-item">
       ${createIcon("alert-circle")} <span>${nf.format(plugin.openIssues)}</span>
     </div>`;
@@ -264,7 +266,7 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
   }, "");
   const tagListStr = data.tags.reduce(
     (acc, tag) => `${acc}\n${createTag(tag)}`,
-    ""
+    "",
   );
   const sortStr = () => {
     let str = "";
@@ -332,7 +334,7 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
   <div class="plugins">
     <div class="plugins_container">
       <div class="search_results">${data.plugins.length} results</div>
-      <div>
+      <div id="sort_links">
         ${sortStr()}
       </div>
       <div id="plugins_list">
@@ -417,9 +419,11 @@ const createPluginPage = (plugin: Plugin, tags: Tag[], html: string) => {
     <div class="header">
       <h2>${plugin.id}</h2>
       ${plugin.homepage ? `<a href=${plugin.homepage}>website</a>` : ""}
-      <a href=${plugin.link} class="flex">${createIcon(
-    "github"
-  )} <span>github</span></a>
+      <a href=${plugin.link} class="flex">${
+    createIcon(
+      "github",
+    )
+  } <span>github</span></a>
     </div>
     ${createPluginView(plugin, tags)}
     ${html}
@@ -434,11 +438,11 @@ async function render(data: PluginData, htmlData: { [key: string]: string }) {
     createFile("./static/index.html", createSearchPage(data, "stars")),
     createFile(
       "./static/created/index.html",
-      createSearchPage(data, "createdAt")
+      createSearchPage(data, "createdAt"),
     ),
     createFile(
       "./static/updated/index.html",
-      createSearchPage(data, "updatedAt")
+      createSearchPage(data, "updatedAt"),
     ),
     createFile("./static/about/index.html", createAboutPage()),
   ];
@@ -447,7 +451,8 @@ async function render(data: PluginData, htmlData: { [key: string]: string }) {
     const tags = getTags(data.tagDb, plugin.tags);
     const id = `${plugin.username}/${plugin.repo}`;
     const html = htmlData[id] || "";
-    const fname = `./static/plugin/${plugin.username}/${plugin.repo}/index.html`;
+    const fname =
+      `./static/plugin/${plugin.username}/${plugin.repo}/index.html`;
     const page = createPluginPage(plugin, tags, html);
     files.push(createFile(fname, page));
   });

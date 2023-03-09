@@ -49,7 +49,11 @@ function processMarkdown(text: string) {
           // hardcoded deny-list for headings
           for (let i = 0; i < headings.length; i += 1) {
             const heading = headings[i];
-            if (["contents", "vim", "ui", "wishlist", "resource"].includes(heading)) return;
+            if (
+              ["contents", "vim", "ui", "wishlist", "resource"].includes(
+                heading,
+              )
+            ) return;
           }
 
           const tags = headings.map(sanitizeTag);

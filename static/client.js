@@ -60,6 +60,20 @@ function createFilter(pluginsEl) {
   return filter;
 }
 
+function updateLinks(search) {
+  const links = must("#sort_links");
+  for (let link of links.children) {
+    const r = new URL(link.href);
+    if (search) {
+      r.searchParams.set("search", search);
+    } else {
+      r.searchParams.delete("search");
+    }
+    const newUrl = r.href;
+    link.href = newUrl;
+  }
+}
+
 function must(pattern) {
   const el = document.querySelector(pattern);
   if (!el) {
@@ -89,8 +103,10 @@ function init() {
   const search = (value) => {
     if (value) {
       addUrlParam("search", value);
+      updateLinks(value);
     } else {
       rmUrlParam("search");
+      updateLinks("");
     }
 
     filter(value);
@@ -104,6 +120,7 @@ function init() {
   clearSearchEl.addEventListener("click", () => {
     searchEl.value = "";
     rmUrlParam("search");
+    updateLinks("");
     filter("");
   });
 
