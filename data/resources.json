@@ -1917,15 +1917,6 @@
     },
     {
       "type": "github",
-      "username": "jameshiew",
-      "repo": "nvim-magic",
-      "tags": [
-        "plugin",
-        "completion"
-      ]
-    },
-    {
-      "type": "github",
       "username": "jamestthompson3",
       "repo": "nvim-remote-containers",
       "tags": [
