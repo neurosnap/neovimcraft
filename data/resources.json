@@ -1756,16 +1756,6 @@
     },
     {
       "type": "github",
-      "username": "https:",
-      "repo": "github.com",
-      "tags": [
-        "plugin",
-        "colorscheme",
-        "treesitter-colorschemes"
-      ]
-    },
-    {
-      "type": "github",
       "username": "iamcco",
       "repo": "markdown-preview.nvim",
       "tags": [
@@ -3231,6 +3221,16 @@
       "type": "github",
       "username": "navarasu",
       "repo": "onedark.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "neanias",
+      "repo": "everforest-nvim",
       "tags": [
         "plugin",
         "colorscheme",
@@ -4772,6 +4772,16 @@
     },
     {
       "type": "github",
+      "username": "shellRaining",
+      "repo": "hlchunk.nvim",
+      "tags": [
+        "plugin",
+        "formatting",
+        "indent"
+      ]
+    },
+    {
+      "type": "github",
       "username": "shohi",
       "repo": "neva",
       "tags": [
@@ -5515,6 +5525,24 @@
         "lsp",
         "neovim-0.5",
         "lsp-installer"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "willothy",
+      "repo": "flatten.nvim",
+      "tags": [
+        "plugin",
+        "terminal-integration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "willothy",
+      "repo": "moveline.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
       ]
     },
     {
