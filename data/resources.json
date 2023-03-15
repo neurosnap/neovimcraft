@@ -5810,6 +5810,15 @@
     },
     {
       "type": "github",
+      "username": "zdcthomas",
+      "repo": "yop.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "ZhiyuanLck",
       "repo": "smart-pairs",
       "tags": [
