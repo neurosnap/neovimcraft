@@ -1083,6 +1083,15 @@
     },
     {
       "type": "github",
+      "username": "Eandrju",
+      "repo": "cellular-automaton.nvim",
+      "tags": [
+        "plugin",
+        "game"
+      ]
+    },
+    {
+      "type": "github",
       "username": "echasnovski",
       "repo": "mini.nvim",
       "tags": [
@@ -2834,6 +2843,15 @@
       "tags": [
         "plugin",
         "media"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "MarcHamamji",
+      "repo": "runner.nvim",
+      "tags": [
+        "plugin",
+        "code-runner"
       ]
     },
     {
