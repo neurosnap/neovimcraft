@@ -2072,6 +2072,15 @@
     },
     {
       "type": "github",
+      "username": "jim-fx",
+      "repo": "sudoku.nvim",
+      "tags": [
+        "plugin",
+        "game"
+      ]
+    },
+    {
+      "type": "github",
       "username": "jinzhongjia",
       "repo": "LspUI.nvim",
       "tags": [
