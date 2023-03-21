@@ -189,6 +189,15 @@
     },
     {
       "type": "github",
+      "username": "alanfortlink",
+      "repo": "blackjack.nvim",
+      "tags": [
+        "plugin",
+        "game"
+      ]
+    },
+    {
+      "type": "github",
       "username": "alec-gibson",
       "repo": "nvim-tetris",
       "tags": [
