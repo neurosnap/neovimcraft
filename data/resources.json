@@ -1007,6 +1007,15 @@
     {
       "type": "github",
       "username": "desdic",
+      "repo": "agrolens.nvim",
+      "tags": [
+        "plugin",
+        "syntax"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "desdic",
       "repo": "greyjoy.nvim",
       "tags": [
         "plugin",
@@ -5495,6 +5504,15 @@
       "tags": [
         "plugin",
         "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Wansmer",
+      "repo": "langmapper.nvim",
+      "tags": [
+        "plugin",
+        "keybinding"
       ]
     },
     {
