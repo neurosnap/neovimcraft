@@ -808,6 +808,15 @@
     },
     {
       "type": "github",
+      "username": "cpea2506",
+      "repo": "relative-toggle.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "CRAG666",
       "repo": "code_runner.nvim",
       "tags": [
