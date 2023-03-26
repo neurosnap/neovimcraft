@@ -715,6 +715,17 @@
     {
       "type": "github",
       "username": "chrisgrieser",
+      "repo": "nvim-spider",
+      "tags": [
+        "plugin",
+        "keybinding",
+        "motion",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
       "repo": "nvim-various-textobjs",
       "tags": [
         "editing-support",
