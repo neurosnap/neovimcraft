@@ -1139,6 +1139,15 @@
     },
     {
       "type": "github",
+      "username": "ecthelionvi",
+      "repo": "NeoColumn.nvim",
+      "tags": [
+        "plugin",
+        "bars-and-lines"
+      ]
+    },
+    {
+      "type": "github",
       "username": "EdenEast",
       "repo": "nightfox.nvim",
       "tags": [
