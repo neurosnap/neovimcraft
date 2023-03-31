@@ -270,6 +270,14 @@
         "motion",
         "editing-support"
       ]
+    },
+    {
+      "type": "github",
+      "username": "Bekaboo",
+      "tags": [
+        "plugin",
+        "bars-and-lines"
+      ]
     }
   ]
 }
