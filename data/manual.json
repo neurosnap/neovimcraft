@@ -270,6 +270,15 @@
         "motion",
         "editing-support"
       ]
+    },
+    {
+      "type": "github",
+      "username": "Bekaboo",
+      "repo": "deadcolumn.nvim",
+      "tags": [
+        "plugin",
+        "bars-and-lines"
+      ]
     }
   ]
 }
