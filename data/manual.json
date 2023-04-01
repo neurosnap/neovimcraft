@@ -279,6 +279,16 @@
         "plugin",
         "bars-and-lines"
       ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-early-retirement",
+      "tags": [
+        "plugin",
+        "split-and-window",
+        "buffer"
+      ]
     }
   ]
 }
