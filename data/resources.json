@@ -706,6 +706,16 @@
     {
       "type": "github",
       "username": "chrisgrieser",
+      "repo": "nvim-early-retirement",
+      "tags": [
+        "plugin",
+        "split-and-window",
+        "buffer"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
       "repo": "nvim-genghis",
       "tags": [
         "file-explorer",
@@ -4951,6 +4961,16 @@
       "tags": [
         "plugin",
         "keybinding"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "SmiteshP",
+      "repo": "nvim-navbuddy",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
       ]
     },
     {
