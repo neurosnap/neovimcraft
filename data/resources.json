@@ -2663,6 +2663,16 @@
     },
     {
       "type": "github",
+      "username": "lewis6991",
+      "repo": "satellite.nvim",
+      "tags": [
+        "plugin",
+        "scrolling",
+        "scrollbar"
+      ]
+    },
+    {
+      "type": "github",
       "username": "lewpoly",
       "repo": "sherbet.nvim",
       "tags": [
