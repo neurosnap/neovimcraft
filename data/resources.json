@@ -1363,16 +1363,6 @@
     },
     {
       "type": "github",
-      "username": "feline-nvim",
-      "repo": "feline.nvim",
-      "tags": [
-        "plugin",
-        "bars-and-lines",
-        "statusline"
-      ]
-    },
-    {
-      "type": "github",
       "username": "fenetikm",
       "repo": "falcon",
       "tags": [
@@ -1503,6 +1493,16 @@
         "plugin",
         "programming-languages-support",
         "markdown-and-latex"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "freddiehaddad",
+      "repo": "feline.nvim",
+      "tags": [
+        "plugin",
+        "bars-and-lines",
+        "statusline"
       ]
     },
     {
