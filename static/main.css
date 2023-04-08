@@ -164,6 +164,16 @@ img {
   left: 0;
 }
 
+#app {
+  display: flex;
+  justify-content: center;
+}
+
+#app_content {
+  max-width: 100%;
+  height: 100%;
+}
+
 .search_clear_icon {
   position: absolute;
   top: 15px;
@@ -188,7 +198,7 @@ img {
 .search_container {
   display: grid;
   height: calc(100vh - 65px);
-  grid-template-columns: minmax(250px, 400px) minmax(350px, 600px);
+  grid-template-columns: minmax(250px, 400px) minmax(350px, 600px) 300px;
   grid-template-rows: 50px 1fr;
   column-gap: 10px;
   margin: 0 25px;
@@ -237,6 +247,7 @@ img {
   justify-content: space-between;
   align-items: center;
   padding: 0 25px 15px 25px;
+  overflow: hidden;
 }
 
 .links {

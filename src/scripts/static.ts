@@ -75,7 +75,9 @@ const createHtmlFile = ({ head, body }: { head: string; body: string }) => {
     ${head}
   </head>
   <body>
-    <div id="app">${body}</div>
+    <div id="app">
+      <div id="app_content">${body}</div>
+    </div>
   </body>
 </html>`;
 };
@@ -96,7 +98,7 @@ const createNav = () => {
   <h1 class="logo">
     <a href="/" class="logo-header">neovimcraft</a>
     <a href="https://github.com/neurosnap/neovimcraft" class="flex">
-      ${createIcon("github")}
+      ${createIcon("github", "github")}
     </a>
   </h1>
   <div class="links">
@@ -111,7 +113,7 @@ const createNav = () => {
         <h1 class="logo">
           <a href="/" class="logo-header">neovimcraft</a>
           <a href="https://github.com/neurosnap/neovimcraft" class="flex">
-            ${createIcon("github")}
+            ${createIcon("github", "github")}
           </a>
         </h1>
         <div class="menu-btn menu-close"><img src="/menu.svg" alt="menu" /></div>
@@ -125,8 +127,8 @@ const createNav = () => {
 </div>`;
 };
 
-const createIcon = (icon: string) => {
-  return `<img class="icon" src="/${icon}.svg" alt=${icon} />`;
+const createIcon = (icon: string, text: string) => {
+  return `<img class="icon" src="/${icon}.svg" alt=${text} title=${text} />`;
 };
 
 function findColor(tag: Tag) {
@@ -157,17 +159,21 @@ const createPluginItem = (plugin: Plugin, tags: Tag[]) => {
   const nf = new Intl.NumberFormat("en-US");
 
   let repoLink = `
-    <a href=${plugin.link} class="flex">${createIcon("github")}</a>
-    <div class="metric-item">${createIcon("star")} <span>${
+    <a href=${plugin.link} class="flex">${createIcon("github", "github")}</a>
+    <div class="metric-item">${createIcon("star", "stars")} <span>${
     nf.format(
       plugin.stars,
     )
   }</span></div>
     <div class="metric-item">
-      ${createIcon("alert-circle")} <span>${nf.format(plugin.openIssues)}</span>
+      ${createIcon("alert-circle", "issues")} <span>${
+    nf.format(plugin.openIssues)
+  }</span>
     </div>`;
   if (plugin.type === "srht") {
-    repoLink = `<a href=${plugin.link} class="flex">${createIcon("srht")}</a>`;
+    repoLink = `<a href=${plugin.link} class="flex">${
+      createIcon("srht", "srht")
+    }</a>`;
   }
 
   return `
@@ -309,7 +315,7 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
   const body = `${nav}
 <div class="search_container">
   <div class="search_view">
-    <span class="search_icon">${createIcon("search")}</span>
+    <span class="search_icon">${createIcon("search", "search")}</span>
     <input
       id="search"
       value=""
@@ -317,7 +323,7 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
       autocapitalize="off"
     />
     <span class="search_clear_icon" id="search_clear">
-      ${createIcon("x-circle")}
+      ${createIcon("x-circle", "clear search")}
     </span>
   </div>
   <div class="tagline">
@@ -359,18 +365,22 @@ const createPluginView = (plugin: Plugin, tags: Tag[]) => {
     metricsStr = `
     <div class="metrics_view">
         <div class="metric">
-          ${createIcon("star")}
+          ${createIcon("star", "stars")}
           <span>${nf.format(plugin.stars)}</span>
         </div>
         <div class="metric">
-          ${createIcon("alert-circle")}
+          ${createIcon("alert-circle", "issues")}
           <span>${nf.format(plugin.openIssues)}</span>
         </div>
         <div class="metric">
-          ${createIcon("users")} <span>${nf.format(plugin.subscribers)}</span>
+          ${createIcon("users", "subscribers")} <span>${
+      nf.format(plugin.subscribers)
+    }</span>
         </div>
         <div class="metric">
-          ${createIcon("git-branch")} <span>${nf.format(plugin.forks)}</span>
+          ${createIcon("git-branch", "forks")} <span>${
+      nf.format(plugin.forks)
+    }</span>
         </div>
     </div>`;
   }
@@ -421,6 +431,7 @@ const createPluginPage = (plugin: Plugin, tags: Tag[], html: string) => {
       ${plugin.homepage ? `<a href=${plugin.homepage}>website</a>` : ""}
       <a href=${plugin.link} class="flex">${
     createIcon(
+      "github",
       "github",
     )
   } <span>github</span></a>
