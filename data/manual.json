@@ -289,6 +289,15 @@
         "split-and-window",
         "buffer"
       ]
+    },
+    {
+      "type": "github",
+      "username": "SpaceVim",
+      "repo": "SpaceVim",
+      "tags": [
+        "plugin",
+        "preconfigured-configuration"
+      ]
     }
   ]
 }
