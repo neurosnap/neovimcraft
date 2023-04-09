@@ -5150,6 +5150,15 @@
     },
     {
       "type": "github",
+      "username": "t-troebst",
+      "repo": "perfanno.nvim",
+      "tags": [
+        "plugin",
+        "debugging"
+      ]
+    },
+    {
+      "type": "github",
       "username": "tamago324",
       "repo": "lir.nvim",
       "tags": [
