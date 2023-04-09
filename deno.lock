@@ -207,9 +207,7 @@
     "https://deno.land/x/path_to_regexp@v6.2.1/index.ts": "894060567837bae8fc9c5cbd4d0a05e9024672083d5883b525c031eea940e556"
   },
   "npm": {
-    "specifiers": {
-      "marked": "marked@4.3.0"
-    },
+    "specifiers": { "marked": "marked@4.3.0" },
     "packages": {
       "marked@4.2.3": {
         "integrity": "sha512-slWRdJkbTZ+PjkyJnE30Uid64eHwbwa1Q25INCAYfZlK4o6ylagBy/Le9eWntqJFoFT93ikUKMv47GZ4gTwHkw==",
