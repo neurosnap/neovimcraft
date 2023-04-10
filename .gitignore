@@ -6,9 +6,12 @@ node_modules
 .eslintcache
 build
 data/db.json
+data/db-config.json
 data/markdown.json
+data/markdown-config.json
 data/html.json
 data/scrape.json
+data/scrape-config.json
 .direnv
 gha-creds-*
 static/*.html
@@ -16,3 +19,4 @@ static/plugin/
 static/about/
 static/created/
 static/updated/
+static/c/

@@ -706,6 +706,16 @@
     {
       "type": "github",
       "username": "chrisgrieser",
+      "repo": "nvim-alt-substitute",
+      "tags": [
+        "plugin",
+        "command-line",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
       "repo": "nvim-early-retirement",
       "tags": [
         "plugin",

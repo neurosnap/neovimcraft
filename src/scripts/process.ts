@@ -1,13 +1,13 @@
 import resourceFile from "../../data/resources.json" assert { type: "json" };
+import resourceConfigFile from "../../data/resources-config.json" assert {
+  type: "json",
+};
 
-import { encode } from "../deps.ts";
 import type { Plugin, Resource } from "../types.ts";
-import { createPlugin } from "../entities.ts";
-import { fetchGithubData } from "../github.ts";
+import { createPlugin, getResourceId } from "../entities.ts";
+import { fetchGithubData, ghToken } from "../github.ts";
 import { fetchSrhtData } from "../stht.ts";
 
-const accessToken = Deno.env.get("GITHUB_ACCESS_TOKEN") || "";
-const accessUsername = Deno.env.get("GITHUB_USERNAME") || "";
 const srhtToken = Deno.env.get("SRHT_ACCESS_TOKEN") || "";
 
 const option = Deno.args[0];
@@ -19,6 +19,11 @@ if (option === "missing") {
   processResources(resourceFile.resources as Resource[])
     .then(saveData)
     .catch(console.error);
+
+  console.log("PROCESSING CONFIG RESOURCES");
+  processResources(Object.values(resourceConfigFile.resources) as Resource[])
+    .then(saveConfigData)
+    .catch(console.error);
 }
 
 async function processMissingResources() {
@@ -27,7 +32,7 @@ async function processMissingResources() {
   const missing: Resource[] = [];
   const resources = resourceFile.resources as Resource[];
   resources.forEach((r) => {
-    if (db.plugins[`${r.username}/${r.repo}`]) {
+    if (db.plugins[getResourceId(r)]) {
       return;
     }
 
@@ -47,8 +52,6 @@ async function processResources(resources: Resource[]) {
   const plugins: { [key: string]: Plugin } = {};
   const markdown: { [key: string]: string } = {};
 
-  const ghToken = encode(`${accessUsername}:${accessToken}`);
-
   console.log(`Fetching ${resources.length} resources`);
 
   for (let i = 0; i < resources.length; i += 1) {
@@ -56,7 +59,7 @@ async function processResources(resources: Resource[]) {
 
     if (d.type === "srht") {
       const result = await fetchSrhtData({ ...d, token: srhtToken });
-      const id = `${d.username}/${d.repo}`;
+      const id = getResourceId(d);
       if (!result.ok) {
         console.log(result);
         continue;
@@ -84,7 +87,7 @@ async function processResources(resources: Resource[]) {
       }
 
       const resp = result.data;
-      const id = `${d.username}/${d.repo}`;
+      const id = getResourceId(d);
 
       let updatedAt = "";
       if (result.data.branch.ok) {
@@ -129,4 +132,17 @@ async function saveData({
   const markdownJson = JSON.stringify({ markdown });
   await Deno.writeTextFile("./data/db.json", pluginJson);
   await Deno.writeTextFile("./data/markdown.json", markdownJson);
+}
+
+async function saveConfigData({
+  plugins,
+  markdown,
+}: {
+  plugins: { [key: string]: Plugin };
+  markdown: { [key: string]: string };
+}) {
+  const pluginJson = JSON.stringify({ plugins }, null, 2);
+  const markdownJson = JSON.stringify({ markdown });
+  await Deno.writeTextFile("./data/db-config.json", pluginJson);
+  await Deno.writeTextFile("./data/markdown-config.json", markdownJson);
 }

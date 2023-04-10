@@ -1,16 +1,36 @@
 import { marked } from "../deps.ts";
 import type { Plugin } from "../types.ts";
 
-clean().catch(console.error);
+await init().catch(console.error);
 
-async function clean() {
-  const file = await Deno.readTextFile("./data/db.json");
+async function init() {
+  const db = {};
+  await clean({
+    htmlDb: db,
+    dbFile: "./data/db.json",
+    mdFile: "./data/markdown.json",
+  });
+  await clean({
+    htmlDb: db,
+    dbFile: "./data/db-config.json",
+    mdFile: "./data/markdown-config.json",
+  });
+  await save(db);
+}
+
+async function clean(
+  { htmlDb, dbFile, mdFile }: {
+    htmlDb: { [key: string]: string };
+    dbFile: string;
+    mdFile: string;
+  },
+) {
+  const file = await Deno.readTextFile(dbFile);
   const db = JSON.parse(file.toString());
-  const markdownFile = await Deno.readTextFile("./data/markdown.json");
+  const markdownFile = await Deno.readTextFile(mdFile);
   const markdownDb = JSON.parse(markdownFile.toString());
 
   const plugins = Object.values(db.plugins) as Plugin[];
-  const nextDb: { [key: string]: string } = {};
   plugins.forEach((plugin) => {
     console.log(`processing ${plugin.id}`);
     marked.use({
@@ -36,9 +56,11 @@ async function clean() {
     const markdown = markdownDb.markdown[plugin.id];
     if (!markdown) return;
     const html = marked(markdown);
-    nextDb[plugin.id] = html;
+    htmlDb[plugin.id] = html;
   });
+}
 
+async function save(nextDb: { [key: string]: string }) {
   try {
     const json = JSON.stringify({ html: nextDb }, null, 2);
     await Deno.writeTextFile("./data/html.json", json);

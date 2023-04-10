@@ -33,3 +33,7 @@ export function createResource(p: Partial<Resource> = {}): Resource {
     ...p,
   };
 }
+
+export const getResourceId = (d: { username: string; repo: string }) => {
+  return `${d.username}/${d.repo}`;
+};
