@@ -289,6 +289,16 @@
         "split-and-window",
         "buffer"
       ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-alt-substitute",
+      "tags": [
+        "plugin",
+        "command-line",
+        "editing-support"
+      ]
     }
   ]
 }
