@@ -6,7 +6,15 @@ resource:
 	deno run --allow-write src/scripts/resource.ts
 .PHONY: resource
 
-download:
+resource-config:
+	deno run --allow-write src/scripts/resource.ts config
+.PHONY: resource-config
+
+download-config:
+	deno run --allow-env --allow-write --allow-net src/scripts/scrape-config.ts
+.PHONY: download-config
+
+download: download-config
 	deno run --allow-write --allow-net src/scripts/scrape.ts
 .PHONY: download
 
@@ -35,6 +43,7 @@ clean:
 	rm -rf static/about
 	rm -rf static/created
 	rm -rf static/updated
+	rm -rf static/c
 .PHONY: clean
 
 build: clean
@@ -57,3 +66,6 @@ format:
 test:
 	deno lint
 .PHONY: test
+
+config: download-config process html
+.PHONY: configs

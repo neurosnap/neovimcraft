@@ -1,10 +1,12 @@
-import dbFile from "../../data/db.json" assert { type: "json" };
 import htmlFile from "../../data/html.json" assert { type: "json" };
+import dbFile from "../../data/db.json" assert { type: "json" };
+import configDbFile from "../../data/db-config.json" assert { type: "json" };
 
 import { dirname } from "../deps.ts";
 import { format, relativeTimeFromDates } from "../date.ts";
 import { derivePluginData } from "../plugin-data.ts";
 import type { Plugin, PluginData, PluginMap, Tag, TagMap } from "../types.ts";
+import { getResourceId } from "../entities.ts";
 
 async function createFile(fname: string, data: string) {
   await Deno.mkdir(dirname(fname), { recursive: true });
@@ -85,6 +87,7 @@ const createHtmlFile = ({ head, body }: { head: string; body: string }) => {
 const createNav = () => {
   const links = [
     ["/", "plugins"],
+    ["/c", "configs"],
     ["/about", "about"],
   ];
 
@@ -353,6 +356,94 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
   return createHtmlFile({ head, body });
 };
 
+const createSearchConfigPage = (data: PluginData, by: keyof Plugin) => {
+  const pluginsStr = data.plugins.sort(onSort(by)).reduce((acc, plugin) => {
+    const plug = createPluginItem(plugin, getTags(data.tagDb, plugin.tags));
+    return `${acc}\n${plug}`;
+  }, "");
+  const tagListStr = data.tags.reduce(
+    (acc, tag) => `${acc}\n${createTag(tag)}`,
+    "",
+  );
+  const sortStr = () => {
+    let str = "";
+    if (by === "stars") {
+      str += "stars\n";
+    } else {
+      str += '<a href="/c">stars</a>\n';
+    }
+
+    if (by === "createdAt") {
+      str += "created\n";
+    } else {
+      str += '<a href="/c/created">created</a>\n';
+    }
+
+    if (by === "updatedAt") {
+      str += "updated\n";
+    } else {
+      str += '<a href="/c/updated">updated</a>\n';
+    }
+
+    return str;
+  };
+
+  const head = `
+<title>neovimcraft</title>
+  <meta property="og:title" content="neovimcraft" />
+  <meta
+    name="description"
+    content="Search through our curated neovim config directory."
+  />
+  <meta
+    property="og:description"
+    content="Search through our curated neovim config directory."
+  />
+  <script src="/nav.js" type="text/javascript"></script>
+  <script src="/client.js" type="text/javascript"></script>
+`;
+  const nav = createNav();
+  const body = `${nav}
+<div class="search_container">
+  <div class="search_view">
+    <span class="search_icon">${createIcon("search", "search")}</span>
+    <input
+      id="search"
+      value=""
+      placeholder="search to find a config"
+      autocapitalize="off"
+    />
+    <span class="search_clear_icon" id="search_clear">
+      ${createIcon("x-circle", "clear search")}
+    </span>
+  </div>
+  <div class="tagline">
+    <span>Search through our curated list of neovim configs. </span>
+    <span><a href="https://github.com/neurosnap/neovimcraft#want-to-submit-a-config">Submit a config</a></span>
+  </div>
+
+  <div class="sidebar">
+    ${tagListStr}
+  </div>
+  <div class="rightbar">
+    ${createAds()}
+  </div>
+  <div class="plugins">
+    <div class="plugins_container">
+      <div class="search_results">${data.plugins.length} results</div>
+      <div id="sort_links">
+        ${sortStr()}
+      </div>
+      <div id="plugins_list">
+        ${pluginsStr}
+      </div>
+    </div>
+  </div>
+</div>`;
+
+  return createHtmlFile({ head, body });
+};
+
 const createPluginView = (plugin: Plugin, tags: Tag[]) => {
   const tagsStr = tags.reduce((acc, tag) => {
     acc += createTag(tag, false);
@@ -455,12 +546,45 @@ async function render(data: PluginData, htmlData: { [key: string]: string }) {
       "./static/updated/index.html",
       createSearchPage(data, "updatedAt"),
     ),
+
     createFile("./static/about/index.html", createAboutPage()),
   ];
 
   data.plugins.forEach((plugin) => {
     const tags = getTags(data.tagDb, plugin.tags);
-    const id = `${plugin.username}/${plugin.repo}`;
+    const id = getResourceId(plugin);
+    const html = htmlData[id] || "";
+    const fname =
+      `./static/plugin/${plugin.username}/${plugin.repo}/index.html`;
+    const page = createPluginPage(plugin, tags, html);
+    files.push(createFile(fname, page));
+  });
+
+  await Promise.all(files);
+}
+
+async function renderConfig(
+  data: PluginData,
+  htmlData: { [key: string]: string },
+) {
+  const files = [
+    createFile(
+      "./static/c/index.html",
+      createSearchConfigPage(data, "stars"),
+    ),
+    createFile(
+      "./static/c/created/index.html",
+      createSearchConfigPage(data, "createdAt"),
+    ),
+    createFile(
+      "./static/c/updated/index.html",
+      createSearchConfigPage(data, "updatedAt"),
+    ),
+  ];
+
+  data.plugins.forEach((plugin) => {
+    const tags = getTags(data.tagDb, plugin.tags);
+    const id = getResourceId(plugin);
     const html = htmlData[id] || "";
     const fname =
       `./static/plugin/${plugin.username}/${plugin.repo}/index.html`;
@@ -476,6 +600,11 @@ interface HTMLFile {
 }
 
 const htmlData = (htmlFile as HTMLFile).html;
+
 const pluginMap = (dbFile as any).plugins as PluginMap;
 const pluginData = derivePluginData(pluginMap);
 render(pluginData, htmlData).then(console.log).catch(console.error);
+
+const configMap = (configDbFile as any).plugins as PluginMap;
+const configData = derivePluginData(configMap);
+renderConfig(configData, htmlData).then(console.log).catch(console.error);

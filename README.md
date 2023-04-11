@@ -18,6 +18,18 @@ make resource
 This command will step through the requirements for adding a resource to the
 site.
 
+## Want to submit a config?
+
+If you'd like to suggest a config to add to `neovimcraft.com/c` then feel free to 
+submit a PR after running the following command:
+
+```bash
+make resource-config
+```
+
+This command will step through the requirements for adding a resource to the
+site.
+
 ## nvim.sh
 
 Want to query neovimcraft from the terminal?

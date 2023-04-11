@@ -45,6 +45,7 @@ export type ResourceMap = { [key: string]: Resource };
 
 export interface ApiSuccess<D = any> {
   ok: true;
+  next?: string;
   data: D;
 }
 
