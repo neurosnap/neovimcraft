@@ -1044,12 +1044,6 @@
     },
     {
       "type": "github",
-      "username": "DiogoSantoss",
-      "repo": "nvim-config",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "disrupted",
       "repo": "dotfiles",
       "tags": [
@@ -3637,6 +3631,12 @@
         "vim",
         "vimrc"
       ]
+    },
+    {
+      "type": "github",
+      "username": "spantheslayer",
+      "repo": "nvim",
+      "tags": []
     },
     {
       "type": "github",
