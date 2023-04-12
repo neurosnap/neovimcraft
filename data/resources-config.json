@@ -240,6 +240,28 @@
     },
     {
       "type": "github",
+      "username": "Alexis12119",
+      "repo": "nvim-config",
+      "tags": [
+        "lua",
+        "neovim",
+        "lazy",
+        "nvim",
+        "pde",
+        "neovim-configuration",
+        "neovim-lua",
+        "neovim-config",
+        "neovim-setup",
+        "nvim-setup",
+        "nvim-settings",
+        "nvim-configs",
+        "nvim-configuration",
+        "nvim-lua",
+        "nvim-config"
+      ]
+    },
+    {
+      "type": "github",
       "username": "alexlafroscia",
       "repo": "dotfiles",
       "tags": [
@@ -865,16 +887,6 @@
       "username": "codicocodes",
       "repo": "dotfiles",
       "tags": []
-    },
-    {
-      "type": "github",
-      "username": "codicocodes",
-      "repo": "dotfyle",
-      "tags": [
-        "neovim",
-        "neovim-dotfiles",
-        "neovim-plugins"
-      ]
     },
     {
       "type": "github",
@@ -2381,6 +2393,12 @@
     },
     {
       "type": "github",
+      "username": "loctvl842",
+      "repo": "nvim",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "lorencarvalho",
       "repo": "dotfiles",
       "tags": []
@@ -2436,6 +2454,18 @@
         "nvim",
         "nvim-plugin",
         "nvimrc"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "luong-komorebi",
+      "repo": "neovim-dotfiles",
+      "tags": [
+        "lua",
+        "luajit",
+        "neovim",
+        "nvim",
+        "vim"
       ]
     },
     {
@@ -4120,6 +4150,20 @@
       "username": "wavded",
       "repo": "dotfiles",
       "tags": []
+    },
+    {
+      "type": "github",
+      "username": "wbthomason",
+      "repo": "packer.nvim",
+      "tags": [
+        "lua",
+        "neovim",
+        "neovim-plugin",
+        "nvim",
+        "package-manager",
+        "packer",
+        "plugin-manager"
+      ]
     },
     {
       "type": "github",
