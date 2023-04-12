@@ -245,7 +245,7 @@ const createAboutPage = () => {
         I also care deeply about open-source code and have an active
         <a href="https://github.com/neurosnap">Github</a>
         , check it out if you&apos;re interested. I also write
-        <a href="https://erock.io">blog articles about software</a>.
+        <a href="https://bower.sh">blog articles about software</a>.
       </p>
       <p>
         I&apos;m happy to read feedback about neovimcraft so please feel free to
