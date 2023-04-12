@@ -33,7 +33,7 @@ async function githubApi<D = any>(
     const RESET_BUFFER = 500;
     const wait = (rateLimitReset * 1000) + RESET_BUFFER - now;
     // ms -> s -> min
-    const mins = Math.ceil(wait / 1000 / 60)
+    const mins = Math.ceil(wait / 1000 / 60);
     console.log(
       `Hit github rate limit, waiting ${mins} mins`,
     );

@@ -1,6 +1,7 @@
 import { fetchTopics, ghToken } from "../github.ts";
 import { createResource, getResourceId } from "../entities.ts";
 import { ResourceMap } from "../types.ts";
+import { denyRepos } from "../filter.ts";
 
 init().catch(console.error);
 
@@ -29,16 +30,16 @@ async function save(resources: ResourceMap) {
 
 async function dl(resources: ResourceMap, topic: string) {
   const repos = await fetchTopics(topic, ghToken);
-
   console.log(`${topic} found ${repos.length} repos`);
-  const resourceList = repos.map((repo) => {
-    const [username, repoName] = repo.full_name.split("/");
-    return createResource({
-      username,
-      repo: repoName,
-      tags: repo.topics,
-    });
-  });
+  const resourceList = repos
+    .map((repo) => {
+      const [username, repoName] = repo.full_name.split("/");
+      return createResource({
+        username,
+        repo: repoName,
+        tags: repo.topics,
+      });
+    }).filter((repo) => !denyRepos.includes(getResourceId(repo)));
   const newResources = resourceList.reduce<ResourceMap>((acc, repo) => {
     acc[getResourceId(repo)] = repo;
     return acc;
