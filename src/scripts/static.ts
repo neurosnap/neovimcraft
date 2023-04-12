@@ -358,13 +358,9 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
 
 const createSearchConfigPage = (data: PluginData, by: keyof Plugin) => {
   const pluginsStr = data.plugins.sort(onSort(by)).reduce((acc, plugin) => {
-    const plug = createPluginItem(plugin, getTags(data.tagDb, plugin.tags));
+    const plug = createPluginItem(plugin, []);
     return `${acc}\n${plug}`;
   }, "");
-  const tagListStr = data.tags.reduce(
-    (acc, tag) => `${acc}\n${createTag(tag)}`,
-    "",
-  );
   const sortStr = () => {
     let str = "";
     if (by === "stars") {
@@ -422,9 +418,7 @@ const createSearchConfigPage = (data: PluginData, by: keyof Plugin) => {
     <span><a href="https://github.com/neurosnap/neovimcraft#want-to-submit-a-config">Submit a config</a></span>
   </div>
 
-  <div class="sidebar">
-    ${tagListStr}
-  </div>
+  <div class="sidebar"></div>
   <div class="rightbar">
     ${createAds()}
   </div>

@@ -73,11 +73,14 @@ function cli(opt: "config" | "plugin") {
     }
   }
 
-  console.log(
-    "\nNOTICE: Please review all current tags and see if any fit, only add new tags if absolutely necessary\n",
-  );
-  const tagsRes = prompt("tags (comma separated):") || "";
-  const tags = tagsRes.split(",");
+  let tags: string[] = [];
+  if (opt === "plugin") {
+    console.log(
+      "\nNOTICE: Please review all current tags and see if any fit, only add new tags if absolutely necessary\n",
+    );
+    const tagsRes = prompt("tags (comma separated):") || "";
+    tags = tagsRes.split(",");
+  }
 
   return createResource({
     type: type as any,
