@@ -1,3 +1,26 @@
 {
-  "resources": []
+  "resources": [
+    {
+      "type": "github",
+      "username": "Alexis12119",
+      "repo": "nvim-config",
+      "tags": [
+        "lua",
+        "neovim",
+        "lazy",
+        "nvim",
+        "pde",
+        "neovim-configuration",
+        "neovim-lua",
+        "neovim-config",
+        "neovim-setup",
+        "nvim-setup",
+        "nvim-settings",
+        "nvim-configs",
+        "nvim-configuration",
+        "nvim-lua",
+        "nvim-config"
+      ]
+    }
+  ]
 }
