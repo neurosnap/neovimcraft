@@ -21,6 +21,15 @@
     },
     {
       "type": "github",
+      "username": "aaronhallaert",
+      "repo": "advanced-git-search.nvim",
+      "tags": [
+        "plugin",
+        "git"
+      ]
+    },
+    {
+      "type": "github",
       "username": "abecodes",
       "repo": "tabout.nvim",
       "tags": [

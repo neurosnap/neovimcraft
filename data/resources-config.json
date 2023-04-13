@@ -890,6 +890,16 @@
     },
     {
       "type": "github",
+      "username": "codicocodes",
+      "repo": "dotfyle",
+      "tags": [
+        "neovim",
+        "neovim-dotfiles",
+        "neovim-plugins"
+      ]
+    },
+    {
+      "type": "github",
       "username": "ColeWalker",
       "repo": "nvim-config",
       "tags": []
@@ -2458,18 +2468,6 @@
     },
     {
       "type": "github",
-      "username": "luong-komorebi",
-      "repo": "neovim-dotfiles",
-      "tags": [
-        "lua",
-        "luajit",
-        "neovim",
-        "nvim",
-        "vim"
-      ]
-    },
-    {
-      "type": "github",
       "username": "lwotcynna",
       "repo": "nvim",
       "tags": []
@@ -2804,13 +2802,9 @@
     },
     {
       "type": "github",
-      "username": "Nguyen-Hoang-Nam",
-      "repo": "neovim-config-wsl2",
-      "tags": [
-        "dotfiles",
-        "neovim",
-        "wsl2"
-      ]
+      "username": "nickdevhouse",
+      "repo": "dotfiles",
+      "tags": []
     },
     {
       "type": "github",
@@ -2879,12 +2873,6 @@
         "github-actions",
         "neovim"
       ]
-    },
-    {
-      "type": "github",
-      "username": "nouvist",
-      "repo": "just-another-neovim-config",
-      "tags": []
     },
     {
       "type": "github",
@@ -3656,12 +3644,6 @@
     },
     {
       "type": "github",
-      "username": "spantheslayer",
-      "repo": "nvim",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "sparkcanon",
       "repo": "nvim",
       "tags": [
@@ -4150,20 +4132,6 @@
       "username": "wavded",
       "repo": "dotfiles",
       "tags": []
-    },
-    {
-      "type": "github",
-      "username": "wbthomason",
-      "repo": "packer.nvim",
-      "tags": [
-        "lua",
-        "neovim",
-        "neovim-plugin",
-        "nvim",
-        "package-manager",
-        "packer",
-        "plugin-manager"
-      ]
     },
     {
       "type": "github",
