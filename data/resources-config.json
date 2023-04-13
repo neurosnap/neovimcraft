@@ -1070,6 +1070,22 @@
     },
     {
       "type": "github",
+      "username": "dhruvmanila",
+      "repo": "dotfiles",
+      "tags": [
+        "bash",
+        "dotfiles",
+        "kitty",
+        "lua",
+        "macos",
+        "neovim",
+        "tmux",
+        "vim",
+        "zsh"
+      ]
+    },
+    {
+      "type": "github",
       "username": "DinkyTrady",
       "repo": "nvim",
       "tags": []
@@ -1613,6 +1629,20 @@
         "neovim",
         "nvim",
         "vim"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "gibfahn",
+      "repo": "dot",
+      "tags": [
+        "bashrc-configs",
+        "config",
+        "dotfiles",
+        "linux",
+        "macos",
+        "neovim-dotfiles",
+        "zsh-configs"
       ]
     },
     {
@@ -2403,12 +2433,6 @@
     },
     {
       "type": "github",
-      "username": "loctvl842",
-      "repo": "nvim",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "lorencarvalho",
       "repo": "dotfiles",
       "tags": []
@@ -2425,6 +2449,31 @@
         "nvim-lsp",
         "nvim-lspinstall",
         "vim-distribution"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "lucianonooijen",
+      "repo": "dotfiles",
+      "tags": [
+        "arch",
+        "bash",
+        "dotfiles",
+        "hyperterm",
+        "i3",
+        "i3-config",
+        "i3-gaps",
+        "neovim",
+        "oh-my-zsh",
+        "oh-my-zsh-theme",
+        "polybar",
+        "ranger",
+        "rofi",
+        "shell",
+        "tmux",
+        "vim",
+        "x11",
+        "zsh"
       ]
     },
     {
@@ -2464,6 +2513,18 @@
         "nvim",
         "nvim-plugin",
         "nvimrc"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "luong-komorebi",
+      "repo": "neovim-dotfiles",
+      "tags": [
+        "lua",
+        "luajit",
+        "neovim",
+        "nvim",
+        "vim"
       ]
     },
     {
@@ -2670,21 +2731,6 @@
     },
     {
       "type": "github",
-      "username": "mrLuisFer",
-      "repo": "neovim-dotfiles",
-      "tags": [
-        "dotfiles",
-        "neovim",
-        "nvim",
-        "vim",
-        "vim-colorscheme",
-        "vim-configuration",
-        "vim-plugin",
-        "vimrc"
-      ]
-    },
-    {
-      "type": "github",
       "username": "mrprofessor",
       "repo": "dotfiles",
       "tags": []
@@ -2705,16 +2751,6 @@
       "tags": [
         "gitub-actions",
         "neovim"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "mvpopuk",
-      "repo": "dotfiles",
-      "tags": [
-        "dotfiles",
-        "neovim",
-        "neovim-dotfiles"
       ]
     },
     {
@@ -2873,6 +2909,12 @@
         "github-actions",
         "neovim"
       ]
+    },
+    {
+      "type": "github",
+      "username": "nouvist",
+      "repo": "just-another-neovim-config",
+      "tags": []
     },
     {
       "type": "github",
