@@ -610,6 +610,15 @@
     },
     {
       "type": "github",
+      "username": "Bryley",
+      "repo": "neoai.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
       "username": "camspiers",
       "repo": "snap",
       "tags": [
