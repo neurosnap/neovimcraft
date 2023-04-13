@@ -299,6 +299,15 @@
         "command-line",
         "editing-support"
       ]
+    },
+    {
+      "type": "github",
+      "username": "Bryley",
+      "repo": "neoai.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
     }
   ]
 }
