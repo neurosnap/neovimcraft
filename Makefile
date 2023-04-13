@@ -14,7 +14,7 @@ download-config:
 	deno run --allow-env --allow-write --allow-net src/scripts/scrape-config.ts
 .PHONY: download-config
 
-download:
+download: download-config
 	deno run --allow-write --allow-net src/scripts/scrape.ts
 .PHONY: download
 
