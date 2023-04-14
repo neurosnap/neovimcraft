@@ -2403,12 +2403,6 @@
     },
     {
       "type": "github",
-      "username": "loctvl842",
-      "repo": "nvim",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "lorencarvalho",
       "repo": "dotfiles",
       "tags": []
@@ -2873,6 +2867,12 @@
         "github-actions",
         "neovim"
       ]
+    },
+    {
+      "type": "github",
+      "username": "nouvist",
+      "repo": "just-another-neovim-config",
+      "tags": []
     },
     {
       "type": "github",
