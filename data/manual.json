@@ -326,6 +326,19 @@
         "plugin",
         "lsp"
       ]
+    },
+    {
+      "type": "github",
+      "username": "lkhphuc",
+      "repo": "jupyter-kernel.nvim",
+      "tags": [
+        "plugin",
+        "programming-languages-support",
+        "code-runner",
+        "debugging",
+        "completion",
+        "jupyter"
+      ]
     }
   ]
 }
