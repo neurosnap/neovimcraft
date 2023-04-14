@@ -339,6 +339,16 @@
         "completion",
         "jupyter"
       ]
+    },
+    {
+      "type": "github",
+      "username": "Badhi",
+      "repo": "nvim-treesitter-cpp-tools",
+      "tags": [
+        "treesitter-based",
+        "programming-languages-support",
+        "editing-support"
+      ]
     }
   ]
 }
