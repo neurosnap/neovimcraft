@@ -317,6 +317,15 @@
         "plugin",
         "utility"
       ]
+    },
+    {
+      "type": "github",
+      "username": "elixir-tools",
+      "repo": "elixir-tools.nvim",
+      "tags": [
+        "plugin",
+        "lsp"
+      ]
     }
   ]
 }
