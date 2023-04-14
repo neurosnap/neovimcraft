@@ -1251,6 +1251,15 @@
     },
     {
       "type": "github",
+      "username": "elixir-tools",
+      "repo": "elixir-tools.nvim",
+      "tags": [
+        "plugin",
+        "lsp"
+      ]
+    },
+    {
+      "type": "github",
       "username": "ellisonleao",
       "repo": "carbon-now.nvim",
       "tags": [
@@ -2780,6 +2789,19 @@
       "tags": [
         "plugin",
         "keybinding"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "lkhphuc",
+      "repo": "jupyter-kernel.nvim",
+      "tags": [
+        "plugin",
+        "programming-languages-support",
+        "code-runner",
+        "debugging",
+        "completion",
+        "jupyter"
       ]
     },
     {
