@@ -555,6 +555,12 @@
     },
     {
       "type": "github",
+      "username": "avocadeys",
+      "repo": "NVCat",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "awray3",
       "repo": "dotfiles-neovim",
       "tags": [
@@ -1913,6 +1919,12 @@
     },
     {
       "type": "github",
+      "username": "jacktrusler",
+      "repo": "dotfiles",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "jacoborus",
       "repo": "dotfiles",
       "tags": [
@@ -2359,6 +2371,12 @@
     },
     {
       "type": "github",
+      "username": "leonasdev",
+      "repo": ".dotfiles",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "leslie255",
       "repo": "nvim-config",
       "tags": []
@@ -2400,6 +2418,12 @@
         "zinit",
         "zsh"
       ]
+    },
+    {
+      "type": "github",
+      "username": "loctvl842",
+      "repo": "nvim",
+      "tags": []
     },
     {
       "type": "github",
@@ -2458,6 +2482,18 @@
         "nvim",
         "nvim-plugin",
         "nvimrc"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "luong-komorebi",
+      "repo": "neovim-dotfiles",
+      "tags": [
+        "lua",
+        "luajit",
+        "neovim",
+        "nvim",
+        "vim"
       ]
     },
     {
@@ -2840,6 +2876,12 @@
     },
     {
       "type": "github",
+      "username": "nikfp",
+      "repo": "nvim-config",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "Nimeavles",
       "repo": "neovim-setup",
       "tags": []
@@ -2867,12 +2909,6 @@
         "github-actions",
         "neovim"
       ]
-    },
-    {
-      "type": "github",
-      "username": "nouvist",
-      "repo": "just-another-neovim-config",
-      "tags": []
     },
     {
       "type": "github",
@@ -3310,6 +3346,12 @@
         "telescope",
         "vim"
       ]
+    },
+    {
+      "type": "github",
+      "username": "pynappo",
+      "repo": "dotfiles",
+      "tags": []
     },
     {
       "type": "github",

@@ -308,6 +308,15 @@
         "plugin",
         "editing-support"
       ]
+    },
+    {
+      "type": "github",
+      "username": "mhanberg",
+      "repo": "output-panel.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
     }
   ]
 }

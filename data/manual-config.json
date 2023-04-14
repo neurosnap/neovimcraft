@@ -21,6 +21,36 @@
         "nvim-lua",
         "nvim-config"
       ]
+    },
+    {
+      "type": "github",
+      "username": "leonasdev",
+      "repo": ".dotfiles",
+      "tags": []
+    },
+    {
+      "type": "github",
+      "username": "jacktrusler",
+      "repo": "dotfiles",
+      "tags": []
+    },
+    {
+      "type": "github",
+      "username": "avocadeys",
+      "repo": "NVCat",
+      "tags": []
+    },
+    {
+      "type": "github",
+      "username": "nikfp",
+      "repo": "nvim-config",
+      "tags": []
+    },
+    {
+      "type": "github",
+      "username": "pynappo",
+      "repo": "dotfiles",
+      "tags": []
     }
   ]
 }

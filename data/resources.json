@@ -3083,6 +3083,15 @@
     },
     {
       "type": "github",
+      "username": "mhanberg",
+      "repo": "output-panel.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "mhartington",
       "repo": "formatter.nvim",
       "tags": [
