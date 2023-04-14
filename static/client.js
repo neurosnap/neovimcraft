@@ -35,6 +35,7 @@ function createFilter(pluginsEl) {
         return;
       }
       const search = value.toLocaleLowerCase();
+      const username = el.dataset.username;
       const repo = el.dataset.repo;
       const desc = el.dataset.desc || "";
       const tags = el.dataset.tags.split(",");
@@ -45,7 +46,10 @@ function createFilter(pluginsEl) {
         hasTags = tags.some((tag) => tag === nextSearch);
       }
 
-      const showEl = repo.includes(search) || desc.includes(search) || hasTags;
+      const showEl = username.includes(search)
+        || repo.includes(search)
+        || desc.includes(search)
+        || hasTags;
 
       if (showEl) {
         el.classList.remove("hidden");

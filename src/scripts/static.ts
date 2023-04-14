@@ -159,6 +159,7 @@ const createPluginItem = (plugin: Plugin, tags: Tag[]) => {
     acc += createTag(tag, false);
     return acc;
   }, "");
+  const dataUsername = plugin.username.toLocaleLowerCase();
   const dataRepo = plugin.repo.toLocaleLowerCase();
   const dataDesc = (plugin.description || "").toLocaleLowerCase();
   const dataTags = tags
@@ -186,10 +187,66 @@ const createPluginItem = (plugin: Plugin, tags: Tag[]) => {
   }
 
   return `
-<div class="container plugin" data-repo="${dataRepo}" data-desc="${dataDesc}" data-tags="${dataTags}">
+<div class="container plugin" data-username="${dataUsername}" data-repo="${dataRepo}" data-desc="${dataDesc}" data-tags="${dataTags}">
   <div class="header">
     <h2 class="item_header">
       <a href="/plugin/${plugin.username}/${plugin.repo}">${plugin.repo}</a>
+    </h2>
+    <div class="metrics">
+      ${repoLink}
+    </div>
+  </div>
+  <div class="date">
+    <span>created ${relativeTimeFromDates(new Date(plugin.createdAt))} / </span>
+    <span>updated ${relativeTimeFromDates(new Date(plugin.updatedAt))}</span>
+  </div>
+  <div class="desc">
+    ${plugin.description}
+  </div>
+  <div class="tags">
+    ${tagsStr}
+  </div>
+</div>`;
+};
+
+const createConfigItem = (plugin: Plugin, tags: Tag[]) => {
+  const tagsStr = tags.reduce((acc, tag) => {
+    acc += createTag(tag, false);
+    return acc;
+  }, "");
+
+  const dataUsername = plugin.username.toLocaleLowerCase();
+  const dataRepo = plugin.repo.toLocaleLowerCase();
+  const dataDesc = (plugin.description || "").toLocaleLowerCase();
+  const dataTags = tags
+    .map((t) => t.id)
+    .join(",")
+    .toLocaleLowerCase();
+  const nf = new Intl.NumberFormat("en-US");
+
+  let repoLink = `
+    <a href=${plugin.link} class="flex">${createIcon("github", "github")}</a>
+    <div class="metric-item">${createIcon("star", "stars")} <span>${
+    nf.format(
+      plugin.stars,
+    )
+  }</span></div>
+    <div class="metric-item">
+      ${createIcon("alert-circle", "issues")} <span>${
+    nf.format(plugin.openIssues)
+  }</span>
+    </div>`;
+  if (plugin.type === "srht") {
+    repoLink = `<a href=${plugin.link} class="flex">${
+      createIcon("srht", "srht")
+    }</a>`;
+  }
+
+  return `
+<div class="container plugin" data-username="${dataUsername}" data-repo="${dataRepo}" data-desc="${dataDesc}" data-tags="${dataTags}">
+  <div class="header">
+    <h2 class="item_header">
+      <a href="/plugin/${plugin.username}/${plugin.repo}">${plugin.username}/${plugin.repo}</a>
     </h2>
     <div class="metrics">
       ${repoLink}
@@ -364,7 +421,7 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
 
 const createSearchConfigPage = (data: PluginData, by: keyof Plugin) => {
   const pluginsStr = data.plugins.sort(onSort(by)).reduce((acc, plugin) => {
-    const plug = createPluginItem(plugin, []);
+    const plug = createConfigItem(plugin, []);
     return `${acc}\n${plug}`;
   }, "");
   const sortStr = () => {
