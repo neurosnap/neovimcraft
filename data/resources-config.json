@@ -3610,6 +3610,7 @@
       "username": "SIMULATAN",
       "repo": "dotfiles",
       "tags": [
+        "bspwm",
         "dotfiles",
         "dotter",
         "dunst",
@@ -3620,6 +3621,7 @@
         "oh-my-zsh",
         "ohmyzsh",
         "picom-config",
+        "vimrc",
         "zsh"
       ]
     },
