@@ -5120,6 +5120,15 @@
     {
       "type": "github",
       "username": "sQVe",
+      "repo": "bufignore.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "sQVe",
       "repo": "sort.nvim",
       "tags": [
         "plugin",
@@ -5509,6 +5518,15 @@
         "plugin",
         "colorscheme",
         "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "tomasky",
+      "repo": "bookmarks.nvim",
+      "tags": [
+        "plugin",
+        "marks"
       ]
     },
     {

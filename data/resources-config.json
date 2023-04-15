@@ -1992,12 +1992,6 @@
     },
     {
       "type": "github",
-      "username": "jiajunhuang",
-      "repo": "dotxmonad",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "jinzhongjia",
       "repo": "neovim-config",
       "tags": [
