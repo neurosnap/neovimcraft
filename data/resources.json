@@ -733,6 +733,15 @@
     },
     {
       "type": "github",
+      "username": "chomosuke",
+      "repo": "term-edit.nvim",
+      "tags": [
+        "plugin",
+        "terminal-integration"
+      ]
+    },
+    {
+      "type": "github",
       "username": "chrisgrieser",
       "repo": "nvim-alt-substitute",
       "tags": [
