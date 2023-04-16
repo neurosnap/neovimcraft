@@ -770,6 +770,12 @@
     },
     {
       "type": "github",
+      "username": "BYT0723",
+      "repo": "nvim",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "CallumHoward",
       "repo": "dotfiles",
       "tags": []
@@ -1435,8 +1441,6 @@
         "awesomewm",
         "config",
         "dotfiles",
-        "fcitx",
-        "fcitx5",
         "fish",
         "flake",
         "flakes",
@@ -1444,7 +1448,6 @@
         "nix",
         "nixos",
         "nvim",
-        "rime",
         "rofi",
         "vim"
       ]
@@ -1982,12 +1985,6 @@
       "type": "github",
       "username": "jessarcher",
       "repo": "laracasts-dotfiles",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "jiajunhuang",
-      "repo": "dotxmonad",
       "tags": []
     },
     {
@@ -2539,12 +2536,6 @@
     },
     {
       "type": "github",
-      "username": "marioy47",
-      "repo": "nvim-lua-config",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "marko-cerovac",
       "repo": "nvim",
       "tags": []
@@ -2578,18 +2569,6 @@
         "tmux",
         "yabai",
         "zsh"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "mathjiajia",
-      "repo": "config.nvim",
-      "tags": [
-        "latex",
-        "macos",
-        "markdown",
-        "neorg",
-        "neovim"
       ]
     },
     {
@@ -3123,6 +3102,17 @@
     {
       "type": "github",
       "username": "Olical",
+      "repo": "aniseed",
+      "tags": [
+        "fennel",
+        "lisp",
+        "lua",
+        "neovim"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Olical",
       "repo": "dotfiles",
       "tags": [
         "arch-linux",
@@ -3365,12 +3355,6 @@
       "type": "github",
       "username": "rayes0",
       "repo": "dotfiles",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "realcr",
-      "repo": "my_init_vim",
       "tags": []
     },
     {
