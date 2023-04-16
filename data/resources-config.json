@@ -2480,6 +2480,18 @@
     },
     {
       "type": "github",
+      "username": "luong-komorebi",
+      "repo": "neovim-dotfiles",
+      "tags": [
+        "lua",
+        "luajit",
+        "neovim",
+        "nvim",
+        "vim"
+      ]
+    },
+    {
+      "type": "github",
       "username": "lwotcynna",
       "repo": "nvim",
       "tags": []
