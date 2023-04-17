@@ -1534,14 +1534,6 @@
     },
     {
       "type": "github",
-      "username": "freddiehaddad",
-      "repo": "nvim",
-      "tags": [
-        "neovim"
-      ]
-    },
-    {
-      "type": "github",
       "username": "fsouza",
       "repo": "dotfiles",
       "tags": [
@@ -1886,6 +1878,12 @@
         "nvim",
         "vim"
       ]
+    },
+    {
+      "type": "github",
+      "username": "IfCodingWereNatural",
+      "repo": "minimal-nvim",
+      "tags": []
     },
     {
       "type": "github",
