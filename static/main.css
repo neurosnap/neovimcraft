@@ -197,7 +197,7 @@ img {
 
 .search_container {
   display: grid;
-  height: calc(100vh - 65px);
+  height: calc(100% - 65px);
   grid-template-columns: minmax(250px, 400px) minmax(350px, 600px) 300px;
   grid-template-rows: 50px 1fr;
   column-gap: 10px;
