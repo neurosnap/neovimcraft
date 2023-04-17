@@ -197,7 +197,7 @@ type TopicRepo = RepoData & { full_name: string; topics: string[] };
 
 export async function fetchTopics(topic: string, token: string) {
   const items: TopicRepo[] = [];
-  let next = `/search/repositories?q=${topic}&per_page=100`;
+  let next = `/search/repositories?q=${topic}&per_page=25`;
   // limit the number of pages
   // let count = 0;
 
