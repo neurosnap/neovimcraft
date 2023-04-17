@@ -1534,6 +1534,14 @@
     },
     {
       "type": "github",
+      "username": "freddiehaddad",
+      "repo": "nvim",
+      "tags": [
+        "neovim"
+      ]
+    },
+    {
+      "type": "github",
       "username": "fsouza",
       "repo": "dotfiles",
       "tags": [
@@ -3705,12 +3713,6 @@
       "type": "github",
       "username": "strika",
       "repo": "neovimfiles",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "StubbornVegeta",
-      "repo": "nvim-config",
       "tags": []
     },
     {
