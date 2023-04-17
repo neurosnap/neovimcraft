@@ -5312,6 +5312,15 @@
     },
     {
       "type": "github",
+      "username": "tenxsoydev",
+      "repo": "tabs-vs-spaces.nvim",
+      "tags": [
+        "plugin",
+        "formatting"
+      ]
+    },
+    {
+      "type": "github",
       "username": "terrortylor",
       "repo": "nvim-comment",
       "tags": [

@@ -218,12 +218,6 @@
     },
     {
       "type": "github",
-      "username": "AlexanderHOtt",
-      "repo": "neovim-config",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "alexanderjeurissen",
       "repo": "dotfiles",
       "tags": [
@@ -1534,14 +1528,6 @@
     },
     {
       "type": "github",
-      "username": "freddiehaddad",
-      "repo": "nvim",
-      "tags": [
-        "neovim"
-      ]
-    },
-    {
-      "type": "github",
       "username": "fsouza",
       "repo": "dotfiles",
       "tags": [
@@ -1784,6 +1770,12 @@
         "neovim",
         "vim"
       ]
+    },
+    {
+      "type": "github",
+      "username": "hedonhermdev",
+      "repo": "neovim-config",
+      "tags": []
     },
     {
       "type": "github",
@@ -2823,6 +2815,16 @@
     },
     {
       "type": "github",
+      "username": "Nguyen-Hoang-Nam",
+      "repo": "neovim-config-wsl2",
+      "tags": [
+        "dotfiles",
+        "neovim",
+        "wsl2"
+      ]
+    },
+    {
+      "type": "github",
       "username": "nickdevhouse",
       "repo": "dotfiles",
       "tags": []
@@ -3713,6 +3715,12 @@
       "type": "github",
       "username": "strika",
       "repo": "neovimfiles",
+      "tags": []
+    },
+    {
+      "type": "github",
+      "username": "StubbornVegeta",
+      "repo": "nvim-config",
       "tags": []
     },
     {
