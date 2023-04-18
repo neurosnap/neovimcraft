@@ -1195,15 +1195,6 @@
     },
     {
       "type": "github",
-      "username": "ye-junzhe",
-      "repo": "BetterNvim",
-      "tags": [
-        "ide",
-        "neovim"
-      ]
-    },
-    {
-      "type": "github",
       "username": "yutkat",
       "repo": "dotfiles",
       "tags": [
