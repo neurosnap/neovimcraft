@@ -450,6 +450,15 @@
     },
     {
       "type": "github",
+      "username": "axkirillov",
+      "repo": "hbac.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "b0o",
       "repo": "incline.nvim",
       "tags": [
@@ -3250,6 +3259,15 @@
       "tags": [
         "external",
         "version-manager"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Mr-LLLLL",
+      "repo": "interestingwords.nvim",
+      "tags": [
+        "plugin",
+        "color"
       ]
     },
     {
