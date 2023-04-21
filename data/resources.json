@@ -2931,10 +2931,10 @@
     {
       "type": "github",
       "username": "luukvbaal",
-      "repo": "stabilize.nvim",
+      "repo": "statuscol.nvim",
       "tags": [
         "plugin",
-        "split-and-window"
+        "bars-and-lines"
       ]
     },
     {
