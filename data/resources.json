@@ -1223,6 +1223,16 @@
     },
     {
       "type": "github",
+      "username": "ecthelionvi",
+      "repo": "NeoComposer.nvim",
+      "tags": [
+        "plugin",
+        "keybinding",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "EdenEast",
       "repo": "nightfox.nvim",
       "tags": [
