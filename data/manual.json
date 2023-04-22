@@ -349,6 +349,16 @@
         "programming-languages-support",
         "editing-support"
       ]
+    },
+    {
+      "type": "github",
+      "username": "ecthelionvi",
+      "repo": "NeoComposer.nvim",
+      "tags": [
+        "plugin",
+        "keybinding",
+        "utility"
+      ]
     }
   ]
 }
