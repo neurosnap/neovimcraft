@@ -1012,20 +1012,6 @@
     },
     {
       "type": "github",
-      "username": "Sairyss",
-      "repo": "dev-setup",
-      "tags": [
-        "dev",
-        "developer-tools",
-        "development",
-        "dotfiles",
-        "productivity",
-        "productivity-tools",
-        "tools"
-      ]
-    },
-    {
-      "type": "github",
       "username": "sharksforarms",
       "repo": "neovim-rust",
       "tags": [
