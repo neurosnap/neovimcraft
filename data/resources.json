@@ -2922,6 +2922,15 @@
     },
     {
       "type": "github",
+      "username": "LukasPietzschmann",
+      "repo": "telescope-tabs",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "LunarVim",
       "repo": "LunarVim",
       "tags": [
