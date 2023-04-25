@@ -954,12 +954,6 @@
     },
     {
       "type": "github",
-      "username": "practicalli",
-      "repo": "neovim-config-redux",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "pynappo",
       "repo": "dotfiles",
       "tags": []
