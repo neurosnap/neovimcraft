@@ -50,6 +50,18 @@
     },
     {
       "type": "github",
+      "username": "albingroen",
+      "repo": "quick.nvim",
+      "tags": [
+        "coc",
+        "lua",
+        "neovim",
+        "nvim",
+        "vim"
+      ]
+    },
+    {
+      "type": "github",
       "username": "alexanderjeurissen",
       "repo": "dotfiles",
       "tags": [
@@ -88,8 +100,29 @@
     },
     {
       "type": "github",
+      "username": "AlexVKO",
+      "repo": "VimKO",
+      "tags": [
+        "devops",
+        "fullstack",
+        "neovim",
+        "neovim-dotfiles",
+        "rails",
+        "ruby",
+        "vim",
+        "vimrc"
+      ]
+    },
+    {
+      "type": "github",
       "username": "alpha2phi",
       "repo": "neovim-for-beginner",
+      "tags": []
+    },
+    {
+      "type": "github",
+      "username": "anthdm",
+      "repo": ".nvim",
       "tags": []
     },
     {
@@ -97,6 +130,18 @@
       "username": "arturgoms",
       "repo": "nvim",
       "tags": []
+    },
+    {
+      "type": "github",
+      "username": "askfiy",
+      "repo": "nvim",
+      "tags": [
+        "config",
+        "ide",
+        "lua",
+        "neovim",
+        "nvim"
+      ]
     },
     {
       "type": "github",
@@ -123,6 +168,28 @@
       "tags": [
         "ansible-role",
         "vim-bootstrap"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Avimitin",
+      "repo": "nvim",
+      "tags": [
+        "dotfile",
+        "dotfiles",
+        "editor",
+        "ide",
+        "linux",
+        "lua",
+        "neovim",
+        "neovim-config",
+        "nvim",
+        "nvim-cmp",
+        "nvim-config",
+        "telescope",
+        "vim",
+        "vimrc",
+        "vscode"
       ]
     },
     {
@@ -157,23 +224,9 @@
     },
     {
       "type": "github",
-      "username": "benbrastmckie",
-      "repo": ".config",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "bigeagle",
       "repo": "neovim-config",
       "tags": []
-    },
-    {
-      "type": "github",
-      "username": "bitterteasweetorange",
-      "repo": "nvim",
-      "tags": [
-        "neovim-configuration"
-      ]
     },
     {
       "type": "github",
@@ -215,28 +268,7 @@
     },
     {
       "type": "github",
-      "username": "brainfucksec",
-      "repo": "neovim-lua",
-      "tags": [
-        "dotfiles",
-        "ide",
-        "kiss",
-        "lua",
-        "neovim",
-        "neovim-config",
-        "neovim-configuration",
-        "neovim-dotfiles",
-        "neovim-lua",
-        "nvim",
-        "nvim-configs",
-        "nvim-lua",
-        "vim",
-        "vimrc"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "burgessadrien",
+      "username": "chiroptical",
       "repo": "neovim-setup",
       "tags": []
     },
@@ -248,21 +280,15 @@
     },
     {
       "type": "github",
-      "username": "codicocodes",
-      "repo": "dotfiles",
+      "username": "cmauney",
+      "repo": "neovim-setup",
       "tags": []
     },
     {
       "type": "github",
-      "username": "crivotz",
-      "repo": "nv-ide",
-      "tags": [
-        "lua",
-        "neovim",
-        "neovim-configuration",
-        "nvim-compe",
-        "vim-plugins"
-      ]
+      "username": "codicocodes",
+      "repo": "dotfiles",
+      "tags": []
     },
     {
       "type": "github",
@@ -286,6 +312,23 @@
         "typescript",
         "vim",
         "zsh"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "cxzaq",
+      "repo": "neovim-setup",
+      "tags": []
+    },
+    {
+      "type": "github",
+      "username": "dahlia",
+      "repo": "nvimrc",
+      "tags": [
+        "config",
+        "neovim",
+        "viml",
+        "vimrc"
       ]
     },
     {
@@ -328,16 +371,16 @@
     },
     {
       "type": "github",
-      "username": "doom-neovim",
-      "repo": "doom-nvim",
+      "username": "ecosse3",
+      "repo": "dotfiles",
       "tags": [
-        "doom-nvim",
-        "hacktoberfest",
-        "lua",
+        "arch",
+        "dotfiles",
+        "linux",
+        "manjaro",
         "neovim",
-        "neovim-configuration",
-        "neovim-lsp",
-        "neovim-lua"
+        "rofi",
+        "zsh"
       ]
     },
     {
@@ -375,12 +418,6 @@
     },
     {
       "type": "github",
-      "username": "eggman79",
-      "repo": "neovim_setup",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "eggtoopain",
       "repo": "Neovim-Configuration-Tutorial",
       "tags": []
@@ -395,18 +432,6 @@
       "type": "github",
       "username": "elken",
       "repo": "nvim",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "enricozb",
-      "repo": "neovim-setup",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "enriquessp",
-      "repo": "neovim-setup",
       "tags": []
     },
     {
@@ -446,6 +471,12 @@
     },
     {
       "type": "github",
+      "username": "fisadev",
+      "repo": "fisa-nvim-config",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "fnichol",
       "repo": "dotvim",
       "tags": [
@@ -458,6 +489,19 @@
       "username": "gacha",
       "repo": "nvim-config",
       "tags": []
+    },
+    {
+      "type": "github",
+      "username": "GideonWolfe",
+      "repo": "vim.reaper",
+      "tags": [
+        "coc",
+        "neovim",
+        "pywal",
+        "startify",
+        "vim",
+        "vista"
+      ]
     },
     {
       "type": "github",
@@ -518,12 +562,6 @@
     },
     {
       "type": "github",
-      "username": "jbkoh",
-      "repo": "neovim-setup",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "jdhao",
       "repo": "nvim-config",
       "tags": [
@@ -564,14 +602,9 @@
     },
     {
       "type": "github",
-      "username": "jordanisaacs",
-      "repo": "neovim-flake",
-      "tags": [
-        "flake",
-        "neovim",
-        "nix",
-        "nix-flake"
-      ]
+      "username": "jorinvo",
+      "repo": "dotfiles",
+      "tags": []
     },
     {
       "type": "github",
@@ -623,6 +656,14 @@
         "preferences",
         "tmux",
         "zsh"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "jyzeng17",
+      "repo": "quick-neovim-setup",
+      "tags": [
+        "hacktoberfest2018"
       ]
     },
     {
@@ -740,6 +781,16 @@
     },
     {
       "type": "github",
+      "username": "mgierada",
+      "repo": "neovim_setup",
+      "tags": [
+        "config",
+        "neovim",
+        "setup"
+      ]
+    },
+    {
+      "type": "github",
       "username": "miltonllera",
       "repo": "neovim-config",
       "tags": [
@@ -766,12 +817,6 @@
       "type": "github",
       "username": "nikfp",
       "repo": "nvim-config",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "nschurmann",
-      "repo": "configs",
       "tags": []
     },
     {
@@ -838,6 +883,15 @@
     },
     {
       "type": "github",
+      "username": "OkelleyDevelopment",
+      "repo": "Nvim-Config",
+      "tags": [
+        "neovim",
+        "vim"
+      ]
+    },
+    {
+      "type": "github",
       "username": "Olical",
       "repo": "aniseed",
       "tags": [
@@ -888,33 +942,6 @@
     },
     {
       "type": "github",
-      "username": "Optixal",
-      "repo": "neovim-init.vim",
-      "tags": [
-        "autocomplete",
-        "best",
-        "clean",
-        "configuration",
-        "custom",
-        "customizable",
-        "init-lua",
-        "init-vim",
-        "lua",
-        "minimal",
-        "neovim",
-        "neovim-config",
-        "nvim",
-        "plugins",
-        "productive",
-        "productivity",
-        "theme",
-        "tools",
-        "vim",
-        "vimrc"
-      ]
-    },
-    {
-      "type": "github",
       "username": "peterpme",
       "repo": "dotfiles",
       "tags": [
@@ -949,18 +976,6 @@
     },
     {
       "type": "github",
-      "username": "QuietMediocrity",
-      "repo": "neovim_setup",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "robophilosopher",
-      "repo": "nvim",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "rockyzhang24",
       "repo": "dotfiles",
       "tags": [
@@ -980,35 +995,6 @@
         "wezterm",
         "yabai",
         "zsh"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "rsdlt",
-      "repo": "nvim-config-files",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "saranshbarua",
-      "repo": "neovim-config",
-      "tags": [
-        "neovim",
-        "neovim-configuration",
-        "vim",
-        "zsh"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "sharksforarms",
-      "repo": "neovim-rust",
-      "tags": [
-        "lsp",
-        "neovim",
-        "rust",
-        "rustlang",
-        "vim"
       ]
     },
     {
@@ -1068,6 +1054,12 @@
     },
     {
       "type": "github",
+      "username": "thinca",
+      "repo": "action-setup-vim",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "tiagopog",
       "repo": "vimfiles",
       "tags": []
@@ -1097,12 +1089,6 @@
     },
     {
       "type": "github",
-      "username": "Tworg",
-      "repo": "neovim-setup",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "VapourNvim",
       "repo": "VapourNvim",
       "tags": [
@@ -1111,6 +1097,12 @@
         "neovim",
         "vim"
       ]
+    },
+    {
+      "type": "github",
+      "username": "warrior-graph",
+      "repo": "neovim_setup",
+      "tags": []
     },
     {
       "type": "github",
