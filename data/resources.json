@@ -3977,6 +3977,16 @@
     {
       "type": "github",
       "username": "nyngwang",
+      "repo": "nvimgelion",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nyngwang",
       "repo": "suave.lua",
       "tags": [
         "plugin",
@@ -5675,6 +5685,16 @@
       ]
     },
     {
+      "type": "github",
+      "username": "VidocqH",
+      "repo": "lsp-lens.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
+      ]
+    },
+    {
       "type": "srht",
       "username": "vigoux",
       "repo": "azy.nvim",
@@ -6010,6 +6030,16 @@
       "tags": [
         "plugin",
         "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "yaocccc",
+      "repo": "nvim-hl-mdcodeblock.lua",
+      "tags": [
+        "plugin",
+        "programming-languages-support",
+        "markdown-and-latex"
       ]
     },
     {
