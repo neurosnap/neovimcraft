@@ -2442,6 +2442,15 @@
     },
     {
       "type": "github",
+      "username": "kelly-lin",
+      "repo": "ranger.nvim",
+      "tags": [
+        "plugin",
+        "file-explorer"
+      ]
+    },
+    {
+      "type": "github",
       "username": "kevinhwang91",
       "repo": "nvim-bqf",
       "tags": [
@@ -2475,6 +2484,16 @@
       "tags": [
         "plugin",
         "file-explorer"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "kiran94",
+      "repo": "edit-markdown-table.nvim",
+      "tags": [
+        "plugin",
+        "programming-languages-support",
+        "markdown-and-latex"
       ]
     },
     {
