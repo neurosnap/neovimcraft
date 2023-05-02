@@ -531,12 +531,6 @@
     },
     {
       "type": "github",
-      "username": "jessarcher",
-      "repo": "laracasts-dotfiles",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "JoosepAlviste",
       "repo": "dotfiles",
       "tags": [
@@ -715,6 +709,33 @@
         "dotfiles",
         "neovim",
         "tmux"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "meribold",
+      "repo": "dotfiles",
+      "tags": [
+        "bash",
+        "dotfiles",
+        "fontconfig",
+        "fzf",
+        "gnu-make",
+        "gnu-screen",
+        "i3",
+        "i3-gaps",
+        "i3wm",
+        "irssi",
+        "make",
+        "makefile",
+        "mutt",
+        "neomutt",
+        "neovim",
+        "newsboat",
+        "screen",
+        "shell",
+        "vim",
+        "xbindkeys"
       ]
     },
     {
@@ -1000,6 +1021,20 @@
       "username": "rsdlt",
       "repo": "nvim-config-files",
       "tags": []
+    },
+    {
+      "type": "github",
+      "username": "Sairyss",
+      "repo": "dev-setup",
+      "tags": [
+        "dev",
+        "developer-tools",
+        "development",
+        "dotfiles",
+        "productivity",
+        "productivity-tools",
+        "tools"
+      ]
     },
     {
       "type": "github",
