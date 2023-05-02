@@ -1572,6 +1572,14 @@
     },
     {
       "type": "github",
+      "username": "frans-johansson",
+      "repo": "lazy-nvim-starter",
+      "tags": [
+        "starter-templates"
+      ]
+    },
+    {
+      "type": "github",
       "username": "freddiehaddad",
       "repo": "feline.nvim",
       "tags": [
@@ -5583,6 +5591,14 @@
       "tags": [
         "plugin",
         "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "tokiory",
+      "repo": "neovim-boilerplate",
+      "tags": [
+        "starter-templates"
       ]
     },
     {
