@@ -68,6 +68,15 @@
     {
       "type": "github",
       "username": "AckslD",
+      "repo": "muren.nvim",
+      "tags": [
+        "plugin",
+        "search"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "AckslD",
       "repo": "nvim-FeMaco.lua",
       "tags": [
         "plugin",
@@ -320,6 +329,15 @@
         "lsp",
         "neovim-0.5",
         "lsp-installer"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "antonk52",
+      "repo": "bad-practices.nvim",
+      "tags": [
+        "plugin",
+        "workflow"
       ]
     },
     {
@@ -1784,16 +1802,6 @@
     {
       "type": "github",
       "username": "glepnir",
-      "repo": "indent-guides.nvim",
-      "tags": [
-        "plugin",
-        "formatting",
-        "indent"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "glepnir",
       "repo": "lspsaga.nvim",
       "tags": [
         "plugin",
@@ -3039,6 +3047,15 @@
     {
       "type": "github",
       "username": "m4xshen",
+      "repo": "hardtime.nvim",
+      "tags": [
+        "plugin",
+        "workflow"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "m4xshen",
       "repo": "smartcolumn.nvim",
       "tags": [
         "plugin",
@@ -3933,6 +3950,16 @@
       "tags": [
         "plugin",
         "split-and-window"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nvimdev",
+      "repo": "indentmini.nvim",
+      "tags": [
+        "plugin",
+        "formatting",
+        "indent"
       ]
     },
     {
