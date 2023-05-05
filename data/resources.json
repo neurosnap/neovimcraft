@@ -2918,6 +2918,16 @@
     },
     {
       "type": "github",
+      "username": "LucasTavaresA",
+      "repo": "SingleComment.nvim",
+      "tags": [
+        "plugin",
+        "editing-support",
+        "comment"
+      ]
+    },
+    {
+      "type": "github",
       "username": "LudoPinelli",
       "repo": "comment-box.nvim",
       "tags": [
