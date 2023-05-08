@@ -5659,6 +5659,16 @@
     },
     {
       "type": "github",
+      "username": "topaxi",
+      "repo": "gh-actions.nvim",
+      "tags": [
+        "plugin",
+        "git",
+        "github"
+      ]
+    },
+    {
+      "type": "github",
       "username": "toppair",
       "repo": "peek.nvim",
       "tags": [
