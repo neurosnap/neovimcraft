@@ -866,6 +866,15 @@
     },
     {
       "type": "github",
+      "username": "ckolkey",
+      "repo": "ts-node-action",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
       "username": "clojure-vim",
       "repo": "jazz.nvim",
       "tags": [
