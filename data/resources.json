@@ -1173,6 +1173,15 @@
     },
     {
       "type": "github",
+      "username": "dmmulroy",
+      "repo": "tsc.nvim",
+      "tags": [
+        "plugin",
+        "programming-languages-support"
+      ]
+    },
+    {
+      "type": "github",
       "username": "DNLHC",
       "repo": "glance.nvim",
       "tags": [
