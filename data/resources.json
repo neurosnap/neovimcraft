@@ -4829,6 +4829,15 @@
     },
     {
       "type": "github",
+      "username": "RutaTang",
+      "repo": "spectacle.nvim",
+      "tags": [
+        "plugin",
+        "session"
+      ]
+    },
+    {
+      "type": "github",
       "username": "s1n7ax",
       "repo": "nvim-comment-frame",
       "tags": [
