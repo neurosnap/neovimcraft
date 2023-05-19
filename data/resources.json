@@ -4821,6 +4821,15 @@
     {
       "type": "github",
       "username": "RutaTang",
+      "repo": "compter.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "RutaTang",
       "repo": "quicknote.nvim",
       "tags": [
         "plugin",
