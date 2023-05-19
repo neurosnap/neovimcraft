@@ -132,6 +132,12 @@
     },
     {
       "type": "github",
+      "username": "arturgoms",
+      "repo": "nvim",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "AstroNvim",
       "repo": "AstroNvim",
       "tags": [
@@ -563,21 +569,6 @@
         "neovim-configuration",
         "neovim-dotfiles",
         "nvim"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "JoosepAlviste",
-      "repo": "dotfiles",
-      "tags": [
-        "dotfiles",
-        "kitty",
-        "lua",
-        "neovim",
-        "neovim-lsp",
-        "nvim",
-        "nvim-lua",
-        "zsh"
       ]
     },
     {
@@ -1182,6 +1173,12 @@
         "neovim",
         "nvim"
       ]
+    },
+    {
+      "type": "github",
+      "username": "wavded",
+      "repo": "dotfiles",
+      "tags": []
     },
     {
       "type": "github",
