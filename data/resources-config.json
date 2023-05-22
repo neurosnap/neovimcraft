@@ -68,22 +68,6 @@
     },
     {
       "type": "github",
-      "username": "alexanderjeurissen",
-      "repo": "dotfiles",
-      "tags": [
-        "alacritty",
-        "dotfiles",
-        "fish",
-        "fish-shell",
-        "neovim",
-        "neovim-dotfiles",
-        "neovim-lua",
-        "tmux",
-        "tmux-configuration"
-      ]
-    },
-    {
-      "type": "github",
       "username": "Alexis12119",
       "repo": "nvim-config",
       "tags": [
@@ -352,6 +336,12 @@
     },
     {
       "type": "github",
+      "username": "DerekHsiehDev",
+      "repo": "neovim-setup",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "disrupted",
       "repo": "dotfiles",
       "tags": [
@@ -420,14 +410,14 @@
     },
     {
       "type": "github",
-      "username": "eertmanhidde",
-      "repo": "Neovim-Setup",
+      "username": "eggtoopain",
+      "repo": "Neovim-Configuration-Tutorial",
       "tags": []
     },
     {
       "type": "github",
-      "username": "eggtoopain",
-      "repo": "Neovim-Configuration-Tutorial",
+      "username": "eiger824",
+      "repo": "neovim-setup",
       "tags": []
     },
     {
@@ -444,7 +434,7 @@
     },
     {
       "type": "github",
-      "username": "enriquessp",
+      "username": "enricozb",
       "repo": "neovim-setup",
       "tags": []
     },
@@ -860,15 +850,6 @@
     },
     {
       "type": "github",
-      "username": "OkelleyDevelopment",
-      "repo": "Nvim-Config",
-      "tags": [
-        "neovim",
-        "vim"
-      ]
-    },
-    {
-      "type": "github",
       "username": "Olical",
       "repo": "aniseed",
       "tags": [
@@ -1118,6 +1099,12 @@
       "type": "github",
       "username": "traxys",
       "repo": "nvim-flake",
+      "tags": []
+    },
+    {
+      "type": "github",
+      "username": "Tworg",
+      "repo": "neovim-setup",
       "tags": []
     },
     {

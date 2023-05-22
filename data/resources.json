@@ -4221,6 +4221,15 @@
     },
     {
       "type": "github",
+      "username": "OscarCreator",
+      "repo": "rsync.nvim",
+      "tags": [
+        "plugin",
+        "remote-development"
+      ]
+    },
+    {
+      "type": "github",
       "username": "ostralyan",
       "repo": "scribe.nvim",
       "tags": [
