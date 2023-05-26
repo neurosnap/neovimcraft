@@ -1192,6 +1192,15 @@
     },
     {
       "type": "github",
+      "username": "doctorfree",
+      "repo": "nvim-lazyman",
+      "tags": [
+        "plugin",
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
       "username": "dpayne",
       "repo": "CodeGPT.nvim",
       "tags": [
