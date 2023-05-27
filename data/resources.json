@@ -3165,6 +3165,16 @@
     },
     {
       "type": "github",
+      "username": "maxmx03",
+      "repo": "FluoroMachine.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "mcauley-penney",
       "repo": "tidy.nvim",
       "tags": [
