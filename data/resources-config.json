@@ -132,6 +132,12 @@
     },
     {
       "type": "github",
+      "username": "arturgoms",
+      "repo": "nvim",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "AstroNvim",
       "repo": "AstroNvim",
       "tags": [
