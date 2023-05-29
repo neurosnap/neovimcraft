@@ -359,6 +359,17 @@
         "keybinding",
         "utility"
       ]
+    },
+    {
+      "type": "github",
+      "username": "rawnly",
+      "repo": "gist.nvim",
+      "tags": [
+        "plugin",
+        "gist",
+        "git",
+        "utility"
+      ]
     }
   ]
 }
