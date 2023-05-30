@@ -665,15 +665,6 @@
     },
     {
       "type": "github",
-      "username": "CanKolay3499",
-      "repo": "CNvim",
-      "tags": [
-        "plugin",
-        "preconfigured-configuration"
-      ]
-    },
-    {
-      "type": "github",
       "username": "cappyzawa",
       "repo": "trim.nvim",
       "tags": [
@@ -4286,6 +4277,15 @@
     },
     {
       "type": "github",
+      "username": "OxygeNvim",
+      "repo": "OxygeNvim",
+      "tags": [
+        "plugin",
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
       "username": "p00f",
       "repo": "cphelper.nvim",
       "tags": [
@@ -4519,6 +4519,17 @@
         "plugin",
         "lsp",
         "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "rawnly",
+      "repo": "gist.nvim",
+      "tags": [
+        "plugin",
+        "gist",
+        "git",
+        "utility"
       ]
     },
     {
