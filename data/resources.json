@@ -554,6 +554,15 @@
     },
     {
       "type": "github",
+      "username": "Bekaboo",
+      "repo": "dropbar.nvim",
+      "tags": [
+        "plugin",
+        "bars-and-lines"
+      ]
+    },
+    {
+      "type": "github",
       "username": "bennypowers",
       "repo": "nvim-regexplainer",
       "tags": [
@@ -1142,6 +1151,16 @@
       "tags": [
         "plugin",
         "project"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Dhanus3133",
+      "repo": "Leetbuddy.nvim",
+      "tags": [
+        "plugin",
+        "game",
+        "competitive-programming"
       ]
     },
     {
@@ -1844,6 +1863,15 @@
       "tags": [
         "plugin",
         "project"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "google",
+      "repo": "executor.nvim",
+      "tags": [
+        "plugin",
+        "code-runner"
       ]
     },
     {
@@ -6159,6 +6187,15 @@
       "tags": [
         "plugin",
         "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "yagiziskirik",
+      "repo": "AirSupport.nvim",
+      "tags": [
+        "plugin",
+        "utility"
       ]
     },
     {
