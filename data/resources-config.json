@@ -132,12 +132,6 @@
     },
     {
       "type": "github",
-      "username": "anthdm",
-      "repo": ".nvim",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "appelgriebsch",
       "repo": "Nv",
       "tags": []
@@ -210,14 +204,6 @@
       "username": "bigeagle",
       "repo": "neovim-config",
       "tags": []
-    },
-    {
-      "type": "github",
-      "username": "bitterteasweetorange",
-      "repo": "nvim",
-      "tags": [
-        "neovim-configuration"
-      ]
     },
     {
       "type": "github",
@@ -594,6 +580,17 @@
     },
     {
       "type": "github",
+      "username": "jordanisaacs",
+      "repo": "neovim-flake",
+      "tags": [
+        "flake",
+        "neovim",
+        "nix",
+        "nix-flake"
+      ]
+    },
+    {
+      "type": "github",
       "username": "joshukraine",
       "repo": "dotfiles",
       "tags": [
@@ -861,6 +858,33 @@
     },
     {
       "type": "github",
+      "username": "NvChad",
+      "repo": "NvChad",
+      "tags": [
+        "dotfiles",
+        "editor",
+        "foss",
+        "hacktoberfest",
+        "ide",
+        "lua",
+        "neovim",
+        "neovim-config",
+        "neovim-configuration",
+        "neovim-dotfiles",
+        "neovim-lua",
+        "neovim-setup",
+        "nvim",
+        "nvim-configs",
+        "open-source",
+        "rice",
+        "ricing",
+        "vim",
+        "vimrc",
+        "vscode"
+      ]
+    },
+    {
+      "type": "github",
       "username": "nvie",
       "repo": "vimrc",
       "tags": []
@@ -1039,6 +1063,12 @@
         "yabai",
         "zsh"
       ]
+    },
+    {
+      "type": "github",
+      "username": "rsdlt",
+      "repo": "nvim-config-files",
+      "tags": []
     },
     {
       "type": "github",
