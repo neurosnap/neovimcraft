@@ -377,7 +377,16 @@
       "repo": "vim-dirvish",
       "tags": [
         "file-explorer",
-        " plugin"
+        "plugin"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "justinmk",
+      "repo": "vim-sneak",
+      "tags": [
+        "plugin",
+        "motion"
       ]
     }
   ]
