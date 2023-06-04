@@ -370,6 +370,15 @@
         "git",
         "utility"
       ]
+    },
+    {
+      "type": "github",
+      "username": "justinmk",
+      "repo": "vim-dirvish",
+      "tags": [
+        "file-explorer",
+        " plugin"
+      ]
     }
   ]
 }
