@@ -2409,6 +2409,24 @@
     },
     {
       "type": "github",
+      "username": "justinmk",
+      "repo": "vim-dirvish",
+      "tags": [
+        "file-explorer",
+        "plugin"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "justinmk",
+      "repo": "vim-sneak",
+      "tags": [
+        "plugin",
+        "motion"
+      ]
+    },
+    {
+      "type": "github",
       "username": "jvgrootveld",
       "repo": "telescope-zoxide",
       "tags": [
@@ -3304,6 +3322,15 @@
       "tags": [
         "plugin",
         "note-taking"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "milanglacier",
+      "repo": "yarepl.nvim",
+      "tags": [
+        "plugin",
+        "code-runner"
       ]
     },
     {
