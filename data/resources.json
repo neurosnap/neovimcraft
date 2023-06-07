@@ -1317,15 +1317,6 @@
     },
     {
       "type": "github",
-      "username": "EdvinVikstrom",
-      "repo": "filetree.nvim",
-      "tags": [
-        "plugin",
-        "file-explorer"
-      ]
-    },
-    {
-      "type": "github",
       "username": "ekickx",
       "repo": "clipboard-image.nvim",
       "tags": [
