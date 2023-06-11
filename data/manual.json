@@ -388,6 +388,16 @@
         "plugin",
         "motion"
       ]
+    },
+    {
+      "type": "github",
+      "username": "MisanthropicBit",
+      "repo": "decipher.nvim",
+      "tags": [
+        "utility",
+        "text-object",
+        "plugin"
+      ]
     }
   ]
 }
