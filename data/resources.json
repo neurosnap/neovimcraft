@@ -6396,6 +6396,15 @@
         "motion",
         "treesitter-based"
       ]
+    },
+    {
+      "type": "github",
+      "username": "atlj",
+      "repo": "Pixie.nvim",
+      "tags": [
+        "plugin",
+        "media"
+      ]
     }
   ]
 }
