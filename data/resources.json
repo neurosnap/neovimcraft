@@ -3335,6 +3335,16 @@
     },
     {
       "type": "github",
+      "username": "MisanthropicBit",
+      "repo": "decipher.nvim",
+      "tags": [
+        "utility",
+        "text-object",
+        "plugin"
+      ]
+    },
+    {
+      "type": "github",
       "username": "miversen33",
       "repo": "import.nvim",
       "tags": [
@@ -4928,6 +4938,15 @@
       "tags": [
         "plugin",
         "session"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "ryo33",
+      "repo": "nvim-cmp-rust",
+      "tags": [
+        "plugin",
+        "completion"
       ]
     },
     {
