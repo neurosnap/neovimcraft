@@ -398,6 +398,15 @@
         "text-object",
         "plugin"
       ]
+    },
+    {
+      "type": "github",
+      "username": "ryo33",
+      "repo": "nvim-cmp-rust",
+      "tags": [
+        "plugin",
+        "completion"
+      ]
     }
   ]
 }
