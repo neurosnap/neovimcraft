@@ -1063,6 +1063,16 @@
     },
     {
       "type": "github",
+      "username": "dasupradyumna",
+      "repo": "midnight.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "David-Kunz",
       "repo": "jester",
       "tags": [
@@ -5772,6 +5782,15 @@
     },
     {
       "type": "github",
+      "username": "TobinPalmer",
+      "repo": "rayso.nvim",
+      "tags": [
+        "plugin",
+        "snippet"
+      ]
+    },
+    {
+      "type": "github",
       "username": "tokiory",
       "repo": "neovim-boilerplate",
       "tags": [
@@ -6395,15 +6414,6 @@
         "plugin",
         "motion",
         "treesitter-based"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "atlj",
-      "repo": "Pixie.nvim",
-      "tags": [
-        "plugin",
-        "media"
       ]
     }
   ]

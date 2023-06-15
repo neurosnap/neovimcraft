@@ -236,7 +236,10 @@
       "repo": "dotfiles",
       "tags": [
         "bash",
+        "bashrc",
         "dotfiles",
+        "fish",
+        "fish-shell",
         "git",
         "neovim",
         "tmux",
