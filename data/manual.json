@@ -407,6 +407,16 @@
         "plugin",
         "completion"
       ]
+    },
+    {
+      "type": "github",
+      "username": "dasupradyumna",
+      "repo": "midnight.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
     }
   ]
 }
