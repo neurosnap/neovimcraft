@@ -727,12 +727,6 @@
     },
     {
       "type": "github",
-      "username": "lynhan318",
-      "repo": ".config",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "m4xshen",
       "repo": "dotfiles",
       "tags": [
@@ -1254,6 +1248,15 @@
         "vim",
         "viml",
         "vimrc"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "ye-junzhe",
+      "repo": "BetterNvim",
+      "tags": [
+        "ide",
+        "neovim"
       ]
     },
     {
