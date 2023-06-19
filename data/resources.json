@@ -2886,6 +2886,15 @@
     {
       "type": "github",
       "username": "linrongbin16",
+      "repo": "gitlinker.nvim",
+      "tags": [
+        "plugin",
+        "git"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "linrongbin16",
       "repo": "lin.nvim",
       "tags": [
         "plugin",
