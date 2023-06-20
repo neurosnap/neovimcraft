@@ -417,6 +417,16 @@
         "colorscheme",
         "treesitter-colorschemes"
       ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-dr-lsp",
+      "tags": [
+        "plugin",
+        "lsp",
+        "statusline"
+      ]
     }
   ]
 }
