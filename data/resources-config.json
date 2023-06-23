@@ -464,12 +464,6 @@
     },
     {
       "type": "github",
-      "username": "famiu",
-      "repo": "nvim-reload",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "fannheyward",
       "repo": "init.vim",
       "tags": []
@@ -792,6 +786,12 @@
       "type": "github",
       "username": "nikfp",
       "repo": "nvim-config",
+      "tags": []
+    },
+    {
+      "type": "github",
+      "username": "NormalNvim",
+      "repo": "NormalNvim",
       "tags": []
     },
     {
