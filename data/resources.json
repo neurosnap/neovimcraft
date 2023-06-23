@@ -581,6 +581,15 @@
     },
     {
       "type": "github",
+      "username": "bennypowers",
+      "repo": "svgo.nvim",
+      "tags": [
+        "plugin",
+        "formatting"
+      ]
+    },
+    {
+      "type": "github",
       "username": "bfredl",
       "repo": "nvim-luadev",
       "tags": [
@@ -775,6 +784,16 @@
         "plugin",
         "command-line",
         "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-dr-lsp",
+      "tags": [
+        "plugin",
+        "lsp",
+        "statusline"
       ]
     },
     {
@@ -5385,6 +5404,16 @@
         "plugin",
         "programming-languages-support",
         "yaml"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "sonjiku",
+      "repo": "yawnc.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
