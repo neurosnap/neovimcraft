@@ -5167,6 +5167,16 @@
     },
     {
       "type": "github",
+      "username": "sekke276",
+      "repo": "dark_flat.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "shaeinst",
       "repo": "penvim",
       "tags": [
@@ -5852,6 +5862,15 @@
       "tags": [
         "plugin",
         "marks"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "tomiis4",
+      "repo": "hypersonic.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
       ]
     },
     {
