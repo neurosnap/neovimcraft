@@ -404,6 +404,15 @@
     },
     {
       "type": "github",
+      "username": "aPeoplesCalendar",
+      "repo": "apc.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "artart222",
       "repo": "CodeArt",
       "tags": [
