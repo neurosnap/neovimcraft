@@ -390,6 +390,16 @@
     },
     {
       "type": "github",
+      "username": "dragove",
+      "repo": "nvim",
+      "tags": [
+        "lua",
+        "neovim",
+        "vim"
+      ]
+    },
+    {
+      "type": "github",
       "username": "echasnovski",
       "repo": "nvim",
       "tags": [
@@ -489,12 +499,6 @@
         "neovim-lsp",
         "neovim-plugin"
       ]
-    },
-    {
-      "type": "github",
-      "username": "gacha",
-      "repo": "nvim-config",
-      "tags": []
     },
     {
       "type": "github",
