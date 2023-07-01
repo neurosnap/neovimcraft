@@ -1280,14 +1280,9 @@
       "username": "SpaceVim",
       "repo": "SpaceVim",
       "tags": [
-        "spacevim",
-        "distribution",
-        "neovim-config",
-        "neovim-configuration",
-        "neovim-plugin",
-        "nvim",
         "vim",
-        "ide"
+        "nvim",
+        "plugins"
       ]
     },
     {
