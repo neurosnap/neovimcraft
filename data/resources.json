@@ -1551,6 +1551,15 @@
     {
       "type": "github",
       "username": "folke",
+      "repo": "flash.nvim",
+      "tags": [
+        "plugin",
+        "motion"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "folke",
       "repo": "lazy.nvim",
       "tags": [
         "plugin",
@@ -6416,6 +6425,16 @@
         "plugin",
         "colorscheme",
         "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "zaldih",
+      "repo": "themery.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "colorscheme-switchers"
       ]
     },
     {
