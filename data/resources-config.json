@@ -382,16 +382,6 @@
     },
     {
       "type": "github",
-      "username": "dragove",
-      "repo": "nvim",
-      "tags": [
-        "lua",
-        "neovim",
-        "vim"
-      ]
-    },
-    {
-      "type": "github",
       "username": "echasnovski",
       "repo": "nvim",
       "tags": [
@@ -1232,6 +1222,30 @@
     },
     {
       "type": "github",
+      "username": "xero",
+      "repo": "dotfiles",
+      "tags": [
+        "aliases",
+        "configs",
+        "customization",
+        "dotfiles",
+        "neovim",
+        "neovim-lua",
+        "neovim-theme",
+        "rice",
+        "screenshots",
+        "scripts",
+        "shell",
+        "themes",
+        "tmux",
+        "tmux-configs",
+        "unix",
+        "zsh",
+        "zsh-theme"
+      ]
+    },
+    {
+      "type": "github",
       "username": "Xuyuanp",
       "repo": "vimrc",
       "tags": [
@@ -1273,14 +1287,6 @@
         "wezterm-config",
         "zinit",
         "zshrc"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "SpaceVim",
-      "repo": "SpaceVim",
-      "tags": [
-        "preconfigured-configuration"
       ]
     },
     {
