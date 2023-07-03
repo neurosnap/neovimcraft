@@ -1277,6 +1277,14 @@
     },
     {
       "type": "github",
+      "username": "SpaceVim",
+      "repo": "SpaceVim",
+      "tags": [
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
       "username": "zchee",
       "repo": ".nvim",
       "tags": [
