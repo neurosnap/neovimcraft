@@ -390,6 +390,12 @@
     },
     {
       "type": "github",
+      "username": "dreamsofcode-io",
+      "repo": "neovim-go-config",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "echasnovski",
       "repo": "nvim",
       "tags": [
@@ -732,7 +738,6 @@
       "username": "Martins3",
       "repo": "My-Linux-Config",
       "tags": [
-        "coc",
         "dotfiles",
         "neovim",
         "tmux"
@@ -996,12 +1001,6 @@
         "ide",
         "neovim"
       ]
-    },
-    {
-      "type": "github",
-      "username": "practicalli",
-      "repo": "neovim-config-redux",
-      "tags": []
     },
     {
       "type": "github",

@@ -6500,6 +6500,16 @@
         "motion",
         "treesitter-based"
       ]
+    },
+    {
+      "type": "github",
+      "username": "zootedb0t",
+      "repo": "citruszest.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
     }
   ]
 }
