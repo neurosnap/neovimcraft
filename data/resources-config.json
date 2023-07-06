@@ -162,24 +162,6 @@
     },
     {
       "type": "github",
-      "username": "b0o",
-      "repo": "nvim-conf",
-      "tags": [
-        "dotfiles",
-        "neovim",
-        "neovim-config",
-        "neovim-configuration",
-        "neovim-dotfiles",
-        "nvim",
-        "vim",
-        "vim-conf",
-        "vim-configuration",
-        "vim-dotfiles",
-        "vimrc"
-      ]
-    },
-    {
-      "type": "github",
       "username": "beeender",
       "repo": "Comrade",
       "tags": [
@@ -204,6 +186,16 @@
       "username": "bigeagle",
       "repo": "neovim-config",
       "tags": []
+    },
+    {
+      "type": "github",
+      "username": "bitterteasweetorange",
+      "repo": "nvim",
+      "tags": [
+        "neovim",
+        "neovim-config",
+        "neovim-lua"
+      ]
     },
     {
       "type": "github",
