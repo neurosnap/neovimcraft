@@ -281,6 +281,16 @@
     },
     {
       "type": "github",
+      "username": "codicocodes",
+      "repo": "dotfyle",
+      "tags": [
+        "neovim",
+        "neovim-dotfiles",
+        "neovim-plugins"
+      ]
+    },
+    {
+      "type": "github",
       "username": "crivotz",
       "repo": "nv-ide",
       "tags": [
@@ -518,21 +528,6 @@
         "tutorial",
         "vim",
         "youtube"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "hiyali",
-      "repo": "nvim",
-      "tags": [
-        "config",
-        "configuration",
-        "install",
-        "neovim",
-        "nvim",
-        "script",
-        "shortcut",
-        "theme"
       ]
     },
     {
