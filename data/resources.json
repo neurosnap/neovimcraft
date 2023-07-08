@@ -11,6 +11,16 @@
     },
     {
       "type": "github",
+      "username": "2nthony",
+      "repo": "vitesse.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "4e554c4c",
       "repo": "darkman.nvim",
       "tags": [
