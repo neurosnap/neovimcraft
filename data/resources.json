@@ -1374,6 +1374,25 @@
     },
     {
       "type": "github",
+      "username": "elentok",
+      "repo": "scriptify.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "elentok",
+      "repo": "togglr.nvim",
+      "tags": [
+        "plugin",
+        "editing-support",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "elihunter173",
       "repo": "dirbuf.nvim",
       "tags": [
