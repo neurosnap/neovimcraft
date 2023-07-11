@@ -4322,6 +4322,15 @@
     },
     {
       "type": "github",
+      "username": "Olical",
+      "repo": "nfnl",
+      "tags": [
+        "plugin",
+        "fennel"
+      ]
+    },
+    {
+      "type": "github",
       "username": "olimorris",
       "repo": "onedarkpro.nvim",
       "tags": [
@@ -5914,6 +5923,16 @@
     {
       "type": "github",
       "username": "tomiis4",
+      "repo": "BufferTabs.nvim",
+      "tags": [
+        "plugin",
+        "bars-and-lines",
+        "tabline"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "tomiis4",
       "repo": "hypersonic.nvim",
       "tags": [
         "plugin",
@@ -6282,6 +6301,16 @@
         "plugin",
         "game",
         "competitive-programming"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "xero",
+      "repo": "miasma.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
