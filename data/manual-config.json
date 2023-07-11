@@ -51,6 +51,36 @@
       "username": "pynappo",
       "repo": "dotfiles",
       "tags": []
+    },
+    {
+      "type": "github",
+      "username": "doctorfree",
+      "repo": "nvim-lazyman",
+      "tags": [
+        "aliases",
+        "bash",
+        "configs",
+        "configuration-manager",
+        "fuzzy-finder",
+        "lazy",
+        "lua",
+        "neovim",
+        "nvim",
+        "neovim-config",
+        "neovim-configuration",
+        "neovim-setup",
+        "nvim-configs",
+        "nvim-configuration",
+        "nvim-lua",
+        "nvim-setup",
+        "nvim-settings",
+        "plugin-manager",
+        "scripts",
+        "shell",
+        "themes",
+        "version-manager",
+        "zsh"
+      ]
     }
   ]
 }
