@@ -2400,16 +2400,6 @@
     {
       "type": "github",
       "username": "jose-elias-alvarez",
-      "repo": "null-ls.nvim",
-      "tags": [
-        "plugin",
-        "lsp",
-        "neovim-0.5"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "jose-elias-alvarez",
       "repo": "typescript.nvim",
       "tags": [
         "plugin",
