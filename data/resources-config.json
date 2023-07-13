@@ -189,6 +189,12 @@
     },
     {
       "type": "github",
+      "username": "beeender",
+      "repo": "ComradeNeovim",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "benbrastmckie",
       "repo": ".config",
       "tags": []
@@ -578,29 +584,6 @@
     {
       "type": "github",
       "username": "joshukraine",
-      "repo": "dotfiles",
-      "tags": [
-        "asdf",
-        "dotfiles",
-        "fish",
-        "fish-shell",
-        "homebrew",
-        "iterm2",
-        "lua",
-        "lunarvim",
-        "macos",
-        "neovim",
-        "rails",
-        "ruby",
-        "tmux",
-        "vim",
-        "vue",
-        "zsh"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "joshukraine",
       "repo": "mac-bootstrap",
       "tags": [
         "asdf",
@@ -730,6 +713,33 @@
         "dotfiles",
         "neovim",
         "tmux"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "meribold",
+      "repo": "dotfiles",
+      "tags": [
+        "bash",
+        "dotfiles",
+        "fontconfig",
+        "fzf",
+        "gnu-make",
+        "gnu-screen",
+        "i3",
+        "i3-gaps",
+        "i3wm",
+        "irssi",
+        "make",
+        "makefile",
+        "mutt",
+        "neomutt",
+        "neovim",
+        "newsboat",
+        "screen",
+        "shell",
+        "vim",
+        "xbindkeys"
       ]
     },
     {
