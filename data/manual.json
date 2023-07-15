@@ -446,6 +446,16 @@
         "plugin",
         "utility"
       ]
+    },
+    {
+      "type": "github",
+      "username": "elentok",
+      "repo": "format-on-save.nvim",
+      "tags": [
+        "plugin",
+        "formatting",
+        "lsp"
+      ]
     }
   ]
 }
