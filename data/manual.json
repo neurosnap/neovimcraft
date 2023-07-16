@@ -446,6 +446,15 @@
         "plugin",
         "utility"
       ]
+    },
+    {
+      "type": "github",
+      "username": "dgagn",
+      "repo": "diagflow.nvim",
+      "tags": [
+        "diagnostics",
+        "plugin"
+      ]
     }
   ]
 }
