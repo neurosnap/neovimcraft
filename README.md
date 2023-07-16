@@ -4,12 +4,17 @@ A site dedicated to finding the best neovim plugins.
 
 ## Requirements
 
-- deno 
+- deno
 
 ## Want to submit a plugin?
 
-If you'd like to suggest a plugin to add to `neovimcraft` then feel free to open
-a github issue or submit a PR after running the following command:
+There are a couple of ways to add plugins to `neovimcraft`. Probably the
+simplest way would be to get your plugin added to
+[awesome-neovim](https://github.com/rockerBOO/awesome-neovim). We scrape that
+repo and is the primary data source for the plugin directory.
+
+If you'd like to suggest a plugin to `neovimcraft` directly then feel free to
+open a github issue or submit a PR after running the following command:
 
 ```bash
 make resource
@@ -20,8 +25,8 @@ site.
 
 ## Want to submit a config?
 
-If you'd like to suggest a config to add to `neovimcraft.com/c` then feel free to 
-submit a PR after running the following command:
+If you'd like to suggest a config to add to `neovimcraft.com/c` then feel free
+to submit a PR after running the following command:
 
 ```bash
 make resource-config
