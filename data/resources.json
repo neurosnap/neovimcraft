@@ -246,6 +246,16 @@
     },
     {
       "type": "github",
+      "username": "AlexvZyl",
+      "repo": "nordic.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "AllenDang",
       "repo": "nvim-expand-expr",
       "tags": [
