@@ -79,6 +79,12 @@
         "tabline",
         "plugin"
       ]
+    },
+    {
+      "type": "github",
+      "username": "b0o",
+      "repo": "nvim-conf",
+      "tags": []
     }
   ]
 }
