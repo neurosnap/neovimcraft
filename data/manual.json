@@ -449,6 +449,15 @@
     },
     {
       "type": "github",
+      "username": "dgagn",
+      "repo": "diagflow.nvim",
+      "tags": [
+        "diagnostics",
+        "plugin"
+      ]
+    },
+    {
+      "type": "github",
       "username": "elentok",
       "repo": "format-on-save.nvim",
       "tags": [

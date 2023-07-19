@@ -51,6 +51,40 @@
       "username": "pynappo",
       "repo": "dotfiles",
       "tags": []
+    },
+    {
+      "type": "github",
+      "username": "doctorfree",
+      "repo": "nvim-lazyman",
+      "tags": [
+        "completion",
+        "keybinding",
+        "formatting",
+        "note-taking",
+        "debugging",
+        "terminal-integration",
+        "colorscheme-switchers",
+        "fuzzy-finder",
+        "preconfigured-configuration",
+        "telescope",
+        "lsp",
+        "language",
+        "command-line",
+        "version-manager",
+        "dependency-management",
+        "game",
+        "programming-languages-support",
+        "diagnostics",
+        "github",
+        "tabline",
+        "plugin"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "b0o",
+      "repo": "nvim-conf",
+      "tags": []
     }
   ]
 }

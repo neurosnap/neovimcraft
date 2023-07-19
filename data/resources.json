@@ -246,6 +246,16 @@
     },
     {
       "type": "github",
+      "username": "AlexvZyl",
+      "repo": "nordic.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "AllenDang",
       "repo": "nvim-expand-expr",
       "tags": [
@@ -977,6 +987,26 @@
     },
     {
       "type": "github",
+      "username": "creativenull",
+      "repo": "diagnosticls-configs-nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "creativenull",
+      "repo": "efmls-configs-nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
       "username": "crispgm",
       "repo": "nvim-go",
       "tags": [
@@ -1199,6 +1229,15 @@
       "tags": [
         "plugin",
         "project"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "dgagn",
+      "repo": "diagflow.nvim",
+      "tags": [
+        "diagnostics",
+        "plugin"
       ]
     },
     {
@@ -3745,10 +3784,28 @@
     {
       "type": "github",
       "username": "niuiic",
+      "repo": "dap-utils.nvim",
+      "tags": [
+        "plugin",
+        "debugging"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "niuiic",
       "repo": "divider.nvim",
       "tags": [
         "plugin",
         "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "niuiic",
+      "repo": "format.nvim",
+      "tags": [
+        "plugin",
+        "formatting"
       ]
     },
     {
