@@ -1414,6 +1414,16 @@
     {
       "type": "github",
       "username": "elentok",
+      "repo": "format-on-save.nvim",
+      "tags": [
+        "plugin",
+        "formatting",
+        "lsp"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "elentok",
       "repo": "scriptify.nvim",
       "tags": [
         "plugin",
@@ -1931,35 +1941,6 @@
       "tags": [
         "plugin",
         "utility"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "glepnir",
-      "repo": "dashboard-nvim",
-      "tags": [
-        "plugin",
-        "startup"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "glepnir",
-      "repo": "lspsaga.nvim",
-      "tags": [
-        "plugin",
-        "lsp",
-        "neovim-0.5"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "glepnir",
-      "repo": "zephyr-nvim",
-      "tags": [
-        "plugin",
-        "colorscheme",
-        "treesitter-colorschemes"
       ]
     },
     {
@@ -4181,11 +4162,40 @@
     {
       "type": "github",
       "username": "nvimdev",
+      "repo": "dashboard-nvim",
+      "tags": [
+        "plugin",
+        "startup"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nvimdev",
       "repo": "indentmini.nvim",
       "tags": [
         "plugin",
         "formatting",
         "indent"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nvimdev",
+      "repo": "lspsaga.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nvimdev",
+      "repo": "zephyr-nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
