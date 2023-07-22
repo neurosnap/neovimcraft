@@ -2,6 +2,15 @@
   "resources": [
     {
       "type": "github",
+      "username": "00sapo",
+      "repo": "visual.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
       "username": "0styx0",
       "repo": "abbreinder.nvim",
       "tags": [
@@ -2027,6 +2036,15 @@
     },
     {
       "type": "github",
+      "username": "HiPhish",
+      "repo": "rainbow-delimiters.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
       "username": "hkupty",
       "repo": "iron.nvim",
       "tags": [
@@ -3544,15 +3562,6 @@
     {
       "type": "github",
       "username": "mrjones2014",
-      "repo": "nvim-ts-rainbow",
-      "tags": [
-        "plugin",
-        "editing-support"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "mrjones2014",
       "repo": "smart-splits.nvim",
       "tags": [
         "split-and-window"
@@ -4347,6 +4356,15 @@
         "plugin",
         "lsp",
         "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "okuuva",
+      "repo": "auto-save.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
       ]
     },
     {
