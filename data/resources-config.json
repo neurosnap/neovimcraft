@@ -584,12 +584,6 @@
     },
     {
       "type": "github",
-      "username": "jessarcher",
-      "repo": "laracasts-dotfiles",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "JoosepAlviste",
       "repo": "dotfiles",
       "tags": [
@@ -1220,6 +1214,12 @@
         "neovim",
         "nvim"
       ]
+    },
+    {
+      "type": "github",
+      "username": "wavded",
+      "repo": "dotfiles",
+      "tags": []
     },
     {
       "type": "github",
