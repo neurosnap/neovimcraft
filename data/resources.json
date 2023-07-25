@@ -461,6 +461,16 @@
     },
     {
       "type": "github",
+      "username": "ashfinal",
+      "repo": "qfview.nvim",
+      "tags": [
+        "plugin",
+        "debugging",
+        "quickfix"
+      ]
+    },
+    {
+      "type": "github",
       "username": "askfiy",
       "repo": "nvim",
       "tags": [
@@ -2201,6 +2211,15 @@
       "tags": [
         "plugin",
         "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "jackMort",
+      "repo": "ChatGPT.nvim",
+      "tags": [
+        "plugin",
+        "ai"
       ]
     },
     {
@@ -4893,6 +4912,16 @@
     },
     {
       "type": "github",
+      "username": "richardbizik",
+      "repo": "nvim-toc",
+      "tags": [
+        "plugin",
+        "programming-languages-support",
+        "markdown-and-latex"
+      ]
+    },
+    {
+      "type": "github",
       "username": "RishabhRD",
       "repo": "gruvy",
       "tags": [
@@ -4993,6 +5022,15 @@
         "plugin",
         "colorscheme",
         "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Robitx",
+      "repo": "gp.nvim",
+      "tags": [
+        "plugin",
+        "ai"
       ]
     },
     {
