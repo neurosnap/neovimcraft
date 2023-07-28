@@ -866,6 +866,18 @@
     {
       "type": "github",
       "username": "chrisgrieser",
+      "repo": "nvim-origami",
+      "tags": [
+        "utility",
+        "motion",
+        "plugin",
+        "editing-support",
+        "folding"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
       "repo": "nvim-recorder",
       "tags": [
         "utility",
@@ -3939,6 +3951,15 @@
     },
     {
       "type": "github",
+      "username": "NormalNvim",
+      "repo": "NormalNvim",
+      "tags": [
+        "plugin",
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
       "username": "notomo",
       "repo": "cmdbuf.nvim",
       "tags": [
@@ -6375,7 +6396,7 @@
       "repo": "nvim-spectre",
       "tags": [
         "plugin",
-        "project"
+        "search"
       ]
     },
     {
@@ -6660,6 +6681,25 @@
       "tags": [
         "plugin",
         "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Zeioth",
+      "repo": "compiler.nvim",
+      "tags": [
+        "plugin",
+        "code-runner"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Zeioth",
+      "repo": "markmap.nvim",
+      "tags": [
+        "plugin",
+        "programming-languages-support",
+        "markdown-and-latex"
       ]
     },
     {
