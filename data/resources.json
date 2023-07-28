@@ -1808,6 +1808,15 @@
     },
     {
       "type": "github",
+      "username": "gaborvecsei",
+      "repo": "usage-tracker.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "gbprod",
       "repo": "cutlass.nvim",
       "tags": [
@@ -3266,6 +3275,15 @@
       "tags": [
         "plugin",
         "media"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "malbertzard",
+      "repo": "inline-fold.nvim",
+      "tags": [
+        "plugin",
+        "utility"
       ]
     },
     {
@@ -5342,6 +5360,15 @@
         "plugin",
         "colorscheme",
         "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "serenevoid",
+      "repo": "kiwi.nvim",
+      "tags": [
+        "plugin",
+        "note-taking"
       ]
     },
     {
