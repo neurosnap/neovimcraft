@@ -465,6 +465,18 @@
         "formatting",
         "lsp"
       ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-origami",
+      "tags": [
+        "utility",
+        "motion",
+        "plugin",
+        "editing-support",
+        "folding"
+      ]
     }
   ]
 }
