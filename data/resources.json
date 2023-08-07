@@ -141,6 +141,15 @@
     },
     {
       "type": "github",
+      "username": "ada0l",
+      "repo": "obsidian",
+      "tags": [
+        "plugin",
+        "note-taking"
+      ]
+    },
+    {
+      "type": "github",
       "username": "adelarsq",
       "repo": "image_preview.nvim",
       "tags": [
@@ -521,6 +530,16 @@
       "tags": [
         "plugin",
         "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "aznhe21",
+      "repo": "actions-preview.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
       ]
     },
     {
@@ -3020,6 +3039,15 @@
     {
       "type": "github",
       "username": "linrongbin16",
+      "repo": "fzfx.nvim",
+      "tags": [
+        "plugin",
+        "fuzzy-finder"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "linrongbin16",
       "repo": "gitlinker.nvim",
       "tags": [
         "plugin",
@@ -3901,15 +3929,6 @@
         "plugin",
         "bars-and-lines",
         "tabline"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "noib3",
-      "repo": "nvim-compleet",
-      "tags": [
-        "plugin",
-        "completion"
       ]
     },
     {
