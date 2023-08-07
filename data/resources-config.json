@@ -177,6 +177,12 @@
     },
     {
       "type": "github",
+      "username": "beeender",
+      "repo": "ComradeNeovim",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "benbrastmckie",
       "repo": ".config",
       "tags": []
@@ -279,19 +285,10 @@
       "tags": [
         "neovim",
         "neovim-dotfiles",
-        "neovim-plugins"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "crivotz",
-      "repo": "nv-ide",
-      "tags": [
-        "lua",
-        "neovim",
-        "neovim-configuration",
-        "nvim-compe",
-        "vim-plugins"
+        "neovim-plugins",
+        "nvim",
+        "nvim-configs",
+        "nvim-lua"
       ]
     },
     {
@@ -1072,17 +1069,9 @@
     },
     {
       "type": "github",
-      "username": "Sairyss",
-      "repo": "dev-setup",
-      "tags": [
-        "dev",
-        "developer-tools",
-        "development",
-        "dotfiles",
-        "productivity",
-        "productivity-tools",
-        "tools"
-      ]
+      "username": "rsdlt",
+      "repo": "nvim-config-files",
+      "tags": []
     },
     {
       "type": "github",
@@ -1155,6 +1144,15 @@
         "nvim",
         "telescope",
         "vim"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "tlvince",
+      "repo": "neovim-config",
+      "tags": [
+        "dotfiles",
+        "neovim"
       ]
     },
     {
