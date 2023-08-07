@@ -94,6 +94,18 @@ function mustAll(pattern) {
   return el;
 }
 
+function debounce(fn, delay) {
+  let timeoutID;
+  return function(...args) {
+    if (timeoutID) {
+      clearTimeout(timeoutID);
+    }
+    timeoutID = setTimeout(() => {
+      fn(...args);
+    }, delay);
+  };
+}
+
 function init() {
   const searchEl = must("#search");
   const clearSearchEl = must("#search_clear");
@@ -116,10 +128,13 @@ function init() {
     filter(value);
   };
 
-  searchEl.addEventListener("input", (ev) => {
+  const debouncedSearch = debounce((ev) => {
     const value = ev.target.value;
     search(value);
-  });
+  }, 150);
+  
+  searchEl.addEventListener("input", debouncedSearch);
+
 
   clearSearchEl.addEventListener("click", () => {
     searchEl.value = "";
