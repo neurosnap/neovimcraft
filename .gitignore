@@ -15,6 +15,7 @@ data/scrape-config.json
 .direnv
 gha-creds-*
 static/*.html
+static/*.json
 static/plugin/
 static/about/
 static/created/

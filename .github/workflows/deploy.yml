@@ -29,16 +29,5 @@ jobs:
         src: './static/*'
         project: neovimcraft
 
-    - name: 'gcp auth'
-      uses: 'google-github-actions/auth@v0'
-      with:
-        credentials_json: ${{secrets.GCP_CREDENTIALS_JSON}}
-
-    - name: 'Set up Cloud SDK'
-      uses: 'google-github-actions/setup-gcloud@v0'
-
-    - name: 'Upload Site'
-      run: 'gsutil -m -h "Cache-Control:private, max-age=0, no-transform" rsync -d -r ./static gs://neovimcraft.com'
-
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v4
