@@ -5124,10 +5124,77 @@
     {
       "type": "github",
       "username": "roobert",
+      "repo": "action-hints.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "roobert",
+      "repo": "bufferline-cycle-windowless.nvim",
+      "tags": [
+        "plugin",
+        "bars-and-lines",
+        "tabline"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "roobert",
+      "repo": "f-string-toggle.nvim",
+      "tags": [
+        "plugin",
+        "programming-languages-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "roobert",
+      "repo": "hoversplit.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "roobert",
       "repo": "search-replace.nvim",
       "tags": [
         "plugin",
         "search"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "roobert",
+      "repo": "surround-ui.nvim",
+      "tags": [
+        "plugin",
+        "syntax"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "roobert",
+      "repo": "tabtree.nvim",
+      "tags": [
+        "plugin",
+        "motion"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "roobert",
+      "repo": "tailwindcss-colorizer-cmp.nvim",
+      "tags": [
+        "plugin",
+        "programming-languages-support",
+        "web-development"
       ]
     },
     {
