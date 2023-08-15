@@ -955,6 +955,15 @@
     },
     {
       "type": "github",
+      "username": "chuwy",
+      "repo": "ucm.nvim",
+      "tags": [
+        "plugin",
+        "programming-languages-support"
+      ]
+    },
+    {
+      "type": "github",
       "username": "Civitasv",
       "repo": "cmake-tools.nvim",
       "tags": [
