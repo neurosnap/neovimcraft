@@ -293,6 +293,18 @@
     },
     {
       "type": "github",
+      "username": "crivotz",
+      "repo": "nv-ide",
+      "tags": [
+        "lua",
+        "neovim",
+        "neovim-configuration",
+        "nvim-compe",
+        "vim-plugins"
+      ]
+    },
+    {
+      "type": "github",
       "username": "ctaylo21",
       "repo": "jarvis",
       "tags": [
@@ -1066,12 +1078,6 @@
         "yabai",
         "zsh"
       ]
-    },
-    {
-      "type": "github",
-      "username": "rsdlt",
-      "repo": "nvim-config-files",
-      "tags": []
     },
     {
       "type": "github",
