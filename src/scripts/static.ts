@@ -8,6 +8,8 @@ import { derivePluginData } from "../plugin-data.ts";
 import type { Plugin, PluginData, PluginMap, Tag, TagMap } from "../types.ts";
 import { getResourceId } from "../entities.ts";
 
+const OUTDIR = "./public";
+
 async function createFile(fname: string, data: string) {
   await Deno.mkdir(dirname(fname), { recursive: true });
   await Deno.writeTextFile(fname, data);
@@ -594,17 +596,17 @@ const createPluginPage = (plugin: Plugin, tags: Tag[], html: string) => {
 
 async function render(data: PluginData, htmlData: { [key: string]: string }) {
   const files = [
-    createFile("./static/index.html", createSearchPage(data, "stars")),
+    createFile(`${OUTDIR}/index.html`, createSearchPage(data, "stars")),
     createFile(
-      "./static/created/index.html",
+      `${OUTDIR}/created/index.html`,
       createSearchPage(data, "createdAt"),
     ),
     createFile(
-      "./static/updated/index.html",
+      `${OUTDIR}/updated/index.html`,
       createSearchPage(data, "updatedAt"),
     ),
 
-    createFile("./static/about/index.html", createAboutPage()),
+    createFile(`${OUTDIR}/about/index.html`, createAboutPage()),
   ];
 
   data.plugins.forEach((plugin) => {
@@ -612,7 +614,7 @@ async function render(data: PluginData, htmlData: { [key: string]: string }) {
     const id = getResourceId(plugin);
     const html = htmlData[id] || "";
     const fname =
-      `./static/plugin/${plugin.username}/${plugin.repo}/index.html`;
+      `${OUTDIR}/plugin/${plugin.username}/${plugin.repo}/index.html`;
     const page = createPluginPage(plugin, tags, html);
     files.push(createFile(fname, page));
   });
@@ -626,15 +628,15 @@ async function renderConfig(
 ) {
   const files = [
     createFile(
-      "./static/c/index.html",
+      `${OUTDIR}/c/index.html`,
       createSearchConfigPage(data, "stars"),
     ),
     createFile(
-      "./static/c/created/index.html",
+      `${OUTDIR}/c/created/index.html`,
       createSearchConfigPage(data, "createdAt"),
     ),
     createFile(
-      "./static/c/updated/index.html",
+      `${OUTDIR}/c/updated/index.html`,
       createSearchConfigPage(data, "updatedAt"),
     ),
   ];
@@ -644,7 +646,7 @@ async function renderConfig(
     const id = getResourceId(plugin);
     const html = htmlData[id] || "";
     const fname =
-      `./static/plugin/${plugin.username}/${plugin.repo}/index.html`;
+      `${OUTDIR}/plugin/${plugin.username}/${plugin.repo}/index.html`;
     const page = createPluginPage(plugin, tags, html);
     files.push(createFile(fname, page));
   });

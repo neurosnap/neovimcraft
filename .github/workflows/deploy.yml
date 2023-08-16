@@ -21,13 +21,18 @@ jobs:
     - run: make build
     - run: cp ./data/db.json ./static/db.json
 
+    - name: Set outputs
+      id: vars
+      run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
     - name: upload to pgs
       uses: 'picosh/pgs-action@main'
       with:
         user: erock
         key: ${{ secrets.PRIVATE_KEY }}
         src: './static/*'
-        project: neovimcraft
+        project: "neovimcraft-${{ steps.vars.outputs.sha_short }}"
+        promote: "neovimcraft"
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v4

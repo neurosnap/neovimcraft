@@ -1,3 +1,6 @@
+REV=$(shell git rev-parse --short HEAD)
+PROJECT="neovimcraft-$(REV)"
+
 dev:
 	deno run --allow-read --allow-net src/dev.ts
 .PHONY: dev
@@ -38,22 +41,18 @@ scrape: download patch process html
 .PHONY: scrape
 
 clean:
-	rm -f static/*.html
-	rm -rf static/plugin
-	rm -rf static/about
-	rm -rf static/created
-	rm -rf static/updated
-	rm -rf static/c
+	rm -rf ./public
+	mkdir ./public
 .PHONY: clean
 
 build: clean
 	deno run --allow-write src/scripts/static.ts
+	cp ./static/* ./public
 .PHONY: build
 
 upload:
-	gsutil -m rm -r gs://neovimcraft.com/*
-	gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' rsync -r ./static gs://neovimcraft.com
-	gsutil -m -h 'Cache-Control:private, max-age=0, no-transform' cp ./data/db.json gs://neovimcraft.com/db.json
+	scp -r ./public/* erock@pgs.sh:/$(PROJECT)
+	ssh erock@pgs.sh neovimcraft link $(PROJECT)
 .PHONY: upload
 
 deploy: scrape build upload

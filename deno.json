@@ -1,16 +1,12 @@
 {
   "lint": {
-    "files": {
-      "include": ["src/"]
-    },
+    "include": ["src/"]
     "rules": {
       "tags": ["recommended"],
       "exclude": ["no-explicit-any"]
     }
   },
   "fmt": {
-    "files": {
-      "include": ["src/"]
-    }
+    "include": ["src/"]
   }
 }
