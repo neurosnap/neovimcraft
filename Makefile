@@ -47,7 +47,8 @@ clean:
 
 build: clean
 	deno run --allow-write src/scripts/static.ts
-	cp ./static/* ./public
+	cp ./data/db.json ./public/db.json
+	cp -r ./static/* ./public
 .PHONY: build
 
 upload:

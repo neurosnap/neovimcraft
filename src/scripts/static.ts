@@ -11,6 +11,7 @@ import { getResourceId } from "../entities.ts";
 const OUTDIR = "./public";
 
 async function createFile(fname: string, data: string) {
+  console.log(`Creating file ${fname}`);
   await Deno.mkdir(dirname(fname), { recursive: true });
   await Deno.writeTextFile(fname, data);
 }
