@@ -1081,6 +1081,12 @@
     },
     {
       "type": "github",
+      "username": "rsdlt",
+      "repo": "nvim-config-files",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "sharksforarms",
       "repo": "neovim-rust",
       "tags": [
