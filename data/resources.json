@@ -40,6 +40,15 @@
     },
     {
       "type": "github",
+      "username": "9seconds",
+      "repo": "repolink.nvim",
+      "tags": [
+        "plugin",
+        "git"
+      ]
+    },
+    {
+      "type": "github",
       "username": "aaronhallaert",
       "repo": "advanced-git-search.nvim",
       "tags": [
@@ -3470,6 +3479,16 @@
     },
     {
       "type": "github",
+      "username": "mg979",
+      "repo": "tabline.nvim",
+      "tags": [
+        "plugin",
+        "bars-and-lines",
+        "tabline"
+      ]
+    },
+    {
+      "type": "github",
       "username": "mhanberg",
       "repo": "output-panel.nvim",
       "tags": [
@@ -3846,6 +3865,15 @@
       "tags": [
         "plugin",
         "terminal-integration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "niuiic",
+      "repo": "code-shot.nvim",
+      "tags": [
+        "plugin",
+        "media"
       ]
     },
     {
@@ -6785,6 +6813,16 @@
       "tags": [
         "plugin",
         "code-runner"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Zeioth",
+      "repo": "dooku.nvim",
+      "tags": [
+        "plugin",
+        "editing-support",
+        "comment"
       ]
     },
     {
