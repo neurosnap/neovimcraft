@@ -750,6 +750,15 @@
     },
     {
       "type": "github",
+      "username": "CamdenClark",
+      "repo": "flyboy",
+      "tags": [
+        "plugin",
+        "ai"
+      ]
+    },
+    {
+      "type": "github",
       "username": "camspiers",
       "repo": "snap",
       "tags": [
