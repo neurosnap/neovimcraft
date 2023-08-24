@@ -507,6 +507,16 @@
     },
     {
       "type": "github",
+      "username": "askfiy",
+      "repo": "visual_studio_code",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "AstroNvim",
       "repo": "AstroNvim",
       "tags": [
