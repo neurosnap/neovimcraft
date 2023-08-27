@@ -177,6 +177,12 @@
     },
     {
       "type": "github",
+      "username": "beeender",
+      "repo": "ComradeNeovim",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "benbrastmckie",
       "repo": ".config",
       "tags": []
@@ -521,6 +527,17 @@
     },
     {
       "type": "github",
+      "username": "folke",
+      "repo": "neodev.nvim",
+      "tags": [
+        "lua",
+        "neovim",
+        "neovim-lsp",
+        "neovim-plugin"
+      ]
+    },
+    {
+      "type": "github",
       "username": "glepnir",
       "repo": "nvim",
       "tags": [
@@ -542,12 +559,6 @@
         "vim",
         "youtube"
       ]
-    },
-    {
-      "type": "github",
-      "username": "hyshka",
-      "repo": "docker-neovim",
-      "tags": []
     },
     {
       "type": "github",
@@ -693,6 +704,12 @@
       "type": "github",
       "username": "leonasdev",
       "repo": ".dotfiles",
+      "tags": []
+    },
+    {
+      "type": "github",
+      "username": "leslie255",
+      "repo": "nvim-config",
       "tags": []
     },
     {
@@ -990,18 +1007,6 @@
     },
     {
       "type": "github",
-      "username": "p1xelHer0",
-      "repo": "dotfiles",
-      "tags": [
-        "dotfiles",
-        "macos",
-        "neovim",
-        "tmux",
-        "zsh"
-      ]
-    },
-    {
-      "type": "github",
       "username": "peterpme",
       "repo": "dotfiles",
       "tags": [
@@ -1085,20 +1090,6 @@
       "username": "rsdlt",
       "repo": "nvim-config-files",
       "tags": []
-    },
-    {
-      "type": "github",
-      "username": "Sairyss",
-      "repo": "dev-setup",
-      "tags": [
-        "dev",
-        "developer-tools",
-        "development",
-        "dotfiles",
-        "productivity",
-        "productivity-tools",
-        "tools"
-      ]
     },
     {
       "type": "github",
@@ -1220,6 +1211,17 @@
         "lua",
         "neovim",
         "vim"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "VonHeikemen",
+      "repo": "lsp-zero.nvim",
+      "tags": [
+        "language-server-protocol",
+        "lsp",
+        "neovim",
+        "nvim"
       ]
     },
     {
