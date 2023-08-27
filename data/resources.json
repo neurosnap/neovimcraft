@@ -1940,6 +1940,15 @@
     },
     {
       "type": "github",
+      "username": "GCBallesteros",
+      "repo": "NotebookNavigator.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "gelguy",
       "repo": "wilder.nvim",
       "tags": [
@@ -4729,6 +4738,17 @@
     },
     {
       "type": "github",
+      "username": "piersolenski",
+      "repo": "wtf.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5",
+        "diagnostics"
+      ]
+    },
+    {
+      "type": "github",
       "username": "pluffie",
       "repo": "neoproj",
       "tags": [
@@ -5825,6 +5845,15 @@
     {
       "type": "github",
       "username": "stevearc",
+      "repo": "conform.nvim",
+      "tags": [
+        "plugin",
+        "formatting"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "stevearc",
       "repo": "dressing.nvim",
       "tags": [
         "plugin",
@@ -6340,6 +6369,16 @@
       "tags": [
         "plugin",
         "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Verf",
+      "repo": "deepwhite.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
