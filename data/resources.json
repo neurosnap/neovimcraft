@@ -1312,6 +1312,15 @@
     {
       "type": "github",
       "username": "desdic",
+      "repo": "macrothis.nvim",
+      "tags": [
+        "plugin",
+        "register"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "desdic",
       "repo": "telescope-rooter.nvim",
       "tags": [
         "plugin",
@@ -2334,6 +2343,15 @@
       "tags": [
         "plugin",
         "remote-development"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "jaytyrrell13",
+      "repo": "static.nvim",
+      "tags": [
+        "plugin",
+        "code-runner"
       ]
     },
     {
