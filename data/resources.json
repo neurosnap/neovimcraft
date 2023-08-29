@@ -2225,6 +2225,15 @@
     },
     {
       "type": "github",
+      "username": "IlyasYOY",
+      "repo": "obs.nvim",
+      "tags": [
+        "plugin",
+        "note-taking"
+      ]
+    },
+    {
+      "type": "github",
       "username": "imbacraft",
       "repo": "dusk.nvim",
       "tags": [
