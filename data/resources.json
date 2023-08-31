@@ -2105,6 +2105,15 @@
     },
     {
       "type": "github",
+      "username": "gsuuon",
+      "repo": "llm.nvim",
+      "tags": [
+        "plugin",
+        "ai"
+      ]
+    },
+    {
+      "type": "github",
       "username": "gwatcha",
       "repo": "reaper-keys",
       "tags": [

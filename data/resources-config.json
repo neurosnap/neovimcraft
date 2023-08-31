@@ -280,19 +280,6 @@
     },
     {
       "type": "github",
-      "username": "codicocodes",
-      "repo": "dotfyle",
-      "tags": [
-        "neovim",
-        "neovim-dotfiles",
-        "neovim-plugins",
-        "nvim",
-        "nvim-configs",
-        "nvim-lua"
-      ]
-    },
-    {
-      "type": "github",
       "username": "ctaylo21",
       "repo": "jarvis",
       "tags": [
@@ -414,6 +401,16 @@
         "neovim-configuration",
         "neovim-lsp",
         "neovim-lua"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "dragove",
+      "repo": "nvim",
+      "tags": [
+        "lua",
+        "neovim",
+        "vim"
       ]
     },
     {
