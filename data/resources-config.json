@@ -132,6 +132,12 @@
     },
     {
       "type": "github",
+      "username": "anthdm",
+      "repo": ".nvim",
+      "tags": []
+    },
+    {
+      "type": "github",
       "username": "appelgriebsch",
       "repo": "Nv",
       "tags": []
@@ -277,6 +283,18 @@
       "username": "codicocodes",
       "repo": "dotfiles",
       "tags": []
+    },
+    {
+      "type": "github",
+      "username": "crivotz",
+      "repo": "nv-ide",
+      "tags": [
+        "lua",
+        "neovim",
+        "neovim-configuration",
+        "nvim-compe",
+        "vim-plugins"
+      ]
     },
     {
       "type": "github",
@@ -445,26 +463,6 @@
     },
     {
       "type": "github",
-      "username": "editor-bootstrap",
-      "repo": "vim-bootstrap",
-      "tags": [
-        "bootstrap",
-        "dotfiles",
-        "editor-bootstrap",
-        "hackertoberfest",
-        "hacktoberfest",
-        "neovim",
-        "nvim",
-        "starter-template",
-        "vim",
-        "vim-bootstrap",
-        "vim-configuration",
-        "vimrc",
-        "vimrc-configuration"
-      ]
-    },
-    {
-      "type": "github",
       "username": "eggtoopain",
       "repo": "Neovim-Configuration-Tutorial",
       "tags": []
@@ -519,15 +517,6 @@
         "neovim",
         "neovim-lsp",
         "neovim-plugin"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "glepnir",
-      "repo": "nvim",
-      "tags": [
-        "lua",
-        "nvim"
       ]
     },
     {
