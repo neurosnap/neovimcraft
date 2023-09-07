@@ -3868,6 +3868,15 @@
     },
     {
       "type": "github",
+      "username": "NeogitOrg",
+      "repo": "neogit",
+      "tags": [
+        "plugin",
+        "git"
+      ]
+    },
+    {
+      "type": "github",
       "username": "neovim",
       "repo": "nvim-lspconfig",
       "tags": [
@@ -5933,6 +5942,15 @@
     },
     {
       "type": "github",
+      "username": "subnut",
+      "repo": "nvim-ghost.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "sudormrfbin",
       "repo": "cheatsheet.nvim",
       "tags": [
@@ -6183,15 +6201,6 @@
       "tags": [
         "plugin",
         "file-explorer"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "TimUntersberger",
-      "repo": "neogit",
-      "tags": [
-        "plugin",
-        "git"
       ]
     },
     {
