@@ -4784,6 +4784,15 @@
     {
       "type": "github",
       "username": "piersolenski",
+      "repo": "telescope-import.nvim",
+      "tags": [
+        "plugin",
+        "dependency-management"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "piersolenski",
       "repo": "wtf.nvim",
       "tags": [
         "plugin",
