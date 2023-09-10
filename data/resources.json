@@ -5264,6 +5264,15 @@
     {
       "type": "github",
       "username": "roobert",
+      "repo": "activate.nvim",
+      "tags": [
+        "plugin",
+        "plugin-manager"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "roobert",
       "repo": "bufferline-cycle-windowless.nvim",
       "tags": [
         "plugin",
