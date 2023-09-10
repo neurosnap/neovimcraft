@@ -922,17 +922,6 @@
     {
       "type": "github",
       "username": "Olical",
-      "repo": "aniseed",
-      "tags": [
-        "fennel",
-        "lisp",
-        "lua",
-        "neovim"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "Olical",
       "repo": "dotfiles",
       "tags": [
         "arch-linux",
