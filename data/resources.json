@@ -2617,6 +2617,16 @@
     },
     {
       "type": "github",
+      "username": "judaew",
+      "repo": "ronny.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "Julian",
       "repo": "lean.nvim",
       "tags": [
