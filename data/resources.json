@@ -3084,6 +3084,15 @@
     {
       "type": "github",
       "username": "lewis6991",
+      "repo": "pckr.nvim",
+      "tags": [
+        "plugin",
+        "plugin-manager"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "lewis6991",
       "repo": "satellite.nvim",
       "tags": [
         "plugin",
@@ -6549,15 +6558,6 @@
       "tags": [
         "plugin",
         "editing-support"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "wbthomason",
-      "repo": "packer.nvim",
-      "tags": [
-        "plugin",
-        "plugin-manager"
       ]
     },
     {
