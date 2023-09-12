@@ -5119,6 +5119,16 @@
     },
     {
       "type": "github",
+      "username": "ribru17",
+      "repo": "bamboo.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "richardbizik",
       "repo": "nvim-toc",
       "tags": [
