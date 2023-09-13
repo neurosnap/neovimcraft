@@ -132,12 +132,6 @@
     },
     {
       "type": "github",
-      "username": "anthdm",
-      "repo": ".nvim",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "appelgriebsch",
       "repo": "Nv",
       "tags": []
@@ -276,6 +270,12 @@
       "type": "github",
       "username": "ChristianChiarulli",
       "repo": "nvim",
+      "tags": []
+    },
+    {
+      "type": "github",
+      "username": "ChrisTitusTech",
+      "repo": "neovim",
       "tags": []
     },
     {
@@ -967,6 +967,33 @@
         "nvim",
         "nvimrc",
         "vim"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Optixal",
+      "repo": "neovim-init.vim",
+      "tags": [
+        "autocomplete",
+        "best",
+        "clean",
+        "configuration",
+        "custom",
+        "customizable",
+        "init-lua",
+        "init-vim",
+        "lua",
+        "minimal",
+        "neovim",
+        "neovim-config",
+        "nvim",
+        "plugins",
+        "productive",
+        "productivity",
+        "theme",
+        "tools",
+        "vim",
+        "vimrc"
       ]
     },
     {
