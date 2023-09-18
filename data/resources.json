@@ -1028,6 +1028,15 @@
     },
     {
       "type": "github",
+      "username": "coffebar",
+      "repo": "neovim-project",
+      "tags": [
+        "plugin",
+        "session"
+      ]
+    },
+    {
+      "type": "github",
       "username": "CosmicNvim",
       "repo": "cosmic-ui",
       "tags": [
@@ -3172,6 +3181,15 @@
         "plugin",
         "lsp",
         "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "LintaoAmons",
+      "repo": "scratch.nvim",
+      "tags": [
+        "plugin",
+        "utility"
       ]
     },
     {
@@ -6908,6 +6926,25 @@
         "plugin",
         "colorscheme",
         "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "yorickpeterse",
+      "repo": "nvim-pqf",
+      "tags": [
+        "plugin",
+        "debugging",
+        "quickfix"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "yorickpeterse",
+      "repo": "nvim-window",
+      "tags": [
+        "plugin",
+        "split-and-window"
       ]
     },
     {
