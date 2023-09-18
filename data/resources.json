@@ -3283,6 +3283,15 @@
     },
     {
       "type": "github",
+      "username": "luckasRanarison",
+      "repo": "nvim-devdocs",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "LudoPinelli",
       "repo": "comment-box.nvim",
       "tags": [
