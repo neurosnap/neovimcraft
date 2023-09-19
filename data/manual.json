@@ -477,6 +477,24 @@
         "editing-support",
         "folding"
       ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-puppeteer",
+      "tags": [
+        "editing-support",
+        "plugin"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-kickstart-python",
+      "tags": [
+        "preconfigured-configuration",
+        "python"
+      ]
     }
   ]
 }
