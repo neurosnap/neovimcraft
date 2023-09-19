@@ -913,6 +913,15 @@
     {
       "type": "github",
       "username": "chrisgrieser",
+      "repo": "nvim-kickstart-python",
+      "tags": [
+        "preconfigured-configuration",
+        "python"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
       "repo": "nvim-origami",
       "tags": [
         "utility",
@@ -920,6 +929,15 @@
         "plugin",
         "editing-support",
         "folding"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-puppeteer",
+      "tags": [
+        "editing-support",
+        "plugin"
       ]
     },
     {
@@ -6586,6 +6604,16 @@
       "tags": [
         "plugin",
         "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Wansmer",
+      "repo": "symbol-usage.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
       ]
     },
     {
