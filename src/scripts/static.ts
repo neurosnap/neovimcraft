@@ -41,6 +41,11 @@ const createAds = () => {
 </div>
 
 <div class="ad">
+  <div><a href="https://pgs.sh">pgs.sh</a></div>
+  <div>A zero-dependency static site hosting service for hackers.</div>
+</div>
+
+<div class="ad">
   <div><a href="https://prose.sh">prose.sh</a></div>
   <div>A blog platform for hackers</div>
 </div>
@@ -48,11 +53,6 @@ const createAds = () => {
 <div class="ad">
   <div><a href="https://bower.sh">bower.sh</a></div>
   <div>My personal blog</div>
-</div>
-
-<div class="ad">
-  <div><a href="https://lists.sh">lists.sh</a></div>
-  <div>A microblog for lists</div>
 </div>
 `;
 };
