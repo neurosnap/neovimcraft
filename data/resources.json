@@ -5944,6 +5944,15 @@
     },
     {
       "type": "github",
+      "username": "sontungexpt",
+      "repo": "url-open",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "sQVe",
       "repo": "bufignore.nvim",
       "tags": [
@@ -6689,6 +6698,15 @@
       "tags": [
         "plugin",
         "startup"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "willothy",
+      "repo": "wezterm.nvim",
+      "tags": [
+        "plugin",
+        "terminal-integration"
       ]
     },
     {

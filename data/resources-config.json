@@ -156,6 +156,28 @@
     },
     {
       "type": "github",
+      "username": "Avimitin",
+      "repo": "nvim",
+      "tags": [
+        "dotfile",
+        "dotfiles",
+        "editor",
+        "ide",
+        "linux",
+        "lua",
+        "neovim",
+        "neovim-config",
+        "nvim",
+        "nvim-cmp",
+        "nvim-config",
+        "telescope",
+        "vim",
+        "vimrc",
+        "vscode"
+      ]
+    },
+    {
+      "type": "github",
       "username": "avocadeys",
       "repo": "NVCat",
       "tags": []
@@ -192,17 +214,6 @@
       "username": "bigeagle",
       "repo": "neovim-config",
       "tags": []
-    },
-    {
-      "type": "github",
-      "username": "bitterteasweetorange",
-      "repo": "nvim",
-      "tags": [
-        "lua",
-        "neovim",
-        "neovim-config",
-        "neovim-lua"
-      ]
     },
     {
       "type": "github",
