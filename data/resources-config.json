@@ -156,6 +156,28 @@
     },
     {
       "type": "github",
+      "username": "Avimitin",
+      "repo": "nvim",
+      "tags": [
+        "dotfile",
+        "dotfiles",
+        "editor",
+        "ide",
+        "linux",
+        "lua",
+        "neovim",
+        "neovim-config",
+        "nvim",
+        "nvim-cmp",
+        "nvim-config",
+        "telescope",
+        "vim",
+        "vimrc",
+        "vscode"
+      ]
+    },
+    {
+      "type": "github",
       "username": "avocadeys",
       "repo": "NVCat",
       "tags": []
@@ -1137,22 +1159,6 @@
         "nvimrc",
         "vim",
         "vimrc"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "Theory-of-Everything",
-      "repo": "nii-nvim",
-      "tags": [
-        "config",
-        "hacktober",
-        "linux",
-        "lua",
-        "neovim",
-        "neovim-config",
-        "nvim",
-        "telescope",
-        "vim"
       ]
     },
     {
