@@ -963,6 +963,15 @@
     {
       "type": "github",
       "username": "chrisgrieser",
+      "repo": "nvim-tinygit",
+      "tags": [
+        "plugin",
+        "git"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
       "repo": "nvim-various-textobjs",
       "tags": [
         "editing-support",
@@ -1175,6 +1184,16 @@
         "plugin",
         "programming-languages-support",
         "golang"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "cryptomilk",
+      "repo": "nightcity.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
       ]
     },
     {
@@ -3663,6 +3682,15 @@
     },
     {
       "type": "github",
+      "username": "mikesmithgh",
+      "repo": "kitty-scrollback.nvim",
+      "tags": [
+        "plugin",
+        "terminal-integration"
+      ]
+    },
+    {
+      "type": "github",
       "username": "milanglacier",
       "repo": "yarepl.nvim",
       "tags": [
@@ -5944,6 +5972,15 @@
     },
     {
       "type": "github",
+      "username": "sontungexpt",
+      "repo": "url-open",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "sQVe",
       "repo": "bufignore.nvim",
       "tags": [
@@ -6689,6 +6726,15 @@
       "tags": [
         "plugin",
         "startup"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "willothy",
+      "repo": "wezterm.nvim",
+      "tags": [
+        "plugin",
+        "terminal-integration"
       ]
     },
     {
