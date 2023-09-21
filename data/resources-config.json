@@ -1106,18 +1106,6 @@
     },
     {
       "type": "github",
-      "username": "sharksforarms",
-      "repo": "neovim-rust",
-      "tags": [
-        "lsp",
-        "neovim",
-        "rust",
-        "rustlang",
-        "vim"
-      ]
-    },
-    {
-      "type": "github",
       "username": "SingularisArt",
       "repo": "DeathVim",
       "tags": [
@@ -1159,6 +1147,22 @@
         "nvimrc",
         "vim",
         "vimrc"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Theory-of-Everything",
+      "repo": "nii-nvim",
+      "tags": [
+        "config",
+        "hacktober",
+        "linux",
+        "lua",
+        "neovim",
+        "neovim-config",
+        "nvim",
+        "telescope",
+        "vim"
       ]
     },
     {
