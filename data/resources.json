@@ -4125,16 +4125,6 @@
     },
     {
       "type": "github",
-      "username": "noib3",
-      "repo": "cokeline.nvim",
-      "tags": [
-        "plugin",
-        "bars-and-lines",
-        "tabline"
-      ]
-    },
-    {
-      "type": "github",
       "username": "norcalli",
       "repo": "nvim-base16.lua",
       "tags": [
@@ -6717,6 +6707,16 @@
       "tags": [
         "plugin",
         "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "willothy",
+      "repo": "nvim-cokeline",
+      "tags": [
+        "plugin",
+        "bars-and-lines",
+        "tabline"
       ]
     },
     {
