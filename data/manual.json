@@ -504,6 +504,16 @@
         "plugin",
         "git"
       ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-rulebook",
+      "tags": [
+        "plugin",
+        "diagnostics",
+        "comment"
+      ]
     }
   ]
 }
