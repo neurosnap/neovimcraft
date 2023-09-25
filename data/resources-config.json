@@ -132,6 +132,18 @@
     },
     {
       "type": "github",
+      "username": "AlphaKeks",
+      "repo": "how2nvim",
+      "tags": [
+        "lua",
+        "neovim",
+        "neovim-config",
+        "neovim-configuration",
+        "neovim-lua"
+      ]
+    },
+    {
+      "type": "github",
       "username": "appelgriebsch",
       "repo": "Nv",
       "tags": []
@@ -728,29 +740,6 @@
     {
       "type": "github",
       "username": "LunarVim",
-      "repo": "LunarVim",
-      "tags": [
-        "formatters",
-        "hacktoberfest",
-        "ide",
-        "linters",
-        "lua",
-        "lunarvim",
-        "neovim",
-        "neovim-config",
-        "neovim-configuration",
-        "neovim-lua",
-        "neovim-setup",
-        "nvim",
-        "snippets",
-        "vim",
-        "vimrc",
-        "vscode"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "LunarVim",
       "repo": "Neovim-from-scratch",
       "tags": [
         "hacktoberfest",
@@ -939,6 +928,17 @@
         "neovim-config",
         "neovim-configuration",
         "neovim-plugin"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Olical",
+      "repo": "aniseed",
+      "tags": [
+        "fennel",
+        "lisp",
+        "lua",
+        "neovim"
       ]
     },
     {
@@ -1148,22 +1148,6 @@
         "nvimrc",
         "vim",
         "vimrc"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "Theory-of-Everything",
-      "repo": "nii-nvim",
-      "tags": [
-        "config",
-        "hacktober",
-        "linux",
-        "lua",
-        "neovim",
-        "neovim-config",
-        "nvim",
-        "telescope",
-        "vim"
       ]
     },
     {

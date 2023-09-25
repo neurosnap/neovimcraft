@@ -874,6 +874,15 @@
     {
       "type": "github",
       "username": "chrisgrieser",
+      "repo": "alfred-neovim-utilities",
+      "tags": [
+        "external",
+        "os-specific"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
       "repo": "nvim-alt-substitute",
       "tags": [
         "plugin",
@@ -947,6 +956,16 @@
       "tags": [
         "utility",
         "keybinding"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-rulebook",
+      "tags": [
+        "plugin",
+        "diagnostics",
+        "comment"
       ]
     },
     {
@@ -5958,6 +5977,16 @@
         "plugin",
         "colorscheme",
         "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "sontungexpt",
+      "repo": "stcursorword",
+      "tags": [
+        "plugin",
+        "bars-and-lines",
+        "cursorline"
       ]
     },
     {
