@@ -768,6 +768,17 @@
     },
     {
       "type": "github",
+      "username": "Manas140",
+      "repo": "Conscious",
+      "tags": [
+        "config",
+        "dotfiles",
+        "lua",
+        "nvim"
+      ]
+    },
+    {
+      "type": "github",
       "username": "Martins3",
       "repo": "My-Linux-Config",
       "tags": [
@@ -917,18 +928,6 @@
       "username": "nvie",
       "repo": "vimrc",
       "tags": []
-    },
-    {
-      "type": "github",
-      "username": "nvimdev",
-      "repo": "dope",
-      "tags": [
-        "lua",
-        "neovim",
-        "neovim-config",
-        "neovim-configuration",
-        "neovim-plugin"
-      ]
     },
     {
       "type": "github",
