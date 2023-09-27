@@ -229,17 +229,6 @@
     },
     {
       "type": "github",
-      "username": "bitterteasweetorange",
-      "repo": "nvim",
-      "tags": [
-        "lua",
-        "neovim",
-        "neovim-config",
-        "neovim-lua"
-      ]
-    },
-    {
-      "type": "github",
       "username": "Blacksuan19",
       "repo": "init.nvim",
       "tags": [
@@ -768,17 +757,6 @@
     },
     {
       "type": "github",
-      "username": "Manas140",
-      "repo": "Conscious",
-      "tags": [
-        "config",
-        "dotfiles",
-        "lua",
-        "nvim"
-      ]
-    },
-    {
-      "type": "github",
       "username": "Martins3",
       "repo": "My-Linux-Config",
       "tags": [
@@ -928,6 +906,18 @@
       "username": "nvie",
       "repo": "vimrc",
       "tags": []
+    },
+    {
+      "type": "github",
+      "username": "nvimdev",
+      "repo": "dope",
+      "tags": [
+        "lua",
+        "neovim",
+        "neovim-config",
+        "neovim-configuration",
+        "neovim-plugin"
+      ]
     },
     {
       "type": "github",
@@ -1147,6 +1137,22 @@
         "nvimrc",
         "vim",
         "vimrc"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Theory-of-Everything",
+      "repo": "nii-nvim",
+      "tags": [
+        "config",
+        "hacktober",
+        "linux",
+        "lua",
+        "neovim",
+        "neovim-config",
+        "nvim",
+        "telescope",
+        "vim"
       ]
     },
     {
