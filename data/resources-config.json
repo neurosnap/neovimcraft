@@ -434,16 +434,6 @@
     },
     {
       "type": "github",
-      "username": "dragove",
-      "repo": "nvim",
-      "tags": [
-        "lua",
-        "neovim",
-        "vim"
-      ]
-    },
-    {
-      "type": "github",
       "username": "dreamsofcode-io",
       "repo": "neovim-go-config",
       "tags": []
@@ -607,21 +597,6 @@
     },
     {
       "type": "github",
-      "username": "JoosepAlviste",
-      "repo": "dotfiles",
-      "tags": [
-        "dotfiles",
-        "kitty",
-        "lua",
-        "neovim",
-        "neovim-lsp",
-        "nvim",
-        "nvim-lua",
-        "zsh"
-      ]
-    },
-    {
-      "type": "github",
       "username": "jordanisaacs",
       "repo": "neovim-flake",
       "tags": [
@@ -753,6 +728,17 @@
         "nvim",
         "rice",
         "waybar"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Manas140",
+      "repo": "Conscious",
+      "tags": [
+        "config",
+        "dotfiles",
+        "lua",
+        "nvim"
       ]
     },
     {
@@ -1214,6 +1200,12 @@
         "neovim",
         "nvim"
       ]
+    },
+    {
+      "type": "github",
+      "username": "wavded",
+      "repo": "dotfiles",
+      "tags": []
     },
     {
       "type": "github",
