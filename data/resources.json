@@ -1358,6 +1358,15 @@
     },
     {
       "type": "github",
+      "username": "dense-analysis",
+      "repo": "neural",
+      "tags": [
+        "plugin",
+        "ai"
+      ]
+    },
+    {
+      "type": "github",
       "username": "desdic",
       "repo": "agrolens.nvim",
       "tags": [
@@ -2208,6 +2217,34 @@
       "type": "github",
       "username": "haringsrob",
       "repo": "nvim_context_vt",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "hinell",
+      "repo": "duplicate.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "hinell",
+      "repo": "lsp-timeout.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "hinell",
+      "repo": "move.nvim",
       "tags": [
         "plugin",
         "editing-support"
@@ -4099,6 +4136,15 @@
     {
       "type": "github",
       "username": "niuiic",
+      "repo": "git-log.nvim",
+      "tags": [
+        "plugin",
+        "git"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "niuiic",
       "repo": "multiple-session.nvim",
       "tags": [
         "plugin",
@@ -4958,6 +5004,16 @@
     },
     {
       "type": "github",
+      "username": "polirritmico",
+      "repo": "monokai-nightasty.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
       "username": "potamides",
       "repo": "pantran.nvim",
       "tags": [
@@ -5408,6 +5464,16 @@
         "plugin",
         "lsp",
         "neovim-0.5"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "roobert",
+      "repo": "palette.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "colorscheme-creation"
       ]
     },
     {
