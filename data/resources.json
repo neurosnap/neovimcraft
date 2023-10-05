@@ -3914,6 +3914,16 @@
     {
       "type": "github",
       "username": "MunifTanjim",
+      "repo": "nougat.nvim",
+      "tags": [
+        "plugin",
+        "bars-and-lines",
+        "statusline"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "MunifTanjim",
       "repo": "nui.nvim",
       "tags": [
         "plugin",

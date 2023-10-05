@@ -837,6 +837,7 @@
       "username": "ntk148v",
       "repo": "neovim-config",
       "tags": [
+        "hacktoberfest",
         "ide",
         "lua",
         "neovim",
