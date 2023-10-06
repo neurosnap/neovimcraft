@@ -230,6 +230,17 @@
     },
     {
       "type": "github",
+      "username": "bitterteasweetorange",
+      "repo": "nvim",
+      "tags": [
+        "lua",
+        "neovim",
+        "neovim-config",
+        "neovim-lua"
+      ]
+    },
+    {
+      "type": "github",
       "username": "Blacksuan19",
       "repo": "init.nvim",
       "tags": [
@@ -1140,22 +1151,6 @@
         "nvimrc",
         "vim",
         "vimrc"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "Theory-of-Everything",
-      "repo": "nii-nvim",
-      "tags": [
-        "config",
-        "hacktober",
-        "linux",
-        "lua",
-        "neovim",
-        "neovim-config",
-        "nvim",
-        "telescope",
-        "vim"
       ]
     },
     {
