@@ -2633,15 +2633,6 @@
     },
     {
       "type": "github",
-      "username": "jinzhongjia",
-      "repo": "PS_manager.nvim",
-      "tags": [
-        "plugin",
-        "project"
-      ]
-    },
-    {
-      "type": "github",
       "username": "jlesquembre",
       "repo": "nterm.nvim",
       "tags": [
@@ -3905,15 +3896,6 @@
     {
       "type": "github",
       "username": "MunifTanjim",
-      "repo": "exrc.nvim",
-      "tags": [
-        "plugin",
-        "project"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "MunifTanjim",
       "repo": "nougat.nvim",
       "tags": [
         "plugin",
@@ -4177,6 +4159,15 @@
       "tags": [
         "plugin",
         "language"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "niuiic",
+      "repo": "typst-preview.nvim",
+      "tags": [
+        "plugin",
+        "programming-languages-support"
       ]
     },
     {
@@ -4846,15 +4837,6 @@
     },
     {
       "type": "github",
-      "username": "OxygeNvim",
-      "repo": "OxygeNvim",
-      "tags": [
-        "plugin",
-        "preconfigured-configuration"
-      ]
-    },
-    {
-      "type": "github",
       "username": "p00f",
       "repo": "cphelper.nvim",
       "tags": [
@@ -4965,15 +4947,6 @@
       "tags": [
         "plugin",
         "project"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "Pocco81",
-      "repo": "AbbrevMan.nvim",
-      "tags": [
-        "plugin",
-        "utility"
       ]
     },
     {
