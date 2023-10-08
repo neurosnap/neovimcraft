@@ -6635,6 +6635,15 @@
     {
       "type": "github",
       "username": "VidocqH",
+      "repo": "data-viewer.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "VidocqH",
       "repo": "lsp-lens.nvim",
       "tags": [
         "plugin",
