@@ -2642,6 +2642,15 @@
     },
     {
       "type": "github",
+      "username": "JMarkin",
+      "repo": "gentags.lua",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "johann2357",
       "repo": "nvim-smartbufs",
       "tags": [
@@ -2667,16 +2676,6 @@
         "plugin",
         "editing-support",
         "comment"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "jose-elias-alvarez",
-      "repo": "typescript.nvim",
-      "tags": [
-        "plugin",
-        "lsp",
-        "neovim-0.5"
       ]
     },
     {
@@ -4515,6 +4514,15 @@
     {
       "type": "github",
       "username": "nvimdev",
+      "repo": "hlsearch.nvim",
+      "tags": [
+        "plugin",
+        "search"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nvimdev",
       "repo": "indentmini.nvim",
       "tags": [
         "plugin",
@@ -4540,6 +4548,16 @@
         "plugin",
         "colorscheme",
         "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nvimtools",
+      "repo": "none-ls.nvim",
+      "tags": [
+        "plugin",
+        "lsp",
+        "neovim-0.5"
       ]
     },
     {
