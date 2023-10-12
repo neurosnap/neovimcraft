@@ -150,6 +150,25 @@
     },
     {
       "type": "github",
+      "username": "AstroNvim",
+      "repo": "AstroNvim",
+      "tags": [
+        "astronvim",
+        "astrovim",
+        "hacktoberfest",
+        "ide",
+        "lua",
+        "neovim",
+        "neovim-config",
+        "neovim-configuration",
+        "neovim-lua",
+        "neovim-setup",
+        "nvim",
+        "vim"
+      ]
+    },
+    {
+      "type": "github",
       "username": "Avimitin",
       "repo": "nvim",
       "tags": [
@@ -427,16 +446,6 @@
     },
     {
       "type": "github",
-      "username": "dragove",
-      "repo": "nvim",
-      "tags": [
-        "lua",
-        "neovim",
-        "vim"
-      ]
-    },
-    {
-      "type": "github",
       "username": "dreamsofcode-io",
       "repo": "neovim-go-config",
       "tags": []
@@ -565,21 +574,6 @@
         "tutorial",
         "vim",
         "youtube"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "hiyali",
-      "repo": "nvim",
-      "tags": [
-        "config",
-        "configuration",
-        "install",
-        "neovim",
-        "nvim",
-        "script",
-        "shortcut",
-        "theme"
       ]
     },
     {
@@ -1081,6 +1075,7 @@
         "alacritty",
         "config",
         "dotfiles",
+        "fzf",
         "karabiner-elements",
         "kitty",
         "lf",
