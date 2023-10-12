@@ -230,17 +230,6 @@
     },
     {
       "type": "github",
-      "username": "bitterteasweetorange",
-      "repo": "nvim",
-      "tags": [
-        "lua",
-        "neovim",
-        "neovim-config",
-        "neovim-lua"
-      ]
-    },
-    {
-      "type": "github",
       "username": "Blacksuan19",
       "repo": "init.nvim",
       "tags": [
@@ -1090,6 +1079,12 @@
         "yabai",
         "zsh"
       ]
+    },
+    {
+      "type": "github",
+      "username": "rsdlt",
+      "repo": "nvim-config-files",
+      "tags": []
     },
     {
       "type": "github",
