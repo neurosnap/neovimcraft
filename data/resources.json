@@ -4154,6 +4154,15 @@
     {
       "type": "github",
       "username": "niuiic",
+      "repo": "remote.nvim",
+      "tags": [
+        "plugin",
+        "remote-development"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "niuiic",
       "repo": "translate.nvim",
       "tags": [
         "plugin",
