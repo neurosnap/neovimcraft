@@ -2188,6 +2188,15 @@
     },
     {
       "type": "github",
+      "username": "gsuuon",
+      "repo": "note.nvim",
+      "tags": [
+        "plugin",
+        "note-taking"
+      ]
+    },
+    {
+      "type": "github",
       "username": "gwatcha",
       "repo": "reaper-keys",
       "tags": [
