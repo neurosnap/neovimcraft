@@ -720,29 +720,6 @@
     {
       "type": "github",
       "username": "LunarVim",
-      "repo": "LunarVim",
-      "tags": [
-        "formatters",
-        "hacktoberfest",
-        "ide",
-        "linters",
-        "lua",
-        "lunarvim",
-        "neovim",
-        "neovim-config",
-        "neovim-configuration",
-        "neovim-lua",
-        "neovim-setup",
-        "nvim",
-        "snippets",
-        "vim",
-        "vimrc",
-        "vscode"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "LunarVim",
       "repo": "Neovim-from-scratch",
       "tags": [
         "hacktoberfest",
@@ -1105,12 +1082,6 @@
     },
     {
       "type": "github",
-      "username": "rsdlt",
-      "repo": "nvim-config-files",
-      "tags": []
-    },
-    {
-      "type": "github",
       "username": "sharksforarms",
       "repo": "neovim-rust",
       "tags": [
@@ -1180,6 +1151,15 @@
         "nvim",
         "telescope",
         "vim"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "tlvince",
+      "repo": "neovim-config",
+      "tags": [
+        "dotfiles",
+        "neovim"
       ]
     },
     {
