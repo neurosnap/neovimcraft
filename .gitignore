@@ -12,6 +12,8 @@ data/markdown-config.json
 data/html.json
 data/scrape.json
 data/scrape-config.json
+data/resources.json
+data/resources-config.json
 .direnv
 gha-creds-*
 static/*.html
