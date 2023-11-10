@@ -29,7 +29,7 @@ jobs:
       with:
         user: erock
         key: ${{ secrets.PRIVATE_KEY }}
-        src: './public/*'
+        src: './public'
         project: "neovimcraft-${{ steps.vars.outputs.sha_short }}"
         promote: "neovimcraft"
         retain: "neovimcraft-"
