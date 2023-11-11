@@ -34,7 +34,7 @@ jobs:
         with:
           user: erock
           key: ${{ secrets.PRIVATE_KEY }}
-          src: './public'
+          src: './public/'
           project: "git-neovimcraft-${{ steps.vars.outputs.sha_short }}"
           promote: "git-neovimcraft"
           retain: "git-neovimcraft-"
