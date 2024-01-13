@@ -58,6 +58,10 @@ async function processResources(resources: Resource[]) {
     const d = resources[i];
 
     if (d.type === "srht") {
+      continue;
+      /*
+      01/12/2024 - SUSPENDING until sr.ht is back online
+
       const result = await fetchSrhtData({ ...d, token: srhtToken });
       const id = getResourceId(d);
       if (!result.ok) {
@@ -79,7 +83,7 @@ async function processResources(resources: Resource[]) {
         createdAt: repo.created,
         updatedAt: repo.updated,
         branch: result.data.branch,
-      });
+      });*/
     } else if (d.type === "github") {
       const result = await fetchGithubData({ ...d, token: ghToken });
       if (!result.ok) {
