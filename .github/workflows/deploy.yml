@@ -25,7 +25,7 @@ jobs:
       run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
 
     - name: upload to pgs
-      uses: 'picosh/pgs-action@main'
+      uses: picosh/pgs-action@v3
       with:
         user: erock
         key: ${{ secrets.PRIVATE_KEY }}
@@ -33,3 +33,4 @@ jobs:
         project: "neovimcraft-${{ steps.vars.outputs.sha_short }}"
         promote: "neovimcraft"
         retain: "neovimcraft-"
+        retain_num: 1
