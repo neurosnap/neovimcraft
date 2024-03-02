@@ -514,6 +514,16 @@
         "diagnostics",
         "comment"
       ]
+    },
+    {
+      "type": "github",
+      "username": "adigitoleo",
+      "repo": "overview.nvim",
+      "tags": [
+        "plugin",
+        "markdown-and-latex",
+        "navigation"
+      ]
     }
   ]
 }
