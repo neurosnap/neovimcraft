@@ -1,14 +1,14 @@
-import resourceFile from "../../data/resources.json" assert { type: "json" };
-import resourceConfigFile from "../../data/resources-config.json" assert {
+import resourceFile from "../../data/resources.json" with { type: "json" };
+import resourceConfigFile from "../../data/resources-config.json" with {
   type: "json",
 };
 
 import type { Plugin, Resource } from "../types.ts";
 import { createPlugin, getResourceId } from "../entities.ts";
 import { fetchGithubData, ghToken } from "../github.ts";
-import { fetchSrhtData } from "../stht.ts";
+// import { fetchSrhtData } from "../stht.ts";
 
-const srhtToken = Deno.env.get("SRHT_ACCESS_TOKEN") || "";
+// const srhtToken = Deno.env.get("SRHT_ACCESS_TOKEN") || "";
 
 const option = Deno.args[0];
 if (option === "missing") {

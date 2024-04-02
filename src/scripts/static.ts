@@ -1,6 +1,6 @@
-import htmlFile from "../../data/html.json" assert { type: "json" };
-import dbFile from "../../data/db.json" assert { type: "json" };
-import configDbFile from "../../data/db-config.json" assert { type: "json" };
+import htmlFile from "../../data/html.json" with { type: "json" };
+import dbFile from "../../data/db.json" with { type: "json" };
+import configDbFile from "../../data/db-config.json" with { type: "json" };
 
 import { dirname } from "../deps.ts";
 import { format, relativeTimeFromDates } from "../date.ts";
@@ -96,8 +96,8 @@ const createHtmlFile = ({ head, body }: { head: string; body: string }) => {
 const createNav = () => {
   const links = [
     ["/", "plugins"],
-    ["/c", "configs"],
-    ["/about", "about"],
+    ["/c/", "configs"],
+    ["/about/", "about"],
   ];
 
   const linksStr = links.reduce((acc, link) => {
@@ -354,13 +354,13 @@ const createSearchPage = (data: PluginData, by: keyof Plugin) => {
     if (by === "createdAt") {
       str += "created\n";
     } else {
-      str += '<a href="/created">created</a>\n';
+      str += '<a href="/created/">created</a>\n';
     }
 
     if (by === "updatedAt") {
       str += "updated\n";
     } else {
-      str += '<a href="/updated">updated</a>\n';
+      str += '<a href="/updated/">updated</a>\n';
     }
 
     return str;
@@ -438,13 +438,13 @@ const createSearchConfigPage = (data: PluginData, by: keyof Plugin) => {
     if (by === "createdAt") {
       str += "created\n";
     } else {
-      str += '<a href="/c/created">created</a>\n';
+      str += '<a href="/c/created/">created</a>\n';
     }
 
     if (by === "updatedAt") {
       str += "updated\n";
     } else {
-      str += '<a href="/c/updated">updated</a>\n';
+      str += '<a href="/c/updated/">updated</a>\n';
     }
 
     return str;

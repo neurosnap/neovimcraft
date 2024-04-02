@@ -1,9 +1,9 @@
-import resourceFile from "../../data/resources.json" assert { type: "json" };
-import resourceConfigFile from "../../data/resources-config.json" assert {
+import resourceFile from "../../data/resources.json" with { type: "json" };
+import resourceConfigFile from "../../data/resources-config.json" with {
   type: "json",
 };
-import manualFile from "../../data/manual.json" assert { type: "json" };
-import manualConfigFile from "../../data/manual-config.json" assert {
+import manualFile from "../../data/manual.json" with { type: "json" };
+import manualConfigFile from "../../data/manual-config.json" with {
   type: "json",
 };
 

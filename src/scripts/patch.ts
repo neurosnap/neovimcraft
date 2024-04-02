@@ -1,9 +1,9 @@
-import scrapePluginData from "../../data/scrape.json" assert { type: "json" };
-import manualPluginData from "../../data/manual.json" assert { type: "json" };
-import scrapeConfigData from "../../data/scrape-config.json" assert {
+import scrapePluginData from "../../data/scrape.json" with { type: "json" };
+import manualPluginData from "../../data/manual.json" with { type: "json" };
+import scrapeConfigData from "../../data/scrape-config.json" with {
   type: "json",
 };
-import manualConfigData from "../../data/manual-config.json" assert {
+import manualConfigData from "../../data/manual-config.json" with {
   type: "json",
 };
 
