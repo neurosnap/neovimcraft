@@ -53,7 +53,7 @@ build: clean
 
 upload:
 	scp -r ./public/* erock@pgs.sh:/$(PROJECT)
-	ssh erock@pgs.sh neovimcraft link $(PROJECT)
+	ssh pgs.sh neovimcraft --to $(PROJECT) --write
 .PHONY: upload
 
 deploy: scrape build upload
