@@ -193,7 +193,7 @@ const createPluginItem = (plugin: Plugin, tags: Tag[]) => {
 <div class="container plugin" data-username="${dataUsername}" data-repo="${dataRepo}" data-desc="${dataDesc}" data-tags="${dataTags}">
   <div class="header">
     <h2 class="item_header">
-      <a href="/plugin/${plugin.username}/${plugin.repo}">${plugin.repo}</a>
+      <a href="/plugin/${plugin.username}/${plugin.repo}/">${plugin.repo}</a>
     </h2>
     <div class="metrics">
       ${repoLink}
