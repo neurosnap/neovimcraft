@@ -524,6 +524,17 @@
         "markdown-and-latex",
         "navigation"
       ]
+    },
+    {
+      "type": "github",
+      "username": "vyfor",
+      "repo": "cord.nvim",
+      "tags": [
+        "plugin",
+        "discord",
+        "integration",
+        "rich-presence"
+      ]
     }
   ]
 }
