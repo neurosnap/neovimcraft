@@ -527,6 +527,16 @@
     },
     {
       "type": "github",
+      "username": "adigitoleo",
+      "repo": "haunt.nvim",
+      "tags": [
+        "plugin",
+        "terminal-integration",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
       "username": "vyfor",
       "repo": "cord.nvim",
       "tags": [
