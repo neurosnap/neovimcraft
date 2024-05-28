@@ -545,6 +545,14 @@
         "integration",
         "rich-presence"
       ]
+    },
+    {
+      "type": "github",
+      "username": "adigitoleo",
+      "repo": "vim-mellow",
+      "tags": [
+        "colorscheme"
+      ]
     }
   ]
 }
