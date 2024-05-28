@@ -553,6 +553,24 @@
       "tags": [
         "colorscheme"
       ]
+    },
+    {
+      "type": "gitlab",
+      "username": "itaranto",
+      "repo": "id3.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "gitlab",
+      "username": "itaranto",
+      "repo": "plantuml.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
     }
   ]
 }
