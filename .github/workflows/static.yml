@@ -33,7 +33,7 @@ jobs:
         id: vars
         run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
       - name: publish to pgs
-        uses: picosh/pgs-action@v3
+        uses: picosh/pgs-action@main
         with:
           user: erock
           key: ${{ secrets.PRIVATE_KEY }}
