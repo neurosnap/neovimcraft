@@ -26,9 +26,6 @@ jobs:
             --clone-url "https://github.com/neurosnap/neovimcraft.git" \
             --home-url "https://git.erock.io" \
             --revs main
-      #- name: pgs-allow-all
-      #  run: |
-      #    cp ./static/_pgs_ignore ./public
       - name: Set outputs
         id: vars
         run: echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
