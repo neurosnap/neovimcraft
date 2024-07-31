@@ -41,8 +41,13 @@ const createAds = () => {
 </div>
 
 <div class="ad">
+  <div><a href="https://tuns.sh">tuns.sh</a></div>
+  <div>Host publicly available web services on localhost using SSH</div>
+</div>
+
+<div class="ad">
   <div><a href="https://pgs.sh">pgs.sh</a></div>
-  <div>A zero-dependency static site hosting service for hackers.</div>
+  <div>A zero-install static site hosting service for hackers</div>
 </div>
 
 <div class="ad">
