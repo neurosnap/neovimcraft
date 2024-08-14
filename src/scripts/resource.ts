@@ -1,14 +1,9 @@
-import resourceFile from "../../data/resources.json" with { type: "json" };
-import resourceConfigFile from "../../data/resources-config.json" with {
-  type: "json",
-};
 import manualFile from "../../data/manual.json" with { type: "json" };
 import manualConfigFile from "../../data/manual-config.json" with {
   type: "json",
 };
-
-import type { Resource, ResourceMap } from "../types.ts";
-import { createResource, getResourceId } from "../entities.ts";
+import type { Resource } from "../types.ts";
+import { createResource } from "../entities.ts";
 
 type Option = "plugin" | "config";
 
@@ -50,27 +45,6 @@ function cli(opt: "config" | "plugin") {
   let [username, repo] = name.split("/");
   if (type === "srht" && username[0] === "~") {
     username = username.replace("~", "");
-  }
-
-  if (opt === "plugin") {
-    const foundResource = (resourceFile.resources as Resource[]).find(
-      (r) => getResourceId(r) === name,
-    );
-    if (foundResource) {
-      console.log(`${name} aleady found in resources, not adding`);
-      return;
-    }
-  } else {
-    const resources = Object.values(
-      resourceConfigFile.resources as ResourceMap,
-    );
-    const foundResource = resources.find(
-      (r) => getResourceId(r) === name,
-    );
-    if (foundResource) {
-      console.log(`${name} aleady found in resources, not adding`);
-      return;
-    }
   }
 
   let tags: string[] = [];
