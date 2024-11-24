@@ -571,6 +571,16 @@
         "plugin",
         "utility"
       ]
+    },
+    {
+      "type": "github",
+      "username": "TaDaa",
+      "repo": "vimade",
+      "tags": [
+        "color",
+        "split-and-window",
+        "plugin"
+      ]
     }
   ]
 }
