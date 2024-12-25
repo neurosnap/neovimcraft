@@ -298,23 +298,10 @@ const createAboutPage = () => {
           I want to provide resources for searching an building neovim plugins.
         </p>
       </div>
-      <img class="profile" src="/me.jpg" alt="Eric Bower" />
     </div>
     <div>
       <p>
-        I&apos;m a professional software engineer who has been programming since I was 13 years old.
-        I love building software as much as I love building something that people find useful. Most
-        of my time is devoted to growing my ability to build products.
-      </p>
-      <p>
-        I also care deeply about open-source code and have an active
-        <a href="https://github.com/neurosnap">Github</a>
-        , check it out if you&apos;re interested. I also write
-        <a href="https://bower.sh">blog articles about software</a>.
-      </p>
-      <p>
-        I&apos;m happy to read feedback about neovimcraft so please feel free to
-        <a href="mailto:neovimcraft@erock.io">email me</a>.
+        I also write <a href="https://bower.sh">blog articles about software</a>.
       </p>
     </div>
     <div>
