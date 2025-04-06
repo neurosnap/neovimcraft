@@ -41,18 +41,18 @@ const createAds = () => {
 </div>
 
 <div class="ad">
-  <div><a href="https://tuns.sh">tuns.sh</a></div>
-  <div>Host publicly available web services on localhost using SSH</div>
+  <div><a href="https://pgs.sh">pgs.sh</a></div>
+  <div>Host static sites on our global platform using SSH</div>
 </div>
 
 <div class="ad">
-  <div><a href="https://pgs.sh">pgs.sh</a></div>
-  <div>A zero-install static site hosting service for hackers</div>
+  <div><a href="https://tuns.sh">tuns.sh</a></div>
+  <div>Host public web services on localhost using SSH</div>
 </div>
 
 <div class="ad">
   <div><a href="https://prose.sh">prose.sh</a></div>
-  <div>A blog platform for hackers</div>
+  <div>Serve your blog using SSH</div>
 </div>
 
 <div class="ad">
