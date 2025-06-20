@@ -1,8 +1,8 @@
 name: "deploy neovimcraft cron"
 
-#on:
-#  schedule:
-#  - cron: "0 */6 * * *"
+on:
+  schedule:
+  - cron: "0 */6 * * *"
 
 env:
   GITHUB_ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN}}
