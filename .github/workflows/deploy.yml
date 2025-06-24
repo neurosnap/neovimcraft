@@ -1,6 +1,7 @@
 name: "deploy neovimcraft cron"
 
 on:
+  workflow_dispatch:
   schedule:
   - cron: "0 */6 * * *"
 
@@ -19,6 +20,7 @@ jobs:
         deno-version: "~1.42"
     - run: make scrape
     - run: make build
+    - run: ls -lah ./public
 
     - name: Set outputs
       id: vars
