@@ -1,7 +1,8 @@
 name: "deploy neovimcraft cron"
 
-#on:
-#  workflow_dispatch:
+on:
+  workflow_dispatch:
+
 #  schedule:
 #  - cron: "0 */6 * * *"
 
