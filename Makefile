@@ -52,14 +52,15 @@ build: clean
 .PHONY: build
 
 upload:
-	scp -r ./public/* erock@pgs.sh:/$(PROJECT)
+	rsync -rv ./public/ pgs.sh:/$(PROJECT)
 	ssh pgs.sh neovimcraft --to $(PROJECT) --write
+	ssh pgs.sh retain neovimcraft- -n 1 --write
 .PHONY: upload
 
 deploy: scrape build upload
 .PHONY: deploy
 
-format:
+fmt:
 	deno fmt
 .PHONY: format
 
