@@ -1,5 +1,4 @@
-REV=$(shell git rev-parse --short HEAD)
-PROJECT="neovimcraft-$(REV)"
+PROJECT="neovimcraft-$(shell date +%s)"
 
 dev:
 	deno run --allow-read --allow-net src/dev.ts
