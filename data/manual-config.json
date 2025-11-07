@@ -1,90 +1,90 @@
 {
-  "resources": [
-    {
-      "type": "github",
-      "username": "Alexis12119",
-      "repo": "nvim-config",
-      "tags": [
-        "lua",
-        "neovim",
-        "lazy",
-        "nvim",
-        "pde",
-        "neovim-configuration",
-        "neovim-lua",
-        "neovim-config",
-        "neovim-setup",
-        "nvim-setup",
-        "nvim-settings",
-        "nvim-configs",
-        "nvim-configuration",
-        "nvim-lua",
-        "nvim-config"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "leonasdev",
-      "repo": ".dotfiles",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "jacktrusler",
-      "repo": "dotfiles",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "avocadeys",
-      "repo": "NVCat",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "nikfp",
-      "repo": "nvim-config",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "pynappo",
-      "repo": "dotfiles",
-      "tags": []
-    },
-    {
-      "type": "github",
-      "username": "doctorfree",
-      "repo": "nvim-lazyman",
-      "tags": [
-        "completion",
-        "keybinding",
-        "formatting",
-        "note-taking",
-        "debugging",
-        "terminal-integration",
-        "colorscheme-switchers",
-        "fuzzy-finder",
-        "preconfigured-configuration",
-        "telescope",
-        "lsp",
-        "language",
-        "command-line",
-        "version-manager",
-        "dependency-management",
-        "game",
-        "programming-languages-support",
-        "diagnostics",
-        "github",
-        "tabline",
-        "plugin"
-      ]
-    },
-    {
-      "type": "github",
-      "username": "b0o",
-      "repo": "nvim-conf",
-      "tags": []
-    }
-  ]
+	"resources": [
+		{
+			"type": "github",
+			"username": "Alexis12119",
+			"repo": "nvim-config",
+			"tags": [
+				"lua",
+				"neovim",
+				"lazy",
+				"nvim",
+				"pde",
+				"neovim-configuration",
+				"neovim-lua",
+				"neovim-config",
+				"neovim-setup",
+				"nvim-setup",
+				"nvim-settings",
+				"nvim-configs",
+				"nvim-configuration",
+				"nvim-lua",
+				"nvim-config"
+			]
+		},
+		{
+			"type": "github",
+			"username": "leonasdev",
+			"repo": ".dotfiles",
+			"tags": []
+		},
+		{
+			"type": "github",
+			"username": "jacktrusler",
+			"repo": "dotfiles",
+			"tags": []
+		},
+		{
+			"type": "github",
+			"username": "avocadeys",
+			"repo": "NVCat",
+			"tags": []
+		},
+		{
+			"type": "github",
+			"username": "nikfp",
+			"repo": "nvim-config",
+			"tags": []
+		},
+		{
+			"type": "github",
+			"username": "pynappo",
+			"repo": "dotfiles",
+			"tags": []
+		},
+		{
+			"type": "github",
+			"username": "doctorfree",
+			"repo": "nvim-lazyman",
+			"tags": [
+				"completion",
+				"keybinding",
+				"formatting",
+				"note-taking",
+				"debugging",
+				"terminal-integration",
+				"colorscheme-switchers",
+				"fuzzy-finder",
+				"preconfigured-configuration",
+				"telescope",
+				"lsp",
+				"language",
+				"command-line",
+				"version-manager",
+				"dependency-management",
+				"game",
+				"programming-languages-support",
+				"diagnostics",
+				"github",
+				"tabline",
+				"plugin"
+			]
+		},
+		{
+			"type": "github",
+			"username": "b0o",
+			"repo": "nvim-conf",
+			"tags": []
+		}
+	]
 }

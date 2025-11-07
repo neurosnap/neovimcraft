@@ -1,3 +1,1 @@
-export const denyRepos = [
-  "wbthomason/packer.nvim",
-];
+export const denyRepos = ["wbthomason/packer.nvim"];

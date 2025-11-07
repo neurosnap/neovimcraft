@@ -1,40 +1,39 @@
-REV=$(shell git rev-parse --short HEAD)
-PROJECT="neovimcraft-$(REV)"
+PROJECT="neovimcraft-$(shell date +%s)"
 
 dev:
-	deno run --allow-read --allow-net src/dev.ts
+	bun run src/dev.ts
 .PHONY: dev
 
 resource:
-	deno run --allow-write src/scripts/resource.ts
+	bun run src/scripts/resource.ts
 .PHONY: resource
 
 resource-config:
-	deno run --allow-write src/scripts/resource.ts config
+	bun run src/scripts/resource.ts config
 .PHONY: resource-config
 
 download-config:
-	deno run --allow-env --allow-write --allow-net src/scripts/scrape-config.ts
+	bun run src/scripts/scrape-config.ts
 .PHONY: download-config
 
 download: download-config
-	deno run --allow-write --allow-net src/scripts/scrape.ts
+	bun run src/scripts/scrape.ts
 .PHONY: download
 
 patch:
-	deno run --allow-write src/scripts/patch.ts
+	bun run src/scripts/patch.ts
 .PHONY: patch
 
 process:
-	deno run --allow-write --allow-env --allow-net src/scripts/process.ts
+	bun run src/scripts/process.ts
 .PHONY: process
 
 missing:
-	deno run --allow-write --allow-env --allow-net --allow-read src/scripts/process.ts missing
+	bun run src/scripts/process.ts missing
 .PHONY: missing
 
 html:
-	deno run --allow-write --allow-read src/scripts/html.ts
+	bun run src/scripts/html.ts
 .PHONY: html
 
 scrape: download patch process html
@@ -46,25 +45,27 @@ clean:
 .PHONY: clean
 
 build: clean
-	deno run --allow-write src/scripts/static.ts
+	bun run src/scripts/static.ts
 	cp ./data/db.json ./public/db.json
 	cp -r ./static/* ./public
 .PHONY: build
 
 upload:
-	scp -r ./public/* erock@pgs.sh:/$(PROJECT)
-	ssh pgs.sh neovimcraft --to $(PROJECT) --write
+	rsync ./public/_pgs_ignore pgs.sh:/$(PROJECT)/_pgs_ignore
+	rsync -rv ./public/ pgs.sh:/$(PROJECT)
+	ssh pgs.sh link neovimcraft --to $(PROJECT) --write
+	ssh pgs.sh retain neovimcraft- -n 1 --write
 .PHONY: upload
 
 deploy: scrape build upload
 .PHONY: deploy
 
-format:
-	deno fmt
+fmt:
+	bun run biome format --write
 .PHONY: format
 
 test:
-	deno lint
+	bun run biome lint
 .PHONY: test
 
 config: download-config process html

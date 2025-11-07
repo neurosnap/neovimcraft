@@ -2,38 +2,11 @@
 
 A site dedicated to finding the best neovim plugins.
 
-## Requirements
-
-- deno
-
 ## Want to submit a plugin?
 
-There are a couple of ways to add plugins to `neovimcraft`. Probably the
-simplest way would be to get your plugin added to
+Submit the plugin to
 [awesome-neovim](https://github.com/rockerBOO/awesome-neovim). We scrape that
 repo and is the primary data source for the plugin directory.
-
-If you'd like to suggest a plugin to `neovimcraft` directly then feel free to
-open a github issue or submit a PR after running the following command:
-
-```bash
-make resource
-```
-
-This command will step through the requirements for adding a resource to the
-site.
-
-## Want to submit a config?
-
-If you'd like to suggest a config to add to `neovimcraft.com/c` then feel free
-to submit a PR after running the following command:
-
-```bash
-make resource-config
-```
-
-This command will step through the requirements for adding a resource to the
-site.
 
 ## nvim.sh
 
@@ -46,6 +19,8 @@ curl https://nvim.sh
 https://github.com/neurosnap/nvim.sh
 
 ## Developing
+
+neovimcraft is a static site.  We use `deno` for static site generation.
 
 You need to add a couple environment variables related to using the github api:
 

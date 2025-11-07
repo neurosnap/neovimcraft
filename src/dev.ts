@@ -1,16 +1,8 @@
-import { Application } from "./deps.ts";
+import Koa from "koa";
+import serve from "koa-static";
 
-const app = new Application();
+const app = new Koa();
 
-app.use(async (context, next) => {
-  try {
-    await context.send({
-      root: `${Deno.cwd()}/public`,
-      index: "index.html",
-    });
-  } catch {
-    await next();
-  }
-});
+app.use(serve(`${process.cwd()}/public`));
 
-await app.listen({ port: 8080 });
+app.listen({ port: 8080 });

@@ -585,12 +585,14 @@
     {
       "type": "github",
       "username": "Silletr",
-      "repo": "LazyDevHelper",
+      "repo": "LazyDeveloperHelper",
       "tags": [
         "pip",
         "utility",
         "plugin",
-        "python"
+        "python",
+        "auto-installing",
+        "for-lazy"
       ]
     }
   ]
