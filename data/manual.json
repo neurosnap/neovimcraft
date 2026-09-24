@@ -1,410 +1,599 @@
 {
-	"resources": [
-		{
-			"type": "github",
-			"username": "jceb",
-			"repo": "blinds.nvim",
-			"tags": ["color"]
-		},
-		{
-			"type": "github",
-			"username": "theory-of-everything",
-			"repo": "nii-nvim",
-			"tags": ["preconfigured-configuration"]
-		},
-		{
-			"type": "github",
-			"username": "mrjones2014",
-			"repo": "smart-splits.nvim",
-			"tags": ["split-and-window"]
-		},
-		{
-			"type": "github",
-			"username": "koenverburg",
-			"repo": "minimal-tabline.nvim",
-			"tags": ["tabline"]
-		},
-		{
-			"type": "github",
-			"username": "koenverburg",
-			"repo": "cmd-palette.nvim",
-			"tags": ["utility"]
-		},
-		{
-			"type": "github",
-			"username": "wuelnerdotexe",
-			"repo": "vim-enfocado",
-			"tags": ["tree-sitter-supported-colorscheme"]
-		},
-		{
-			"type": "github",
-			"username": "strash",
-			"repo": "everybody-wants-that-line.nvim",
-			"tags": ["statusline"]
-		},
-		{
-			"type": "github",
-			"username": "Massolari",
-			"repo": "forem.nvim",
-			"tags": ["utility"]
-		},
-		{
-			"type": "github",
-			"username": "ktunprasert",
-			"repo": "gui-font-resize.nvim",
-			"tags": ["utility"]
-		},
-		{
-			"type": "github",
-			"username": "ThePrimeagen",
-			"repo": "refactoring.nvim",
-			"tags": [
-				"treesitter-based",
-				"programming-languages-support",
-				"editing-support"
-			]
-		},
-		{
-			"type": "github",
-			"username": "justinhj",
-			"repo": "battery.nvim",
-			"tags": ["statusline", "diagnostics"]
-		},
-		{
-			"type": "github",
-			"username": "danielfalk",
-			"repo": "smart-open.nvim",
-			"tags": ["fuzzy-finder"]
-		},
-		{
-			"type": "github",
-			"username": "Saverio976",
-			"repo": "music.nvim",
-			"tags": ["media", "utility"]
-		},
-		{
-			"type": "github",
-			"username": "Vonr",
-			"repo": "align.nvim",
-			"tags": ["formatting"]
-		},
-		{
-			"type": "github",
-			"username": "lvim-tech",
-			"repo": "lvim",
-			"tags": ["preconfigured-configuration"]
-		},
-		{
-			"type": "github",
-			"username": "TimotheeSai",
-			"repo": "git-sessions.nvim",
-			"tags": ["session", "git"]
-		},
-		{
-			"type": "srht",
-			"username": "vigoux",
-			"repo": "azy.nvim",
-			"tags": ["fuzzy-finder"]
-		},
-		{
-			"type": "srht",
-			"username": "vigoux",
-			"repo": "complementree.nvim",
-			"tags": ["completion"]
-		},
-		{
-			"type": "github",
-			"username": "shortcuts",
-			"repo": "no-neck-pain.nvim",
-			"tags": ["editing-support"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-genghis",
-			"tags": ["file-explorer", "utility"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-recorder",
-			"tags": ["utility", "keybinding"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-various-textobjs",
-			"tags": ["editing-support", "keybinding", "text-object"]
-		},
-		{
-			"type": "github",
-			"username": "antonk52",
-			"repo": "markdowny.nvim",
-			"tags": ["keybinding"]
-		},
-		{
-			"type": "github",
-			"username": "dharmx",
-			"repo": "nvim-colo",
-			"tags": ["colorscheme", "telescope"]
-		},
-		{
-			"type": "github",
-			"username": "uloco",
-			"repo": "bluloco.nvim",
-			"tags": ["tree-sitter-supported-colorscheme"]
-		},
-		{
-			"type": "github",
-			"username": "Pakrohk-DotFiles",
-			"repo": "NvPak",
-			"tags": ["plugin", "preconfigured-configuration"]
-		},
-		{
-			"type": "github",
-			"username": "charludo",
-			"repo": "projectmgr.nvim",
-			"tags": [
-				"telescope",
-				"session",
-				"plugin",
-				"utility",
-				"project",
-				"startup"
-			]
-		},
-		{
-			"type": "github",
-			"username": "nyoom-engineering",
-			"repo": "oxocarbon.nvim",
-			"tags": ["treesitter-colorschemes", "colorscheme"]
-		},
-		{
-			"type": "github",
-			"username": "norflin321",
-			"repo": "bicolors",
-			"tags": ["treesitter-colorschemes", "colorscheme"]
-		},
-		{
-			"type": "github",
-			"username": "dpayne",
-			"repo": "CodeGPT.nvim",
-			"tags": ["plugin", "completion", "editing-support"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-spider",
-			"tags": ["plugin", "keybinding", "motion", "editing-support"]
-		},
-		{
-			"type": "github",
-			"username": "Bekaboo",
-			"repo": "deadcolumn.nvim",
-			"tags": ["plugin", "bars-and-lines"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-early-retirement",
-			"tags": ["plugin", "split-and-window", "buffer"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-alt-substitute",
-			"tags": ["plugin", "command-line", "editing-support"]
-		},
-		{
-			"type": "github",
-			"username": "Bryley",
-			"repo": "neoai.nvim",
-			"tags": ["plugin", "editing-support"]
-		},
-		{
-			"type": "github",
-			"username": "mhanberg",
-			"repo": "output-panel.nvim",
-			"tags": ["plugin", "utility"]
-		},
-		{
-			"type": "github",
-			"username": "elixir-tools",
-			"repo": "elixir-tools.nvim",
-			"tags": ["plugin", "lsp"]
-		},
-		{
-			"type": "github",
-			"username": "lkhphuc",
-			"repo": "jupyter-kernel.nvim",
-			"tags": [
-				"plugin",
-				"programming-languages-support",
-				"code-runner",
-				"debugging",
-				"completion",
-				"jupyter"
-			]
-		},
-		{
-			"type": "github",
-			"username": "Badhi",
-			"repo": "nvim-treesitter-cpp-tools",
-			"tags": [
-				"treesitter-based",
-				"programming-languages-support",
-				"editing-support"
-			]
-		},
-		{
-			"type": "github",
-			"username": "ecthelionvi",
-			"repo": "NeoComposer.nvim",
-			"tags": ["plugin", "keybinding", "utility"]
-		},
-		{
-			"type": "github",
-			"username": "rawnly",
-			"repo": "gist.nvim",
-			"tags": ["plugin", "gist", "git", "utility"]
-		},
-		{
-			"type": "github",
-			"username": "justinmk",
-			"repo": "vim-dirvish",
-			"tags": ["file-explorer", "plugin"]
-		},
-		{
-			"type": "github",
-			"username": "justinmk",
-			"repo": "vim-sneak",
-			"tags": ["plugin", "motion"]
-		},
-		{
-			"type": "github",
-			"username": "MisanthropicBit",
-			"repo": "decipher.nvim",
-			"tags": ["utility", "text-object", "plugin"]
-		},
-		{
-			"type": "github",
-			"username": "ryo33",
-			"repo": "nvim-cmp-rust",
-			"tags": ["plugin", "completion"]
-		},
-		{
-			"type": "github",
-			"username": "dasupradyumna",
-			"repo": "midnight.nvim",
-			"tags": ["plugin", "colorscheme", "treesitter-colorschemes"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-dr-lsp",
-			"tags": ["plugin", "lsp", "statusline"]
-		},
-		{
-			"type": "github",
-			"username": "elentok",
-			"repo": "togglr.nvim",
-			"tags": ["plugin", "editing-support", "utility"]
-		},
-		{
-			"type": "github",
-			"username": "elentok",
-			"repo": "scriptify.nvim",
-			"tags": ["plugin", "utility"]
-		},
-		{
-			"type": "github",
-			"username": "dgagn",
-			"repo": "diagflow.nvim",
-			"tags": ["diagnostics", "plugin"]
-		},
-		{
-			"type": "github",
-			"username": "elentok",
-			"repo": "format-on-save.nvim",
-			"tags": ["plugin", "formatting", "lsp"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-origami",
-			"tags": ["utility", "motion", "plugin", "editing-support", "folding"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-puppeteer",
-			"tags": ["editing-support", "plugin"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-kickstart-python",
-			"tags": ["preconfigured-configuration", "python"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-tinygit",
-			"tags": ["plugin", "git"]
-		},
-		{
-			"type": "github",
-			"username": "chrisgrieser",
-			"repo": "nvim-rulebook",
-			"tags": ["plugin", "diagnostics", "comment"]
-		},
-		{
-			"type": "github",
-			"username": "adigitoleo",
-			"repo": "overview.nvim",
-			"tags": ["plugin", "markdown-and-latex", "navigation"]
-		},
-		{
-			"type": "github",
-			"username": "adigitoleo",
-			"repo": "haunt.nvim",
-			"tags": ["plugin", "terminal-integration", "utility"]
-		},
-		{
-			"type": "github",
-			"username": "vyfor",
-			"repo": "cord.nvim",
-			"tags": ["plugin", "discord", "integration", "rich-presence"]
-		},
-		{
-			"type": "github",
-			"username": "adigitoleo",
-			"repo": "vim-mellow",
-			"tags": ["colorscheme"]
-		},
-		{
-			"type": "gitlab",
-			"username": "itaranto",
-			"repo": "id3.nvim",
-			"tags": ["plugin", "utility"]
-		},
-		{
-			"type": "gitlab",
-			"username": "itaranto",
-			"repo": "plantuml.nvim",
-			"tags": ["plugin", "utility"]
-		},
-		{
-			"type": "github",
-			"username": "TaDaa",
-			"repo": "vimade",
-			"tags": ["color", "split-and-window", "plugin"]
-		},
-		{
-			"type": "github",
-			"username": "NicolasGB",
-			"repo": "jj.nvim",
-			"tags": ["plugin", "jj"]
-		}
-	]
+  "resources": [
+    {
+      "type": "github",
+      "username": "jceb",
+      "repo": "blinds.nvim",
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "theory-of-everything",
+      "repo": "nii-nvim",
+      "tags": [
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "mrjones2014",
+      "repo": "smart-splits.nvim",
+      "tags": [
+        "split-and-window"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "koenverburg",
+      "repo": "minimal-tabline.nvim",
+      "tags": [
+        "tabline"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "koenverburg",
+      "repo": "cmd-palette.nvim",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "wuelnerdotexe",
+      "repo": "vim-enfocado",
+      "tags": [
+        "tree-sitter-supported-colorscheme"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "strash",
+      "repo": "everybody-wants-that-line.nvim",
+      "tags": [
+        "statusline"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Massolari",
+      "repo": "forem.nvim",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "ktunprasert",
+      "repo": "gui-font-resize.nvim",
+      "tags": [
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "ThePrimeagen",
+      "repo": "refactoring.nvim",
+      "tags": [
+        "treesitter-based",
+        "programming-languages-support",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "justinhj",
+      "repo": "battery.nvim",
+      "tags": [
+        "statusline",
+        "diagnostics"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "danielfalk",
+      "repo": "smart-open.nvim",
+      "tags": [
+        "fuzzy-finder"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Saverio976",
+      "repo": "music.nvim",
+      "tags": [
+        "media",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Vonr",
+      "repo": "align.nvim",
+      "tags": [
+        "formatting"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "lvim-tech",
+      "repo": "lvim",
+      "tags": [
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "TimotheeSai",
+      "repo": "git-sessions.nvim",
+      "tags": [
+        "session",
+        "git"
+      ]
+    },
+    {
+      "type": "srht",
+      "username": "vigoux",
+      "repo": "azy.nvim",
+      "tags": [
+        "fuzzy-finder"
+      ]
+    },
+    {
+      "type": "srht",
+      "username": "vigoux",
+      "repo": "complementree.nvim",
+      "tags": [
+        "completion"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "shortcuts",
+      "repo": "no-neck-pain.nvim",
+      "tags": [
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-genghis",
+      "tags": [
+        "file-explorer",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-recorder",
+      "tags": [
+        "utility",
+        "keybinding"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-various-textobjs",
+      "tags": [
+        "editing-support",
+        "keybinding",
+        "text-object"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "antonk52",
+      "repo": "markdowny.nvim",
+      "tags": [
+        "keybinding"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "dharmx",
+      "repo": "nvim-colo",
+      "tags": [
+        "colorscheme",
+        "telescope"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "uloco",
+      "repo": "bluloco.nvim",
+      "tags": [
+        "tree-sitter-supported-colorscheme"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Pakrohk-DotFiles",
+      "repo": "NvPak",
+      "tags": [
+        "plugin",
+        "preconfigured-configuration"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "charludo",
+      "repo": "projectmgr.nvim",
+      "tags": [
+        "telescope",
+        "session",
+        "plugin",
+        "utility",
+        "project",
+        "startup"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "nyoom-engineering",
+      "repo": "oxocarbon.nvim",
+      "tags": [
+        "treesitter-colorschemes",
+        "colorscheme"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "norflin321",
+      "repo": "bicolors",
+      "tags": [
+        "treesitter-colorschemes",
+        "colorscheme"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "dpayne",
+      "repo": "CodeGPT.nvim",
+      "tags": [
+        "plugin",
+        "completion",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-spider",
+      "tags": [
+        "plugin",
+        "keybinding",
+        "motion",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Bekaboo",
+      "repo": "deadcolumn.nvim",
+      "tags": [
+        "plugin",
+        "bars-and-lines"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-early-retirement",
+      "tags": [
+        "plugin",
+        "split-and-window",
+        "buffer"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-alt-substitute",
+      "tags": [
+        "plugin",
+        "command-line",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Bryley",
+      "repo": "neoai.nvim",
+      "tags": [
+        "plugin",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "mhanberg",
+      "repo": "output-panel.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "elixir-tools",
+      "repo": "elixir-tools.nvim",
+      "tags": [
+        "plugin",
+        "lsp"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "lkhphuc",
+      "repo": "jupyter-kernel.nvim",
+      "tags": [
+        "plugin",
+        "programming-languages-support",
+        "code-runner",
+        "debugging",
+        "completion",
+        "jupyter"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Badhi",
+      "repo": "nvim-treesitter-cpp-tools",
+      "tags": [
+        "treesitter-based",
+        "programming-languages-support",
+        "editing-support"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "ecthelionvi",
+      "repo": "NeoComposer.nvim",
+      "tags": [
+        "plugin",
+        "keybinding",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "rawnly",
+      "repo": "gist.nvim",
+      "tags": [
+        "plugin",
+        "gist",
+        "git",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "justinmk",
+      "repo": "vim-dirvish",
+      "tags": [
+        "file-explorer",
+        "plugin"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "justinmk",
+      "repo": "vim-sneak",
+      "tags": [
+        "plugin",
+        "motion"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "MisanthropicBit",
+      "repo": "decipher.nvim",
+      "tags": [
+        "utility",
+        "text-object",
+        "plugin"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "ryo33",
+      "repo": "nvim-cmp-rust",
+      "tags": [
+        "plugin",
+        "completion"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "dasupradyumna",
+      "repo": "midnight.nvim",
+      "tags": [
+        "plugin",
+        "colorscheme",
+        "treesitter-colorschemes"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-dr-lsp",
+      "tags": [
+        "plugin",
+        "lsp",
+        "statusline"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "elentok",
+      "repo": "togglr.nvim",
+      "tags": [
+        "plugin",
+        "editing-support",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "elentok",
+      "repo": "scriptify.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "dgagn",
+      "repo": "diagflow.nvim",
+      "tags": [
+        "diagnostics",
+        "plugin"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "elentok",
+      "repo": "format-on-save.nvim",
+      "tags": [
+        "plugin",
+        "formatting",
+        "lsp"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-origami",
+      "tags": [
+        "utility",
+        "motion",
+        "plugin",
+        "editing-support",
+        "folding"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-puppeteer",
+      "tags": [
+        "editing-support",
+        "plugin"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-kickstart-python",
+      "tags": [
+        "preconfigured-configuration",
+        "python"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-tinygit",
+      "tags": [
+        "plugin",
+        "git"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "chrisgrieser",
+      "repo": "nvim-rulebook",
+      "tags": [
+        "plugin",
+        "diagnostics",
+        "comment"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "adigitoleo",
+      "repo": "overview.nvim",
+      "tags": [
+        "plugin",
+        "markdown-and-latex",
+        "navigation"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "adigitoleo",
+      "repo": "haunt.nvim",
+      "tags": [
+        "plugin",
+        "terminal-integration",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "vyfor",
+      "repo": "cord.nvim",
+      "tags": [
+        "plugin",
+        "discord",
+        "integration",
+        "rich-presence"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "adigitoleo",
+      "repo": "vim-mellow",
+      "tags": [
+        "colorscheme"
+      ]
+    },
+    {
+      "type": "gitlab",
+      "username": "itaranto",
+      "repo": "id3.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "gitlab",
+      "username": "itaranto",
+      "repo": "plantuml.nvim",
+      "tags": [
+        "plugin",
+        "utility"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "TaDaa",
+      "repo": "vimade",
+      "tags": [
+        "color",
+        "split-and-window",
+        "plugin"
+      ]
+    },
+    {
+      "type": "github",
+      "username": "Silletr",
+      "repo": "LazyDeveloperHelper",
+      "tags": [
+        "pip",
+        "utility",
+        "plugin",
+        "python",
+        "auto-installing",
+        "for-lazy"
+      ]
+    }
+  ]
 }
