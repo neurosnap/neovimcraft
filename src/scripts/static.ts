@@ -42,11 +42,6 @@ function onSort(by: keyof Plugin) {
 const createAds = () => {
 	return `
 <div class="ad">
-  <div><a href="https://nvim.sh">nvim.sh</a></div>
-  <div>Search for plugins in the terminal</div>
-</div>
-
-<div class="ad">
   <div><a href="https://pico.sh/pgs">pgs.sh</a></div>
   <div>Deploy static sites with a single command. rsync and you're live.</div>
 </div>
