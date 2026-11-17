@@ -405,6 +405,12 @@
 			"username": "NicolasGB",
 			"repo": "jj.nvim",
 			"tags": ["plugin", "jj"]
+		},
+		{
+			"type": "srht",
+			"username": "foosoft",
+			"repo": "boomer.nvim",
+			"tags": ["ai"]
 		}
 	]
 }
